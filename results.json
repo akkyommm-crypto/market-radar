@@ -1,0 +1,103 @@
+{
+ "version": "v2",
+ "generated_at": "2026-07-13T08:30:00",
+ "market_env": {
+  "regime": "green",
+  "label": "🟢 押し目買い・ブレイク買いに適した地合い",
+  "mkt_r20": 2.1,
+  "breadth": 61.0,
+  "new_high": 142,
+  "lights": [
+   {
+    "name": "地合い(日経vs25MA)",
+    "value": "41,200",
+    "color": "green",
+    "note": "上昇トレンド"
+   },
+   {
+    "name": "市場の幅(25MA上%)",
+    "value": "61%",
+    "color": "green",
+    "note": "新高値142銘柄 / 騰落 1400:800"
+   },
+   {
+    "name": "VIX(米リスク)",
+    "value": "14.2",
+    "color": "green",
+    "note": "リスクオン"
+   },
+   {
+    "name": "ドル円(5日)",
+    "value": "156.3 (+0.4%)",
+    "color": "green",
+    "note": "安定"
+   },
+   {
+    "name": "SOX指数(5日)",
+    "value": "+3.2%",
+    "color": "green",
+    "note": "半導体テーマの追い風"
+   }
+  ]
+ },
+ "etf_flows": {
+  "EWJ": 426.0,
+  "DXJ": 112.0,
+  "SCJ": -8.0
+ },
+ "theme_strength": {
+  "HBM・後工程": 4.2,
+  "光通信・電線": 7.1,
+  "防衛": -1.2
+ },
+ "radar": [
+  {
+   "driver": "NVIDIA",
+   "impulse_pct": 6.1,
+   "stocks": [
+    {
+     "code": "5803",
+     "name": "フジクラ",
+     "score": 72.0,
+     "stars": "★★★★★",
+     "gap_pct": 2.1
+    },
+    {
+     "code": "6857",
+     "name": "アドバンテスト",
+     "score": 64.0,
+     "stars": "★★★★☆",
+     "gap_pct": 0.0
+    }
+   ]
+  }
+ ],
+ "stocks": [
+  {
+   "code": "5803",
+   "name": "フジクラ",
+   "sector": "非鉄金属",
+   "score": 72.0,
+   "stars": "★★★★★",
+   "linkage": 24.0,
+   "theme": 16.0,
+   "supply": 8.0,
+   "etf": 4.0,
+   "tech": 11.0,
+   "fund": 6.0,
+   "material": 3.0,
+   "penalty": 0.0,
+   "driver": "NVIDIA",
+   "gap_pct": 2.1,
+   "rs20": 8.4,
+   "atr_pct": 3.1,
+   "dev25": 9.2,
+   "stop": 5200,
+   "close": 5480,
+   "chg5d": 6.2,
+   "v_ratio": 2.8,
+   "turnover_m": 42000,
+   "reasons_str": "NVIDIA+6.1%連動(β0.72) / 未反応+2.1% / 光通信・電線(+7.1%) / 出来高増2.8倍"
+  }
+ ]
+}
