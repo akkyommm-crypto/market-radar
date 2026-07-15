@@ -1,0 +1,44 @@
+# .github/workflows/daily.yml に置くファイル
+# 毎朝6:00 JST（月〜金）に自動実行して results.json をコミットする
+name: AI Market Radar Daily
+
+on:
+  schedule:
+    # UTC 21:00 日〜木 = 日本時間 6:00 月〜金（米国市場クローズ後・東京市場オープン前）
+    - cron: "0 21 * * 0-4"
+  workflow_dispatch: {}   # 手動実行ボタンも使えるように
+
+permissions:
+  contents: write
+
+jobs:
+  run-radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install yfinance pandas numpy requests xlrd
+
+      - name: Run radar
+        run: python radar.py
+
+      - name: Commit results
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add results.json score_history.csv etf_history.csv
+          git add screening_*.csv || true
+          if git diff --cached --quiet; then
+            echo "変更なし（休場日など）"
+          else
+            git commit -m "radar: $(date +'%Y-%m-%d') update"
+            git push
+          fi
