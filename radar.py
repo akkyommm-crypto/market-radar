@@ -36,16 +36,15 @@ CONFIG = {
     # --- 保存先: TrueならGoogle Driveに履歴・キャッシュを永続化（推奨）---
     "use_drive": True,
     # --- データ取得 ---
-    "period": "1y",
+    "period": "5y",   # 連動係数の統計を安定させるため5年に拡張
     "batch_size": 300,
-    "min_days": 130,
+    "min_days": 250,  # 5y運用のため最低データ日数も引き上げ
     # --- 流動性フィルタ ---
     "min_turnover_m": 100,     # 20日平均売買代金の下限（百万円）
     "min_price": 100,
     # --- 海外連動 ---
     "impulse_days": 3,         # 米国インパルスを測る営業日数
-    "beta_min_corr": 0.20,     # βを採用する最低相関（ノイズ除去）
-    "beta_curated_floor": 0.50,# SUPPLY_CHAIN登録済みペアのβ下限（確実な連動として扱う）
+    "beta_min_corr": 0.25,     # βを採用する最低相関（ノイズ除去、5年運用のためやや厳しめ）
     # --- 材料（TDnet）---
     "tdnet_days": 14,
     "tdnet_limit": 5000,
@@ -68,28 +67,47 @@ CONFIG = {
                 "tech": 15, "fund": 10, "material": 10},
 }
 
-# --- 監視する米国ドライバー（自由に追加可） ---
-US_DRIVERS = ["NVDA", "AMD", "MU", "TSM", "AVGO", "ASML",
-              "SMCI", "VRT", "000660.KS", "^SOX"]
-US_NAMES = {"NVDA": "NVIDIA", "AMD": "AMD", "MU": "Micron", "TSM": "TSMC",
-            "AVGO": "Broadcom", "ASML": "ASML", "SMCI": "Supermicro",
-            "VRT": "Vertiv", "000660.KS": "SK hynix", "^SOX": "SOX指数"}
+# --- 監視する米国ドライバー（自動発見の探索母集団。広く取るほど発見の網が広がる）---
+# 知識ベースで絞り込むのをやめ、AI/半導体/クラウド/防衛/宇宙/EV等の関連銘柄を広く監視し、
+# どの銘柄が日本のどの株と実際に連動するかは①βと相関からAIが自動発見する。
+US_DRIVERS = [
+    # 半導体・装置
+    "NVDA","AMD","INTC","MU","TXN","QCOM","AVGO","TSM","ASML","AMAT",
+    "LRCX","KLAC","ADI","MRVL","ON","MCHP","SWKS","QRVO","000660.KS",
+    # AI・クラウド・データセンター
+    "MSFT","GOOGL","META","AMZN","ORCL","SMCI","DELL","VRT","ANET","CSCO",
+    "PSTG","NTAP","HPE","IBM",
+    # 通信・光学
+    "CIEN","COHR","LITE","AAOI",
+    # EV・電池・自動車
+    "TSLA","GM","F","ALB","LTHM","ON",
+    # 防衛・宇宙
+    "LMT","RTX","NOC","GD","BA","LHX",
+    # 産業・電力・ロボット
+    "ETN","HON","ROK","EMR","PWR","GEV",
+    # 素材・化学
+    "LIN","APD","DD",
+    # 指数
+    "^SOX","^GSPC","^IXIC","^N225",
+]
+US_NAMES = {
+    "NVDA":"NVIDIA","AMD":"AMD","INTC":"Intel","MU":"Micron","TXN":"Texas Instruments",
+    "QCOM":"Qualcomm","AVGO":"Broadcom","TSM":"TSMC","ASML":"ASML","AMAT":"Applied Materials",
+    "LRCX":"Lam Research","KLAC":"KLA","ADI":"Analog Devices","MRVL":"Marvell","ON":"onsemi",
+    "MCHP":"Microchip","SWKS":"Skyworks","QRVO":"Qorvo","000660.KS":"SK hynix",
+    "MSFT":"Microsoft","GOOGL":"Google","META":"Meta","AMZN":"Amazon","ORCL":"Oracle",
+    "SMCI":"Supermicro","DELL":"Dell","VRT":"Vertiv","ANET":"Arista","CSCO":"Cisco",
+    "PSTG":"Pure Storage","NTAP":"NetApp","HPE":"HPE","IBM":"IBM",
+    "CIEN":"Ciena","COHR":"Coherent","LITE":"Lumentum","AAOI":"Applied Optoelectronics",
+    "TSLA":"Tesla","GM":"GM","F":"Ford","ALB":"Albemarle","LTHM":"Livent",
+    "LMT":"Lockheed Martin","RTX":"RTX","NOC":"Northrop Grumman","GD":"General Dynamics",
+    "BA":"Boeing","LHX":"L3Harris","ETN":"Eaton","HON":"Honeywell","ROK":"Rockwell",
+    "EMR":"Emerson","PWR":"Quanta Services","GEV":"GE Vernova","LIN":"Linde",
+    "APD":"Air Products","DD":"DuPont","^SOX":"SOX指数","^GSPC":"S&P500","^IXIC":"NASDAQ",
+    "^N225":"日経平均",
+}
 # 韓国市場は日本と同時間帯 → 翌日ではなく同日の反応を見る
 SAME_DAY_DRIVERS = {"000660.KS"}
-
-# --- 知識ベース: 確実なサプライチェーン連動（★末端の中小型株を足すほど価値が出る★）---
-SUPPLY_CHAIN = {
-    "NVDA":      ["6857", "6146", "4062", "5803", "5801", "8035", "6920"],
-    "AMD":       ["6857", "4062"],
-    "MU":        ["6146", "6857", "8035", "6315", "7729"],
-    "TSM":       ["8035", "6146", "4062", "6920", "7735"],
-    "AVGO":      ["5803", "5801", "4980"],
-    "ASML":      ["8035", "6920", "7735"],
-    "SMCI":      ["6501", "1969"],
-    "VRT":       ["6508", "6641", "1969", "6504"],
-    "000660.KS": ["6146", "6857", "6315", "7729"],
-    "^SOX":      ["8035", "6857", "6146", "6920", "7735", "6323"],
-}
 
 # --- テーマ辞書（★自分の注目銘柄を追加★）---
 THEMES = {
@@ -262,19 +280,20 @@ for sym, imp in sorted(us_impulse.items(), key=lambda x: -x[1]):
 
 
 # ============================================================
-# ⑦ 連動係数βの自動計算（過去1年の実データ）
+# ⑦ 連動係数βの自動発見（過去5年の実データ・知識ベース不使用）
 #    米国ドライバーの日次リターン → 日本株の翌営業日リターン の回帰係数
-#    相関が低いペアはノイズとして採用しない
+#    ※事前にリストアップした「これは連動するはず」という思い込みは使わない。
+#      約60銘柄の米国ドライバー × 全日本株の組み合わせを機械的に総当たりし、
+#      相関が閾値を超えたペアだけを「発見された連動」として採用する。
 # ============================================================
 def compute_betas():
     betas, corrs = {}, {}
-    # 日本株の「翌営業日リターン」: 行tに t+1営業日のリターンを置く
-    jp_next = jp_ret.shift(-1)
+    jp_next = jp_ret.shift(-1)   # 日本株の「翌営業日リターン」
     for sym, c in us_close.items():
         r = c.pct_change().dropna()
         target = jp_ret if sym in SAME_DAY_DRIVERS else jp_next
         common = r.index.intersection(target.index)
-        if len(common) < 60:
+        if len(common) < 250:   # 5年運用なので十分なサンプル数を要求
             continue
         x = r.loc[common]
         Y = target.loc[common]
@@ -284,26 +303,38 @@ def compute_betas():
             continue
         beta = Y.sub(Y.mean()).mul(xc, axis=0).sum() / denom
         corr = Y.corrwith(x)
-        # 相関が閾値未満のβは0扱い（偶然の一致を排除）
-        beta = beta.where(corr >= CONFIG["beta_min_corr"], 0.0)
-        # 知識ベース登録ペアは「確実な連動」としてβに下駄
-        floor = CONFIG["beta_curated_floor"]
-        for code in SUPPLY_CHAIN.get(sym, []):
-            if code in beta.index:
-                beta[code] = max(float(beta[code]), floor)
+        # 相関が閾値未満のペアはノイズとして0扱い（これが唯一のフィルタ）
+        beta = beta.where(corr.abs() >= CONFIG["beta_min_corr"], 0.0)
         betas[sym] = beta.clip(-0.3, 2.0).fillna(0.0)
         corrs[sym] = corr.fillna(0.0)
     return betas, corrs
 
 betas, corrs = compute_betas()
-print("β計算完了:", ", ".join(f"{US_NAMES.get(s,s)}" for s in betas))
+print(f"β自動発見 完了: {len(betas)}本の米国ドライバーで計算 "
+      f"(サンプル{CONFIG['period']}分・相関閾値{CONFIG['beta_min_corr']})")
 
-# 参考表示: NVDAとの連動が強い銘柄TOP10（実測）
-if "NVDA" in betas:
-    top_beta = betas["NVDA"].sort_values(ascending=False).head(10)
-    print("\n[実測] NVIDIA連動が強い日本株 TOP10:")
-    for code, b in top_beta.items():
-        print(f"  {code} {NAME_MAP.get(code,''):<14} β={b:.2f} 相関={float(corrs['NVDA'].get(code,0)):.2f}")
+# --- 発見結果: ドライバーごとに最も連動が強い日本株TOP5を一覧表示 ---
+print("\n[自動発見] 各ドライバーの連動が強い日本株 TOP5（相関降順）:")
+discovered = []
+for sym, beta in betas.items():
+    c = corrs.get(sym)
+    if c is None:
+        continue
+    top = c.abs().sort_values(ascending=False).head(5)
+    for code, ac in top.items():
+        if ac < CONFIG["beta_min_corr"]:
+            continue
+        discovered.append({"driver": sym, "code": code,
+                           "beta": float(beta.get(code, 0)), "corr": float(c.get(code, 0))})
+disc_df = pd.DataFrame(discovered)
+if len(disc_df):
+    for sym, g in disc_df.groupby("driver"):
+        g = g.sort_values("corr", ascending=False, key=abs).head(5)
+        line = " / ".join(f"{r.code}{NAME_MAP.get(r.code,'')}(β{r.beta:.2f} r{r.corr:.2f})"
+                          for r in g.itertuples())
+        print(f"  {US_NAMES.get(sym,sym):<16} {line}")
+else:
+    print("  （5年データが揃っていないためこの実行では未発見。翌回以降に安定します）")
 
 
 # ============================================================
