@@ -34,8 +34,20 @@ jobs:
         run: |
           git config user.name "radar-bot"
           git config user.email "radar-bot@users.noreply.github.com"
-          git add results.json score_history.csv etf_history.csv
-          git add screening_*.csv || true
+          # 存在するファイルだけを個別に追加（初回実行はetf_history.csv等が
+          # まだ無いことがあるため、無いファイルの git add で全体を失敗させない）
+          for f in results.json score_history.csv etf_history.csv; do
+            if [ -f "$f" ]; then
+              git add "$f"
+            else
+              echo "（$f はまだ無いためスキップ。次回以降の実行で作られます）"
+            fi
+          done
+          shopt -s nullglob
+          csvs=(screening_*.csv)
+          if [ ${#csvs[@]} -gt 0 ]; then
+            git add "${csvs[@]}"
+          fi
           if git diff --cached --quiet; then
             echo "変更なし（休場日など）"
           else
