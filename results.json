@@ -1,6 +1,6 @@
 {
  "version": "v2",
- "generated_at": "2026-08-05T22:17:31",
+ "generated_at": "2026-08-07T01:08:01",
  "weights": {
   "linkage": 30,
   "theme": 20,
@@ -11,77 +11,77 @@
   "material": 10
  },
  "us_drivers": {
-  "NVIDIA": 9.2,
-  "AMD": 1.24,
-  "Intel": 12.04,
-  "Micron": 8.52,
-  "Texas Instruments": 0.72,
-  "Qualcomm": 6.72,
-  "Broadcom": 7.45,
-  "TSMC": 2.41,
-  "ASML": 3.02,
-  "Applied Materials": 5.23,
-  "Lam Research": 4.91,
-  "KLA": 5.46,
-  "Analog Devices": 2.8,
-  "Marvell": 12.51,
-  "onsemi": -5.76,
-  "Microchip": 4.71,
-  "Skyworks": 7.56,
-  "Qorvo": 5.17,
-  "SK hynix": -2.91,
-  "Microsoft": 4.89,
-  "Google": 1.77,
-  "Meta": 5.76,
-  "Amazon": 0.39,
-  "Oracle": 11.18,
-  "Supermicro": 6.76,
-  "Dell": 14.14,
-  "Vertiv": 15.06,
-  "Arista": 9.4,
-  "Cisco": 4.75,
-  "NetApp": 4.54,
-  "HPE": 11.11,
-  "IBM": 5.49,
-  "Ciena": 8.43,
-  "Coherent": 24.85,
-  "Lumentum": 15.73,
-  "Applied Optoelectronics": 36.3,
-  "Tesla": 3.32,
-  "GM": 0.34,
-  "Ford": -3.75,
-  "Albemarle": 1.02,
-  "Lockheed Martin": -0.88,
-  "RTX": 3.29,
-  "Northrop Grumman": 2.76,
-  "General Dynamics": 0.17,
-  "Boeing": 11.13,
-  "L3Harris": 3.27,
-  "Eaton": 7.73,
-  "Honeywell": 2.09,
-  "Rockwell": -6.26,
-  "Emerson": 8.44,
-  "Quanta Services": 2.34,
-  "GE Vernova": 2.79,
-  "Linde": 2.65,
-  "Air Products": 0.07,
-  "DuPont": 7.57,
-  "SOX指数": 6.17,
-  "S&P500": 3.12,
-  "NASDAQ": 3.9,
-  "日経平均": 3.38
+  "NVIDIA": 5.98,
+  "AMD": 0.96,
+  "Intel": 9.68,
+  "Micron": 6.27,
+  "Texas Instruments": 3.48,
+  "Qualcomm": 5.82,
+  "Broadcom": 7.22,
+  "TSMC": 2.98,
+  "ASML": 3.77,
+  "Applied Materials": 1.79,
+  "Lam Research": 3.79,
+  "KLA": 5.73,
+  "Analog Devices": 4.26,
+  "Marvell": 8.65,
+  "onsemi": -2.57,
+  "Microchip": -1.14,
+  "Skyworks": 9.06,
+  "Qorvo": 6.53,
+  "SK hynix": -6.98,
+  "Microsoft": 2.5,
+  "Google": -4.22,
+  "Meta": -0.06,
+  "Amazon": -4.14,
+  "Oracle": 1.14,
+  "Supermicro": 2.58,
+  "Dell": 2.01,
+  "Vertiv": 4.61,
+  "Arista": 4.02,
+  "Cisco": 4.33,
+  "NetApp": 4.68,
+  "HPE": 4.36,
+  "IBM": 3.15,
+  "Ciena": 3.33,
+  "Coherent": 15.99,
+  "Lumentum": 7.46,
+  "Applied Optoelectronics": 12.71,
+  "Tesla": -0.79,
+  "GM": -0.84,
+  "Ford": -4.44,
+  "Albemarle": 5.65,
+  "Lockheed Martin": -0.59,
+  "RTX": 3.05,
+  "Northrop Grumman": 3.51,
+  "General Dynamics": 1.17,
+  "Boeing": -0.56,
+  "L3Harris": 4.2,
+  "Eaton": 2.27,
+  "Honeywell": -2.44,
+  "Rockwell": -8.15,
+  "Emerson": 1.33,
+  "Quanta Services": -1.82,
+  "GE Vernova": -0.64,
+  "Linde": 2.01,
+  "Air Products": 2.38,
+  "DuPont": 1.96,
+  "SOX指数": 5.41,
+  "S&P500": 1.44,
+  "NASDAQ": 1.68,
+  "日経平均": 2.25
  },
  "theme_strength": {
-  "HBM・後工程": 33.3,
-  "半導体製造装置": 28.33,
-  "光通信・電線": 23.5,
-  "AIデータセンター・電力": 14.16,
-  "防衛": 4.66,
-  "ロボット": 17.36,
-  "生成AI・ソフト": 3.85,
-  "宇宙": 6.23,
-  "核融合": 13.16,
-  "量子": 0.54
+  "HBM・後工程": 2.1,
+  "半導体製造装置": 1.22,
+  "光通信・電線": 4.22,
+  "AIデータセンター・電力": 2.94,
+  "防衛": 2.29,
+  "ロボット": 4.44,
+  "生成AI・ソフト": 0.13,
+  "宇宙": 4.83,
+  "核融合": 6.86,
+  "量子": 2.62
  },
  "etf_flows": {
   "EWJ": 0.0,
@@ -96,39 +96,39 @@
   "watch_score": 55
  },
  "market_env": {
-  "regime": "red",
-  "label": "🔴 新規エントリー見送り推奨（守りの局面）",
-  "mkt_r20": -8.29,
-  "breadth": 56.6,
-  "new_high": 96,
+  "regime": "yellow",
+  "label": "🟡 銘柄を選別。ロットを落として",
+  "mkt_r20": -2.39,
+  "breadth": 52.6,
+  "new_high": 92,
   "lights": [
    {
     "name": "地合い(日経vs25MA)",
-    "value": "63,958",
+    "value": "65,223",
     "color": "red",
     "note": "調整中"
    },
    {
     "name": "市場の幅(25MA上%)",
-    "value": "57%",
-    "color": "green",
-    "note": "新高値96銘柄 / 騰落 2257:1094"
+    "value": "53%",
+    "color": "yellow",
+    "note": "新高値92銘柄 / 騰落 1718:1263"
    },
    {
     "name": "VIX(米リスク)",
-    "value": "15.8",
+    "value": "15.1",
     "color": "green",
     "note": "リスクオン"
    },
    {
     "name": "ドル円(5日)",
-    "value": "157.7 (-3.8%)",
-    "color": "red",
-    "note": "急激な円高⚠"
+    "value": "158.5 (-1.1%)",
+    "color": "green",
+    "note": "安定"
    },
    {
     "name": "SOX指数(5日)",
-    "value": "+14.9%",
+    "value": "+6.6%",
     "color": "green",
     "note": "半導体テーマの追い風"
    }
@@ -137,368 +137,281 @@
  "radar": [
   {
    "driver": "Coherent",
-   "impulse_pct": 24.9,
+   "impulse_pct": 16.0,
    "stocks": [
     {
      "code": "6857",
      "name": "アドバンテスト",
-     "score": 58.89999999999999,
+     "score": 53.599999999999994,
      "stars": "★★★☆☆",
-     "gap_pct": -13.8
+     "gap_pct": 3.8
     },
     {
-     "code": "7729",
-     "name": "東京精密",
-     "score": 55.7,
-     "stars": "★★★☆☆",
-     "gap_pct": -15.7
-    },
-    {
-     "code": "4062",
-     "name": "イビデン",
-     "score": 55.60000000000001,
-     "stars": "★★★☆☆",
-     "gap_pct": -41.9
+     "code": "6146",
+     "name": "ディスコ",
+     "score": 42.0,
+     "stars": "★★☆☆☆",
+     "gap_pct": 7.3
     },
     {
      "code": "6871",
      "name": "日本マイクロニクス",
-     "score": 53.8,
-     "stars": "★★★☆☆",
-     "gap_pct": -27.0
-    },
-    {
-     "code": "5801",
-     "name": "古河電気工業",
-     "score": 51.2,
-     "stars": "★★★☆☆",
-     "gap_pct": -34.1
-    },
-    {
-     "code": "6323",
-     "name": "ローツェ",
-     "score": 50.3,
-     "stars": "★★★☆☆",
-     "gap_pct": -25.8
-    },
-    {
-     "code": "6508",
-     "name": "明電舎",
-     "score": 49.9,
-     "stars": "★★☆☆☆",
-     "gap_pct": -30.4
-    },
-    {
-     "code": "5803",
-     "name": "フジクラ",
-     "score": 47.7,
-     "stars": "★★☆☆☆",
-     "gap_pct": -29.0
-    }
-   ]
-  },
-  {
-   "driver": "Oracle",
-   "impulse_pct": 11.2,
-   "stocks": [
-    {
-     "code": "4716",
-     "name": "日本オラクル",
-     "score": 35.6,
-     "stars": "★☆☆☆☆",
-     "gap_pct": 5.5
-    }
-   ]
-  },
-  {
-   "driver": "Boeing",
-   "impulse_pct": 11.1,
-   "stocks": [
-    {
-     "code": "6758",
-     "name": "ソニーグループ",
-     "score": 37.4,
-     "stars": "★☆☆☆☆",
-     "gap_pct": 9.2
-    },
-    {
-     "code": "9706",
-     "name": "日本空港ビルデング",
-     "score": 35.0,
-     "stars": "★☆☆☆☆",
-     "gap_pct": 3.8
-    }
-   ]
-  },
-  {
-   "driver": "HPE",
-   "impulse_pct": 11.1,
-   "stocks": [
-    {
-     "code": "4980",
-     "name": "デクセリアルズ",
-     "score": 42.3,
-     "stars": "★★☆☆☆",
-     "gap_pct": -0.7
-    }
-   ]
-  },
-  {
-   "driver": "Emerson",
-   "impulse_pct": 8.4,
-   "stocks": [
-    {
-     "code": "6954",
-     "name": "ファナック",
-     "score": 54.1,
-     "stars": "★★★☆☆",
-     "gap_pct": 6.3
-    },
-    {
-     "code": "6501",
-     "name": "日立製作所",
-     "score": 48.3,
-     "stars": "★★☆☆☆",
-     "gap_pct": -0.2
-    },
-    {
-     "code": "5805",
-     "name": "ＳＷＣＣ",
-     "score": 45.7,
-     "stars": "★★☆☆☆",
-     "gap_pct": -16.9
-    },
-    {
-     "code": "6301",
-     "name": "小松製作所",
-     "score": 41.0,
-     "stars": "★★☆☆☆",
-     "gap_pct": 3.0
-    },
-    {
-     "code": "6305",
-     "name": "日立建機",
-     "score": 40.4,
-     "stars": "★★☆☆☆",
-     "gap_pct": 6.0
-    },
-    {
-     "code": "6098",
-     "name": "リクルートホールディングス",
-     "score": 40.1,
+     "score": 40.400000000000006,
      "stars": "★★☆☆☆",
      "gap_pct": 4.8
     },
     {
-     "code": "8609",
-     "name": "岡三証券グループ",
-     "score": 38.8,
+     "code": "8035",
+     "name": "東京エレクトロン",
+     "score": 39.2,
      "stars": "★☆☆☆☆",
-     "gap_pct": 3.0
+     "gap_pct": 5.4
     },
     {
-     "code": "6326",
-     "name": "クボタ",
-     "score": 38.8,
+     "code": "5801",
+     "name": "古河電気工業",
+     "score": 38.9,
+     "stars": "★☆☆☆☆",
+     "gap_pct": -12.1
+    },
+    {
+     "code": "6920",
+     "name": "レーザーテック",
+     "score": 38.6,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 9.6
+    },
+    {
+     "code": "7729",
+     "name": "東京精密",
+     "score": 38.4,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 2.3
+    },
+    {
+     "code": "6504",
+     "name": "富士電機",
+     "score": 37.0,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 1.0
+    }
+   ]
+  },
+  {
+   "driver": "Intel",
+   "impulse_pct": 9.7,
+   "stocks": [
+    {
+     "code": "285A",
+     "name": "キオクシアホールディングス",
+     "score": 29.3,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 6.3
+    },
+    {
+     "code": "8346",
+     "name": "東邦銀行",
+     "score": 29.3,
+     "stars": "★☆☆☆☆",
+     "gap_pct": -8.2
+    }
+   ]
+  },
+  {
+   "driver": "Skyworks",
+   "impulse_pct": 9.1,
+   "stocks": [
+    {
+     "code": "6517",
+     "name": "デンヨー",
+     "score": 43.4,
+     "stars": "★★☆☆☆",
+     "gap_pct": 5.1
+    },
+    {
+     "code": "4980",
+     "name": "デクセリアルズ",
+     "score": 39.0,
      "stars": "★☆☆☆☆",
      "gap_pct": 9.5
+    },
+    {
+     "code": "6954",
+     "name": "ファナック",
+     "score": 34.6,
+     "stars": "★☆☆☆☆",
+     "gap_pct": -5.2
+    },
+    {
+     "code": "6806",
+     "name": "ヒロセ電機",
+     "score": 33.7,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 0.7
+    },
+    {
+     "code": "9962",
+     "name": "ミスミグループ本社",
+     "score": 30.0,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 6.7
+    },
+    {
+     "code": "6762",
+     "name": "ＴＤＫ",
+     "score": 29.0,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 5.9
+    },
+    {
+     "code": "6506",
+     "name": "安川電機",
+     "score": 28.3,
+     "stars": "★☆☆☆☆",
+     "gap_pct": -3.7
+    },
+    {
+     "code": "5970",
+     "name": "ジーテクト",
+     "score": 27.9,
+     "stars": "★☆☆☆☆",
+     "gap_pct": -5.8
     }
    ]
   },
   {
-   "driver": "Eaton",
-   "impulse_pct": 7.7,
+   "driver": "Broadcom",
+   "impulse_pct": 7.2,
    "stocks": [
     {
-     "code": "7011",
-     "name": "三菱重工業",
-     "score": 38.5,
+     "code": "6526",
+     "name": "ソシオネクスト",
+     "score": 19.2,
      "stars": "★☆☆☆☆",
-     "gap_pct": -4.3
-    },
+     "gap_pct": 5.7
+    }
+   ]
+  },
+  {
+   "driver": "Qorvo",
+   "impulse_pct": 6.5,
+   "stocks": [
     {
-     "code": "2737",
-     "name": "トーメンデバイス",
-     "score": 35.6,
-     "stars": "★☆☆☆☆",
-     "gap_pct": -91.9
-    },
-    {
-     "code": "7745",
-     "name": "Ａ＆Ｄホロンホールディングス",
-     "score": 34.7,
+     "code": "5975",
+     "name": "東プレ",
+     "score": 27.799999999999997,
      "stars": "★☆☆☆☆",
      "gap_pct": -9.0
-    }
-   ]
-  },
-  {
-   "driver": "DuPont",
-   "impulse_pct": 7.6,
-   "stocks": [
-    {
-     "code": "9310",
-     "name": "日本トランスシティ",
-     "score": 37.6,
-     "stars": "★☆☆☆☆",
-     "gap_pct": 3.4
     },
     {
-     "code": "4206",
-     "name": "アイカ工業",
-     "score": 36.9,
+     "code": "8078",
+     "name": "阪和興業",
+     "score": 19.200000000000003,
      "stars": "★☆☆☆☆",
-     "gap_pct": -4.7
-    },
-    {
-     "code": "8084",
-     "name": "ＲＹＯＤＥＮ",
-     "score": 33.8,
-     "stars": "★☆☆☆☆",
-     "gap_pct": -8.5
-    },
-    {
-     "code": "8150",
-     "name": "三信電気",
-     "score": 32.0,
-     "stars": "★☆☆☆☆",
-     "gap_pct": -7.0
-    },
-    {
-     "code": "8159",
-     "name": "立花エレテック",
-     "score": 31.799999999999997,
-     "stars": "★☆☆☆☆",
-     "gap_pct": -15.7
-    },
-    {
-     "code": "8088",
-     "name": "岩谷産業",
-     "score": 31.2,
-     "stars": "★☆☆☆☆",
-     "gap_pct": 3.5
-    },
-    {
-     "code": "5449",
-     "name": "大阪製鐵",
-     "score": 28.7,
-     "stars": "★☆☆☆☆",
-     "gap_pct": 5.6
-    },
-    {
-     "code": "5949",
-     "name": "ユニプレス",
-     "score": 28.6,
-     "stars": "★☆☆☆☆",
-     "gap_pct": 4.0
+     "gap_pct": -3.0
     }
    ]
   },
   {
    "driver": "SOX指数",
-   "impulse_pct": 6.2,
+   "impulse_pct": 5.4,
    "stocks": [
     {
      "code": "6315",
      "name": "ＴＯＷＡ",
-     "score": 43.3,
-     "stars": "★★☆☆☆",
-     "gap_pct": -25.7
-    }
-   ]
-  },
-  {
-   "driver": "Microsoft",
-   "impulse_pct": 4.9,
-   "stocks": [
-    {
-     "code": "4733",
-     "name": "オービックビジネスコンサルタント",
-     "score": 35.0,
+     "score": 39.4,
      "stars": "★☆☆☆☆",
-     "gap_pct": 8.6
-    }
-   ]
-  },
-  {
-   "driver": "NASDAQ",
-   "impulse_pct": 3.9,
-   "stocks": [
-    {
-     "code": "3993",
-     "name": "ＰＫＳＨＡ　Ｔｅｃｈｎｏｌｏｇｙ",
-     "score": 36.2,
-     "stars": "★☆☆☆☆",
-     "gap_pct": -2.4
+     "gap_pct": 7.9
     },
     {
-     "code": "4443",
-     "name": "Ｓａｎｓａｎ",
-     "score": 34.9,
+     "code": "5805",
+     "name": "ＳＷＣＣ",
+     "score": 34.2,
      "stars": "★☆☆☆☆",
-     "gap_pct": 9.4
+     "gap_pct": -3.6
+    },
+    {
+     "code": "5310",
+     "name": "東洋炭素",
+     "score": 33.2,
+     "stars": "★☆☆☆☆",
+     "gap_pct": -5.8
+    },
+    {
+     "code": "7745",
+     "name": "Ａ＆Ｄホロンホールディングス",
+     "score": 32.6,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 6.4
+    },
+    {
+     "code": "6141",
+     "name": "ＤＭＧ森精機",
+     "score": 31.6,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 3.7
+    },
+    {
+     "code": "8377",
+     "name": "ほくほくフィナンシャルグループ",
+     "score": 30.8,
+     "stars": "★☆☆☆☆",
+     "gap_pct": -5.6
+    },
+    {
+     "code": "4189",
+     "name": "ＫＨネオケム",
+     "score": 29.199999999999996,
+     "stars": "★☆☆☆☆",
+     "gap_pct": -9.2
+    },
+    {
+     "code": "7279",
+     "name": "ハイレックスコーポレーション",
+     "score": 28.3,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 2.7
     }
    ]
   },
   {
    "driver": "S&P500",
-   "impulse_pct": 3.1,
+   "impulse_pct": 1.4,
    "stocks": [
     {
-     "code": "6200",
-     "name": "インソース",
-     "score": 44.5,
-     "stars": "★★☆☆☆",
-     "gap_pct": 8.5
-    },
-    {
-     "code": "6702",
-     "name": "富士通",
-     "score": 41.599999999999994,
-     "stars": "★★☆☆☆",
-     "gap_pct": 12.6
-    },
-    {
-     "code": "6324",
-     "name": "ハーモニック・ドライブ・システムズ",
-     "score": 38.5,
+     "code": "3984",
+     "name": "ユーザーローカル",
+     "score": 30.599999999999998,
      "stars": "★☆☆☆☆",
-     "gap_pct": -31.4
+     "gap_pct": 12.0
     },
     {
-     "code": "3697",
-     "name": "ＳＨＩＦＴ",
-     "score": 36.3,
+     "code": "7012",
+     "name": "川崎重工業",
+     "score": 25.2,
      "stars": "★☆☆☆☆",
-     "gap_pct": 9.8
-    },
-    {
-     "code": "6454",
-     "name": "マックス",
-     "score": 35.4,
-     "stars": "★☆☆☆☆",
-     "gap_pct": -12.1
+     "gap_pct": -5.5
     },
     {
      "code": "3962",
      "name": "チェンジホールディングス",
-     "score": 34.599999999999994,
+     "score": 24.700000000000003,
      "stars": "★☆☆☆☆",
-     "gap_pct": 5.3
+     "gap_pct": 1.9
     },
     {
-     "code": "7309",
-     "name": "シマノ",
-     "score": 34.5,
+     "code": "6324",
+     "name": "ハーモニック・ドライブ・システムズ",
+     "score": 23.8,
      "stars": "★☆☆☆☆",
-     "gap_pct": 9.0
+     "gap_pct": -8.0
     },
     {
-     "code": "3994",
-     "name": "マネーフォワード",
-     "score": 33.599999999999994,
+     "code": "4443",
+     "name": "Ｓａｎｓａｎ",
+     "score": 19.3,
      "stars": "★☆☆☆☆",
-     "gap_pct": 7.1
+     "gap_pct": 2.8
     }
    ]
   }
@@ -508,2828 +421,2822 @@
    "code": "6857",
    "name": "アドバンテスト",
    "sector": "電気機器",
-   "score": 58.89999999999999,
+   "score": 53.599999999999994,
    "stars": "★★★☆☆",
-   "linkage": 17.4,
-   "theme": 20.0,
+   "linkage": 22.4,
+   "theme": 10.2,
    "supply": 0.0,
    "etf": 0.0,
-   "tech": 10.7,
+   "tech": 11.0,
    "fund": 7.0,
-   "material": 3.8,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Coherent",
-   "gap_pct": -13.8,
-   "rs20": 25.0,
-   "atr_pct": 8.3,
-   "dev25": 14.4,
-   "stop": 28124,
-   "close": 33720.0,
-   "chg5d": 33.8,
-   "v_ratio": 0.9,
-   "turnover_m": 300262,
-   "reasons_str": "Coherent+24.9%連動(β0.28) / HBM・後工程(+33.3%) / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](2日前) / 開示[業績予想の修正](7日前) / 増収+39% / ROE57%"
-  },
-  {
-   "code": "7729",
-   "name": "東京精密",
-   "sector": "精密機器",
-   "score": 55.7,
-   "stars": "★★★☆☆",
-   "linkage": 14.2,
-   "theme": 20.0,
-   "supply": 5.3,
-   "etf": 0.0,
-   "tech": 8.7,
-   "fund": 7.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Coherent",
-   "gap_pct": -15.7,
-   "rs20": 14.0,
-   "atr_pct": 7.0,
-   "dev25": 4.1,
-   "stop": 16144,
-   "close": 18755.0,
-   "chg5d": 27.1,
-   "v_ratio": 2.1,
-   "turnover_m": 9737,
-   "reasons_str": "Coherent+24.9%連動(β0.23) / HBM・後工程(+33.3%) / 出来高増2.1倍 / MA上昇配列 / パーフェクトオーダー / 増収+19%"
-  },
-  {
-   "code": "4062",
-   "name": "イビデン",
-   "sector": "電気機器",
-   "score": 55.60000000000001,
-   "stars": "★★★☆☆",
-   "linkage": 17.7,
-   "theme": 20.0,
-   "supply": 0.0,
-   "etf": 0.0,
-   "tech": 7.7,
-   "fund": 6.0,
-   "material": 4.2,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Coherent",
-   "gap_pct": -41.9,
-   "rs20": 10.5,
-   "atr_pct": 9.9,
-   "dev25": 10.4,
-   "stop": 16290,
-   "close": 20330.0,
-   "chg5d": 50.9,
-   "v_ratio": 1.1,
-   "turnover_m": 145125,
-   "reasons_str": "Coherent+24.9%連動(β0.28) / HBM・後工程(+33.3%) / MA上昇配列 / パーフェクトオーダー / 開示[業績予想の修正](1日前) / 開示[株式分割](1日前) / 増収+26%"
-  },
-  {
-   "code": "6954",
-   "name": "ファナック",
-   "sector": "電気機器",
-   "score": 54.1,
-   "stars": "★★★☆☆",
-   "linkage": 21.6,
-   "theme": 20.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 0.0,
-   "fund": 7.5,
    "material": 3.0,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 6.3,
-   "rs20": -0.4,
-   "atr_pct": 6.4,
-   "dev25": -5.6,
-   "stop": 5632,
-   "close": 6460.0,
-   "chg5d": -0.0,
-   "v_ratio": 1.2,
-   "turnover_m": 49288,
-   "reasons_str": "Emerson+8.4%連動(β0.45) 未反応+6.3% / ロボット(+17.4%) / 開示[自己株式の取得](0日前) / 増収+18%"
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 3.8,
+   "rs20": 10.9,
+   "atr_pct": 8.2,
+   "dev25": 6.8,
+   "stop": 26449,
+   "close": 31650.0,
+   "chg5d": -2.6,
+   "v_ratio": 0.2,
+   "turnover_m": 289457,
+   "reasons_str": "Coherent+16.0%連動(β0.28) 未反応+3.8% / HBM・後工程(+2.1%) / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](4日前) / 開示[業績予想の修正](9日前) / 増収+39% / ROE57%"
   },
   {
-   "code": "6871",
-   "name": "日本マイクロニクス",
+   "code": "6517",
+   "name": "デンヨー",
    "sector": "電気機器",
-   "score": 53.8,
-   "stars": "★★★☆☆",
-   "linkage": 16.1,
-   "theme": 20.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 8.7,
-   "fund": 7.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Coherent",
-   "gap_pct": -27.0,
-   "rs20": 13.3,
-   "atr_pct": 9.8,
-   "dev25": 5.2,
-   "stop": 12814,
-   "close": 15920.0,
-   "chg5d": 41.5,
-   "v_ratio": 0.9,
-   "turnover_m": 20056,
-   "reasons_str": "Coherent+24.9%連動(β0.26) / 半導体製造装置(+28.3%) / MA上昇配列 / パーフェクトオーダー / 増収+26% / ROE24%"
-  },
-  {
-   "code": "5801",
-   "name": "古河電気工業",
-   "sector": "非鉄金属",
-   "score": 51.2,
-   "stars": "★★★☆☆",
-   "linkage": 17.5,
-   "theme": 20.0,
-   "supply": 4.0,
-   "etf": 0.0,
-   "tech": 3.7,
-   "fund": 6.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Coherent",
-   "gap_pct": -34.1,
-   "rs20": 15.0,
-   "atr_pct": 8.1,
-   "dev25": 11.6,
-   "stop": 3284,
-   "close": 3919.0,
-   "chg5d": 41.4,
-   "v_ratio": 1.6,
-   "turnover_m": 64651,
-   "reasons_str": "Coherent+24.9%連動(β0.28) / 光通信・電線(+23.5%) / ROE19%"
-  },
-  {
-   "code": "6323",
-   "name": "ローツェ",
-   "sector": "機械",
-   "score": 50.3,
-   "stars": "★★★☆☆",
-   "linkage": 15.8,
-   "theme": 20.0,
+   "score": 43.4,
+   "stars": "★★☆☆☆",
+   "linkage": 16.4,
+   "theme": 0.0,
    "supply": 3.0,
    "etf": 0.0,
-   "tech": 6.0,
-   "fund": 5.5,
-   "material": 0.0,
+   "tech": 11.0,
+   "fund": 7.0,
+   "material": 6.0,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Coherent",
-   "gap_pct": -25.8,
-   "rs20": 10.3,
-   "atr_pct": 8.6,
-   "dev25": 1.8,
-   "stop": 3721,
-   "close": 4498.0,
-   "chg5d": 30.4,
-   "v_ratio": 0.8,
-   "turnover_m": 16302,
-   "reasons_str": "Coherent+24.9%連動(β0.25) / 半導体製造装置(+28.3%) / 資金流入増 / MA上昇配列 / パーフェクトオーダー / ROE15%"
-  },
-  {
-   "code": "6508",
-   "name": "明電舎",
-   "sector": "電気機器",
-   "score": 49.9,
-   "stars": "★★☆☆☆",
-   "linkage": 10.5,
-   "theme": 20.0,
-   "supply": 5.3,
-   "etf": 0.0,
-   "tech": 9.5,
-   "fund": 8.0,
-   "material": 1.6,
-   "penalty": -5.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Coherent",
-   "gap_pct": -30.4,
-   "rs20": 29.4,
-   "atr_pct": 5.3,
-   "dev25": 21.9,
-   "stop": 10061,
-   "close": 11250.0,
-   "chg5d": 40.8,
-   "v_ratio": 1.8,
-   "turnover_m": 2592,
-   "reasons_str": "Coherent+24.9%連動(β0.17) / AIデータセンター・電力(+14.2%) / 買い出来高優勢 / 52週高値目前 / 過熱⚠25MA+22% / 開示[業績予想の修正](5日前) / 増収+26% / ROE18% / PER22倍"
-  },
-  {
-   "code": "6501",
-   "name": "日立製作所",
-   "sector": "電気機器",
-   "score": 48.3,
-   "stars": "★★☆☆☆",
-   "linkage": 10.0,
-   "theme": 20.0,
-   "supply": 3.3,
-   "etf": 0.0,
-   "tech": 6.7,
-   "fund": 5.5,
-   "material": 2.8,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": -0.2,
-   "rs20": 19.1,
-   "atr_pct": 3.1,
-   "dev25": 11.7,
-   "stop": 5132,
-   "close": 5476.0,
-   "chg5d": 10.5,
-   "v_ratio": 1.1,
-   "turnover_m": 62443,
-   "reasons_str": "Emerson+8.4%連動(β0.47) / AIデータセンター・電力(+14.2%) / 買い出来高優勢 / 開示[自己株式の取得](1日前) / 増収+20%"
-  },
-  {
-   "code": "5803",
-   "name": "フジクラ",
-   "sector": "非鉄金属",
-   "score": 47.7,
-   "stars": "★★☆☆☆",
-   "linkage": 18.0,
-   "theme": 20.0,
-   "supply": 0.0,
-   "etf": 0.0,
-   "tech": 3.7,
-   "fund": 6.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Coherent",
-   "gap_pct": -29.0,
-   "rs20": 8.3,
-   "atr_pct": 7.3,
-   "dev25": 6.7,
-   "stop": 4335,
-   "close": 5073.0,
-   "chg5d": 34.9,
-   "v_ratio": 1.1,
-   "turnover_m": 194800,
-   "reasons_str": "Coherent+24.9%連動(β0.29) / 光通信・電線(+23.5%) / 増収+22% / ROE32%"
-  },
-  {
-   "code": "6920",
-   "name": "レーザーテック",
-   "sector": "電気機器",
-   "score": 46.8,
-   "stars": "★★☆☆☆",
-   "linkage": 14.8,
-   "theme": 20.0,
-   "supply": 3.3,
-   "etf": 0.0,
-   "tech": 4.7,
-   "fund": 4.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Coherent",
-   "gap_pct": -32.9,
-   "rs20": 14.3,
-   "atr_pct": 8.3,
-   "dev25": 7.4,
-   "stop": 38950,
-   "close": 46680.0,
-   "chg5d": 36.0,
-   "v_ratio": 1.0,
-   "turnover_m": 162878,
-   "reasons_str": "Coherent+24.9%連動(β0.24) / 半導体製造装置(+28.3%) / 買い出来高優勢 / ROE44%"
-  },
-  {
-   "code": "6504",
-   "name": "富士電機",
-   "sector": "電気機器",
-   "score": 46.5,
-   "stars": "★★☆☆☆",
-   "linkage": 11.6,
-   "theme": 20.0,
-   "supply": 0.0,
-   "etf": 0.0,
-   "tech": 7.0,
-   "fund": 6.5,
-   "material": 1.4,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Coherent",
-   "gap_pct": -13.5,
-   "rs20": 21.8,
-   "atr_pct": 5.5,
-   "dev25": 13.9,
-   "stop": 13352,
-   "close": 15000.0,
-   "chg5d": 24.5,
-   "v_ratio": 1.1,
-   "turnover_m": 14954,
-   "reasons_str": "Coherent+24.9%連動(β0.19) / AIデータセンター・電力(+14.2%) / 開示[業績予想の修正](6日前) / PER23倍"
-  },
-  {
-   "code": "5805",
-   "name": "ＳＷＣＣ",
-   "sector": "非鉄金属",
-   "score": 45.7,
-   "stars": "★★☆☆☆",
-   "linkage": 9.7,
-   "theme": 20.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 5.0,
-   "fund": 9.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": -16.9,
-   "rs20": 15.3,
-   "atr_pct": 5.8,
-   "dev25": 10.5,
-   "stop": 11269,
-   "close": 12750.0,
-   "chg5d": 21.8,
-   "v_ratio": 1.2,
-   "turnover_m": 5072,
-   "reasons_str": "Emerson+8.4%連動(β0.46) / 光通信・電線(+23.5%) / 増収+27% / ROE21% / PER20倍"
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": 5.1,
+   "rs20": 19.6,
+   "atr_pct": 4.4,
+   "dev25": 11.8,
+   "stop": 3821,
+   "close": 4190.0,
+   "chg5d": 4.4,
+   "v_ratio": 0.3,
+   "turnover_m": 252,
+   "reasons_str": "Skyworks+9.1%連動(β0.20) 未反応+5.1% / MA上昇配列 / パーフェクトオーダー / 開示[業績予想の修正](1日前) / 開示[自己株式の取得](4日前) / 増収+15% / PER15倍"
   },
   {
    "code": "6146",
    "name": "ディスコ",
    "sector": "機械",
-   "score": 45.1,
+   "score": 42.0,
    "stars": "★★☆☆☆",
-   "linkage": 14.6,
-   "theme": 20.0,
+   "linkage": 21.3,
+   "theme": 10.2,
    "supply": 2.0,
    "etf": 0.0,
    "tech": 1.5,
    "fund": 7.0,
    "material": 0.0,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
+   "signal": "",
    "driver": "Coherent",
-   "gap_pct": -17.1,
-   "rs20": -3.1,
-   "atr_pct": 8.6,
-   "dev25": -5.2,
-   "stop": 52819,
-   "close": 63740.0,
-   "chg5d": 24.2,
-   "v_ratio": 0.7,
-   "turnover_m": 128894,
-   "reasons_str": "Coherent+24.9%連動(β0.23) / HBM・後工程(+33.3%) / 増収+27% / ROE27%"
+   "gap_pct": 7.3,
+   "rs20": -16.0,
+   "atr_pct": 8.5,
+   "dev25": -11.0,
+   "stop": 48500,
+   "close": 58390.0,
+   "chg5d": -0.2,
+   "v_ratio": 0.3,
+   "turnover_m": 124282,
+   "reasons_str": "Coherent+16.0%連動(β0.23) 未反応+7.3% / HBM・後工程(+2.1%) / 増収+27% / ROE27%"
   },
   {
-   "code": "8035",
-   "name": "東京エレクトロン",
+   "code": "6871",
+   "name": "日本マイクロニクス",
    "sector": "電気機器",
-   "score": 44.6,
+   "score": 40.400000000000006,
    "stars": "★★☆☆☆",
-   "linkage": 15.0,
-   "theme": 20.0,
+   "linkage": 22.3,
+   "theme": 8.4,
    "supply": 0.0,
    "etf": 0.0,
-   "tech": 0.0,
+   "tech": 2.7,
    "fund": 7.0,
-   "material": 2.6,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Coherent",
-   "gap_pct": -6.1,
-   "rs20": -7.4,
-   "atr_pct": 8.0,
-   "dev25": -10.7,
-   "stop": 49126,
-   "close": 58550.0,
-   "chg5d": 17.1,
-   "v_ratio": 0.7,
-   "turnover_m": 299785,
-   "reasons_str": "Coherent+24.9%連動(β0.24) / 半導体製造装置(+28.3%) / 開示[自己株式の取得](2日前) / 増収+33% / ROE31%"
-  },
-  {
-   "code": "6200",
-   "name": "インソース",
-   "sector": "サービス業",
-   "score": 44.5,
-   "stars": "★★☆☆☆",
-   "linkage": 17.3,
-   "theme": 0.0,
-   "supply": 5.3,
-   "etf": 0.0,
-   "tech": 8.0,
-   "fund": 8.5,
-   "material": 5.4,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "S&P500",
-   "gap_pct": 8.5,
-   "rs20": 23.5,
-   "atr_pct": 4.0,
-   "dev25": 7.2,
-   "stop": 664,
-   "close": 721.0,
-   "chg5d": -6.8,
-   "v_ratio": 0.9,
-   "turnover_m": 647,
-   "reasons_str": "S&P500+3.1%連動(β0.68) 未反応+8.5% / 買い出来高優勢 / 資金流入増 / MA上昇配列 / 開示[自己株式の取得](1日前) / 開示[自己株式の取得](2日前) / ROE35% / PER14倍"
-  },
-  {
-   "code": "5802",
-   "name": "住友電気工業",
-   "sector": "非鉄金属",
-   "score": 44.1,
-   "stars": "★★☆☆☆",
-   "linkage": 12.6,
-   "theme": 20.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 1.5,
-   "fund": 8.0,
    "material": 0.0,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
+   "signal": "",
    "driver": "Coherent",
-   "gap_pct": -7.4,
-   "rs20": 5.4,
-   "atr_pct": 7.7,
-   "dev25": -1.1,
-   "stop": 2005,
-   "close": 2371.5,
-   "chg5d": 14.5,
-   "v_ratio": 1.3,
-   "turnover_m": 57098,
-   "reasons_str": "Coherent+24.9%連動(β0.20) / 光通信・電線(+23.5%) / 増収+16% / ROE16% / PER20倍"
+   "gap_pct": 4.8,
+   "rs20": -13.4,
+   "atr_pct": 10.7,
+   "dev25": -7.9,
+   "stop": 10817,
+   "close": 13770.0,
+   "chg5d": 1.4,
+   "v_ratio": 0.2,
+   "turnover_m": 18289,
+   "reasons_str": "Coherent+16.0%連動(β0.26) 未反応+4.8% / 半導体製造装置(+1.2%) / 増収+26% / ROE24%"
   },
   {
    "code": "6315",
    "name": "ＴＯＷＡ",
    "sector": "機械",
-   "score": 43.3,
-   "stars": "★★☆☆☆",
-   "linkage": 8.5,
-   "theme": 20.0,
-   "supply": 3.3,
+   "score": 39.4,
+   "stars": "★☆☆☆☆",
+   "linkage": 19.5,
+   "theme": 10.2,
+   "supply": 2.0,
    "etf": 0.0,
-   "tech": 6.5,
+   "tech": 2.7,
    "fund": 5.0,
    "material": 0.0,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
+   "signal": "",
    "driver": "SOX指数",
-   "gap_pct": -25.7,
-   "rs20": 5.2,
-   "atr_pct": 7.7,
-   "dev25": 1.5,
-   "stop": 2544,
-   "close": 3010.0,
-   "chg5d": 30.5,
-   "v_ratio": 1.0,
-   "turnover_m": 13256,
-   "reasons_str": "SOX指数+6.2%連動(β0.55) / HBM・後工程(+33.3%) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 増収+23%"
+   "gap_pct": 7.9,
+   "rs20": -10.7,
+   "atr_pct": 8.3,
+   "dev25": -10.7,
+   "stop": 2169,
+   "close": 2600.0,
+   "chg5d": -1.8,
+   "v_ratio": 0.6,
+   "turnover_m": 12858,
+   "reasons_str": "SOX指数+5.4%連動(β0.55) 未反応+7.9% / HBM・後工程(+2.1%) / 増収+23%"
+  },
+  {
+   "code": "8035",
+   "name": "東京エレクトロン",
+   "sector": "電気機器",
+   "score": 39.2,
+   "stars": "★☆☆☆☆",
+   "linkage": 21.7,
+   "theme": 8.4,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 0.0,
+   "fund": 7.0,
+   "material": 2.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 5.4,
+   "rs20": -21.4,
+   "atr_pct": 7.8,
+   "dev25": -15.2,
+   "stop": 45654,
+   "close": 54140.0,
+   "chg5d": -2.5,
+   "v_ratio": 0.2,
+   "turnover_m": 284294,
+   "reasons_str": "Coherent+16.0%連動(β0.24) 未反応+5.4% / 半導体製造装置(+1.2%) / 開示[自己株式の取得](4日前) / 増収+33% / ROE31%"
   },
   {
    "code": "4980",
    "name": "デクセリアルズ",
    "sector": "化学",
-   "score": 42.3,
-   "stars": "★★☆☆☆",
-   "linkage": 10.5,
-   "theme": 20.0,
-   "supply": 3.3,
+   "score": 39.0,
+   "stars": "★☆☆☆☆",
+   "linkage": 19.6,
+   "theme": 14.4,
+   "supply": 0.0,
    "etf": 0.0,
    "tech": 0.0,
-   "fund": 8.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "HPE",
-   "gap_pct": -0.7,
-   "rs20": -10.2,
-   "atr_pct": 6.8,
-   "dev25": -11.8,
-   "stop": 2845,
-   "close": 3291.0,
-   "chg5d": 5.0,
-   "v_ratio": 2.8,
-   "turnover_m": 6130,
-   "reasons_str": "HPE+11.1%連動(β0.38) / 光通信・電線(+23.5%) / 出来高増2.8倍 / ROE27% / PER21倍"
-  },
-  {
-   "code": "6702",
-   "name": "富士通",
-   "sector": "電気機器",
-   "score": 41.599999999999994,
-   "stars": "★★☆☆☆",
-   "linkage": 16.7,
-   "theme": 7.1,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 8.0,
    "fund": 5.0,
-   "material": 2.8,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "S&P500",
-   "gap_pct": 12.6,
-   "rs20": 11.0,
-   "atr_pct": 4.5,
-   "dev25": 2.0,
-   "stop": 3168,
-   "close": 3483.0,
-   "chg5d": -9.4,
-   "v_ratio": 1.0,
-   "turnover_m": 32132,
-   "reasons_str": "S&P500+3.1%連動(β0.60) 未反応+12.6% / 量子(+0.5%) / MA上昇配列 / 開示[自己株式の取得](1日前) / ROE16% / PER20倍"
-  },
-  {
-   "code": "6301",
-   "name": "小松製作所",
-   "sector": "機械",
-   "score": 41.0,
-   "stars": "★★☆☆☆",
-   "linkage": 18.9,
-   "theme": 0.0,
-   "supply": 1.0,
-   "etf": 0.0,
-   "tech": 12.0,
-   "fund": 6.5,
-   "material": 2.6,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 3.0,
-   "rs20": 15.0,
-   "atr_pct": 3.8,
-   "dev25": 7.9,
-   "stop": 6619,
-   "close": 7157.0,
-   "chg5d": -1.5,
-   "v_ratio": 0.8,
-   "turnover_m": 22757,
-   "reasons_str": "Emerson+8.4%連動(β0.47) 未反応+3.0% / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](2日前) / PER17倍"
-  },
-  {
-   "code": "6305",
-   "name": "日立建機",
-   "sector": "機械",
-   "score": 40.4,
-   "stars": "★★☆☆☆",
-   "linkage": 21.9,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 10.0,
-   "fund": 6.5,
    "material": 0.0,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 6.0,
-   "rs20": 9.7,
-   "atr_pct": 4.0,
-   "dev25": 2.7,
-   "stop": 5044,
-   "close": 5481.0,
-   "chg5d": -2.4,
-   "v_ratio": 1.5,
-   "turnover_m": 6762,
-   "reasons_str": "Emerson+8.4%連動(β0.47) 未反応+6.0% / MA上昇配列 / パーフェクトオーダー / PER16倍"
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": 9.5,
+   "rs20": -20.9,
+   "atr_pct": 6.6,
+   "dev25": -15.4,
+   "stop": 2678,
+   "close": 3086.0,
+   "chg5d": -6.6,
+   "v_ratio": 0.2,
+   "turnover_m": 6080,
+   "reasons_str": "Skyworks+9.1%連動(β0.34) 未反応+9.5% / 光通信・電線(+4.2%) / PER19倍"
   },
   {
-   "code": "6098",
-   "name": "リクルートホールディングス",
-   "sector": "サービス業",
-   "score": 40.1,
-   "stars": "★★☆☆☆",
-   "linkage": 20.3,
-   "theme": 0.0,
-   "supply": 2.0,
+   "code": "5801",
+   "name": "古河電気工業",
+   "sector": "非鉄金属",
+   "score": 38.9,
+   "stars": "★☆☆☆☆",
+   "linkage": 11.2,
+   "theme": 14.4,
+   "supply": 0.0,
    "etf": 0.0,
-   "tech": 8.2,
-   "fund": 7.0,
-   "material": 2.6,
+   "tech": 5.0,
+   "fund": 6.0,
+   "material": 2.3,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 4.8,
-   "rs20": 11.7,
-   "atr_pct": 3.5,
-   "dev25": 2.6,
-   "stop": 11818,
-   "close": 12720.0,
-   "chg5d": -2.9,
-   "v_ratio": 0.8,
-   "turnover_m": 51891,
-   "reasons_str": "Emerson+8.4%連動(β0.39) 未反応+4.8% / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](2日前) / ROE31%"
-  },
-  {
-   "code": "7735",
-   "name": "ＳＣＲＥＥＮホールディングス",
-   "sector": "電気機器",
-   "score": 39.8,
-   "stars": "★☆☆☆☆",
-   "linkage": 13.3,
-   "theme": 20.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 0.0,
-   "fund": 4.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
+   "signal": "",
    "driver": "Coherent",
-   "gap_pct": -8.9,
-   "rs20": -11.6,
-   "atr_pct": 9.6,
-   "dev25": -15.7,
-   "stop": 11069,
-   "close": 13690.0,
-   "chg5d": 16.7,
-   "v_ratio": 0.8,
-   "turnover_m": 60556,
-   "reasons_str": "Coherent+24.9%連動(β0.21) / 半導体製造装置(+28.3%) / ROE19%"
+   "gap_pct": -12.1,
+   "rs20": 7.7,
+   "atr_pct": 9.1,
+   "dev25": 7.0,
+   "stop": 3051,
+   "close": 3730.0,
+   "chg5d": 18.6,
+   "v_ratio": 0.7,
+   "turnover_m": 75480,
+   "reasons_str": "Coherent+16.0%連動(β0.28) / 光通信・電線(+4.2%) / 開示[業績予想の修正](1日前) / ROE19%"
   },
   {
-   "code": "7609",
-   "name": "ダイトロン",
-   "sector": "卸売業",
-   "score": 39.7,
-   "stars": "★☆☆☆☆",
-   "linkage": 8.3,
-   "theme": 0.0,
-   "supply": 7.7,
-   "etf": 0.0,
-   "tech": 15.0,
-   "fund": 9.0,
-   "material": 4.7,
-   "penalty": -5.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Coherent",
-   "gap_pct": -34.0,
-   "rs20": 31.0,
-   "atr_pct": 5.2,
-   "dev25": 22.9,
-   "stop": 3877,
-   "close": 4325.0,
-   "chg5d": 40.4,
-   "v_ratio": 2.9,
-   "turnover_m": 688,
-   "reasons_str": "Coherent+24.9%連動(β0.13) / 出来高増2.9倍 / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 過熱⚠25MA+23% / 開示[業績予想の修正](2日前) / 開示[自己株式取得](2日前) / 増収+15% / ROE17% / PER19倍"
-  },
-  {
-   "code": "6506",
-   "name": "安川電機",
+   "code": "6920",
+   "name": "レーザーテック",
    "sector": "電気機器",
-   "score": 39.400000000000006,
+   "score": 38.6,
    "stars": "★☆☆☆☆",
-   "linkage": 11.7,
-   "theme": 20.0,
+   "linkage": 21.5,
+   "theme": 8.4,
    "supply": 2.0,
    "etf": 0.0,
    "tech": 2.7,
-   "fund": 3.0,
+   "fund": 4.0,
    "material": 0.0,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
+   "signal": "",
    "driver": "Coherent",
-   "gap_pct": -13.8,
-   "rs20": -13.7,
-   "atr_pct": 5.8,
-   "dev25": -6.8,
-   "stop": 4760,
-   "close": 5382.0,
-   "chg5d": 16.3,
-   "v_ratio": 0.7,
-   "turnover_m": 48691,
-   "reasons_str": "Coherent+24.9%連動(β0.19) / ロボット(+17.4%)"
+   "gap_pct": 9.6,
+   "rs20": -8.0,
+   "atr_pct": 9.5,
+   "dev25": -10.0,
+   "stop": 31201,
+   "close": 38550.0,
+   "chg5d": 1.7,
+   "v_ratio": 0.3,
+   "turnover_m": 159597,
+   "reasons_str": "Coherent+16.0%連動(β0.24) 未反応+9.6% / 半導体製造装置(+1.2%) / ROE44%"
   },
   {
-   "code": "8609",
-   "name": "岡三証券グループ",
-   "sector": "証券、商品先物取引業",
-   "score": 38.8,
+   "code": "7729",
+   "name": "東京精密",
+   "sector": "精密機器",
+   "score": 38.4,
    "stars": "★☆☆☆☆",
-   "linkage": 15.8,
-   "theme": 0.0,
+   "linkage": 16.0,
+   "theme": 10.2,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 3.7,
+   "fund": 7.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 2.3,
+   "rs20": -1.1,
+   "atr_pct": 6.8,
+   "dev25": -2.0,
+   "stop": 15083,
+   "close": 17470.0,
+   "chg5d": 1.8,
+   "v_ratio": 0.2,
+   "turnover_m": 9504,
+   "reasons_str": "Coherent+16.0%連動(β0.23) 未反応+2.3% / HBM・後工程(+2.1%) / 増収+19%"
+  },
+  {
+   "code": "6504",
+   "name": "富士電機",
+   "sector": "電気機器",
+   "score": 37.0,
+   "stars": "★☆☆☆☆",
+   "linkage": 10.5,
+   "theme": 11.9,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 7.0,
+   "fund": 6.5,
+   "material": 1.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 1.0,
+   "rs20": 13.4,
+   "atr_pct": 5.6,
+   "dev25": 9.0,
+   "stop": 12785,
+   "close": 14410.0,
+   "chg5d": 0.9,
+   "v_ratio": 0.1,
+   "turnover_m": 14659,
+   "reasons_str": "Coherent+16.0%連動(β0.19) 未反応+1.0% / AIデータセンター・電力(+2.9%) / 開示[業績予想の修正](8日前) / PER22倍"
+  },
+  {
+   "code": "6501",
+   "name": "日立製作所",
+   "sector": "電気機器",
+   "score": 36.9,
+   "stars": "★☆☆☆☆",
+   "linkage": 6.3,
+   "theme": 11.9,
+   "supply": 3.3,
+   "etf": 0.0,
+   "tech": 7.5,
+   "fund": 5.5,
+   "material": 2.4,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": -1.7,
+   "rs20": 18.5,
+   "atr_pct": 3.0,
+   "dev25": 11.0,
+   "stop": 5196,
+   "close": 5524.0,
+   "chg5d": 4.9,
+   "v_ratio": 0.2,
+   "turnover_m": 61895,
+   "reasons_str": "Coherent+16.0%連動(β0.16) / AIデータセンター・電力(+2.9%) / 買い出来高優勢 / MA上昇配列 / RSI過熱(87)⚠ / 開示[自己株式の取得](3日前) / 増収+20%"
+  },
+  {
+   "code": "5803",
+   "name": "フジクラ",
+   "sector": "非鉄金属",
+   "score": 36.400000000000006,
+   "stars": "★☆☆☆☆",
+   "linkage": 13.3,
+   "theme": 14.4,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 6.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 0.5,
+   "rs20": -7.1,
+   "atr_pct": 8.1,
+   "dev25": -4.3,
+   "stop": 3750,
+   "close": 4470.0,
+   "chg5d": 7.1,
+   "v_ratio": 0.3,
+   "turnover_m": 190409,
+   "reasons_str": "Coherent+16.0%連動(β0.29) 未反応+0.5% / 光通信・電線(+4.2%) / 増収+22% / ROE32%"
+  },
+  {
+   "code": "4062",
+   "name": "イビデン",
+   "sector": "電気機器",
+   "score": 36.0,
+   "stars": "★☆☆☆☆",
+   "linkage": 11.3,
+   "theme": 10.2,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 5.0,
+   "fund": 6.0,
+   "material": 3.5,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": -16.9,
+   "rs20": -1.0,
+   "atr_pct": 10.2,
+   "dev25": 5.0,
+   "stop": 15005,
+   "close": 18860.0,
+   "chg5d": 13.3,
+   "v_ratio": 0.3,
+   "turnover_m": 143115,
+   "reasons_str": "Coherent+16.0%連動(β0.28) / HBM・後工程(+2.1%) / 開示[業績予想の修正](3日前) / 開示[株式分割](3日前) / 増収+26%"
+  },
+  {
+   "code": "6323",
+   "name": "ローツェ",
+   "sector": "機械",
+   "score": 35.3,
+   "stars": "★☆☆☆☆",
+   "linkage": 17.9,
+   "theme": 8.4,
    "supply": 2.0,
    "etf": 0.0,
-   "tech": 12.0,
+   "tech": 0.0,
+   "fund": 7.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 2.6,
+   "rs20": -9.7,
+   "atr_pct": 9.2,
+   "dev25": -7.4,
+   "stop": 3287,
+   "close": 4032.0,
+   "chg5d": 1.1,
+   "v_ratio": 0.2,
+   "turnover_m": 15756,
+   "reasons_str": "Coherent+16.0%連動(β0.25) 未反応+2.6% / 半導体製造装置(+1.2%) / 資金流入増 / ROE15%"
+  },
+  {
+   "code": "6508",
+   "name": "明電舎",
+   "sector": "電気機器",
+   "score": 34.9,
+   "stars": "★☆☆☆☆",
+   "linkage": 6.8,
+   "theme": 11.9,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 8.0,
+   "fund": 8.0,
+   "material": 1.2,
+   "penalty": -3.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": -1.9,
+   "rs20": 23.1,
+   "atr_pct": 5.5,
+   "dev25": 17.0,
+   "stop": 9726,
+   "close": 10920.0,
+   "chg5d": 13.5,
+   "v_ratio": 0.1,
+   "turnover_m": 2698,
+   "reasons_str": "Coherent+16.0%連動(β0.17) / AIデータセンター・電力(+2.9%) / 伸びすぎ注意(25MA+17%) / 開示[業績予想の修正](7日前) / 増収+26% / ROE18% / PER21倍"
+  },
+  {
+   "code": "6954",
+   "name": "ファナック",
+   "sector": "電気機器",
+   "score": 34.6,
+   "stars": "★☆☆☆☆",
+   "linkage": 6.4,
+   "theme": 14.9,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 1.2,
+   "fund": 7.5,
+   "material": 2.6,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": -5.2,
+   "rs20": -1.5,
+   "atr_pct": 6.0,
+   "dev25": -2.9,
+   "stop": 5792,
+   "close": 6587.0,
+   "chg5d": -7.7,
+   "v_ratio": 0.4,
+   "turnover_m": 48284,
+   "reasons_str": "Skyworks+9.1%連動(β0.28) / ロボット(+4.4%) / 開示[自己株式の取得](2日前) / 増収+18%"
+  },
+  {
+   "code": "5805",
+   "name": "ＳＷＣＣ",
+   "sector": "非鉄金属",
+   "score": 34.2,
+   "stars": "★☆☆☆☆",
+   "linkage": 4.8,
+   "theme": 14.4,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 5.0,
    "fund": 9.0,
    "material": 0.0,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 3.0,
-   "rs20": 17.4,
-   "atr_pct": 3.6,
-   "dev25": 5.8,
-   "stop": 1025,
-   "close": 1105.0,
-   "chg5d": 6.9,
-   "v_ratio": 0.6,
-   "turnover_m": 511,
-   "reasons_str": "Emerson+8.4%連動(β0.32) 未反応+3.0% / MA上昇配列 / パーフェクトオーダー / 増収+66% / PER10倍"
+   "signal": "",
+   "driver": "SOX指数",
+   "gap_pct": -3.6,
+   "rs20": 4.9,
+   "atr_pct": 6.0,
+   "dev25": 3.1,
+   "stop": 10413,
+   "close": 11820.0,
+   "chg5d": 4.1,
+   "v_ratio": 0.2,
+   "turnover_m": 4920,
+   "reasons_str": "SOX指数+5.4%連動(β0.36) / 光通信・電線(+4.2%) / 増収+27% / ROE21% / PER19倍"
   },
   {
-   "code": "6326",
-   "name": "クボタ",
-   "sector": "機械",
-   "score": 38.8,
+   "code": "6787",
+   "name": "メイコー",
+   "sector": "電気機器",
+   "score": 34.0,
    "stars": "★☆☆☆☆",
-   "linkage": 20.4,
+   "linkage": 22.8,
+   "theme": 0.0,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 7.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 4.3,
+   "rs20": -4.2,
+   "atr_pct": 8.8,
+   "dev25": -1.5,
+   "stop": 19609,
+   "close": 23790.0,
+   "chg5d": 25.3,
+   "v_ratio": 1.4,
+   "turnover_m": 10171,
+   "reasons_str": "Coherent+16.0%連動(β0.27) 未反応+4.3% / 増収+24% / ROE15%"
+  },
+  {
+   "code": "6941",
+   "name": "山一電機",
+   "sector": "電気機器",
+   "score": 33.7,
+   "stars": "★☆☆☆☆",
+   "linkage": 21.0,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 10.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 8.0,
+   "rs20": -0.7,
+   "atr_pct": 10.5,
+   "dev25": -6.7,
+   "stop": 6530,
+   "close": 8260.0,
+   "chg5d": -3.7,
+   "v_ratio": 0.6,
+   "turnover_m": 3299,
+   "reasons_str": "Coherent+16.0%連動(β0.23) 未反応+8.0% / 増収+43% / ROE21% / PER17倍"
+  },
+  {
+   "code": "6723",
+   "name": "ルネサスエレクトロニクス",
+   "sector": "電気機器",
+   "score": 33.7,
+   "stars": "★☆☆☆☆",
+   "linkage": 22.0,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 9.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 8.8,
+   "rs20": -20.5,
+   "atr_pct": 8.7,
+   "dev25": -9.1,
+   "stop": 3067,
+   "close": 3716.0,
+   "chg5d": 8.0,
+   "v_ratio": 0.2,
+   "turnover_m": 61409,
+   "reasons_str": "Coherent+16.0%連動(β0.25) 未反応+8.8% / 増収+28% / PER20倍"
+  },
+  {
+   "code": "6806",
+   "name": "ヒロセ電機",
+   "sector": "電気機器",
+   "score": 33.7,
+   "stars": "★☆☆☆☆",
+   "linkage": 6.2,
    "theme": 0.0,
    "supply": 3.3,
    "etf": 0.0,
-   "tech": 1.0,
-   "fund": 9.0,
-   "material": 5.1,
+   "tech": 10.0,
+   "fund": 7.5,
+   "material": 6.7,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 9.5,
-   "rs20": 2.7,
-   "atr_pct": 4.2,
-   "dev25": -4.2,
-   "stop": 2402,
-   "close": 2622.5,
-   "chg5d": -6.9,
-   "v_ratio": 2.8,
-   "turnover_m": 11247,
-   "reasons_str": "Emerson+8.4%連動(β0.40) 未反応+9.5% / 出来高増2.8倍 / 開示[業績予想の修正](1日前) / 開示[自己株式取得](1日前) / 増収+19% / PER16倍"
-  },
-  {
-   "code": "7011",
-   "name": "三菱重工業",
-   "sector": "機械",
-   "score": 38.5,
-   "stars": "★☆☆☆☆",
-   "linkage": 7.0,
-   "theme": 20.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 6.0,
-   "fund": 3.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Eaton",
-   "gap_pct": -4.3,
-   "rs20": 8.1,
-   "atr_pct": 4.0,
-   "dev25": 4.0,
-   "stop": 3681,
-   "close": 4000.0,
-   "chg5d": 7.0,
-   "v_ratio": 1.5,
-   "turnover_m": 76376,
-   "reasons_str": "Eaton+7.7%連動(β0.36) / 核融合(+13.2%)"
-  },
-  {
-   "code": "6324",
-   "name": "ハーモニック・ドライブ・システムズ",
-   "sector": "機械",
-   "score": 38.5,
-   "stars": "★☆☆☆☆",
-   "linkage": 7.3,
-   "theme": 20.0,
-   "supply": 1.0,
-   "etf": 0.0,
-   "tech": 8.7,
-   "fund": 1.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "S&P500",
-   "gap_pct": -31.4,
-   "rs20": 1.4,
-   "atr_pct": 7.8,
-   "dev25": 4.0,
-   "stop": 6231,
-   "close": 7390.0,
-   "chg5d": 35.8,
-   "v_ratio": 1.0,
-   "turnover_m": 11487,
-   "reasons_str": "S&P500+3.1%連動(β0.93) / ロボット(+17.4%) / MA上昇配列 / パーフェクトオーダー"
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": 0.7,
+   "rs20": 2.2,
+   "atr_pct": 4.3,
+   "dev25": 0.4,
+   "stop": 25266,
+   "close": 27615.0,
+   "chg5d": 0.9,
+   "v_ratio": 0.1,
+   "turnover_m": 5694,
+   "reasons_str": "Skyworks+9.1%連動(β0.19) 未反応+0.7% / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 開示[業績予想の修正](3日前) / 開示[自己株式の取得](3日前) / 増収+27%"
   },
   {
    "code": "5310",
    "name": "東洋炭素",
    "sector": "ガラス・土石製品",
-   "score": 38.300000000000004,
+   "score": 33.2,
    "stars": "★☆☆☆☆",
-   "linkage": 9.1,
-   "theme": 20.0,
-   "supply": 3.0,
+   "linkage": 5.0,
+   "theme": 19.7,
+   "supply": 2.0,
    "etf": 0.0,
-   "tech": 4.7,
+   "tech": 5.0,
    "fund": 1.5,
    "material": 0.0,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": -16.0,
-   "rs20": 7.5,
-   "atr_pct": 5.2,
-   "dev25": 5.1,
-   "stop": 6507,
-   "close": 7260.0,
-   "chg5d": 20.4,
-   "v_ratio": 1.5,
-   "turnover_m": 823,
-   "reasons_str": "Emerson+8.4%連動(β0.43) / 核融合(+13.2%)"
+   "signal": "",
+   "driver": "SOX指数",
+   "gap_pct": -5.8,
+   "rs20": 5.1,
+   "atr_pct": 4.7,
+   "dev25": 3.9,
+   "stop": 6481,
+   "close": 7160.0,
+   "chg5d": 8.2,
+   "v_ratio": 0.3,
+   "turnover_m": 769,
+   "reasons_str": "SOX指数+5.4%連動(β0.37) / 核融合(+6.9%)"
   },
   {
-   "code": "8551",
-   "name": "北日本銀行",
-   "sector": "銀行業",
-   "score": 38.2,
+   "code": "5802",
+   "name": "住友電気工業",
+   "sector": "非鉄金属",
+   "score": 33.2,
    "stars": "★☆☆☆☆",
-   "linkage": 10.9,
+   "linkage": 8.1,
+   "theme": 14.4,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 8.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": -0.3,
+   "rs20": -8.6,
+   "atr_pct": 8.0,
+   "dev25": -9.1,
+   "stop": 1795,
+   "close": 2136.5,
+   "chg5d": -2.2,
+   "v_ratio": 0.2,
+   "turnover_m": 55387,
+   "reasons_str": "Coherent+16.0%連動(β0.20) / 光通信・電線(+4.2%) / 増収+16% / ROE16% / PER18倍"
+  },
+  {
+   "code": "7745",
+   "name": "Ａ＆Ｄホロンホールディングス",
+   "sector": "精密機器",
+   "score": 32.6,
+   "stars": "★☆☆☆☆",
+   "linkage": 17.1,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 6.0,
+   "fund": 7.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SOX指数",
+   "gap_pct": 6.4,
+   "rs20": 3.5,
+   "atr_pct": 4.9,
+   "dev25": -0.8,
+   "stop": 2635,
+   "close": 2918.0,
+   "chg5d": -3.2,
+   "v_ratio": 0.3,
+   "turnover_m": 385,
+   "reasons_str": "SOX指数+5.4%連動(β0.38) 未反応+6.4% / PER14倍"
+  },
+  {
+   "code": "6141",
+   "name": "ＤＭＧ森精機",
+   "sector": "機械",
+   "score": 31.6,
+   "stars": "★☆☆☆☆",
+   "linkage": 15.6,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 11.0,
+   "fund": 3.0,
+   "material": 2.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SOX指数",
+   "gap_pct": 3.7,
+   "rs20": 2.1,
+   "atr_pct": 5.1,
+   "dev25": 1.1,
+   "stop": 3291,
+   "close": 3669.0,
+   "chg5d": -1.4,
+   "v_ratio": 0.2,
+   "turnover_m": 4952,
+   "reasons_str": "SOX指数+5.4%連動(β0.34) 未反応+3.7% / MA上昇配列 / パーフェクトオーダー / 開示[業績予想の修正](3日前) / 増収+24%"
+  },
+  {
+   "code": "7609",
+   "name": "ダイトロン",
+   "sector": "卸売業",
+   "score": 31.5,
+   "stars": "★☆☆☆☆",
+   "linkage": 5.3,
+   "theme": 0.0,
+   "supply": 4.3,
+   "etf": 0.0,
+   "tech": 12.0,
+   "fund": 9.0,
+   "material": 3.9,
+   "penalty": -3.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": -13.2,
+   "rs20": 21.2,
+   "atr_pct": 5.3,
+   "dev25": 16.1,
+   "stop": 3693,
+   "close": 4130.0,
+   "chg5d": 24.4,
+   "v_ratio": 0.3,
+   "turnover_m": 718,
+   "reasons_str": "Coherent+16.0%連動(β0.13) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 伸びすぎ注意(25MA+16%) / 開示[業績予想の修正](4日前) / 開示[自己株式取得](4日前) / 増収+15% / ROE17% / PER18倍"
+  },
+  {
+   "code": "9984",
+   "name": "ソフトバンクグループ",
+   "sector": "情報・通信業",
+   "score": 31.4,
+   "stars": "★☆☆☆☆",
+   "linkage": 22.2,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 6.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 4.0,
+   "rs20": -3.8,
+   "atr_pct": 8.1,
+   "dev25": -5.0,
+   "stop": 4527,
+   "close": 5402.0,
+   "chg5d": 2.7,
+   "v_ratio": 0.3,
+   "turnover_m": 291831,
+   "reasons_str": "Coherent+16.0%連動(β0.26) 未反応+4.0% / ROE33% / PER6倍"
+  },
+  {
+   "code": "6961",
+   "name": "エンプラス",
+   "sector": "電気機器",
+   "score": 31.3,
+   "stars": "★☆☆☆☆",
+   "linkage": 22.3,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 0.0,
+   "fund": 9.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 12.0,
+   "rs20": -13.3,
+   "atr_pct": 10.9,
+   "dev25": -14.5,
+   "stop": 8087,
+   "close": 10330.0,
+   "chg5d": -9.2,
+   "v_ratio": 0.3,
+   "turnover_m": 2628,
+   "reasons_str": "Coherent+16.0%連動(β0.26) 未反応+12.0% / 増収+40% / PER18倍"
+  },
+  {
+   "code": "8377",
+   "name": "ほくほくフィナンシャルグループ",
+   "sector": "銀行業",
+   "score": 30.8,
+   "stars": "★☆☆☆☆",
+   "linkage": 3.2,
+   "theme": 0.0,
+   "supply": 3.0,
+   "etf": 0.0,
+   "tech": 13.5,
+   "fund": 9.0,
+   "material": 2.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SOX指数",
+   "gap_pct": -5.6,
+   "rs20": 9.9,
+   "atr_pct": 4.2,
+   "dev25": 6.5,
+   "stop": 7396,
+   "close": 8069.0,
+   "chg5d": 8.0,
+   "v_ratio": 0.1,
+   "turnover_m": 3910,
+   "reasons_str": "SOX指数+5.4%連動(β0.23) / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[自己株式の取得](4日前) / 開示[株式分割](14日前) / 増収+25% / PER17倍"
+  },
+  {
+   "code": "3984",
+   "name": "ユーザーローカル",
+   "sector": "情報・通信業",
+   "score": 30.599999999999998,
+   "stars": "★☆☆☆☆",
+   "linkage": 14.9,
+   "theme": 0.0,
+   "supply": 3.3,
+   "etf": 0.0,
+   "tech": 0.0,
+   "fund": 10.0,
+   "material": 2.4,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "S&P500",
+   "gap_pct": 12.0,
+   "rs20": -7.1,
+   "atr_pct": 4.1,
+   "dev25": -10.3,
+   "stop": 1469,
+   "close": 1600.0,
+   "chg5d": -11.9,
+   "v_ratio": 2.7,
+   "turnover_m": 127,
+   "reasons_str": "S&P500+1.4%連動(β0.79) 未反応+12.0% / 出来高増2.7倍 / 開示[自己株式の取得](3日前) / 増収+16% / ROE20% / PER15倍"
+  },
+  {
+   "code": "9962",
+   "name": "ミスミグループ本社",
+   "sector": "卸売業",
+   "score": 30.0,
+   "stars": "★☆☆☆☆",
+   "linkage": 17.7,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 3.7,
+   "fund": 6.5,
+   "material": 2.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": 6.7,
+   "rs20": -2.0,
+   "atr_pct": 4.9,
+   "dev25": -0.8,
+   "stop": 3406,
+   "close": 3778.0,
+   "chg5d": -2.1,
+   "v_ratio": 0.2,
+   "turnover_m": 6168,
+   "reasons_str": "Skyworks+9.1%連動(β0.25) 未反応+6.7% / 開示[自己株式の取得](4日前) / 増収+32%"
+  },
+  {
+   "code": "5344",
+   "name": "ＭＡＲＵＷＡ",
+   "sector": "ガラス・土石製品",
+   "score": 29.9,
+   "stars": "★☆☆☆☆",
+   "linkage": 21.3,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 5.0,
+   "material": 0.9,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 3.7,
+   "rs20": -4.6,
+   "atr_pct": 6.7,
+   "dev25": -4.6,
+   "stop": 48276,
+   "close": 55810.0,
+   "chg5d": 0.5,
+   "v_ratio": 0.1,
+   "turnover_m": 8061,
+   "reasons_str": "Coherent+16.0%連動(β0.25) 未反応+3.7% / 開示[業績予想の修正](9日前)"
+  },
+  {
+   "code": "6702",
+   "name": "富士通",
+   "sector": "電気機器",
+   "score": 29.9,
+   "stars": "★☆☆☆☆",
+   "linkage": 0.0,
+   "theme": 11.2,
+   "supply": 3.3,
+   "etf": 0.0,
+   "tech": 8.0,
+   "fund": 5.0,
+   "material": 2.4,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": 10.6,
+   "atr_pct": 4.3,
+   "dev25": 6.7,
+   "stop": 3357,
+   "close": 3672.0,
+   "chg5d": 0.4,
+   "v_ratio": 0.2,
+   "turnover_m": 32002,
+   "reasons_str": "量子(+2.6%) / 買い出来高優勢 / MA上昇配列 / 開示[自己株式の取得](3日前) / ROE16% / PER21倍"
+  },
+  {
+   "code": "6055",
+   "name": "ジャパンマテリアル",
+   "sector": "サービス業",
+   "score": 29.599999999999998,
+   "stars": "★☆☆☆☆",
+   "linkage": 18.9,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 3.7,
+   "fund": 7.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 4.6,
+   "rs20": -9.9,
+   "atr_pct": 6.0,
+   "dev25": -5.7,
+   "stop": 1966,
+   "close": 2236.0,
+   "chg5d": -1.4,
+   "v_ratio": 0.4,
+   "turnover_m": 1796,
+   "reasons_str": "Coherent+16.0%連動(β0.17) 未反応+4.6% / ROE18% / PER22倍"
+  },
+  {
+   "code": "285A",
+   "name": "キオクシアホールディングス",
+   "sector": "電気機器",
+   "score": 29.3,
+   "stars": "★☆☆☆☆",
+   "linkage": 17.1,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 7.0,
+   "material": 2.5,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Intel",
+   "gap_pct": 6.3,
+   "rs20": -37.2,
+   "atr_pct": 15.6,
+   "dev25": -21.9,
+   "stop": 32344,
+   "close": 47060.0,
+   "chg5d": 1.2,
+   "v_ratio": 0.2,
+   "turnover_m": 2579636,
+   "reasons_str": "Intel+9.7%連動(β0.21) 未反応+6.3% / 開示[株式分割](7日前) / 開示[自己株式の取得](7日前) / 増収+416% / ROE87%"
+  },
+  {
+   "code": "8346",
+   "name": "東邦銀行",
+   "sector": "銀行業",
+   "score": 29.3,
+   "stars": "★☆☆☆☆",
+   "linkage": 3.3,
+   "theme": 0.0,
+   "supply": 3.0,
+   "etf": 0.0,
+   "tech": 15.0,
+   "fund": 8.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Intel",
+   "gap_pct": -8.2,
+   "rs20": 18.4,
+   "atr_pct": 3.6,
+   "dev25": 10.5,
+   "stop": 888,
+   "close": 958.0,
+   "chg5d": 11.4,
+   "v_ratio": 0.2,
+   "turnover_m": 880,
+   "reasons_str": "Intel+9.7%連動(β0.14) / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 増収+34% / PER19倍"
+  },
+  {
+   "code": "4189",
+   "name": "ＫＨネオケム",
+   "sector": "化学",
+   "score": 29.199999999999996,
+   "stars": "★☆☆☆☆",
+   "linkage": 2.8,
+   "theme": 0.0,
+   "supply": 4.3,
+   "etf": 0.0,
+   "tech": 13.7,
+   "fund": 6.0,
+   "material": 2.4,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SOX指数",
+   "gap_pct": -9.2,
+   "rs20": 24.2,
+   "atr_pct": 3.8,
+   "dev25": 14.3,
+   "stop": 3272,
+   "close": 3540.0,
+   "chg5d": 7.1,
+   "v_ratio": 0.1,
+   "turnover_m": 688,
+   "reasons_str": "SOX指数+5.4%連動(β0.20) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[増配](3日前) / PER16倍"
+  },
+  {
+   "code": "6762",
+   "name": "ＴＤＫ",
+   "sector": "電気機器",
+   "score": 29.0,
+   "stars": "★☆☆☆☆",
+   "linkage": 19.8,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 6.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": 5.9,
+   "rs20": -8.7,
+   "atr_pct": 5.6,
+   "dev25": -4.2,
+   "stop": 2669,
+   "close": 3007.0,
+   "chg5d": -0.0,
+   "v_ratio": 0.1,
+   "turnover_m": 40256,
+   "reasons_str": "Skyworks+9.1%連動(β0.34) 未反応+5.9% / 増収+38%"
+  },
+  {
+   "code": "4578",
+   "name": "大塚ホールディングス",
+   "sector": "医薬品",
+   "score": 28.9,
+   "stars": "★☆☆☆☆",
+   "linkage": 0.0,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 13.5,
+   "fund": 9.0,
+   "material": 4.4,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": 15.0,
+   "atr_pct": 3.4,
+   "dev25": 9.9,
+   "stop": 11612,
+   "close": 12465.0,
+   "chg5d": 12.3,
+   "v_ratio": 0.2,
+   "turnover_m": 17911,
+   "reasons_str": "MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[自己株式の取得](4日前) / 開示[増配](7日前) / 増収+17% / PER16倍"
+  },
+  {
+   "code": "8344",
+   "name": "山形銀行",
+   "sector": "銀行業",
+   "score": 28.7,
+   "stars": "★☆☆☆☆",
+   "linkage": 0.0,
+   "theme": 0.0,
+   "supply": 3.3,
+   "etf": 0.0,
+   "tech": 15.0,
+   "fund": 8.0,
+   "material": 2.4,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": 15.6,
+   "atr_pct": 4.9,
+   "dev25": 10.0,
+   "stop": 3869,
+   "close": 4285.0,
+   "chg5d": 14.6,
+   "v_ratio": 0.2,
+   "turnover_m": 543,
+   "reasons_str": "買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[自己株式の取得](3日前) / 増収+47% / PER21倍"
+  },
+  {
+   "code": "7011",
+   "name": "三菱重工業",
+   "sector": "機械",
+   "score": 28.7,
+   "stars": "★☆☆☆☆",
+   "linkage": 0.0,
+   "theme": 19.7,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 6.0,
+   "fund": 2.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": 7.7,
+   "atr_pct": 3.9,
+   "dev25": 3.7,
+   "stop": 3696,
+   "close": 4007.0,
+   "chg5d": 6.5,
+   "v_ratio": 0.2,
+   "turnover_m": 73175,
+   "reasons_str": "核融合(+6.9%)"
+  },
+  {
+   "code": "6454",
+   "name": "マックス",
+   "sector": "機械",
+   "score": 28.7,
+   "stars": "★☆☆☆☆",
+   "linkage": 0.0,
+   "theme": 0.0,
+   "supply": 3.0,
+   "etf": 0.0,
+   "tech": 13.5,
+   "fund": 7.5,
+   "material": 4.7,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": 12.1,
+   "atr_pct": 2.9,
+   "dev25": 8.6,
+   "stop": 1805,
+   "close": 1918.0,
+   "chg5d": 4.1,
+   "v_ratio": 0.1,
+   "turnover_m": 566,
+   "reasons_str": "MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[自己株式の取得](4日前) / 開示[自己株式の取得](7日前) / 増収+17%"
+  },
+  {
+   "code": "6506",
+   "name": "安川電機",
+   "sector": "電気機器",
+   "score": 28.3,
+   "stars": "★☆☆☆☆",
+   "linkage": 7.7,
+   "theme": 14.9,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 3.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": -3.7,
+   "rs20": -20.3,
+   "atr_pct": 5.2,
+   "dev25": -6.3,
+   "stop": 4721,
+   "close": 5271.0,
+   "chg5d": 8.3,
+   "v_ratio": 0.1,
+   "turnover_m": 46533,
+   "reasons_str": "Skyworks+9.1%連動(β0.34) / ロボット(+4.4%)"
+  },
+  {
+   "code": "7279",
+   "name": "ハイレックスコーポレーション",
+   "sector": "輸送用機器",
+   "score": 28.3,
+   "stars": "★☆☆☆☆",
+   "linkage": 11.5,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 4.7,
+   "fund": 8.0,
+   "material": 2.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SOX指数",
+   "gap_pct": 2.7,
+   "rs20": 26.0,
+   "atr_pct": 4.0,
+   "dev25": 11.7,
+   "stop": 2300,
+   "close": 2498.0,
+   "chg5d": 8.8,
+   "v_ratio": 0.2,
+   "turnover_m": 235,
+   "reasons_str": "SOX指数+5.4%連動(β0.25) 未反応+2.7% / 開示[自己株式の取得](4日前) / 増収+38% / ROE20% / PER11倍"
+  },
+  {
+   "code": "6507",
+   "name": "シンフォニアテクノロジー",
+   "sector": "電気機器",
+   "score": 28.099999999999998,
+   "stars": "★☆☆☆☆",
+   "linkage": 17.4,
+   "theme": 0.0,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 7.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SOX指数",
+   "gap_pct": 5.0,
+   "rs20": -8.5,
+   "atr_pct": 7.0,
+   "dev25": -7.4,
+   "stop": 11250,
+   "close": 13070.0,
+   "chg5d": -2.0,
+   "v_ratio": 0.4,
+   "turnover_m": 2057,
+   "reasons_str": "SOX指数+5.4%連動(β0.40) 未反応+5.0% / ROE16%"
+  },
+  {
+   "code": "4975",
+   "name": "ＪＣＵ",
+   "sector": "化学",
+   "score": 28.0,
+   "stars": "★☆☆☆☆",
+   "linkage": 18.0,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 1.5,
+   "fund": 8.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 6.2,
+   "rs20": -14.2,
+   "atr_pct": 6.2,
+   "dev25": -10.2,
+   "stop": 5051,
+   "close": 5770.0,
+   "chg5d": -2.4,
+   "v_ratio": 1.0,
+   "turnover_m": 680,
+   "reasons_str": "Coherent+16.0%連動(β0.15) 未反応+6.2% / ROE18% / PER16倍"
+  },
+  {
+   "code": "6674",
+   "name": "ジーエス・ユアサ　コーポレーション",
+   "sector": "電気機器",
+   "score": 27.900000000000002,
+   "stars": "★☆☆☆☆",
+   "linkage": 15.6,
+   "theme": 0.0,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 6.5,
+   "material": 2.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SOX指数",
+   "gap_pct": 4.8,
+   "rs20": -11.8,
+   "atr_pct": 6.5,
+   "dev25": -9.3,
+   "stop": 4628,
+   "close": 5315.0,
+   "chg5d": -3.0,
+   "v_ratio": 0.2,
+   "turnover_m": 5844,
+   "reasons_str": "SOX指数+5.4%連動(β0.27) 未反応+4.8% / 開示[業績予想の修正](2日前) / PER17倍"
+  },
+  {
+   "code": "7711",
+   "name": "助川電気工業",
+   "sector": "精密機器",
+   "score": 27.9,
+   "stars": "★☆☆☆☆",
+   "linkage": 0.0,
+   "theme": 19.7,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 4.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": 0.1,
+   "atr_pct": 5.9,
+   "dev25": -2.3,
+   "stop": 3997,
+   "close": 4530.0,
+   "chg5d": 6.0,
+   "v_ratio": 0.5,
+   "turnover_m": 371,
+   "reasons_str": "核融合(+6.9%) / 増収+26%"
+  },
+  {
+   "code": "5970",
+   "name": "ジーテクト",
+   "sector": "金属製品",
+   "score": 27.9,
+   "stars": "★☆☆☆☆",
+   "linkage": 3.9,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 15.0,
+   "fund": 7.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": -5.8,
+   "rs20": 12.0,
+   "atr_pct": 2.0,
+   "dev25": 6.9,
+   "stop": 2176,
+   "close": 2266.0,
+   "chg5d": 4.8,
+   "v_ratio": 1.0,
+   "turnover_m": 215,
+   "reasons_str": "Skyworks+9.1%連動(β0.17) / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 増収+17% / PER7倍"
+  },
+  {
+   "code": "5975",
+   "name": "東プレ",
+   "sector": "金属製品",
+   "score": 27.799999999999997,
+   "stars": "★☆☆☆☆",
+   "linkage": 3.3,
    "theme": 0.0,
    "supply": 5.3,
    "etf": 0.0,
-   "tech": 9.5,
-   "fund": 8.0,
+   "tech": 13.7,
+   "fund": 5.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Qorvo",
+   "gap_pct": -9.0,
+   "rs20": 18.6,
+   "atr_pct": 2.9,
+   "dev25": 11.2,
+   "stop": 2842,
+   "close": 3015.0,
+   "chg5d": 6.8,
+   "v_ratio": 1.6,
+   "turnover_m": 243,
+   "reasons_str": "Qorvo+6.5%連動(β0.20) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / PER8倍"
+  },
+  {
+   "code": "6503",
+   "name": "三菱電機",
+   "sector": "電気機器",
+   "score": 27.5,
+   "stars": "★☆☆☆☆",
+   "linkage": 3.6,
+   "theme": 11.9,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 6.0,
+   "fund": 5.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SOX指数",
+   "gap_pct": -3.7,
+   "rs20": 3.1,
+   "atr_pct": 4.7,
+   "dev25": 2.5,
+   "stop": 5280,
+   "close": 5822.0,
+   "chg5d": -1.5,
+   "v_ratio": 0.2,
+   "turnover_m": 34810,
+   "reasons_str": "SOX指数+5.4%連動(β0.27) / AIデータセンター・電力(+2.9%)"
+  },
+  {
+   "code": "6301",
+   "name": "小松製作所",
+   "sector": "機械",
+   "score": 27.3,
+   "stars": "★☆☆☆☆",
+   "linkage": 4.7,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 12.0,
+   "fund": 6.5,
+   "material": 2.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": -6.5,
+   "rs20": 16.9,
+   "atr_pct": 3.8,
+   "dev25": 9.0,
+   "stop": 6771,
+   "close": 7326.0,
+   "chg5d": 4.7,
+   "v_ratio": 0.2,
+   "turnover_m": 22528,
+   "reasons_str": "Skyworks+9.1%連動(β0.21) / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](4日前) / PER18倍"
+  },
+  {
+   "code": "6951",
+   "name": "日本電子",
+   "sector": "電気機器",
+   "score": 27.2,
+   "stars": "★☆☆☆☆",
+   "linkage": 7.2,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 12.0,
+   "fund": 6.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": -0.2,
+   "rs20": 17.3,
+   "atr_pct": 4.2,
+   "dev25": 4.7,
+   "stop": 7699,
+   "close": 8402.0,
+   "chg5d": 2.2,
+   "v_ratio": 0.1,
+   "turnover_m": 2770,
+   "reasons_str": "Coherent+16.0%連動(β0.18) / MA上昇配列 / パーフェクトオーダー / ROE16% / PER19倍"
+  },
+  {
+   "code": "6098",
+   "name": "リクルートホールディングス",
+   "sector": "サービス業",
+   "score": 27.1,
+   "stars": "★☆☆☆☆",
+   "linkage": 6.3,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 9.7,
+   "fund": 7.0,
+   "material": 2.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": -2.8,
+   "rs20": 6.7,
+   "atr_pct": 3.6,
+   "dev25": 4.3,
+   "stop": 12114,
+   "close": 13050.0,
+   "chg5d": 4.0,
+   "v_ratio": 0.2,
+   "turnover_m": 49006,
+   "reasons_str": "Skyworks+9.1%連動(β0.28) / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[自己株式の取得](4日前) / ROE31%"
+  },
+  {
+   "code": "5301",
+   "name": "東海カーボン",
+   "sector": "ガラス・土石製品",
+   "score": 26.7,
+   "stars": "★☆☆☆☆",
+   "linkage": 5.2,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 10.0,
+   "fund": 7.0,
    "material": 4.5,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 1.3,
-   "rs20": 23.9,
-   "atr_pct": 4.3,
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": -10.3,
+   "rs20": 5.5,
+   "atr_pct": 3.6,
    "dev25": 5.5,
-   "stop": 6019,
-   "close": 6590.0,
-   "chg5d": -1.3,
+   "stop": 1603,
+   "close": 1728.0,
+   "chg5d": 12.4,
+   "v_ratio": 0.2,
+   "turnover_m": 3286,
+   "reasons_str": "Skyworks+9.1%連動(β0.23) / MA上昇配列 / パーフェクトオーダー / 開示[業績予想の修正](2日前) / 開示[自己株式取得](3日前) / 増収+18% / PER18倍"
+  },
+  {
+   "code": "6590",
+   "name": "芝浦メカトロニクス",
+   "sector": "電気機器",
+   "score": 26.7,
+   "stars": "★☆☆☆☆",
+   "linkage": 22.2,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 0.0,
+   "fund": 4.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 8.7,
+   "rs20": -16.6,
+   "atr_pct": 10.7,
+   "dev25": -16.2,
+   "stop": 3378,
+   "close": 4295.0,
+   "chg5d": -2.1,
+   "v_ratio": 0.7,
+   "turnover_m": 12144,
+   "reasons_str": "Coherent+16.0%連動(β0.25) 未反応+8.7% / ROE22%"
+  },
+  {
+   "code": "3132",
+   "name": "マクニカホールディングス",
+   "sector": "卸売業",
+   "score": 26.5,
+   "stars": "★☆☆☆☆",
+   "linkage": 4.5,
+   "theme": 0.0,
+   "supply": 3.0,
+   "etf": 0.0,
+   "tech": 12.0,
+   "fund": 7.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SOX指数",
+   "gap_pct": -9.8,
+   "rs20": 17.1,
+   "atr_pct": 6.3,
+   "dev25": 9.8,
+   "stop": 3180,
+   "close": 3640.0,
+   "chg5d": 10.5,
+   "v_ratio": 0.2,
+   "turnover_m": 3811,
+   "reasons_str": "SOX指数+5.4%連動(β0.33) / MA上昇配列 / パーフェクトオーダー / 増収+40% / PER23倍"
+  },
+  {
+   "code": "6266",
+   "name": "タツモ",
+   "sector": "機械",
+   "score": 26.400000000000002,
+   "stars": "★☆☆☆☆",
+   "linkage": 19.3,
+   "theme": 0.0,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 0.0,
+   "fund": 4.0,
+   "material": 2.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SOX指数",
+   "gap_pct": 15.4,
+   "rs20": -21.9,
+   "atr_pct": 11.0,
+   "dev25": -20.7,
+   "stop": 2778,
+   "close": 3565.0,
+   "chg5d": -11.0,
+   "v_ratio": 0.6,
+   "turnover_m": 1712,
+   "reasons_str": "SOX指数+5.4%連動(β0.54) 未反応+15.4% / 開示[業績予想の修正](2日前) / PER15倍"
+  },
+  {
+   "code": "4186",
+   "name": "東京応化工業",
+   "sector": "化学",
+   "score": 26.0,
+   "stars": "★☆☆☆☆",
+   "linkage": 19.4,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 0.0,
+   "fund": 5.5,
+   "material": 1.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 4.4,
+   "rs20": -11.3,
+   "atr_pct": 7.6,
+   "dev25": -10.9,
+   "stop": 7421,
+   "close": 8744.0,
+   "chg5d": -1.6,
+   "v_ratio": 0.3,
+   "turnover_m": 9910,
+   "reasons_str": "Coherent+16.0%連動(β0.18) 未反応+4.4% / 開示[業績予想の修正](8日前) / 増収+93%"
+  },
+  {
+   "code": "5901",
+   "name": "東洋製罐グループホールディングス",
+   "sector": "金属製品",
+   "score": 26.0,
+   "stars": "★☆☆☆☆",
+   "linkage": 0.0,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 13.5,
+   "fund": 4.5,
+   "material": 6.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": 8.4,
+   "atr_pct": 2.5,
+   "dev25": 4.5,
+   "stop": 4078,
+   "close": 4289.0,
+   "chg5d": 5.3,
+   "v_ratio": 0.1,
+   "turnover_m": 934,
+   "reasons_str": "MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[上方修正](2日前) / 開示[自己株式の取得](2日前) / PER12倍"
+  },
+  {
+   "code": "6282",
+   "name": "オイレス工業",
+   "sector": "機械",
+   "score": 26.0,
+   "stars": "★☆☆☆☆",
+   "linkage": 0.0,
+   "theme": 0.0,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 15.0,
+   "fund": 5.5,
+   "material": 4.5,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": 5.4,
+   "atr_pct": 2.0,
+   "dev25": 3.8,
+   "stop": 2843,
+   "close": 2962.0,
+   "chg5d": 3.8,
+   "v_ratio": 0.4,
+   "turnover_m": 189,
+   "reasons_str": "MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[業績予想の修正](1日前) / 開示[自己株式の取得](4日前) / PER17倍"
+  },
+  {
+   "code": "6490",
+   "name": "ＰＩＬＬＡＲ",
+   "sector": "機械",
+   "score": 25.900000000000002,
+   "stars": "★☆☆☆☆",
+   "linkage": 6.6,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 12.0,
+   "fund": 4.5,
+   "material": 2.8,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": -3.7,
+   "rs20": 11.9,
+   "atr_pct": 7.5,
+   "dev25": 6.5,
+   "stop": 8996,
+   "close": 10590.0,
+   "chg5d": 11.6,
    "v_ratio": 0.9,
-   "turnover_m": 306,
-   "reasons_str": "Emerson+8.4%連動(β0.32) 未反応+1.3% / 買い出来高優勢 / 資金流入増 / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](2日前) / 開示[自己株式取得](5日前) / 増収+23% / PER12倍"
+   "turnover_m": 1535,
+   "reasons_str": "Coherent+16.0%連動(β0.16) / MA上昇配列 / パーフェクトオーダー / 開示[増配](1日前)"
+  },
+  {
+   "code": "6668",
+   "name": "アドテック　プラズマ　テクノロジー",
+   "sector": "電気機器",
+   "score": 25.8,
+   "stars": "★☆☆☆☆",
+   "linkage": 6.8,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 11.0,
+   "fund": 6.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SOX指数",
+   "gap_pct": -7.4,
+   "rs20": 0.3,
+   "atr_pct": 8.7,
+   "dev25": 6.4,
+   "stop": 2959,
+   "close": 3580.0,
+   "chg5d": 24.7,
+   "v_ratio": 0.1,
+   "turnover_m": 804,
+   "reasons_str": "SOX指数+5.4%連動(β0.50) / 資金流入増 / MA上昇配列 / パーフェクトオーダー / PER19倍"
+  },
+  {
+   "code": "6724",
+   "name": "セイコーエプソン",
+   "sector": "電気機器",
+   "score": 25.5,
+   "stars": "★☆☆☆☆",
+   "linkage": 4.4,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 15.0,
+   "fund": 1.5,
+   "material": 2.6,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": -6.0,
+   "rs20": 16.8,
+   "atr_pct": 3.1,
+   "dev25": 8.9,
+   "stop": 2989,
+   "close": 3185.0,
+   "chg5d": 8.0,
+   "v_ratio": 0.3,
+   "turnover_m": 5277,
+   "reasons_str": "Skyworks+9.1%連動(β0.20) / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[自己株式取得](2日前)"
+  },
+  {
+   "code": "6479",
+   "name": "ミネベアミツミ",
+   "sector": "電気機器",
+   "score": 25.5,
+   "stars": "★☆☆☆☆",
+   "linkage": 16.8,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 6.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": 3.3,
+   "rs20": -12.0,
+   "atr_pct": 5.1,
+   "dev25": -6.8,
+   "stop": 3364,
+   "close": 3743.0,
+   "chg5d": 1.1,
+   "v_ratio": 0.2,
+   "turnover_m": 12212,
+   "reasons_str": "Skyworks+9.1%連動(β0.30) 未反応+3.3% / 増収+16% / PER15倍"
+  },
+  {
+   "code": "6627",
+   "name": "テラプローブ",
+   "sector": "電気機器",
+   "score": 25.4,
+   "stars": "★☆☆☆☆",
+   "linkage": 10.9,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 9.0,
+   "fund": 5.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": -6.5,
+   "rs20": 1.7,
+   "atr_pct": 8.8,
+   "dev25": 2.7,
+   "stop": 9641,
+   "close": 11700.0,
+   "chg5d": 14.1,
+   "v_ratio": 0.2,
+   "turnover_m": 1595,
+   "reasons_str": "Coherent+16.0%連動(β0.27) / MA上昇配列 / パーフェクトオーダー / 増収+20%"
   },
   {
    "code": "7012",
    "name": "川崎重工業",
    "sector": "輸送用機器",
-   "score": 38.0,
+   "score": 25.2,
    "stars": "★☆☆☆☆",
-   "linkage": 10.7,
-   "theme": 15.3,
+   "linkage": 2.6,
+   "theme": 10.6,
    "supply": 2.0,
    "etf": 0.0,
    "tech": 5.0,
    "fund": 5.0,
    "material": 0.0,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": -4.7,
-   "rs20": 7.8,
-   "atr_pct": 4.1,
-   "dev25": 5.9,
-   "stop": 2684,
-   "close": 2924.0,
-   "chg5d": 9.3,
-   "v_ratio": 0.9,
-   "turnover_m": 35565,
-   "reasons_str": "Emerson+8.4%連動(β0.51) / 防衛(+4.7%) / PER23倍"
-  },
-  {
-   "code": "6503",
-   "name": "三菱電機",
-   "sector": "電気機器",
-   "score": 37.9,
-   "stars": "★☆☆☆☆",
-   "linkage": 7.2,
-   "theme": 20.0,
-   "supply": 1.0,
-   "etf": 0.0,
-   "tech": 4.7,
-   "fund": 5.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": -7.1,
-   "rs20": 6.6,
-   "atr_pct": 4.9,
-   "dev25": 2.8,
-   "stop": 5278,
-   "close": 5848.0,
-   "chg5d": 13.1,
-   "v_ratio": 1.1,
-   "turnover_m": 35029,
-   "reasons_str": "Emerson+8.4%連動(β0.34) / AIデータセンター・電力(+14.2%)"
-  },
-  {
-   "code": "5108",
-   "name": "ブリヂストン",
-   "sector": "ゴム製品",
-   "score": 37.9,
-   "stars": "★☆☆☆☆",
-   "linkage": 17.1,
-   "theme": 0.0,
-   "supply": 1.0,
-   "etf": 0.0,
-   "tech": 12.0,
-   "fund": 5.0,
-   "material": 2.8,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 5.3,
-   "rs20": 16.0,
-   "atr_pct": 2.5,
-   "dev25": 5.0,
-   "stop": 3726,
-   "close": 3920.0,
-   "chg5d": -4.9,
-   "v_ratio": 1.1,
-   "turnover_m": 16366,
-   "reasons_str": "Emerson+8.4%連動(β0.24) 未反応+5.3% / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](1日前)"
-  },
-  {
-   "code": "9310",
-   "name": "日本トランスシティ",
-   "sector": "倉庫・運輸関連業",
-   "score": 37.6,
-   "stars": "★☆☆☆☆",
-   "linkage": 15.5,
-   "theme": 0.0,
-   "supply": 4.3,
-   "etf": 0.0,
-   "tech": 12.0,
-   "fund": 3.0,
-   "material": 2.8,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "DuPont",
-   "gap_pct": 3.4,
-   "rs20": 23.0,
-   "atr_pct": 3.1,
-   "dev25": 8.0,
-   "stop": 1287,
-   "close": 1371.0,
-   "chg5d": -0.4,
-   "v_ratio": 0.9,
-   "turnover_m": 159,
-   "reasons_str": "DuPont+7.6%連動(β0.28) 未反応+3.4% / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](1日前) / PER13倍"
-  },
-  {
-   "code": "6758",
-   "name": "ソニーグループ",
-   "sector": "電気機器",
-   "score": 37.4,
-   "stars": "★☆☆☆☆",
-   "linkage": 18.9,
-   "theme": 0.0,
-   "supply": 0.0,
-   "etf": 0.0,
-   "tech": 8.0,
-   "fund": 7.5,
-   "material": 3.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Boeing",
-   "gap_pct": 9.2,
-   "rs20": 10.1,
-   "atr_pct": 3.5,
-   "dev25": 2.2,
-   "stop": 3314,
-   "close": 3565.0,
-   "chg5d": -6.4,
-   "v_ratio": 0.9,
-   "turnover_m": 66601,
-   "reasons_str": "Boeing+11.1%連動(β0.25) 未反応+9.2% / MA上昇配列 / 開示[自己株式の取得](0日前) / PER19倍"
-  },
-  {
-   "code": "4189",
-   "name": "ＫＨネオケム",
-   "sector": "化学",
-   "score": 36.900000000000006,
-   "stars": "★☆☆☆☆",
-   "linkage": 6.6,
-   "theme": 0.0,
-   "supply": 8.0,
-   "etf": 0.0,
-   "tech": 13.5,
-   "fund": 6.0,
-   "material": 2.8,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": -10.9,
-   "rs20": 25.6,
-   "atr_pct": 4.0,
-   "dev25": 12.7,
-   "stop": 3161,
-   "close": 3435.0,
-   "chg5d": 12.6,
-   "v_ratio": 3.1,
-   "turnover_m": 665,
-   "reasons_str": "Emerson+8.4%連動(β0.31) / 出来高急増3.1倍 / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[増配](1日前) / PER16倍"
-  },
-  {
-   "code": "4206",
-   "name": "アイカ工業",
-   "sector": "化学",
-   "score": 36.9,
-   "stars": "★☆☆☆☆",
-   "linkage": 3.1,
-   "theme": 0.0,
-   "supply": 5.7,
-   "etf": 0.0,
-   "tech": 15.0,
-   "fund": 8.0,
-   "material": 5.1,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "DuPont",
-   "gap_pct": -4.7,
-   "rs20": 15.4,
-   "atr_pct": 2.5,
-   "dev25": 7.3,
-   "stop": 3795,
-   "close": 3991.0,
-   "chg5d": 5.4,
-   "v_ratio": 3.1,
-   "turnover_m": 1177,
-   "reasons_str": "DuPont+7.6%連動(β0.17) / 出来高急増3.1倍 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[増配](1日前) / 開示[業績予想の修正](1日前) / 増収+19% / PER14倍"
-  },
-  {
-   "code": "8012",
-   "name": "長瀬産業",
-   "sector": "卸売業",
-   "score": 36.8,
-   "stars": "★☆☆☆☆",
-   "linkage": 6.3,
-   "theme": 0.0,
-   "supply": 5.7,
-   "etf": 0.0,
-   "tech": 15.0,
-   "fund": 7.0,
-   "material": 2.8,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": -10.7,
-   "rs20": 16.9,
-   "atr_pct": 3.3,
-   "dev25": 8.6,
-   "stop": 1187,
-   "close": 1272.5,
-   "chg5d": 13.1,
-   "v_ratio": 4.5,
-   "turnover_m": 1035,
-   "reasons_str": "Emerson+8.4%連動(β0.30) / 出来高急増4.5倍 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[自己株式取得](1日前) / 増収+18% / PER16倍"
-  },
-  {
-   "code": "7246",
-   "name": "プレス工業",
-   "sector": "輸送用機器",
-   "score": 36.6,
-   "stars": "★☆☆☆☆",
-   "linkage": 6.4,
-   "theme": 0.0,
-   "supply": 8.0,
-   "etf": 0.0,
-   "tech": 10.7,
-   "fund": 6.0,
-   "material": 5.5,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": -6.5,
-   "rs20": 23.4,
-   "atr_pct": 2.8,
-   "dev25": 12.8,
-   "stop": 885,
-   "close": 937.0,
-   "chg5d": 9.6,
-   "v_ratio": 4.4,
-   "turnover_m": 312,
-   "reasons_str": "Emerson+8.4%連動(β0.30) / 出来高急増4.4倍 / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 開示[業績予想の修正](0日前) / 開示[増配](0日前) / 増収+18% / PER11倍"
-  },
-  {
-   "code": "6349",
-   "name": "小森コーポレーション",
-   "sector": "機械",
-   "score": 36.6,
-   "stars": "★☆☆☆☆",
-   "linkage": 17.1,
-   "theme": 0.0,
-   "supply": 6.3,
-   "etf": 0.0,
-   "tech": 10.2,
-   "fund": 3.0,
-   "material": 3.0,
-   "penalty": -3.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 3.6,
-   "rs20": 31.0,
-   "atr_pct": 3.0,
-   "dev25": 15.2,
-   "stop": 1800,
-   "close": 1913.0,
-   "chg5d": 14.3,
-   "v_ratio": 2.0,
-   "turnover_m": 469,
-   "reasons_str": "Emerson+8.4%連動(β0.30) 未反応+3.6% / 買い出来高優勢 / MA上昇配列 / 52週高値目前 / 伸びすぎ注意(25MA+15%) / 開示[子会社化](7日前) / 開示[上方修正](7日前) / PER14倍"
-  },
-  {
-   "code": "8795",
-   "name": "Ｔ＆Ｄホールディングス",
-   "sector": "保険業",
-   "score": 36.400000000000006,
-   "stars": "★☆☆☆☆",
-   "linkage": 15.6,
-   "theme": 0.0,
-   "supply": 1.0,
-   "etf": 0.0,
-   "tech": 9.7,
-   "fund": 7.5,
-   "material": 2.6,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 2.7,
-   "rs20": 9.9,
-   "atr_pct": 2.7,
-   "dev25": 0.9,
-   "stop": 4756,
-   "close": 5032.0,
-   "chg5d": -0.9,
-   "v_ratio": 0.8,
-   "turnover_m": 6833,
-   "reasons_str": "Emerson+8.4%連動(β0.35) 未反応+2.7% / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[自己株式の取得](2日前) / PER18倍"
-  },
-  {
-   "code": "3697",
-   "name": "ＳＨＩＦＴ",
-   "sector": "情報・通信業",
-   "score": 36.3,
-   "stars": "★☆☆☆☆",
-   "linkage": 18.8,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 8.0,
-   "fund": 7.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
+   "signal": "",
    "driver": "S&P500",
-   "gap_pct": 9.8,
-   "rs20": 28.6,
-   "atr_pct": 7.3,
-   "dev25": 10.4,
-   "stop": 725,
-   "close": 849.5,
-   "chg5d": -10.6,
-   "v_ratio": 0.4,
-   "turnover_m": 7323,
-   "reasons_str": "S&P500+3.1%連動(β0.86) 未反応+9.8% / MA上昇配列 / 増収+30% / ROE17%"
-  },
-  {
-   "code": "3993",
-   "name": "ＰＫＳＨＡ　Ｔｅｃｈｎｏｌｏｇｙ",
-   "sector": "情報・通信業",
-   "score": 36.2,
-   "stars": "★☆☆☆☆",
-   "linkage": 7.4,
-   "theme": 13.7,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 4.7,
-   "fund": 6.5,
-   "material": 1.9,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "NASDAQ",
-   "gap_pct": -2.4,
-   "rs20": 13.3,
-   "atr_pct": 3.6,
-   "dev25": 5.0,
-   "stop": 2744,
-   "close": 2956.0,
-   "chg5d": 6.7,
-   "v_ratio": 1.0,
-   "turnover_m": 843,
-   "reasons_str": "NASDAQ+3.9%連動(β0.76) / 生成AI・ソフト(+3.9%) / 開示[自己株式取得](5日前) / 増収+89%"
-  },
-  {
-   "code": "7282",
-   "name": "豊田合成",
-   "sector": "輸送用機器",
-   "score": 36.099999999999994,
-   "stars": "★☆☆☆☆",
-   "linkage": 18.9,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 8.2,
-   "fund": 7.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 4.1,
-   "rs20": 8.6,
-   "atr_pct": 3.9,
-   "dev25": 1.2,
-   "stop": 4779,
-   "close": 5181.0,
-   "chg5d": -0.4,
-   "v_ratio": 0.8,
-   "turnover_m": 2984,
-   "reasons_str": "Emerson+8.4%連動(β0.33) 未反応+4.1% / MA上昇配列 / パーフェクトオーダー / 増収+17% / PER10倍"
-  },
-  {
-   "code": "4716",
-   "name": "日本オラクル",
-   "sector": "情報・通信業",
-   "score": 35.6,
-   "stars": "★☆☆☆☆",
-   "linkage": 17.1,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 8.0,
-   "fund": 8.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Oracle",
-   "gap_pct": 5.5,
-   "rs20": 7.8,
-   "atr_pct": 2.7,
-   "dev25": 2.1,
-   "stop": 8372,
-   "close": 8845.0,
-   "chg5d": -1.3,
-   "v_ratio": 0.7,
-   "turnover_m": 2978,
-   "reasons_str": "Oracle+11.2%連動(β0.18) 未反応+5.5% / MA上昇配列 / ROE34% / PER18倍"
-  },
-  {
-   "code": "2737",
-   "name": "トーメンデバイス",
-   "sector": "卸売業",
-   "score": 35.6,
-   "stars": "★☆☆☆☆",
-   "linkage": 7.2,
-   "theme": 0.0,
-   "supply": 10.0,
-   "etf": 0.0,
-   "tech": 13.7,
-   "fund": 8.0,
-   "material": 1.7,
-   "penalty": -5.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Eaton",
-   "gap_pct": -91.9,
-   "rs20": 116.6,
-   "atr_pct": 6.5,
-   "dev25": 85.4,
-   "stop": 29039,
-   "close": 33400.0,
-   "chg5d": 136.0,
-   "v_ratio": 5.6,
-   "turnover_m": 2837,
-   "reasons_str": "Eaton+7.7%連動(β0.38) / 出来高急増5.6倍 / 買い出来高優勢 / 資金流入増 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 過熱⚠25MA+85% / 開示[増配](6日前) / 増収+286% / ROE39% / PER23倍"
-  },
-  {
-   "code": "6627",
-   "name": "テラプローブ",
-   "sector": "電気機器",
-   "score": 35.5,
-   "stars": "★☆☆☆☆",
-   "linkage": 17.0,
-   "theme": 0.0,
-   "supply": 4.3,
-   "etf": 0.0,
-   "tech": 8.7,
-   "fund": 5.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Coherent",
-   "gap_pct": -41.0,
-   "rs20": 15.9,
-   "atr_pct": 8.6,
-   "dev25": 12.2,
-   "stop": 10714,
-   "close": 12930.0,
-   "chg5d": 47.8,
-   "v_ratio": 2.4,
-   "turnover_m": 1567,
-   "reasons_str": "Coherent+24.9%連動(β0.27) / 出来高増2.4倍 / MA上昇配列 / パーフェクトオーダー / 増収+20%"
-  },
-  {
-   "code": "6454",
-   "name": "マックス",
-   "sector": "機械",
-   "score": 35.4,
-   "stars": "★☆☆☆☆",
-   "linkage": 3.5,
-   "theme": 0.0,
-   "supply": 6.3,
-   "etf": 0.0,
-   "tech": 12.2,
-   "fund": 7.5,
-   "material": 5.9,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "S&P500",
-   "gap_pct": -12.1,
-   "rs20": 19.3,
-   "atr_pct": 2.9,
-   "dev25": 10.8,
-   "stop": 1828,
-   "close": 1940.0,
-   "chg5d": 11.1,
-   "v_ratio": 1.6,
-   "turnover_m": 575,
-   "reasons_str": "S&P500+3.1%連動(β0.44) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[自己株式の取得](2日前) / 開示[自己株式の取得](5日前) / 増収+17%"
-  },
-  {
-   "code": "8001",
-   "name": "伊藤忠商事",
-   "sector": "卸売業",
-   "score": 35.2,
-   "stars": "★☆☆☆☆",
-   "linkage": 18.1,
-   "theme": 0.0,
-   "supply": 0.0,
-   "etf": 0.0,
-   "tech": 9.0,
-   "fund": 5.5,
-   "material": 2.6,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 4.7,
-   "rs20": 12.2,
-   "atr_pct": 2.3,
-   "dev25": 2.0,
-   "stop": 1887,
-   "close": 1978.5,
-   "chg5d": -3.2,
-   "v_ratio": 1.0,
-   "turnover_m": 28267,
-   "reasons_str": "Emerson+8.4%連動(β0.29) 未反応+4.7% / MA上昇配列 / 開示[自己株式の取得](2日前) / PER15倍"
-  },
-  {
-   "code": "5970",
-   "name": "ジーテクト",
-   "sector": "金属製品",
-   "score": 35.2,
-   "stars": "★☆☆☆☆",
-   "linkage": 17.7,
-   "theme": 0.0,
-   "supply": 1.0,
-   "etf": 0.0,
-   "tech": 9.5,
-   "fund": 7.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 5.0,
-   "rs20": 10.1,
-   "atr_pct": 1.9,
-   "dev25": 1.2,
-   "stop": 2052,
-   "close": 2132.0,
-   "chg5d": -1.8,
-   "v_ratio": 0.8,
-   "turnover_m": 210,
-   "reasons_str": "Emerson+8.4%連動(β0.27) 未反応+5.0% / MA上昇配列 / パーフェクトオーダー / 増収+17% / PER7倍"
-  },
-  {
-   "code": "6463",
-   "name": "ＴＰＲ",
-   "sector": "機械",
-   "score": 35.1,
-   "stars": "★☆☆☆☆",
-   "linkage": 9.6,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 15.0,
-   "fund": 4.5,
-   "material": 4.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 1.1,
-   "rs20": 16.6,
-   "atr_pct": 2.5,
-   "dev25": 6.3,
-   "stop": 1449,
-   "close": 1525.0,
-   "chg5d": 3.7,
-   "v_ratio": 0.7,
-   "turnover_m": 220,
-   "reasons_str": "Emerson+8.4%連動(β0.31) 未反応+1.1% / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[自己株式の取得](2日前) / 開示[業績予想の修正](6日前) / PER11倍"
-  },
-  {
-   "code": "4733",
-   "name": "オービックビジネスコンサルタント",
-   "sector": "情報・通信業",
-   "score": 35.0,
-   "stars": "★☆☆☆☆",
-   "linkage": 15.7,
-   "theme": 0.0,
-   "supply": 4.3,
-   "etf": 0.0,
-   "tech": 9.0,
-   "fund": 6.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Microsoft",
-   "gap_pct": 8.6,
-   "rs20": 26.7,
-   "atr_pct": 4.9,
-   "dev25": 9.6,
-   "stop": 6983,
-   "close": 7746.0,
-   "chg5d": -8.1,
-   "v_ratio": 0.8,
-   "turnover_m": 2754,
-   "reasons_str": "Microsoft+4.9%連動(β0.31) 未反応+8.6% / 買い出来高優勢 / MA上昇配列"
-  },
-  {
-   "code": "9706",
-   "name": "日本空港ビルデング",
-   "sector": "不動産業",
-   "score": 35.0,
-   "stars": "★☆☆☆☆",
-   "linkage": 17.5,
-   "theme": 0.0,
-   "supply": 0.0,
-   "etf": 0.0,
-   "tech": 10.0,
-   "fund": 7.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Boeing",
-   "gap_pct": 3.8,
-   "rs20": 12.4,
-   "atr_pct": 2.6,
-   "dev25": 4.4,
-   "stop": 5385,
-   "close": 5680.0,
-   "chg5d": -1.8,
-   "v_ratio": 0.8,
-   "turnover_m": 1761,
-   "reasons_str": "Boeing+11.1%連動(β0.22) 未反応+3.8% / MA上昇配列 / パーフェクトオーダー / ROE18% / PER18倍"
-  },
-  {
-   "code": "5195",
-   "name": "バンドー化学",
-   "sector": "ゴム製品",
-   "score": 34.900000000000006,
-   "stars": "★☆☆☆☆",
-   "linkage": 9.8,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 15.0,
-   "fund": 5.5,
-   "material": 2.6,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 1.3,
-   "rs20": 16.9,
-   "atr_pct": 2.0,
-   "dev25": 6.3,
-   "stop": 2346,
-   "close": 2444.0,
-   "chg5d": 2.2,
-   "v_ratio": 1.0,
-   "turnover_m": 132,
-   "reasons_str": "Emerson+8.4%連動(β0.27) 未反応+1.3% / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[自己株式の取得](2日前) / PER10倍"
-  },
-  {
-   "code": "4443",
-   "name": "Ｓａｎｓａｎ",
-   "sector": "情報・通信業",
-   "score": 34.9,
-   "stars": "★☆☆☆☆",
-   "linkage": 19.4,
-   "theme": 0.0,
-   "supply": 1.0,
-   "etf": 0.0,
-   "tech": 7.5,
-   "fund": 7.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "NASDAQ",
-   "gap_pct": 9.4,
-   "rs20": 19.2,
-   "atr_pct": 4.8,
-   "dev25": 4.2,
-   "stop": 1704,
-   "close": 1884.0,
-   "chg5d": -8.1,
-   "v_ratio": 0.5,
-   "turnover_m": 3396,
-   "reasons_str": "NASDAQ+3.9%連動(β0.76) 未反応+9.4% / MA上昇配列 / パーフェクトオーダー / 増収+20% / ROE36%"
-  },
-  {
-   "code": "8541",
-   "name": "愛媛銀行",
-   "sector": "銀行業",
-   "score": 34.8,
-   "stars": "★☆☆☆☆",
-   "linkage": 13.5,
-   "theme": 0.0,
-   "supply": 5.3,
-   "etf": 0.0,
-   "tech": 9.5,
-   "fund": 6.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 2.4,
-   "rs20": 31.9,
-   "atr_pct": 5.4,
-   "dev25": 10.2,
-   "stop": 2431,
-   "close": 2725.0,
-   "chg5d": -2.4,
-   "v_ratio": 0.6,
-   "turnover_m": 1059,
-   "reasons_str": "Emerson+8.4%連動(β0.30) 未反応+2.4% / 買い出来高優勢 / 資金流入増 / MA上昇配列 / パーフェクトオーダー / PER15倍"
-  },
-  {
-   "code": "7745",
-   "name": "Ａ＆Ｄホロンホールディングス",
-   "sector": "精密機器",
-   "score": 34.7,
-   "stars": "★☆☆☆☆",
-   "linkage": 8.5,
-   "theme": 0.0,
-   "supply": 6.7,
-   "etf": 0.0,
-   "tech": 12.0,
-   "fund": 7.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Eaton",
-   "gap_pct": -9.0,
-   "rs20": 22.4,
-   "atr_pct": 4.0,
-   "dev25": 11.1,
-   "stop": 3001,
-   "close": 3260.0,
-   "chg5d": 15.2,
-   "v_ratio": 2.5,
-   "turnover_m": 361,
-   "reasons_str": "Eaton+7.7%連動(β0.44) / 出来高増2.5倍 / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / PER15倍"
-  },
-  {
-   "code": "5444",
-   "name": "大和工業",
-   "sector": "鉄鋼",
-   "score": 34.6,
-   "stars": "★☆☆☆☆",
-   "linkage": 15.0,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 12.0,
-   "fund": 4.0,
-   "material": 1.6,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 2.8,
-   "rs20": 15.0,
-   "atr_pct": 3.7,
-   "dev25": 3.9,
-   "stop": 12426,
-   "close": 13405.0,
-   "chg5d": -2.5,
-   "v_ratio": 0.9,
-   "turnover_m": 2105,
-   "reasons_str": "Emerson+8.4%連動(β0.31) 未反応+2.8% / MA上昇配列 / パーフェクトオーダー / 開示[業績予想の修正](5日前) / PER13倍"
-  },
-  {
-   "code": "3962",
-   "name": "チェンジホールディングス",
-   "sector": "情報・通信業",
-   "score": 34.599999999999994,
-   "stars": "★☆☆☆☆",
-   "linkage": 17.9,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 6.7,
-   "fund": 5.0,
-   "material": 3.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "S&P500",
-   "gap_pct": 5.3,
-   "rs20": 11.4,
-   "atr_pct": 2.6,
-   "dev25": 1.2,
-   "stop": 902,
-   "close": 951.0,
-   "chg5d": -0.9,
-   "v_ratio": 0.5,
-   "turnover_m": 274,
-   "reasons_str": "S&P500+3.1%連動(β0.75) 未反応+5.3% / MA上昇配列 / 開示[自己株式の取得](0日前) / ROE30% / PER10倍"
-  },
-  {
-   "code": "7309",
-   "name": "シマノ",
-   "sector": "輸送用機器",
-   "score": 34.5,
-   "stars": "★☆☆☆☆",
-   "linkage": 16.4,
-   "theme": 0.0,
-   "supply": 3.0,
-   "etf": 0.0,
-   "tech": 10.0,
-   "fund": 2.5,
-   "material": 2.6,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "S&P500",
-   "gap_pct": 9.0,
-   "rs20": 20.2,
-   "atr_pct": 4.2,
-   "dev25": 5.5,
-   "stop": 17826,
-   "close": 19450.0,
-   "chg5d": -7.7,
-   "v_ratio": 0.8,
-   "turnover_m": 8078,
-   "reasons_str": "S&P500+3.1%連動(β0.57) 未反応+9.0% / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](2日前)"
-  },
-  {
-   "code": "5411",
-   "name": "ＪＦＥホールディングス",
-   "sector": "鉄鋼",
-   "score": 34.400000000000006,
-   "stars": "★☆☆☆☆",
-   "linkage": 18.1,
-   "theme": 0.0,
-   "supply": 5.3,
-   "etf": 0.0,
-   "tech": 8.0,
-   "fund": 3.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 3.9,
-   "rs20": 19.4,
-   "atr_pct": 2.8,
-   "dev25": 7.4,
-   "stop": 1736,
-   "close": 1838.5,
-   "chg5d": -1.6,
-   "v_ratio": 2.6,
-   "turnover_m": 10352,
-   "reasons_str": "Emerson+8.4%連動(β0.30) 未反応+3.9% / 出来高増2.6倍 / MA上昇配列 / PER17倍"
-  },
-  {
-   "code": "5480",
-   "name": "日本冶金工業",
-   "sector": "鉄鋼",
-   "score": 34.2,
-   "stars": "★☆☆☆☆",
-   "linkage": 19.5,
-   "theme": 0.0,
-   "supply": 1.0,
-   "etf": 0.0,
-   "tech": 8.2,
-   "fund": 3.0,
-   "material": 2.5,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 4.1,
-   "rs20": 9.2,
-   "atr_pct": 2.3,
-   "dev25": 0.2,
-   "stop": 4756,
-   "close": 4985.0,
-   "chg5d": -1.5,
-   "v_ratio": 1.1,
-   "turnover_m": 298,
-   "reasons_str": "Emerson+8.4%連動(β0.36) 未反応+4.1% / MA上昇配列 / パーフェクトオーダー / 開示[業績予想の修正](0日前) / PER10倍"
-  },
-  {
-   "code": "6250",
-   "name": "やまびこ",
-   "sector": "機械",
-   "score": 34.2,
-   "stars": "★☆☆☆☆",
-   "linkage": 7.5,
-   "theme": 0.0,
-   "supply": 3.0,
-   "etf": 0.0,
-   "tech": 15.0,
-   "fund": 7.0,
-   "material": 1.7,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": -6.5,
-   "rs20": 15.4,
-   "atr_pct": 3.2,
-   "dev25": 8.2,
-   "stop": 3886,
-   "close": 4155.0,
-   "chg5d": 9.3,
-   "v_ratio": 1.3,
-   "turnover_m": 349,
-   "reasons_str": "Emerson+8.4%連動(β0.36) / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[子会社化](2日前) / 増収+61% / PER12倍"
-  },
-  {
-   "code": "5406",
-   "name": "神戸製鋼所",
-   "sector": "鉄鋼",
-   "score": 34.0,
-   "stars": "★☆☆☆☆",
-   "linkage": 18.6,
-   "theme": 0.0,
-   "supply": 4.7,
-   "etf": 0.0,
-   "tech": 7.7,
-   "fund": 3.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 7.4,
-   "rs20": 11.6,
-   "atr_pct": 2.7,
-   "dev25": 0.7,
-   "stop": 1865,
-   "close": 1972.0,
-   "chg5d": -4.8,
-   "v_ratio": 3.7,
-   "turnover_m": 4727,
-   "reasons_str": "Emerson+8.4%連動(β0.31) 未反応+7.4% / 出来高急増3.7倍 / MA上昇配列 / PER8倍"
-  },
-  {
-   "code": "5410",
-   "name": "合同製鐵",
-   "sector": "鉄鋼",
-   "score": 33.9,
-   "stars": "★☆☆☆☆",
-   "linkage": 18.4,
-   "theme": 0.0,
-   "supply": 3.0,
-   "etf": 0.0,
-   "tech": 6.0,
-   "fund": 3.0,
-   "material": 3.5,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 4.6,
-   "rs20": 13.3,
-   "atr_pct": 2.3,
-   "dev25": 3.4,
-   "stop": 2704,
-   "close": 2833.0,
-   "chg5d": -3.9,
-   "v_ratio": 1.3,
-   "turnover_m": 274,
-   "reasons_str": "Emerson+8.4%連動(β0.30) 未反応+4.6% / 開示[業績予想の修正](5日前) / 開示[自己株式の取得](5日前) / PER5倍"
-  },
-  {
-   "code": "8084",
-   "name": "ＲＹＯＤＥＮ",
-   "sector": "卸売業",
-   "score": 33.8,
-   "stars": "★☆☆☆☆",
-   "linkage": 3.9,
-   "theme": 0.0,
-   "supply": 5.3,
-   "etf": 0.0,
-   "tech": 13.7,
-   "fund": 6.0,
-   "material": 4.9,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "DuPont",
-   "gap_pct": -8.5,
-   "rs20": 25.7,
-   "atr_pct": 3.5,
-   "dev25": 15.0,
-   "stop": 4322,
-   "close": 4645.0,
-   "chg5d": 12.1,
-   "v_ratio": 1.4,
-   "turnover_m": 254,
-   "reasons_str": "DuPont+7.6%連動(β0.21) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[株式分割](5日前) / 開示[自己株式の取得](5日前) / 増収+24% / PER19倍"
-  },
-  {
-   "code": "3994",
-   "name": "マネーフォワード",
-   "sector": "情報・通信業",
-   "score": 33.599999999999994,
-   "stars": "★☆☆☆☆",
-   "linkage": 20.4,
-   "theme": 0.0,
-   "supply": 3.0,
-   "etf": 0.0,
-   "tech": 6.2,
-   "fund": 4.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "S&P500",
-   "gap_pct": 7.1,
-   "rs20": 14.7,
-   "atr_pct": 7.4,
-   "dev25": 1.2,
-   "stop": 4398,
-   "close": 5168.0,
-   "chg5d": -13.1,
-   "v_ratio": 0.4,
-   "turnover_m": 3089,
-   "reasons_str": "S&P500+3.1%連動(β1.08) 未反応+7.1% / MA上昇配列 / パーフェクトオーダー / 増収+24%"
-  },
-  {
-   "code": "7888",
-   "name": "三光合成",
-   "sector": "化学",
-   "score": 33.4,
-   "stars": "★☆☆☆☆",
-   "linkage": 19.7,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 7.7,
-   "fund": 4.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 5.4,
-   "rs20": 29.5,
-   "atr_pct": 3.4,
-   "dev25": 7.2,
-   "stop": 867,
-   "close": 930.0,
-   "chg5d": -1.6,
-   "v_ratio": 0.5,
-   "turnover_m": 209,
-   "reasons_str": "Emerson+8.4%連動(β0.37) 未反応+5.4% / 資金流入増 / MA上昇配列"
-  },
-  {
-   "code": "7242",
-   "name": "カヤバ",
-   "sector": "輸送用機器",
-   "score": 33.3,
-   "stars": "★☆☆☆☆",
-   "linkage": 16.8,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 9.0,
-   "fund": 5.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 3.7,
-   "rs20": 14.3,
-   "atr_pct": 2.5,
-   "dev25": 4.0,
-   "stop": 4214,
-   "close": 4435.0,
-   "chg5d": -2.6,
-   "v_ratio": 0.9,
-   "turnover_m": 430,
-   "reasons_str": "Emerson+8.4%連動(β0.27) 未反応+3.7% / MA上昇配列 / PER7倍"
-  },
-  {
-   "code": "6302",
-   "name": "住友重機械工業",
-   "sector": "機械",
-   "score": 32.400000000000006,
-   "stars": "★☆☆☆☆",
-   "linkage": 8.3,
-   "theme": 0.0,
-   "supply": 5.0,
-   "etf": 0.0,
-   "tech": 12.0,
-   "fund": 4.5,
-   "material": 2.6,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": -13.9,
-   "rs20": 20.3,
-   "atr_pct": 4.3,
-   "dev25": 13.4,
-   "stop": 5476,
-   "close": 5997.0,
-   "chg5d": 16.7,
-   "v_ratio": 1.9,
-   "turnover_m": 5230,
-   "reasons_str": "Emerson+8.4%連動(β0.40) / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](2日前) / PER23倍"
-  },
-  {
-   "code": "8150",
-   "name": "三信電気",
-   "sector": "卸売業",
-   "score": 32.0,
-   "stars": "★☆☆☆☆",
-   "linkage": 4.3,
-   "theme": 0.0,
-   "supply": 6.7,
-   "etf": 0.0,
-   "tech": 13.0,
-   "fund": 4.0,
-   "material": 4.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "DuPont",
-   "gap_pct": -7.0,
-   "rs20": 20.6,
-   "atr_pct": 2.6,
-   "dev25": 9.9,
-   "stop": 2993,
-   "close": 3155.0,
-   "chg5d": 10.1,
-   "v_ratio": 2.7,
-   "turnover_m": 150,
-   "reasons_str": "DuPont+7.6%連動(β0.23) / 出来高増2.7倍 / 買い出来高優勢 / MA上昇配列 / 52週高値ブレイク! / 開示[上方修正](0日前) / PER8倍"
-  },
-  {
-   "code": "8159",
-   "name": "立花エレテック",
-   "sector": "卸売業",
-   "score": 31.799999999999997,
-   "stars": "★☆☆☆☆",
-   "linkage": 4.6,
-   "theme": 0.0,
-   "supply": 8.0,
-   "etf": 0.0,
-   "tech": 13.7,
-   "fund": 4.5,
-   "material": 4.0,
-   "penalty": -3.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "DuPont",
-   "gap_pct": -15.7,
-   "rs20": 29.8,
-   "atr_pct": 3.6,
-   "dev25": 17.8,
-   "stop": 3700,
-   "close": 3985.0,
-   "chg5d": 20.4,
-   "v_ratio": 3.0,
-   "turnover_m": 152,
-   "reasons_str": "DuPont+7.6%連動(β0.24) / 出来高急増3.0倍 / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 伸びすぎ注意(25MA+18%) / 開示[上方修正](0日前) / PER12倍"
-  },
-  {
-   "code": "8037",
-   "name": "カメイ",
-   "sector": "卸売業",
-   "score": 31.3,
-   "stars": "★☆☆☆☆",
-   "linkage": 16.3,
-   "theme": 0.0,
-   "supply": 0.0,
-   "etf": 0.0,
-   "tech": 12.0,
-   "fund": 3.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 3.5,
-   "rs20": 14.1,
-   "atr_pct": 2.3,
-   "dev25": 4.0,
-   "stop": 3666,
-   "close": 3845.0,
-   "chg5d": 1.5,
-   "v_ratio": 1.1,
-   "turnover_m": 183,
-   "reasons_str": "Emerson+8.4%連動(β0.27) 未反応+3.5% / MA上昇配列 / パーフェクトオーダー / PER10倍"
-  },
-  {
-   "code": "8088",
-   "name": "岩谷産業",
-   "sector": "卸売業",
-   "score": 31.2,
-   "stars": "★☆☆☆☆",
-   "linkage": 15.5,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 9.7,
-   "fund": 4.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "DuPont",
-   "gap_pct": 3.5,
-   "rs20": 7.6,
-   "atr_pct": 2.5,
-   "dev25": 1.4,
-   "stop": 1920,
-   "close": 2020.0,
-   "chg5d": -1.2,
-   "v_ratio": 0.8,
-   "turnover_m": 1565,
-   "reasons_str": "DuPont+7.6%連動(β0.27) 未反応+3.5% / MA上昇配列 / パーフェクトオーダー / PER10倍"
-  },
-  {
-   "code": "6125",
-   "name": "岡本工作機械製作所",
-   "sector": "機械",
-   "score": 29.3,
-   "stars": "★☆☆☆☆",
-   "linkage": 10.4,
-   "theme": 0.0,
-   "supply": 7.7,
-   "etf": 0.0,
-   "tech": 9.7,
-   "fund": 1.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Coherent",
-   "gap_pct": -24.6,
-   "rs20": 17.4,
-   "atr_pct": 5.9,
-   "dev25": 10.8,
-   "stop": 5164,
-   "close": 5860.0,
-   "chg5d": 30.4,
-   "v_ratio": 2.5,
-   "turnover_m": 387,
-   "reasons_str": "Coherent+24.9%連動(β0.17) / 出来高増2.5倍 / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー"
-  },
-  {
-   "code": "5946",
-   "name": "長府製作所",
-   "sector": "金属製品",
-   "score": 28.8,
-   "stars": "★☆☆☆☆",
-   "linkage": 14.5,
-   "theme": 0.0,
-   "supply": 4.3,
-   "etf": 0.0,
-   "tech": 8.5,
-   "fund": 1.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "S&P500",
-   "gap_pct": 4.8,
-   "rs20": 10.8,
-   "atr_pct": 2.0,
-   "dev25": 1.0,
-   "stop": 1970,
-   "close": 2053.0,
-   "chg5d": -3.3,
-   "v_ratio": 0.5,
-   "turnover_m": 241,
-   "reasons_str": "S&P500+3.1%連動(β0.32) 未反応+4.8% / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー"
-  },
-  {
-   "code": "5449",
-   "name": "大阪製鐵",
-   "sector": "鉄鋼",
-   "score": 28.7,
-   "stars": "★☆☆☆☆",
-   "linkage": 18.8,
-   "theme": 0.0,
-   "supply": 3.0,
-   "etf": 0.0,
-   "tech": 5.5,
-   "fund": 0.0,
-   "material": 1.4,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "DuPont",
-   "gap_pct": 5.6,
-   "rs20": 17.1,
-   "atr_pct": 5.1,
-   "dev25": 7.1,
-   "stop": 2455,
-   "close": 2732.0,
-   "chg5d": -5.0,
-   "v_ratio": 1.5,
-   "turnover_m": 111,
-   "reasons_str": "DuPont+7.6%連動(β0.36) 未反応+5.6% / MA上昇配列 / 開示[業績予想の修正](6日前)"
-  },
-  {
-   "code": "5949",
-   "name": "ユニプレス",
-   "sector": "輸送用機器",
-   "score": 28.6,
-   "stars": "★☆☆☆☆",
-   "linkage": 17.6,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 9.0,
-   "fund": 0.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "DuPont",
-   "gap_pct": 4.0,
-   "rs20": 11.4,
-   "atr_pct": 2.3,
-   "dev25": 2.8,
-   "stop": 1258,
-   "close": 1318.0,
-   "chg5d": -1.6,
-   "v_ratio": 1.4,
-   "turnover_m": 180,
-   "reasons_str": "DuPont+7.6%連動(β0.30) 未反応+4.0% / MA上昇配列"
-  },
-  {
-   "code": "9699",
-   "name": "ニシオホールディングス",
-   "sector": "サービス業",
-   "score": 27.1,
-   "stars": "★☆☆☆☆",
-   "linkage": 13.5,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 9.0,
-   "fund": 0.0,
-   "material": 2.6,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 2.7,
-   "rs20": 17.0,
-   "atr_pct": 2.7,
-   "dev25": 5.8,
-   "stop": 4151,
-   "close": 4385.0,
-   "chg5d": -0.1,
-   "v_ratio": 1.2,
-   "turnover_m": 238,
-   "reasons_str": "Emerson+8.4%連動(β0.25) 未反応+2.7% / MA上昇配列 / 開示[自己株式取得](2日前)"
-  },
-  {
-   "code": "6103",
-   "name": "オークマ",
-   "sector": "機械",
-   "score": 26.9,
-   "stars": "★☆☆☆☆",
-   "linkage": 8.9,
-   "theme": 0.0,
-   "supply": 3.0,
-   "etf": 0.0,
-   "tech": 15.0,
-   "fund": 0.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": -6.0,
-   "rs20": 17.3,
+   "gap_pct": -5.5,
+   "rs20": 7.4,
    "atr_pct": 3.8,
-   "dev25": 7.4,
-   "stop": 4874,
-   "close": 5280.0,
-   "chg5d": 10.8,
-   "v_ratio": 1.3,
-   "turnover_m": 2533,
-   "reasons_str": "Emerson+8.4%連動(β0.42) / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク!"
-  },
-  {
-   "code": "9449",
-   "name": "ＧＭＯインターネットグループ",
-   "sector": "情報・通信業",
-   "score": 26.8,
-   "stars": "★☆☆☆☆",
-   "linkage": 11.8,
-   "theme": 0.0,
-   "supply": 1.0,
-   "etf": 0.0,
-   "tech": 11.0,
-   "fund": 0.0,
-   "material": 3.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "S&P500",
-   "gap_pct": 2.4,
-   "rs20": 22.1,
-   "atr_pct": 3.3,
-   "dev25": 5.9,
-   "stop": 3910,
-   "close": 4184.0,
-   "chg5d": -1.7,
-   "v_ratio": 0.6,
-   "turnover_m": 2222,
-   "reasons_str": "S&P500+3.1%連動(β0.57) 未反応+2.4% / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[自己株式の取得](0日前)"
-  },
-  {
-   "code": "5401",
-   "name": "日本製鉄",
-   "sector": "鉄鋼",
-   "score": 26.8,
-   "stars": "★☆☆☆☆",
-   "linkage": 8.0,
-   "theme": 0.0,
-   "supply": 6.3,
-   "etf": 0.0,
-   "tech": 10.2,
-   "fund": 0.0,
-   "material": 2.3,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 0.6,
-   "rs20": 28.2,
-   "atr_pct": 2.7,
-   "dev25": 12.5,
-   "stop": 636,
-   "close": 672.0,
-   "chg5d": -0.1,
-   "v_ratio": 1.9,
-   "turnover_m": 28513,
-   "reasons_str": "Emerson+8.4%連動(β0.29) 未反応+0.6% / 買い出来高優勢 / MA上昇配列 / 52週高値目前 / 開示[業績予想の修正](1日前)"
-  },
-  {
-   "code": "5233",
-   "name": "太平洋セメント",
-   "sector": "ガラス・土石製品",
-   "score": 26.8,
-   "stars": "★☆☆☆☆",
-   "linkage": 18.3,
-   "theme": 0.0,
-   "supply": 0.0,
-   "etf": 0.0,
-   "tech": 8.5,
-   "fund": 0.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 4.5,
-   "rs20": 8.3,
-   "atr_pct": 3.0,
-   "dev25": 1.0,
-   "stop": 3844,
-   "close": 4090.0,
-   "chg5d": -3.2,
-   "v_ratio": 0.7,
-   "turnover_m": 2388,
-   "reasons_str": "Emerson+8.4%連動(β0.30) 未反応+4.5% / MA上昇配列 / パーフェクトオーダー"
+   "dev25": 4.1,
+   "stop": 2666,
+   "close": 2885.0,
+   "chg5d": 4.4,
+   "v_ratio": 0.2,
+   "turnover_m": 34311,
+   "reasons_str": "S&P500+1.4%連動(β0.72) / 防衛(+2.3%) / PER22倍"
   },
   {
    "code": "6861",
    "name": "キーエンス",
    "sector": "電気機器",
-   "score": 26.8,
+   "score": 25.0,
    "stars": "★☆☆☆☆",
-   "linkage": 7.5,
+   "linkage": 6.0,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 12.0,
+   "fund": 5.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": -1.6,
+   "rs20": 13.2,
+   "atr_pct": 4.0,
+   "dev25": 8.5,
+   "stop": 77140,
+   "close": 83800.0,
+   "chg5d": 3.3,
+   "v_ratio": 0.3,
+   "turnover_m": 59955,
+   "reasons_str": "Skyworks+9.1%連動(β0.26) / MA上昇配列 / パーフェクトオーダー / 増収+33%"
+  },
+  {
+   "code": "3962",
+   "name": "チェンジホールディングス",
+   "sector": "情報・通信業",
+   "score": 24.700000000000003,
+   "stars": "★☆☆☆☆",
+   "linkage": 8.4,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 6.7,
+   "fund": 5.0,
+   "material": 2.6,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "S&P500",
+   "gap_pct": 1.9,
+   "rs20": 6.3,
+   "atr_pct": 2.6,
+   "dev25": 1.0,
+   "stop": 905,
+   "close": 954.0,
+   "chg5d": -0.6,
+   "v_ratio": 0.1,
+   "turnover_m": 271,
+   "reasons_str": "S&P500+1.4%連動(β0.75) 未反応+1.9% / MA上昇配列 / 開示[自己株式の取得](2日前) / ROE30% / PER10倍"
+  },
+  {
+   "code": "4203",
+   "name": "住友ベークライト",
+   "sector": "化学",
+   "score": 24.6,
+   "stars": "★☆☆☆☆",
+   "linkage": 5.3,
+   "theme": 0.0,
+   "supply": 3.3,
+   "etf": 0.0,
+   "tech": 12.0,
+   "fund": 4.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": -2.5,
+   "rs20": 8.4,
+   "atr_pct": 5.3,
+   "dev25": 7.0,
+   "stop": 6764,
+   "close": 7572.0,
+   "chg5d": 16.3,
+   "v_ratio": 0.1,
+   "turnover_m": 5109,
+   "reasons_str": "Coherent+16.0%連動(β0.13) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / PER24倍"
+  },
+  {
+   "code": "6971",
+   "name": "京セラ",
+   "sector": "電気機器",
+   "score": 24.5,
+   "stars": "★☆☆☆☆",
+   "linkage": 4.6,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 12.0,
+   "fund": 4.0,
+   "material": 3.9,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": -5.8,
+   "rs20": 4.7,
+   "atr_pct": 4.0,
+   "dev25": 2.9,
+   "stop": 3507,
+   "close": 3813.0,
+   "chg5d": 3.3,
+   "v_ratio": 0.1,
+   "turnover_m": 22040,
+   "reasons_str": "Skyworks+9.1%連動(β0.20) / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](1日前) / 開示[業績予想の修正](8日前)"
+  },
+  {
+   "code": "6996",
+   "name": "ニチコン",
+   "sector": "電気機器",
+   "score": 24.3,
+   "stars": "★☆☆☆☆",
+   "linkage": 18.6,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 3.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 4.1,
+   "rs20": -14.7,
+   "atr_pct": 8.0,
+   "dev25": -9.2,
+   "stop": 2424,
+   "close": 2887.0,
+   "chg5d": -1.4,
+   "v_ratio": 0.2,
+   "turnover_m": 3952,
+   "reasons_str": "Coherent+16.0%連動(β0.16) 未反応+4.1%"
+  },
+  {
+   "code": "3374",
+   "name": "内外テック",
+   "sector": "卸売業",
+   "score": 24.1,
+   "stars": "★☆☆☆☆",
+   "linkage": 5.6,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 12.0,
+   "fund": 4.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": -9.4,
+   "rs20": 7.9,
+   "atr_pct": 5.2,
+   "dev25": 7.1,
+   "stop": 3176,
+   "close": 3545.0,
+   "chg5d": 14.0,
+   "v_ratio": 0.2,
+   "turnover_m": 140,
+   "reasons_str": "Skyworks+9.1%連動(β0.25) / MA上昇配列 / パーフェクトオーダー / PER13倍"
+  },
+  {
+   "code": "6324",
+   "name": "ハーモニック・ドライブ・システムズ",
+   "sector": "機械",
+   "score": 23.8,
+   "stars": "★☆☆☆☆",
+   "linkage": 3.4,
+   "theme": 14.9,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 4.0,
+   "fund": 1.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "S&P500",
+   "gap_pct": -8.0,
+   "rs20": -5.5,
+   "atr_pct": 8.0,
+   "dev25": -1.4,
+   "stop": 5810,
+   "close": 6920.0,
+   "chg5d": 12.7,
+   "v_ratio": 0.2,
+   "turnover_m": 10750,
+   "reasons_str": "S&P500+1.4%連動(β0.93) / ロボット(+4.4%)"
+  },
+  {
+   "code": "6976",
+   "name": "太陽誘電",
+   "sector": "電気機器",
+   "score": 23.200000000000003,
+   "stars": "★☆☆☆☆",
+   "linkage": 21.1,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 0.0,
+   "fund": 0.0,
+   "material": 2.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": 7.4,
+   "rs20": -32.6,
+   "atr_pct": 12.8,
+   "dev25": -22.6,
+   "stop": 7092,
+   "close": 9544.0,
+   "chg5d": -6.7,
+   "v_ratio": 0.3,
+   "turnover_m": 253587,
+   "reasons_str": "Skyworks+9.1%連動(β0.40) 未反応+7.4% / 開示[業績予想の修正](2日前)"
+  },
+  {
+   "code": "9310",
+   "name": "日本トランスシティ",
+   "sector": "倉庫・運輸関連業",
+   "score": 23.2,
+   "stars": "★☆☆☆☆",
+   "linkage": 0.0,
    "theme": 0.0,
    "supply": 4.3,
    "etf": 0.0,
-   "tech": 15.0,
-   "fund": 0.0,
-   "material": 0.0,
+   "tech": 13.5,
+   "fund": 3.0,
+   "material": 2.4,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": -7.6,
-   "rs20": 20.1,
-   "atr_pct": 4.1,
-   "dev25": 13.5,
-   "stop": 80266,
-   "close": 87380.0,
-   "chg5d": 12.6,
-   "v_ratio": 1.4,
-   "turnover_m": 59630,
-   "reasons_str": "Emerson+8.4%連動(β0.36) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク!"
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": 18.8,
+   "atr_pct": 3.0,
+   "dev25": 8.7,
+   "stop": 1316,
+   "close": 1400.0,
+   "chg5d": 3.7,
+   "v_ratio": 0.2,
+   "turnover_m": 155,
+   "reasons_str": "買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[自己株式の取得](3日前) / PER13倍"
   },
   {
-   "code": "6941",
-   "name": "山一電機",
+   "code": "6707",
+   "name": "サンケン電気",
    "sector": "電気機器",
-   "score": 26.8,
+   "score": 21.9,
    "stars": "★☆☆☆☆",
-   "linkage": 14.1,
+   "linkage": 21.9,
    "theme": 0.0,
-   "supply": 6.7,
+   "supply": 0.0,
    "etf": 0.0,
-   "tech": 6.0,
+   "tech": 0.0,
    "fund": 0.0,
    "material": 0.0,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Coherent",
-   "gap_pct": -28.3,
-   "rs20": 26.6,
-   "atr_pct": 7.6,
-   "dev25": 14.9,
-   "stop": 8703,
-   "close": 10260.0,
-   "chg5d": 38.1,
-   "v_ratio": 2.2,
-   "turnover_m": 2811,
-   "reasons_str": "Coherent+24.9%連動(β0.23) / 出来高増2.2倍 / 買い出来高優勢"
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": 5.4,
+   "rs20": -15.5,
+   "atr_pct": 5.6,
+   "dev25": -10.4,
+   "stop": 7484,
+   "close": 8420.0,
+   "chg5d": 1.0,
+   "v_ratio": 0.1,
+   "turnover_m": 1213,
+   "reasons_str": "Skyworks+9.1%連動(β0.44) 未反応+5.4%"
   },
   {
-   "code": "6701",
-   "name": "日本電気",
-   "sector": "電気機器",
-   "score": 26.8,
-   "stars": "★☆☆☆☆",
-   "linkage": 16.8,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 8.0,
-   "fund": 0.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "S&P500",
-   "gap_pct": 9.3,
-   "rs20": 14.8,
-   "atr_pct": 4.4,
-   "dev25": 4.8,
-   "stop": 4224,
-   "close": 4631.0,
-   "chg5d": 0.4,
-   "v_ratio": 0.8,
-   "turnover_m": 32849,
-   "reasons_str": "S&P500+3.1%連動(β0.61) 未反応+9.3% / MA上昇配列"
-  },
-  {
-   "code": "5975",
-   "name": "東プレ",
-   "sector": "金属製品",
-   "score": 26.7,
-   "stars": "★☆☆☆☆",
-   "linkage": 11.7,
-   "theme": 0.0,
-   "supply": 3.0,
-   "etf": 0.0,
-   "tech": 12.0,
-   "fund": 0.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 1.5,
-   "rs20": 13.1,
-   "atr_pct": 2.6,
-   "dev25": 4.8,
-   "stop": 2661,
-   "close": 2809.0,
-   "chg5d": 1.6,
-   "v_ratio": 1.5,
-   "turnover_m": 202,
-   "reasons_str": "Emerson+8.4%連動(β0.34) 未反応+1.5% / MA上昇配列 / パーフェクトオーダー"
-  },
-  {
-   "code": "6432",
-   "name": "竹内製作所",
+   "code": "6481",
+   "name": "ＴＨＫ",
    "sector": "機械",
-   "score": 26.5,
+   "score": 21.200000000000003,
    "stars": "★☆☆☆☆",
-   "linkage": 9.5,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 15.0,
-   "fund": 0.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": -3.8,
-   "rs20": 17.1,
-   "atr_pct": 4.0,
-   "dev25": 7.6,
-   "stop": 7303,
-   "close": 7930.0,
-   "chg5d": 5.9,
-   "v_ratio": 1.1,
-   "turnover_m": 2646,
-   "reasons_str": "Emerson+8.4%連動(β0.45) / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク!"
-  },
-  {
-   "code": "4290",
-   "name": "プレステージ・インターナショナル",
-   "sector": "サービス業",
-   "score": 26.5,
-   "stars": "★☆☆☆☆",
-   "linkage": 15.5,
+   "linkage": 7.1,
    "theme": 0.0,
    "supply": 1.0,
    "etf": 0.0,
-   "tech": 8.7,
-   "fund": 0.0,
-   "material": 1.3,
+   "tech": 10.0,
+   "fund": 1.0,
+   "material": 2.1,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "S&P500",
-   "gap_pct": 7.0,
-   "rs20": 12.7,
-   "atr_pct": 2.5,
-   "dev25": 2.3,
-   "stop": 655,
-   "close": 689.0,
-   "chg5d": -5.9,
-   "v_ratio": 1.0,
-   "turnover_m": 398,
-   "reasons_str": "S&P500+3.1%連動(β0.45) 未反応+7.0% / MA上昇配列 / 開示[自己株式取得](8日前)"
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": -5.2,
+   "rs20": 0.9,
+   "atr_pct": 6.0,
+   "dev25": 3.2,
+   "stop": 6412,
+   "close": 7294.0,
+   "chg5d": 8.9,
+   "v_ratio": 0.3,
+   "turnover_m": 9616,
+   "reasons_str": "Coherent+16.0%連動(β0.18) / MA上昇配列 / パーフェクトオーダー / 開示[業績予想の修正](2日前)"
   },
   {
-   "code": "5408",
-   "name": "中山製鋼所",
-   "sector": "鉄鋼",
-   "score": 26.4,
+   "code": "9348",
+   "name": "ｉｓｐａｃｅ",
+   "sector": "サービス業",
+   "score": 19.7,
    "stars": "★☆☆☆☆",
-   "linkage": 13.4,
-   "theme": 0.0,
-   "supply": 3.0,
+   "linkage": 0.0,
+   "theme": 15.7,
+   "supply": 0.0,
    "etf": 0.0,
-   "tech": 10.0,
+   "tech": 4.0,
    "fund": 0.0,
    "material": 0.0,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 2.4,
-   "rs20": 10.3,
-   "atr_pct": 2.0,
-   "dev25": 3.4,
-   "stop": 630,
-   "close": 657.0,
-   "chg5d": 0.0,
-   "v_ratio": 1.3,
-   "turnover_m": 126,
-   "reasons_str": "Emerson+8.4%連動(β0.30) 未反応+2.4% / MA上昇配列 / パーフェクトオーダー"
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": -15.3,
+   "atr_pct": 2.4,
+   "dev25": -1.9,
+   "stop": 398,
+   "close": 418.0,
+   "chg5d": 3.2,
+   "v_ratio": 0.1,
+   "turnover_m": 792,
+   "reasons_str": "宇宙(+4.8%)"
+  },
+  {
+   "code": "6103",
+   "name": "オークマ",
+   "sector": "機械",
+   "score": 19.5,
+   "stars": "★☆☆☆☆",
+   "linkage": 5.0,
+   "theme": 0.0,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 13.5,
+   "fund": 0.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": -11.1,
+   "rs20": 17.2,
+   "atr_pct": 3.8,
+   "dev25": 11.1,
+   "stop": 5115,
+   "close": 5530.0,
+   "chg5d": 11.8,
+   "v_ratio": 0.3,
+   "turnover_m": 2691,
+   "reasons_str": "Skyworks+9.1%連動(β0.22) / MA上昇配列 / パーフェクトオーダー / 52週高値目前"
+  },
+  {
+   "code": "6273",
+   "name": "ＳＭＣ",
+   "sector": "機械",
+   "score": 19.400000000000002,
+   "stars": "★☆☆☆☆",
+   "linkage": 6.3,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 11.0,
+   "fund": 0.0,
+   "material": 2.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": -1.3,
+   "rs20": 4.7,
+   "atr_pct": 4.2,
+   "dev25": 2.3,
+   "stop": 67491,
+   "close": 73700.0,
+   "chg5d": 4.6,
+   "v_ratio": 0.3,
+   "turnover_m": 19087,
+   "reasons_str": "Skyworks+9.1%連動(β0.28) / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](4日前)"
+  },
+  {
+   "code": "6302",
+   "name": "住友重機械工業",
+   "sector": "機械",
+   "score": 19.400000000000002,
+   "stars": "★☆☆☆☆",
+   "linkage": 3.3,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 12.0,
+   "fund": 0.0,
+   "material": 2.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SOX指数",
+   "gap_pct": -9.8,
+   "rs20": 16.6,
+   "atr_pct": 4.2,
+   "dev25": 10.0,
+   "stop": 5381,
+   "close": 5872.0,
+   "chg5d": 12.1,
+   "v_ratio": 0.2,
+   "turnover_m": 5260,
+   "reasons_str": "SOX指数+5.4%連動(β0.24) / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](4日前)"
   },
   {
    "code": "6361",
    "name": "荏原製作所",
    "sector": "機械",
-   "score": 26.4,
+   "score": 19.400000000000002,
    "stars": "★☆☆☆☆",
-   "linkage": 13.1,
+   "linkage": 11.3,
+   "theme": 0.0,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 5.0,
+   "fund": 0.0,
+   "material": 2.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 0.9,
+   "rs20": -0.5,
+   "atr_pct": 6.1,
+   "dev25": -0.5,
+   "stop": 4996,
+   "close": 5690.0,
+   "chg5d": 2.4,
+   "v_ratio": 0.1,
+   "turnover_m": 20117,
+   "reasons_str": "Coherent+16.0%連動(β0.21) 未反応+0.9% / 開示[自己株式の取得](4日前)"
+  },
+  {
+   "code": "5976",
+   "name": "高周波熱錬",
+   "sector": "金属製品",
+   "score": 19.4,
+   "stars": "★☆☆☆☆",
+   "linkage": 0.0,
+   "theme": 0.0,
+   "supply": 5.3,
+   "etf": 0.0,
+   "tech": 12.2,
+   "fund": 0.0,
+   "material": 1.9,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": 12.9,
+   "atr_pct": 1.8,
+   "dev25": 6.6,
+   "stop": 1394,
+   "close": 1445.0,
+   "chg5d": 4.7,
+   "v_ratio": 1.6,
+   "turnover_m": 100,
+   "reasons_str": "買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[設備投資](1日前)"
+  },
+  {
+   "code": "4901",
+   "name": "富士フイルムホールディングス",
+   "sector": "化学",
+   "score": 19.3,
+   "stars": "★☆☆☆☆",
+   "linkage": 16.3,
    "theme": 0.0,
    "supply": 2.0,
    "etf": 0.0,
-   "tech": 8.7,
+   "tech": 1.0,
    "fund": 0.0,
-   "material": 2.6,
+   "material": 0.0,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Coherent",
-   "gap_pct": -16.3,
-   "rs20": 9.9,
-   "atr_pct": 6.5,
-   "dev25": 4.7,
-   "stop": 5237,
-   "close": 6019.0,
-   "chg5d": 23.6,
-   "v_ratio": 1.1,
-   "turnover_m": 21291,
-   "reasons_str": "Coherent+24.9%連動(β0.21) / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](2日前)"
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": 17.5,
+   "rs20": -8.3,
+   "atr_pct": 4.4,
+   "dev25": -13.4,
+   "stop": 2902,
+   "close": 3180.0,
+   "chg5d": -15.7,
+   "v_ratio": 1.9,
+   "turnover_m": 14928,
+   "reasons_str": "Skyworks+9.1%連動(β0.19) 未反応+17.5%"
   },
   {
-   "code": "7267",
-   "name": "本田技研工業",
-   "sector": "輸送用機器",
-   "score": 26.4,
+   "code": "4443",
+   "name": "Ｓａｎｓａｎ",
+   "sector": "情報・通信業",
+   "score": 19.3,
    "stars": "★☆☆☆☆",
-   "linkage": 14.4,
+   "linkage": 11.8,
    "theme": 0.0,
-   "supply": 2.0,
+   "supply": 0.0,
    "etf": 0.0,
    "tech": 7.5,
    "fund": 0.0,
-   "material": 2.5,
+   "material": 0.0,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
+   "signal": "",
    "driver": "S&P500",
-   "gap_pct": 3.5,
-   "rs20": 12.5,
-   "atr_pct": 3.0,
-   "dev25": 4.8,
-   "stop": 1536,
-   "close": 1636.0,
-   "chg5d": -3.1,
-   "v_ratio": 1.3,
-   "turnover_m": 26419,
-   "reasons_str": "S&P500+3.1%連動(β0.48) 未反応+3.5% / MA上昇配列 / 開示[業績予想の修正](0日前)"
+   "gap_pct": 2.8,
+   "rs20": 14.6,
+   "atr_pct": 4.5,
+   "dev25": 3.8,
+   "stop": 1727,
+   "close": 1899.0,
+   "chg5d": -4.5,
+   "v_ratio": 0.1,
+   "turnover_m": 3281,
+   "reasons_str": "S&P500+1.4%連動(β0.93) 未反応+2.8% / MA上昇配列 / パーフェクトオーダー"
   },
   {
-   "code": "8031",
-   "name": "三井物産",
+   "code": "8078",
+   "name": "阪和興業",
    "sector": "卸売業",
-   "score": 26.3,
+   "score": 19.200000000000003,
    "stars": "★☆☆☆☆",
-   "linkage": 19.0,
+   "linkage": 3.1,
    "theme": 0.0,
    "supply": 2.0,
    "etf": 0.0,
-   "tech": 2.5,
+   "tech": 12.0,
    "fund": 0.0,
-   "material": 2.8,
+   "material": 2.1,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 7.3,
-   "rs20": 8.8,
-   "atr_pct": 2.8,
-   "dev25": -1.2,
-   "stop": 4441,
-   "close": 4700.0,
-   "chg5d": -4.4,
-   "v_ratio": 1.5,
-   "turnover_m": 32184,
-   "reasons_str": "Emerson+8.4%連動(β0.33) 未反応+7.3% / 開示[自己株式取得](1日前) / 開示[買収](14日前)"
+   "signal": "",
+   "driver": "Qorvo",
+   "gap_pct": -3.0,
+   "rs20": 6.8,
+   "atr_pct": 2.3,
+   "dev25": 4.2,
+   "stop": 1707,
+   "close": 1790.0,
+   "chg5d": 4.9,
+   "v_ratio": 0.2,
+   "turnover_m": 736,
+   "reasons_str": "Qorvo+6.5%連動(β0.19) / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](4日前)"
+  },
+  {
+   "code": "6526",
+   "name": "ソシオネクスト",
+   "sector": "電気機器",
+   "score": 19.2,
+   "stars": "★☆☆☆☆",
+   "linkage": 19.2,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 0.0,
+   "fund": 0.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Broadcom",
+   "gap_pct": 5.7,
+   "rs20": -23.6,
+   "atr_pct": 8.0,
+   "dev25": -16.9,
+   "stop": 1656,
+   "close": 1971.0,
+   "chg5d": 3.1,
+   "v_ratio": 0.2,
+   "turnover_m": 21224,
+   "reasons_str": "Broadcom+7.2%連動(β0.40) 未反応+5.7%"
+  },
+  {
+   "code": "4118",
+   "name": "カネカ",
+   "sector": "化学",
+   "score": 19.1,
+   "stars": "★☆☆☆☆",
+   "linkage": 0.0,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 15.0,
+   "fund": 0.0,
+   "material": 2.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": 8.4,
+   "atr_pct": 2.0,
+   "dev25": 4.6,
+   "stop": 5755,
+   "close": 5997.0,
+   "chg5d": 4.9,
+   "v_ratio": 0.2,
+   "turnover_m": 1199,
+   "reasons_str": "MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[自己株式の取得](4日前)"
+  },
+  {
+   "code": "4966",
+   "name": "上村工業",
+   "sector": "化学",
+   "score": 19.0,
+   "stars": "★☆☆☆☆",
+   "linkage": 12.2,
+   "theme": 0.0,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 3.7,
+   "fund": 0.0,
+   "material": 2.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 1.9,
+   "rs20": -2.3,
+   "atr_pct": 6.7,
+   "dev25": -2.4,
+   "stop": 20009,
+   "close": 23110.0,
+   "chg5d": 3.3,
+   "v_ratio": 0.2,
+   "turnover_m": 1906,
+   "reasons_str": "Coherent+16.0%連動(β0.17) 未反応+1.9% / 開示[自己株式の取得](4日前)"
+  },
+  {
+   "code": "6737",
+   "name": "ＥＩＺＯ",
+   "sector": "電気機器",
+   "score": 18.8,
+   "stars": "★☆☆☆☆",
+   "linkage": 0.0,
+   "theme": 0.0,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 12.0,
+   "fund": 0.0,
+   "material": 5.8,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": 18.2,
+   "atr_pct": 3.6,
+   "dev25": 8.3,
+   "stop": 2753,
+   "close": 2964.0,
+   "chg5d": 2.3,
+   "v_ratio": 0.2,
+   "turnover_m": 624,
+   "reasons_str": "MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](4日前) / 開示[自己株式の取得](4日前)"
+  },
+  {
+   "code": "6800",
+   "name": "ヨコオ",
+   "sector": "電気機器",
+   "score": 18.7,
+   "stars": "★☆☆☆☆",
+   "linkage": 13.7,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 0.0,
+   "material": 2.3,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": 1.7,
+   "rs20": -14.8,
+   "atr_pct": 8.3,
+   "dev25": -10.4,
+   "stop": 3385,
+   "close": 4060.0,
+   "chg5d": 0.6,
+   "v_ratio": 0.9,
+   "turnover_m": 943,
+   "reasons_str": "Coherent+16.0%連動(β0.22) 未反応+1.7% / 開示[業績予想の修正](1日前)"
   },
   {
    "code": "6988",
    "name": "日東電工",
    "sector": "化学",
-   "score": 26.0,
+   "score": 18.6,
    "stars": "★☆☆☆☆",
-   "linkage": 17.5,
+   "linkage": 4.8,
    "theme": 0.0,
    "supply": 2.0,
    "etf": 0.0,
-   "tech": 6.5,
+   "tech": 9.0,
    "fund": 0.0,
-   "material": 0.0,
+   "material": 2.8,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 3.5,
-   "rs20": 14.7,
-   "atr_pct": 3.5,
-   "dev25": 3.6,
-   "stop": 3182,
-   "close": 3420.0,
-   "chg5d": -3.6,
-   "v_ratio": 0.9,
-   "turnover_m": 12249,
-   "reasons_str": "Emerson+8.4%連動(β0.34) 未反応+3.5% / MA上昇配列"
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": -3.8,
+   "rs20": 15.5,
+   "atr_pct": 3.3,
+   "dev25": 6.5,
+   "stop": 3305,
+   "close": 3540.0,
+   "chg5d": 6.5,
+   "v_ratio": 0.2,
+   "turnover_m": 11988,
+   "reasons_str": "Skyworks+9.1%連動(β0.21) / MA上昇配列 / 開示[自己株式取得](1日前)"
   },
   {
-   "code": "7201",
-   "name": "日産自動車",
-   "sector": "輸送用機器",
-   "score": 26.0,
-   "stars": "★☆☆☆☆",
-   "linkage": 19.0,
-   "theme": 0.0,
-   "supply": 1.0,
-   "etf": 0.0,
-   "tech": 6.0,
-   "fund": 0.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "DuPont",
-   "gap_pct": 9.9,
-   "rs20": 10.7,
-   "atr_pct": 3.8,
-   "dev25": 1.7,
-   "stop": 304,
-   "close": 329.70001220703125,
-   "chg5d": -8.0,
-   "v_ratio": 0.8,
-   "turnover_m": 11532,
-   "reasons_str": "DuPont+7.6%連動(β0.37) 未反応+9.9%"
-  },
-  {
-   "code": "7240",
-   "name": "ＮＯＫ",
-   "sector": "輸送用機器",
-   "score": 26.0,
-   "stars": "★☆☆☆☆",
-   "linkage": 15.8,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 8.2,
-   "fund": 0.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 3.3,
-   "rs20": 10.7,
-   "atr_pct": 2.4,
-   "dev25": 0.5,
-   "stop": 2835,
-   "close": 2980.5,
-   "chg5d": -1.3,
-   "v_ratio": 0.6,
-   "turnover_m": 1170,
-   "reasons_str": "Emerson+8.4%連動(β0.28) 未反応+3.3% / MA上昇配列 / パーフェクトオーダー"
-  },
-  {
-   "code": "7752",
-   "name": "リコー",
+   "code": "6859",
+   "name": "エスペック",
    "sector": "電気機器",
-   "score": 26.0,
+   "score": 18.6,
    "stars": "★☆☆☆☆",
-   "linkage": 15.8,
+   "linkage": 4.8,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 8.7,
+   "fund": 0.0,
+   "material": 5.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Coherent",
+   "gap_pct": -2.2,
+   "rs20": 4.9,
+   "atr_pct": 5.2,
+   "dev25": 0.5,
+   "stop": 3639,
+   "close": 4065.0,
+   "chg5d": 4.5,
+   "v_ratio": 0.3,
+   "turnover_m": 530,
+   "reasons_str": "Coherent+16.0%連動(β0.12) / MA上昇配列 / パーフェクトオーダー / 開示[自己株式取得](1日前) / 開示[自己株式の取得](3日前)"
+  },
+  {
+   "code": "9619",
+   "name": "イチネンホールディングス",
+   "sector": "サービス業",
+   "score": 18.6,
+   "stars": "★☆☆☆☆",
+   "linkage": 0.0,
    "theme": 0.0,
    "supply": 3.0,
    "etf": 0.0,
-   "tech": 7.2,
+   "tech": 13.5,
    "fund": 0.0,
-   "material": 0.0,
+   "material": 2.1,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "S&P500",
-   "gap_pct": 8.1,
-   "rs20": 12.1,
-   "atr_pct": 3.3,
-   "dev25": 0.5,
-   "stop": 1433,
-   "close": 1533.5,
-   "chg5d": -6.7,
-   "v_ratio": 1.4,
-   "turnover_m": 4692,
-   "reasons_str": "S&P500+3.1%連動(β0.49) 未反応+8.1% / MA上昇配列 / パーフェクトオーダー"
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": 14.4,
+   "atr_pct": 2.4,
+   "dev25": 9.8,
+   "stop": 2450,
+   "close": 2576.0,
+   "chg5d": 8.7,
+   "v_ratio": 0.5,
+   "turnover_m": 100,
+   "reasons_str": "MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[業績予想の修正](2日前)"
   },
   {
-   "code": "6287",
-   "name": "サトー",
-   "sector": "機械",
-   "score": 26.0,
+   "code": "8084",
+   "name": "ＲＹＯＤＥＮ",
+   "sector": "卸売業",
+   "score": 18.6,
    "stars": "★☆☆☆☆",
-   "linkage": 6.0,
+   "linkage": 0.0,
    "theme": 0.0,
-   "supply": 5.0,
+   "supply": 4.3,
    "etf": 0.0,
-   "tech": 15.0,
+   "tech": 10.7,
+   "fund": 0.0,
+   "material": 3.6,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": 17.9,
+   "atr_pct": 3.6,
+   "dev25": 11.1,
+   "stop": 4216,
+   "close": 4540.0,
+   "chg5d": 4.1,
+   "v_ratio": 0.2,
+   "turnover_m": 261,
+   "reasons_str": "買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 開示[株式分割](7日前) / 開示[自己株式の取得](7日前)"
+  },
+  {
+   "code": "6752",
+   "name": "パナソニック　ホールディングス",
+   "sector": "電気機器",
+   "score": 18.5,
+   "stars": "★☆☆☆☆",
+   "linkage": 6.5,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 12.0,
    "fund": 0.0,
    "material": 0.0,
    "penalty": 0.0,
-   "signal": "見送り(地合い🔴)",
-   "driver": "Emerson",
-   "gap_pct": 0.3,
-   "rs20": 14.5,
-   "atr_pct": 2.0,
-   "dev25": 4.5,
-   "stop": 2440,
-   "close": 2542.0,
-   "chg5d": 1.9,
-   "v_ratio": 1.9,
-   "turnover_m": 307,
-   "reasons_str": "Emerson+8.4%連動(β0.24) / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク!"
+   "signal": "",
+   "driver": "Skyworks",
+   "gap_pct": 0.4,
+   "rs20": 0.1,
+   "atr_pct": 5.4,
+   "dev25": 4.1,
+   "stop": 3887,
+   "close": 4355.0,
+   "chg5d": 1.7,
+   "v_ratio": 0.2,
+   "turnover_m": 40739,
+   "reasons_str": "Skyworks+9.1%連動(β0.23) / MA上昇配列 / パーフェクトオーダー"
+  },
+  {
+   "code": "4206",
+   "name": "アイカ工業",
+   "sector": "化学",
+   "score": 18.5,
+   "stars": "★☆☆☆☆",
+   "linkage": 0.0,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 12.2,
+   "fund": 0.0,
+   "material": 4.3,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": 12.1,
+   "atr_pct": 2.5,
+   "dev25": 8.3,
+   "stop": 3858,
+   "close": 4060.0,
+   "chg5d": 10.1,
+   "v_ratio": 0.1,
+   "turnover_m": 1182,
+   "reasons_str": "MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[増配](3日前) / 開示[業績予想の修正](3日前)"
+  },
+  {
+   "code": "6638",
+   "name": "ミマキエンジニアリング",
+   "sector": "電気機器",
+   "score": 18.5,
+   "stars": "★☆☆☆☆",
+   "linkage": 4.5,
+   "theme": 0.0,
+   "supply": 3.0,
+   "etf": 0.0,
+   "tech": 11.0,
+   "fund": 0.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SOX指数",
+   "gap_pct": -1.9,
+   "rs20": 12.9,
+   "atr_pct": 3.7,
+   "dev25": 5.2,
+   "stop": 2060,
+   "close": 2223.0,
+   "chg5d": 5.1,
+   "v_ratio": 0.1,
+   "turnover_m": 272,
+   "reasons_str": "SOX指数+5.4%連動(β0.34) / MA上昇配列 / パーフェクトオーダー / 52週高値目前"
   }
  ],
  "history": {
-  "3697": [
+  "285A": [
    {
-    "date": "2026-07-16",
-    "score": 18.9,
-    "gap": 1.1
+    "date": "2026-07-21",
+    "score": 22.8,
+    "gap": 15.1
    },
    {
-    "date": "2026-07-19",
-    "score": 16.7,
-    "gap": -4.3
-   },
-   {
-    "date": "2026-07-30",
-    "score": 30.2,
-    "gap": -4.2
-   },
-   {
-    "date": "2026-08-02",
-    "score": 44.5,
-    "gap": 10.6
-   },
-   {
-    "date": "2026-08-03",
-    "score": 44.5,
-    "gap": 14.3
-   },
-   {
-    "date": "2026-08-04",
-    "score": 39.2,
-    "gap": 13.0
-   },
-   {
-    "date": "2026-08-05",
-    "score": 36.3,
-    "gap": 9.8
-   }
-  ],
-  "3993": [
-   {
-    "date": "2026-07-15",
-    "score": 30.5,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-07-16",
-    "score": 26.1,
-    "gap": -4.5
-   },
-   {
-    "date": "2026-07-19",
-    "score": 17.3,
-    "gap": -1.8
+    "date": "2026-07-22",
+    "score": 21.4,
+    "gap": 15.4
    },
    {
     "date": "2026-07-23",
-    "score": 38.2,
-    "gap": 8.5
-   },
-   {
-    "date": "2026-07-29",
-    "score": 26.1,
-    "gap": 2.2
-   },
-   {
-    "date": "2026-07-30",
-    "score": 49.1,
-    "gap": 5.0
+    "score": 30.8,
+    "gap": 4.7
    },
    {
     "date": "2026-08-02",
-    "score": 42.5,
+    "score": 37.3,
+    "gap": 20.4
+   },
+   {
+    "date": "2026-08-07",
+    "score": 29.3,
+    "gap": 6.3
+   }
+  ],
+  "3132": [
+   {
+    "date": "2026-07-22",
+    "score": 35.7,
     "gap": 3.5
    },
    {
-    "date": "2026-08-03",
-    "score": 47.6,
-    "gap": 5.1
-   },
-   {
-    "date": "2026-08-04",
-    "score": 37.8,
-    "gap": 1.4
-   },
-   {
-    "date": "2026-08-05",
-    "score": 36.2,
-    "gap": -2.4
-   }
-  ],
-  "3994": [
-   {
-    "date": "2026-07-15",
-    "score": 20.1,
+    "date": "2026-07-27",
+    "score": 21.7,
     "gap": 0.0
    },
    {
-    "date": "2026-07-16",
-    "score": 18.4,
-    "gap": -4.8
-   },
-   {
-    "date": "2026-07-30",
-    "score": 50.3,
-    "gap": 9.9
-   },
-   {
     "date": "2026-08-02",
-    "score": 47.0,
-    "gap": 14.9
+    "score": 37.8,
+    "gap": 11.0
    },
    {
     "date": "2026-08-03",
-    "score": 47.0,
-    "gap": 18.9
+    "score": 48.2,
+    "gap": 15.4
+   },
+   {
+    "date": "2026-08-07",
+    "score": 26.5,
+    "gap": -9.8
+   }
+  ],
+  "3374": [
+   {
+    "date": "2026-07-19",
+    "score": 18.7,
+    "gap": 5.7
+   },
+   {
+    "date": "2026-07-20",
+    "score": 22.5,
+    "gap": 5.5
+   },
+   {
+    "date": "2026-07-21",
+    "score": 20.6,
+    "gap": 3.3
+   },
+   {
+    "date": "2026-07-22",
+    "score": 32.8,
+    "gap": 5.2
+   },
+   {
+    "date": "2026-08-07",
+    "score": 24.1,
+    "gap": -9.4
+   }
+  ],
+  "3962": [
+   {
+    "date": "2026-08-05",
+    "score": 34.6,
+    "gap": 5.3
+   },
+   {
+    "date": "2026-08-07",
+    "score": 24.7,
+    "gap": 1.9
+   }
+  ],
+  "3984": [
+   {
+    "date": "2026-07-30",
+    "score": 35.9,
+    "gap": 1.3
+   },
+   {
+    "date": "2026-08-02",
+    "score": 48.0,
+    "gap": 6.9
+   },
+   {
+    "date": "2026-08-03",
+    "score": 48.0,
+    "gap": 9.7
    },
    {
     "date": "2026-08-04",
-    "score": 38.6,
-    "gap": 13.1
+    "score": 29.9,
+    "gap": 3.6
    },
    {
-    "date": "2026-08-05",
-    "score": 33.6,
-    "gap": 7.1
+    "date": "2026-08-07",
+    "score": 30.6,
+    "gap": 12.0
    }
   ],
   "4062": [
@@ -3402,6 +3309,70 @@
     "date": "2026-08-05",
     "score": 55.6,
     "gap": -41.9
+   },
+   {
+    "date": "2026-08-07",
+    "score": 36.0,
+    "gap": -16.9
+   }
+  ],
+  "4118": [
+   {
+    "date": "2026-07-28",
+    "score": 25.7,
+    "gap": 2.3
+   },
+   {
+    "date": "2026-08-03",
+    "score": 39.6,
+    "gap": 7.3
+   },
+   {
+    "date": "2026-08-04",
+    "score": 38.9,
+    "gap": 3.3
+   },
+   {
+    "date": "2026-08-07",
+    "score": 19.1,
+    "gap": 0.0
+   }
+  ],
+  "4186": [
+   {
+    "date": "2026-07-19",
+    "score": 17.3,
+    "gap": 5.9
+   },
+   {
+    "date": "2026-07-20",
+    "score": 22.2,
+    "gap": 5.6
+   },
+   {
+    "date": "2026-07-21",
+    "score": 20.5,
+    "gap": 9.3
+   },
+   {
+    "date": "2026-07-30",
+    "score": 28.3,
+    "gap": 18.4
+   },
+   {
+    "date": "2026-08-02",
+    "score": 28.8,
+    "gap": 15.9
+   },
+   {
+    "date": "2026-08-04",
+    "score": 35.8,
+    "gap": 8.0
+   },
+   {
+    "date": "2026-08-07",
+    "score": 26.0,
+    "gap": 4.4
    }
   ],
   "4189": [
@@ -3434,23 +3405,23 @@
     "date": "2026-08-05",
     "score": 36.9,
     "gap": -10.9
+   },
+   {
+    "date": "2026-08-07",
+    "score": 29.2,
+    "gap": -9.2
    }
   ],
-  "4290": [
-   {
-    "date": "2026-07-29",
-    "score": 25.5,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-07-30",
-    "score": 19.5,
-    "gap": 0.0
-   },
+  "4206": [
    {
     "date": "2026-08-05",
-    "score": 26.5,
-    "gap": 7.0
+    "score": 36.9,
+    "gap": -4.7
+   },
+   {
+    "date": "2026-08-07",
+    "score": 18.5,
+    "gap": 0.0
    }
   ],
   "4443": [
@@ -3478,55 +3449,72 @@
     "date": "2026-08-05",
     "score": 34.9,
     "gap": 9.4
+   },
+   {
+    "date": "2026-08-07",
+    "score": 19.3,
+    "gap": 2.8
    }
   ],
-  "4716": [
+  "4578": [
    {
     "date": "2026-07-30",
-    "score": 32.1,
-    "gap": -5.6
+    "score": 18.8,
+    "gap": 0.0
+   },
+   {
+    "date": "2026-08-07",
+    "score": 28.9,
+    "gap": 0.0
+   }
+  ],
+  "4901": [
+   {
+    "date": "2026-07-21",
+    "score": 22.9,
+    "gap": 1.1
+   },
+   {
+    "date": "2026-07-29",
+    "score": 23.5,
+    "gap": 0.0
+   },
+   {
+    "date": "2026-07-30",
+    "score": 32.5,
+    "gap": -1.5
    },
    {
     "date": "2026-08-02",
-    "score": 40.2,
-    "gap": 2.7
+    "score": 42.6,
+    "gap": 6.2
    },
    {
     "date": "2026-08-03",
-    "score": 48.8,
-    "gap": 4.6
-   },
-   {
-    "date": "2026-08-05",
-    "score": 35.6,
-    "gap": 5.5
-   }
-  ],
-  "4733": [
-   {
-    "date": "2026-07-30",
-    "score": 26.0,
-    "gap": -3.9
-   },
-   {
-    "date": "2026-08-02",
-    "score": 41.2,
-    "gap": 5.5
-   },
-   {
-    "date": "2026-08-03",
-    "score": 45.0,
-    "gap": 7.6
+    "score": 46.9,
+    "gap": 7.9
    },
    {
     "date": "2026-08-04",
-    "score": 38.4,
-    "gap": 4.5
+    "score": 40.4,
+    "gap": 3.3
    },
    {
-    "date": "2026-08-05",
-    "score": 35.0,
-    "gap": 8.6
+    "date": "2026-08-07",
+    "score": 19.3,
+    "gap": 17.5
+   }
+  ],
+  "4966": [
+   {
+    "date": "2026-08-03",
+    "score": 36.0,
+    "gap": 10.7
+   },
+   {
+    "date": "2026-08-07",
+    "score": 19.0,
+    "gap": 1.9
    }
   ],
   "4980": [
@@ -3594,57 +3582,28 @@
     "date": "2026-08-05",
     "score": 42.3,
     "gap": -0.7
+   },
+   {
+    "date": "2026-08-07",
+    "score": 39.0,
+    "gap": 9.5
    }
   ],
-  "5108": [
-   {
-    "date": "2026-07-26",
-    "score": 27.6,
-    "gap": 1.8
-   },
+  "5301": [
    {
     "date": "2026-07-29",
-    "score": 28.9,
-    "gap": -8.6
+    "score": 21.6,
+    "gap": 7.3
    },
    {
-    "date": "2026-08-05",
-    "score": 37.9,
-    "gap": 5.3
-   }
-  ],
-  "5195": [
-   {
-    "date": "2026-07-22",
-    "score": 21.5,
-    "gap": 1.0
+    "date": "2026-07-30",
+    "score": 18.7,
+    "gap": 7.8
    },
    {
-    "date": "2026-07-29",
-    "score": 23.5,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-03",
-    "score": 35.5,
-    "gap": 1.7
-   },
-   {
-    "date": "2026-08-05",
-    "score": 34.9,
-    "gap": 1.3
-   }
-  ],
-  "5233": [
-   {
-    "date": "2026-07-28",
-    "score": 25.9,
-    "gap": 2.4
-   },
-   {
-    "date": "2026-08-05",
-    "score": 26.8,
-    "gap": 4.5
+    "date": "2026-08-07",
+    "score": 26.7,
+    "gap": -10.3
    }
   ],
   "5310": [
@@ -3692,87 +3651,48 @@
     "date": "2026-08-05",
     "score": 38.3,
     "gap": -16.0
-   }
-  ],
-  "5401": [
-   {
-    "date": "2026-08-04",
-    "score": 29.6,
-    "gap": 3.0
    },
    {
-    "date": "2026-08-05",
-    "score": 26.8,
-    "gap": 0.6
+    "date": "2026-08-07",
+    "score": 33.2,
+    "gap": -5.8
    }
   ],
-  "5444": [
+  "5344": [
    {
-    "date": "2026-07-19",
-    "score": 17.5,
-    "gap": 0.0
+    "date": "2026-07-21",
+    "score": 23.7,
+    "gap": 9.9
    },
    {
-    "date": "2026-07-20",
-    "score": 21.5,
-    "gap": 0.0
+    "date": "2026-07-22",
+    "score": 21.7,
+    "gap": 11.8
    },
    {
     "date": "2026-07-23",
-    "score": 27.9,
-    "gap": 1.2
-   },
-   {
-    "date": "2026-07-26",
-    "score": 20.2,
-    "gap": -0.9
-   },
-   {
-    "date": "2026-07-27",
-    "score": 28.7,
-    "gap": -1.0
+    "score": 22.7,
+    "gap": 4.2
    },
    {
     "date": "2026-07-29",
-    "score": 17.7,
-    "gap": 0.0
+    "score": 28.1,
+    "gap": 15.1
    },
    {
-    "date": "2026-08-04",
-    "score": 36.0,
-    "gap": 3.3
+    "date": "2026-07-30",
+    "score": 28.5,
+    "gap": 10.4
    },
    {
-    "date": "2026-08-05",
-    "score": 34.6,
-    "gap": 2.8
-   }
-  ],
-  "5480": [
-   {
-    "date": "2026-07-23",
-    "score": 27.6,
-    "gap": 1.2
+    "date": "2026-08-02",
+    "score": 36.7,
+    "gap": 8.8
    },
    {
-    "date": "2026-07-26",
-    "score": 24.0,
-    "gap": -0.2
-   },
-   {
-    "date": "2026-07-27",
-    "score": 32.4,
-    "gap": 2.1
-   },
-   {
-    "date": "2026-07-28",
-    "score": 39.7,
-    "gap": 4.3
-   },
-   {
-    "date": "2026-08-05",
-    "score": 34.2,
-    "gap": 4.1
+    "date": "2026-08-07",
+    "score": 29.9,
+    "gap": 3.7
    }
   ],
   "5801": [
@@ -3825,6 +3745,11 @@
     "date": "2026-08-05",
     "score": 51.2,
     "gap": -34.1
+   },
+   {
+    "date": "2026-08-07",
+    "score": 38.9,
+    "gap": -12.1
    }
   ],
   "5802": [
@@ -3887,6 +3812,11 @@
     "date": "2026-08-05",
     "score": 44.1,
     "gap": -7.4
+   },
+   {
+    "date": "2026-08-07",
+    "score": 33.2,
+    "gap": -0.3
    }
   ],
   "5803": [
@@ -3954,6 +3884,11 @@
     "date": "2026-08-05",
     "score": 47.7,
     "gap": -29.0
+   },
+   {
+    "date": "2026-08-07",
+    "score": 36.4,
+    "gap": 0.5
    }
   ],
   "5805": [
@@ -4016,6 +3951,11 @@
     "date": "2026-08-05",
     "score": 45.7,
     "gap": -16.9
+   },
+   {
+    "date": "2026-08-07",
+    "score": 34.2,
+    "gap": -3.6
    }
   ],
   "5970": [
@@ -4043,6 +3983,11 @@
     "date": "2026-08-05",
     "score": 35.2,
     "gap": 5.0
+   },
+   {
+    "date": "2026-08-07",
+    "score": 27.9,
+    "gap": -5.8
    }
   ],
   "5975": [
@@ -4070,6 +4015,48 @@
     "date": "2026-08-05",
     "score": 26.7,
     "gap": 1.5
+   },
+   {
+    "date": "2026-08-07",
+    "score": 27.8,
+    "gap": -9.0
+   }
+  ],
+  "6055": [
+   {
+    "date": "2026-07-16",
+    "score": 17.1,
+    "gap": 9.5
+   },
+   {
+    "date": "2026-07-19",
+    "score": 17.5,
+    "gap": 15.5
+   },
+   {
+    "date": "2026-07-20",
+    "score": 23.9,
+    "gap": 15.3
+   },
+   {
+    "date": "2026-07-21",
+    "score": 22.4,
+    "gap": 13.0
+   },
+   {
+    "date": "2026-07-23",
+    "score": 30.8,
+    "gap": 8.1
+   },
+   {
+    "date": "2026-07-26",
+    "score": 30.3,
+    "gap": 4.2
+   },
+   {
+    "date": "2026-08-07",
+    "score": 29.6,
+    "gap": 4.6
    }
   ],
   "6098": [
@@ -4142,6 +4129,11 @@
     "date": "2026-08-05",
     "score": 40.1,
     "gap": 4.8
+   },
+   {
+    "date": "2026-08-07",
+    "score": 27.1,
+    "gap": -2.8
    }
   ],
   "6103": [
@@ -4194,48 +4186,53 @@
     "date": "2026-08-05",
     "score": 26.9,
     "gap": -6.0
+   },
+   {
+    "date": "2026-08-07",
+    "score": 19.5,
+    "gap": -11.1
    }
   ],
-  "6125": [
+  "6141": [
    {
-    "date": "2026-07-15",
-    "score": 17.5,
-    "gap": 0.0
+    "date": "2026-07-16",
+    "score": 20.5,
+    "gap": 5.7
    },
    {
     "date": "2026-07-19",
-    "score": 19.2,
-    "gap": 7.8
-   },
-   {
-    "date": "2026-07-20",
-    "score": 20.1,
-    "gap": 7.6
-   },
-   {
-    "date": "2026-07-21",
-    "score": 22.7,
-    "gap": 8.3
+    "score": 18.0,
+    "gap": 8.0
    },
    {
     "date": "2026-07-22",
-    "score": 23.7,
-    "gap": 15.2
+    "score": 21.6,
+    "gap": 4.8
    },
    {
-    "date": "2026-07-23",
-    "score": 24.7,
-    "gap": 8.3
+    "date": "2026-07-27",
+    "score": 21.6,
+    "gap": -8.7
    },
    {
-    "date": "2026-07-26",
-    "score": 23.5,
-    "gap": 5.1
+    "date": "2026-08-02",
+    "score": 27.7,
+    "gap": 5.0
    },
    {
-    "date": "2026-08-05",
-    "score": 29.3,
-    "gap": -24.6
+    "date": "2026-08-03",
+    "score": 41.2,
+    "gap": 10.4
+   },
+   {
+    "date": "2026-08-04",
+    "score": 37.4,
+    "gap": 1.8
+   },
+   {
+    "date": "2026-08-07",
+    "score": 31.6,
+    "gap": 3.7
    }
   ],
   "6146": [
@@ -4313,57 +4310,75 @@
     "date": "2026-08-05",
     "score": 45.1,
     "gap": -17.1
+   },
+   {
+    "date": "2026-08-07",
+    "score": 42.0,
+    "gap": 7.3
    }
   ],
-  "6200": [
+  "6266": [
+   {
+    "date": "2026-07-16",
+    "score": 29.6,
+    "gap": 5.6
+   },
+   {
+    "date": "2026-07-21",
+    "score": 26.1,
+    "gap": 17.4
+   },
+   {
+    "date": "2026-07-22",
+    "score": 28.4,
+    "gap": 15.3
+   },
+   {
+    "date": "2026-07-23",
+    "score": 36.6,
+    "gap": 6.9
+   },
+   {
+    "date": "2026-07-26",
+    "score": 30.3,
+    "gap": 7.8
+   },
    {
     "date": "2026-08-04",
-    "score": 44.5,
-    "gap": 4.3
+    "score": 35.0,
+    "gap": 6.2
    },
    {
-    "date": "2026-08-05",
-    "score": 44.5,
-    "gap": 8.5
+    "date": "2026-08-07",
+    "score": 26.4,
+    "gap": 15.4
    }
   ],
-  "6250": [
+  "6273": [
    {
-    "date": "2026-07-28",
-    "score": 34.8,
-    "gap": 2.0
+    "date": "2026-07-16",
+    "score": 22.3,
+    "gap": 4.1
    },
    {
-    "date": "2026-08-02",
-    "score": 28.4,
-    "gap": 3.3
+    "date": "2026-07-19",
+    "score": 17.6,
+    "gap": 7.6
    },
    {
-    "date": "2026-08-03",
-    "score": 49.3,
+    "date": "2026-07-20",
+    "score": 24.5,
     "gap": 7.3
    },
    {
-    "date": "2026-08-04",
-    "score": 38.5,
-    "gap": 1.2
+    "date": "2026-07-23",
+    "score": 35.8,
+    "gap": 4.3
    },
    {
-    "date": "2026-08-05",
-    "score": 34.2,
-    "gap": -6.5
-   }
-  ],
-  "6287": [
-   {
-    "date": "2026-07-26",
-    "score": 27.5,
-    "gap": 2.1
-   },
-   {
-    "date": "2026-08-05",
-    "score": 26.0,
-    "gap": 0.3
+    "date": "2026-08-07",
+    "score": 19.4,
+    "gap": -1.3
    }
   ],
   "6301": [
@@ -4391,6 +4406,11 @@
     "date": "2026-08-05",
     "score": 41.0,
     "gap": 3.0
+   },
+   {
+    "date": "2026-08-07",
+    "score": 27.3,
+    "gap": -6.5
    }
   ],
   "6302": [
@@ -4413,33 +4433,11 @@
     "date": "2026-08-05",
     "score": 32.4,
     "gap": -13.9
-   }
-  ],
-  "6305": [
-   {
-    "date": "2026-07-29",
-    "score": 24.5,
-    "gap": -1.6
    },
    {
-    "date": "2026-08-02",
-    "score": 27.7,
-    "gap": 7.5
-   },
-   {
-    "date": "2026-08-03",
-    "score": 45.6,
-    "gap": 12.1
-   },
-   {
-    "date": "2026-08-04",
-    "score": 37.8,
-    "gap": 8.5
-   },
-   {
-    "date": "2026-08-05",
-    "score": 40.4,
-    "gap": 6.0
+    "date": "2026-08-07",
+    "score": 19.4,
+    "gap": -9.8
    }
   ],
   "6315": [
@@ -4482,6 +4480,11 @@
     "date": "2026-08-05",
     "score": 43.3,
     "gap": -25.7
+   },
+   {
+    "date": "2026-08-07",
+    "score": 39.4,
+    "gap": 7.9
    }
   ],
   "6323": [
@@ -4559,6 +4562,11 @@
     "date": "2026-08-05",
     "score": 50.3,
     "gap": -25.8
+   },
+   {
+    "date": "2026-08-07",
+    "score": 35.3,
+    "gap": 2.6
    }
   ],
   "6324": [
@@ -4576,55 +4584,11 @@
     "date": "2026-08-05",
     "score": 38.5,
     "gap": -31.4
-   }
-  ],
-  "6326": [
-   {
-    "date": "2026-07-22",
-    "score": 21.7,
-    "gap": 2.1
    },
    {
-    "date": "2026-07-23",
-    "score": 30.6,
-    "gap": 1.6
-   },
-   {
-    "date": "2026-07-28",
-    "score": 38.9,
-    "gap": 4.1
-   },
-   {
-    "date": "2026-07-29",
-    "score": 29.4,
-    "gap": 1.1
-   },
-   {
-    "date": "2026-08-04",
-    "score": 37.5,
-    "gap": 5.2
-   },
-   {
-    "date": "2026-08-05",
-    "score": 38.8,
-    "gap": 9.5
-   }
-  ],
-  "6349": [
-   {
-    "date": "2026-07-29",
-    "score": 23.3,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-07-30",
-    "score": 23.1,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-05",
-    "score": 36.6,
-    "gap": 3.6
+    "date": "2026-08-07",
+    "score": 23.8,
+    "gap": -8.0
    }
   ],
   "6361": [
@@ -4667,95 +4631,94 @@
     "date": "2026-08-05",
     "score": 26.4,
     "gap": -16.3
+   },
+   {
+    "date": "2026-08-07",
+    "score": 19.4,
+    "gap": 0.9
    }
   ],
-  "6432": [
-   {
-    "date": "2026-07-19",
-    "score": 19.0,
-    "gap": 3.3
-   },
-   {
-    "date": "2026-07-26",
-    "score": 29.3,
-    "gap": -3.1
-   },
-   {
-    "date": "2026-07-27",
-    "score": 31.7,
-    "gap": -5.3
-   },
-   {
-    "date": "2026-07-28",
-    "score": 36.3,
-    "gap": 1.8
-   },
-   {
-    "date": "2026-08-02",
-    "score": 42.0,
-    "gap": 6.7
-   },
-   {
-    "date": "2026-08-03",
-    "score": 53.5,
-    "gap": 11.5
-   },
-   {
-    "date": "2026-08-04",
-    "score": 29.0,
-    "gap": 7.1
-   },
+  "6454": [
    {
     "date": "2026-08-05",
-    "score": 26.5,
-    "gap": -3.8
+    "score": 35.4,
+    "gap": -12.1
+   },
+   {
+    "date": "2026-08-07",
+    "score": 28.7,
+    "gap": 0.0
    }
   ],
-  "6463": [
+  "6479": [
    {
-    "date": "2026-07-23",
-    "score": 27.9,
-    "gap": 1.5
+    "date": "2026-07-19",
+    "score": 16.7,
+    "gap": 9.8
    },
    {
-    "date": "2026-07-26",
-    "score": 20.3,
-    "gap": 1.0
-   },
-   {
-    "date": "2026-07-27",
-    "score": 26.8,
-    "gap": 0.5
-   },
-   {
-    "date": "2026-07-28",
-    "score": 34.4,
-    "gap": 2.6
-   },
-   {
-    "date": "2026-07-29",
-    "score": 26.4,
-    "gap": -1.1
+    "date": "2026-07-20",
+    "score": 16.0,
+    "gap": 9.5
    },
    {
     "date": "2026-07-30",
-    "score": 25.0,
-    "gap": 0.0
+    "score": 33.0,
+    "gap": 15.1
    },
    {
-    "date": "2026-08-03",
-    "score": 43.0,
-    "gap": 1.7
+    "date": "2026-08-02",
+    "score": 36.9,
+    "gap": 11.8
    },
    {
-    "date": "2026-08-04",
-    "score": 34.9,
-    "gap": -1.2
+    "date": "2026-08-07",
+    "score": 25.5,
+    "gap": 3.3
+   }
+  ],
+  "6481": [
+   {
+    "date": "2026-07-16",
+    "score": 16.3,
+    "gap": 9.0
    },
    {
-    "date": "2026-08-05",
-    "score": 35.1,
-    "gap": 1.1
+    "date": "2026-07-19",
+    "score": 18.4,
+    "gap": 9.2
+   },
+   {
+    "date": "2026-07-20",
+    "score": 18.7,
+    "gap": 8.9
+   },
+   {
+    "date": "2026-07-28",
+    "score": 25.5,
+    "gap": 16.8
+   },
+   {
+    "date": "2026-08-02",
+    "score": 28.0,
+    "gap": 8.6
+   },
+   {
+    "date": "2026-08-07",
+    "score": 21.2,
+    "gap": -5.2
+   }
+  ],
+  "6490": [
+   {
+    "date": "2026-07-22",
+    "score": 21.8,
+    "gap": 5.0
+   },
+   {
+    "date": "2026-08-07",
+    "score": 25.9,
+    "gap": -3.7
    }
   ],
   "6501": [
@@ -4828,6 +4791,11 @@
     "date": "2026-08-05",
     "score": 48.3,
     "gap": -0.2
+   },
+   {
+    "date": "2026-08-07",
+    "score": 36.9,
+    "gap": -1.7
    }
   ],
   "6503": [
@@ -4860,6 +4828,11 @@
     "date": "2026-08-05",
     "score": 37.9,
     "gap": -7.1
+   },
+   {
+    "date": "2026-08-07",
+    "score": 27.5,
+    "gap": -3.7
    }
   ],
   "6504": [
@@ -4917,6 +4890,11 @@
     "date": "2026-08-05",
     "score": 46.5,
     "gap": -13.5
+   },
+   {
+    "date": "2026-08-07",
+    "score": 37.0,
+    "gap": 1.0
    }
   ],
   "6506": [
@@ -4994,6 +4972,38 @@
     "date": "2026-08-05",
     "score": 39.4,
     "gap": -13.8
+   },
+   {
+    "date": "2026-08-07",
+    "score": 28.3,
+    "gap": -3.7
+   }
+  ],
+  "6507": [
+   {
+    "date": "2026-07-16",
+    "score": 17.1,
+    "gap": 4.9
+   },
+   {
+    "date": "2026-07-19",
+    "score": 17.8,
+    "gap": 6.4
+   },
+   {
+    "date": "2026-07-21",
+    "score": 21.7,
+    "gap": 5.8
+   },
+   {
+    "date": "2026-07-22",
+    "score": 21.3,
+    "gap": 9.5
+   },
+   {
+    "date": "2026-08-07",
+    "score": 28.1,
+    "gap": 5.0
    }
   ],
   "6508": [
@@ -5051,6 +5061,92 @@
     "date": "2026-08-05",
     "score": 49.9,
     "gap": -30.4
+   },
+   {
+    "date": "2026-08-07",
+    "score": 34.9,
+    "gap": -1.9
+   }
+  ],
+  "6517": [
+   {
+    "date": "2026-08-04",
+    "score": 39.1,
+    "gap": -16.6
+   },
+   {
+    "date": "2026-08-07",
+    "score": 43.4,
+    "gap": 5.1
+   }
+  ],
+  "6526": [
+   {
+    "date": "2026-07-21",
+    "score": 21.3,
+    "gap": 7.7
+   },
+   {
+    "date": "2026-08-04",
+    "score": 29.0,
+    "gap": 12.4
+   },
+   {
+    "date": "2026-08-07",
+    "score": 19.2,
+    "gap": 5.7
+   }
+  ],
+  "6590": [
+   {
+    "date": "2026-07-16",
+    "score": 28.1,
+    "gap": 8.0
+   },
+   {
+    "date": "2026-07-19",
+    "score": 20.0,
+    "gap": 11.9
+   },
+   {
+    "date": "2026-07-20",
+    "score": 23.6,
+    "gap": 11.5
+   },
+   {
+    "date": "2026-07-21",
+    "score": 32.5,
+    "gap": 5.5
+   },
+   {
+    "date": "2026-07-22",
+    "score": 35.1,
+    "gap": 10.2
+   },
+   {
+    "date": "2026-07-23",
+    "score": 36.2,
+    "gap": 4.8
+   },
+   {
+    "date": "2026-07-26",
+    "score": 30.0,
+    "gap": 4.2
+   },
+   {
+    "date": "2026-07-30",
+    "score": 19.6,
+    "gap": 23.7
+   },
+   {
+    "date": "2026-08-04",
+    "score": 30.0,
+    "gap": 10.0
+   },
+   {
+    "date": "2026-08-07",
+    "score": 26.7,
+    "gap": 8.7
    }
   ],
   "6627": [
@@ -5108,6 +5204,70 @@
     "date": "2026-08-05",
     "score": 35.5,
     "gap": -41.0
+   },
+   {
+    "date": "2026-08-07",
+    "score": 25.4,
+    "gap": -6.5
+   }
+  ],
+  "6638": [
+   {
+    "date": "2026-07-16",
+    "score": 18.8,
+    "gap": -2.9
+   },
+   {
+    "date": "2026-07-19",
+    "score": 27.2,
+    "gap": 3.1
+   },
+   {
+    "date": "2026-07-22",
+    "score": 31.9,
+    "gap": 0.5
+   },
+   {
+    "date": "2026-07-23",
+    "score": 36.6,
+    "gap": 1.9
+   },
+   {
+    "date": "2026-07-26",
+    "score": 28.8,
+    "gap": -6.3
+   },
+   {
+    "date": "2026-07-27",
+    "score": 28.2,
+    "gap": -0.2
+   },
+   {
+    "date": "2026-07-28",
+    "score": 43.3,
+    "gap": 8.6
+   },
+   {
+    "date": "2026-08-07",
+    "score": 18.5,
+    "gap": -1.9
+   }
+  ],
+  "6668": [
+   {
+    "date": "2026-07-21",
+    "score": 23.3,
+    "gap": 21.5
+   },
+   {
+    "date": "2026-07-22",
+    "score": 29.0,
+    "gap": 17.7
+   },
+   {
+    "date": "2026-08-07",
+    "score": 25.8,
+    "gap": -7.4
    }
   ],
   "6702": [
@@ -5150,28 +5310,247 @@
     "date": "2026-08-05",
     "score": 41.6,
     "gap": 12.6
-   }
-  ],
-  "6758": [
-   {
-    "date": "2026-07-30",
-    "score": 31.4,
-    "gap": -6.1
    },
    {
-    "date": "2026-08-03",
-    "score": 43.9,
-    "gap": 2.8
+    "date": "2026-08-07",
+    "score": 29.9,
+    "gap": 0.0
+   }
+  ],
+  "6707": [
+   {
+    "date": "2026-07-16",
+    "score": 18.0,
+    "gap": 12.9
+   },
+   {
+    "date": "2026-07-19",
+    "score": 18.4,
+    "gap": 13.2
+   },
+   {
+    "date": "2026-07-20",
+    "score": 17.4,
+    "gap": 12.8
+   },
+   {
+    "date": "2026-07-21",
+    "score": 23.2,
+    "gap": 10.1
+   },
+   {
+    "date": "2026-07-22",
+    "score": 22.7,
+    "gap": 9.0
+   },
+   {
+    "date": "2026-07-27",
+    "score": 22.1,
+    "gap": 9.5
+   },
+   {
+    "date": "2026-07-28",
+    "score": 25.6,
+    "gap": 19.2
    },
    {
     "date": "2026-08-04",
-    "score": 40.2,
+    "score": 31.0,
+    "gap": 5.8
+   },
+   {
+    "date": "2026-08-07",
+    "score": 21.9,
+    "gap": 5.4
+   }
+  ],
+  "6723": [
+   {
+    "date": "2026-07-16",
+    "score": 16.2,
+    "gap": 14.7
+   },
+   {
+    "date": "2026-07-19",
+    "score": 17.5,
+    "gap": 16.7
+   },
+   {
+    "date": "2026-07-20",
+    "score": 21.4,
+    "gap": 16.3
+   },
+   {
+    "date": "2026-07-21",
+    "score": 23.5,
+    "gap": 12.5
+   },
+   {
+    "date": "2026-07-22",
+    "score": 28.0,
+    "gap": 10.8
+   },
+   {
+    "date": "2026-07-23",
+    "score": 22.4,
+    "gap": 3.4
+   },
+   {
+    "date": "2026-07-27",
+    "score": 22.0,
+    "gap": 8.2
+   },
+   {
+    "date": "2026-07-29",
+    "score": 17.9,
+    "gap": 26.1
+   },
+   {
+    "date": "2026-07-30",
+    "score": 36.0,
+    "gap": 26.2
+   },
+   {
+    "date": "2026-08-02",
+    "score": 38.0,
+    "gap": 20.1
+   },
+   {
+    "date": "2026-08-07",
+    "score": 33.7,
+    "gap": 8.8
+   }
+  ],
+  "6724": [
+   {
+    "date": "2026-08-02",
+    "score": 30.4,
+    "gap": 6.4
+   },
+   {
+    "date": "2026-08-07",
+    "score": 25.5,
+    "gap": -6.0
+   }
+  ],
+  "6752": [
+   {
+    "date": "2026-07-19",
+    "score": 16.8,
+    "gap": 10.8
+   },
+   {
+    "date": "2026-08-07",
+    "score": 18.5,
+    "gap": 0.4
+   }
+  ],
+  "6762": [
+   {
+    "date": "2026-07-19",
+    "score": 17.2,
+    "gap": 9.0
+   },
+   {
+    "date": "2026-07-20",
+    "score": 21.9,
+    "gap": 8.7
+   },
+   {
+    "date": "2026-07-30",
+    "score": 33.5,
+    "gap": 12.9
+   },
+   {
+    "date": "2026-08-02",
+    "score": 38.5,
+    "gap": 7.5
+   },
+   {
+    "date": "2026-08-07",
+    "score": 29.0,
+    "gap": 5.9
+   }
+  ],
+  "6787": [
+   {
+    "date": "2026-07-16",
+    "score": 16.2,
+    "gap": 6.9
+   },
+   {
+    "date": "2026-07-19",
+    "score": 16.6,
+    "gap": 14.4
+   },
+   {
+    "date": "2026-07-21",
+    "score": 23.5,
+    "gap": 13.1
+   },
+   {
+    "date": "2026-07-22",
+    "score": 29.9,
+    "gap": 13.6
+   },
+   {
+    "date": "2026-07-23",
+    "score": 31.0,
+    "gap": 8.5
+   },
+   {
+    "date": "2026-07-27",
+    "score": 29.9,
+    "gap": 6.5
+   },
+   {
+    "date": "2026-07-30",
+    "score": 19.2,
+    "gap": 20.3
+   },
+   {
+    "date": "2026-08-02",
+    "score": 37.5,
+    "gap": 20.0
+   },
+   {
+    "date": "2026-08-04",
+    "score": 30.0,
     "gap": 6.3
    },
    {
-    "date": "2026-08-05",
-    "score": 37.4,
-    "gap": 9.2
+    "date": "2026-08-07",
+    "score": 34.0,
+    "gap": 4.3
+   }
+  ],
+  "6800": [
+   {
+    "date": "2026-07-19",
+    "score": 18.3,
+    "gap": 11.4
+   },
+   {
+    "date": "2026-07-21",
+    "score": 21.1,
+    "gap": 12.7
+   },
+   {
+    "date": "2026-08-07",
+    "score": 18.7,
+    "gap": 1.7
+   }
+  ],
+  "6806": [
+   {
+    "date": "2026-08-04",
+    "score": 38.3,
+    "gap": 3.0
+   },
+   {
+    "date": "2026-08-07",
+    "score": 33.7,
+    "gap": 0.7
    }
   ],
   "6857": [
@@ -5254,6 +5633,11 @@
     "date": "2026-08-05",
     "score": 58.9,
     "gap": -13.8
+   },
+   {
+    "date": "2026-08-07",
+    "score": 53.6,
+    "gap": 3.8
    }
   ],
   "6861": [
@@ -5286,6 +5670,11 @@
     "date": "2026-08-05",
     "score": 26.8,
     "gap": -7.6
+   },
+   {
+    "date": "2026-08-07",
+    "score": 25.0,
+    "gap": -1.6
    }
   ],
   "6871": [
@@ -5348,6 +5737,11 @@
     "date": "2026-08-05",
     "score": 53.8,
     "gap": -27.0
+   },
+   {
+    "date": "2026-08-07",
+    "score": 40.4,
+    "gap": 4.8
    }
   ],
   "6920": [
@@ -5410,6 +5804,11 @@
     "date": "2026-08-05",
     "score": 46.8,
     "gap": -32.9
+   },
+   {
+    "date": "2026-08-07",
+    "score": 38.6,
+    "gap": 9.6
    }
   ],
   "6941": [
@@ -5427,6 +5826,88 @@
     "date": "2026-08-05",
     "score": 26.8,
     "gap": -28.3
+   },
+   {
+    "date": "2026-08-07",
+    "score": 33.7,
+    "gap": 8.0
+   }
+  ],
+  "6951": [
+   {
+    "date": "2026-07-16",
+    "score": 18.0,
+    "gap": -8.5
+   },
+   {
+    "date": "2026-07-19",
+    "score": 17.7,
+    "gap": -1.3
+   },
+   {
+    "date": "2026-07-20",
+    "score": 23.0,
+    "gap": -1.6
+   },
+   {
+    "date": "2026-07-21",
+    "score": 22.1,
+    "gap": -2.5
+   },
+   {
+    "date": "2026-07-22",
+    "score": 40.6,
+    "gap": 3.9
+   },
+   {
+    "date": "2026-07-23",
+    "score": 40.5,
+    "gap": 8.4
+   },
+   {
+    "date": "2026-07-26",
+    "score": 32.8,
+    "gap": 1.4
+   },
+   {
+    "date": "2026-07-27",
+    "score": 36.8,
+    "gap": 3.2
+   },
+   {
+    "date": "2026-07-28",
+    "score": 37.3,
+    "gap": 10.0
+   },
+   {
+    "date": "2026-07-29",
+    "score": 26.0,
+    "gap": 7.7
+   },
+   {
+    "date": "2026-07-30",
+    "score": 28.1,
+    "gap": 7.1
+   },
+   {
+    "date": "2026-08-02",
+    "score": 44.1,
+    "gap": 7.3
+   },
+   {
+    "date": "2026-08-03",
+    "score": 46.5,
+    "gap": 10.1
+   },
+   {
+    "date": "2026-08-04",
+    "score": 37.9,
+    "gap": 1.9
+   },
+   {
+    "date": "2026-08-07",
+    "score": 27.2,
+    "gap": -0.2
    }
   ],
   "6954": [
@@ -5494,6 +5975,87 @@
     "date": "2026-08-05",
     "score": 54.1,
     "gap": 6.3
+   },
+   {
+    "date": "2026-08-07",
+    "score": 34.6,
+    "gap": -5.2
+   }
+  ],
+  "6961": [
+   {
+    "date": "2026-07-21",
+    "score": 24.7,
+    "gap": 8.7
+   },
+   {
+    "date": "2026-08-04",
+    "score": 41.0,
+    "gap": 13.7
+   },
+   {
+    "date": "2026-08-07",
+    "score": 31.3,
+    "gap": 12.0
+   }
+  ],
+  "6971": [
+   {
+    "date": "2026-08-02",
+    "score": 39.1,
+    "gap": 7.1
+   },
+   {
+    "date": "2026-08-03",
+    "score": 43.0,
+    "gap": 8.7
+   },
+   {
+    "date": "2026-08-07",
+    "score": 24.5,
+    "gap": -5.8
+   }
+  ],
+  "6976": [
+   {
+    "date": "2026-07-16",
+    "score": 16.1,
+    "gap": 16.2
+   },
+   {
+    "date": "2026-07-19",
+    "score": 18.8,
+    "gap": 9.2
+   },
+   {
+    "date": "2026-07-20",
+    "score": 17.9,
+    "gap": 8.8
+   },
+   {
+    "date": "2026-07-21",
+    "score": 22.1,
+    "gap": 4.6
+   },
+   {
+    "date": "2026-07-22",
+    "score": 21.6,
+    "gap": 3.8
+   },
+   {
+    "date": "2026-07-23",
+    "score": 23.6,
+    "gap": 7.2
+   },
+   {
+    "date": "2026-08-02",
+    "score": 30.0,
+    "gap": 20.3
+   },
+   {
+    "date": "2026-08-07",
+    "score": 23.2,
+    "gap": 7.4
    }
   ],
   "6988": [
@@ -5541,6 +6103,11 @@
     "date": "2026-08-05",
     "score": 26.0,
     "gap": 3.5
+   },
+   {
+    "date": "2026-08-07",
+    "score": 18.6,
+    "gap": -3.8
    }
   ],
   "7011": [
@@ -5588,6 +6155,11 @@
     "date": "2026-08-05",
     "score": 38.5,
     "gap": -4.3
+   },
+   {
+    "date": "2026-08-07",
+    "score": 28.7,
+    "gap": 0.0
    }
   ],
   "7012": [
@@ -5645,81 +6217,11 @@
     "date": "2026-08-05",
     "score": 38.0,
     "gap": -4.7
-   }
-  ],
-  "7201": [
-   {
-    "date": "2026-07-26",
-    "score": 24.1,
-    "gap": 4.2
    },
    {
-    "date": "2026-07-29",
-    "score": 17.8,
-    "gap": -5.2
-   },
-   {
-    "date": "2026-08-05",
-    "score": 26.0,
-    "gap": 9.9
-   }
-  ],
-  "7240": [
-   {
-    "date": "2026-07-28",
-    "score": 33.1,
-    "gap": 2.7
-   },
-   {
-    "date": "2026-08-03",
-    "score": 42.5,
-    "gap": 6.2
-   },
-   {
-    "date": "2026-08-05",
-    "score": 26.0,
-    "gap": 3.3
-   }
-  ],
-  "7246": [
-   {
-    "date": "2026-07-28",
-    "score": 25.4,
-    "gap": 2.0
-   },
-   {
-    "date": "2026-08-05",
-    "score": 36.6,
-    "gap": -6.5
-   }
-  ],
-  "7267": [
-   {
-    "date": "2026-07-29",
-    "score": 19.9,
-    "gap": -6.0
-   },
-   {
-    "date": "2026-08-05",
-    "score": 26.4,
-    "gap": 3.5
-   }
-  ],
-  "7282": [
-   {
-    "date": "2026-08-03",
-    "score": 43.1,
-    "gap": -1.5
-   },
-   {
-    "date": "2026-08-04",
-    "score": 42.3,
-    "gap": 3.5
-   },
-   {
-    "date": "2026-08-05",
-    "score": 36.1,
-    "gap": 4.1
+    "date": "2026-08-07",
+    "score": 25.2,
+    "gap": -5.5
    }
   ],
   "7609": [
@@ -5737,6 +6239,23 @@
     "date": "2026-08-05",
     "score": 39.7,
     "gap": -34.0
+   },
+   {
+    "date": "2026-08-07",
+    "score": 31.5,
+    "gap": -13.2
+   }
+  ],
+  "7711": [
+   {
+    "date": "2026-07-15",
+    "score": 22.5,
+    "gap": 0.0
+   },
+   {
+    "date": "2026-08-07",
+    "score": 27.9,
+    "gap": 0.0
    }
   ],
   "7729": [
@@ -5814,73 +6333,11 @@
     "date": "2026-08-05",
     "score": 55.7,
     "gap": -15.7
-   }
-  ],
-  "7735": [
-   {
-    "date": "2026-07-15",
-    "score": 40.5,
-    "gap": 0.0
    },
    {
-    "date": "2026-07-16",
-    "score": 27.4,
-    "gap": -1.9
-   },
-   {
-    "date": "2026-07-19",
-    "score": 26.3,
-    "gap": 8.6
-   },
-   {
-    "date": "2026-07-20",
-    "score": 25.5,
-    "gap": 8.3
-   },
-   {
-    "date": "2026-07-21",
-    "score": 32.6,
-    "gap": 10.7
-   },
-   {
-    "date": "2026-07-22",
-    "score": 36.8,
-    "gap": 16.7
-   },
-   {
-    "date": "2026-07-23",
-    "score": 37.8,
-    "gap": 15.6
-   },
-   {
-    "date": "2026-07-26",
-    "score": 37.8,
-    "gap": 8.3
-   },
-   {
-    "date": "2026-07-29",
-    "score": 29.6,
-    "gap": 30.6
-   },
-   {
-    "date": "2026-08-02",
-    "score": 38.6,
-    "gap": 25.5
-   },
-   {
-    "date": "2026-08-03",
-    "score": 44.8,
-    "gap": 28.8
-   },
-   {
-    "date": "2026-08-04",
-    "score": 41.0,
-    "gap": 19.9
-   },
-   {
-    "date": "2026-08-05",
-    "score": 39.8,
-    "gap": -8.9
+    "date": "2026-08-07",
+    "score": 38.4,
+    "gap": 2.3
    }
   ],
   "7745": [
@@ -5933,79 +6390,11 @@
     "date": "2026-08-05",
     "score": 34.7,
     "gap": -9.0
-   }
-  ],
-  "7752": [
-   {
-    "date": "2026-07-15",
-    "score": 15.6,
-    "gap": 0.0
    },
    {
-    "date": "2026-08-05",
-    "score": 26.0,
-    "gap": 8.1
-   }
-  ],
-  "7888": [
-   {
-    "date": "2026-07-26",
-    "score": 20.0,
-    "gap": 2.6
-   },
-   {
-    "date": "2026-07-27",
-    "score": 29.1,
-    "gap": 4.3
-   },
-   {
-    "date": "2026-07-28",
-    "score": 34.0,
-    "gap": 6.8
-   },
-   {
-    "date": "2026-08-05",
-    "score": 33.4,
-    "gap": 5.4
-   }
-  ],
-  "8001": [
-   {
-    "date": "2026-08-03",
-    "score": 35.2,
-    "gap": 3.4
-   },
-   {
-    "date": "2026-08-04",
-    "score": 37.4,
-    "gap": 3.5
-   },
-   {
-    "date": "2026-08-05",
-    "score": 35.2,
-    "gap": 4.7
-   }
-  ],
-  "8031": [
-   {
-    "date": "2026-07-28",
-    "score": 25.7,
-    "gap": 3.3
-   },
-   {
-    "date": "2026-08-03",
-    "score": 34.3,
-    "gap": 6.3
-   },
-   {
-    "date": "2026-08-04",
-    "score": 35.9,
-    "gap": 4.2
-   },
-   {
-    "date": "2026-08-05",
-    "score": 26.3,
-    "gap": 7.3
+    "date": "2026-08-07",
+    "score": 32.6,
+    "gap": 6.4
    }
   ],
   "8035": [
@@ -6088,38 +6477,33 @@
     "date": "2026-08-05",
     "score": 44.6,
     "gap": -6.1
+   },
+   {
+    "date": "2026-08-07",
+    "score": 39.2,
+    "gap": 5.4
    }
   ],
-  "8037": [
+  "8078": [
    {
-    "date": "2026-07-15",
-    "score": 15.7,
-    "gap": 0.0
+    "date": "2026-07-16",
+    "score": 16.6,
+    "gap": 3.6
    },
    {
-    "date": "2026-07-27",
-    "score": 21.8,
-    "gap": 0.0
+    "date": "2026-08-03",
+    "score": 35.4,
+    "gap": 7.5
    },
    {
-    "date": "2026-07-28",
-    "score": 25.1,
-    "gap": 0.4
+    "date": "2026-08-04",
+    "score": 39.7,
+    "gap": 3.0
    },
    {
-    "date": "2026-07-29",
-    "score": 21.0,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-07-30",
-    "score": 19.0,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-05",
-    "score": 31.3,
-    "gap": 3.5
+    "date": "2026-08-07",
+    "score": 19.2,
+    "gap": -3.0
    }
   ],
   "8084": [
@@ -6152,134 +6536,85 @@
     "date": "2026-08-05",
     "score": 33.8,
     "gap": -8.5
-   }
-  ],
-  "8541": [
-   {
-    "date": "2026-07-20",
-    "score": 16.0,
-    "gap": 0.0
    },
    {
+    "date": "2026-08-07",
+    "score": 18.6,
+    "gap": 0.0
+   }
+  ],
+  "8346": [
+   {
     "date": "2026-07-26",
-    "score": 28.3,
-    "gap": -18.7
+    "score": 28.4,
+    "gap": -9.4
    },
    {
     "date": "2026-07-27",
-    "score": 29.0,
-    "gap": -17.6
+    "score": 22.0,
+    "gap": -5.9
    },
    {
-    "date": "2026-08-04",
-    "score": 40.0,
-    "gap": 10.9
+    "date": "2026-08-02",
+    "score": 27.7,
+    "gap": 9.9
    },
    {
-    "date": "2026-08-05",
-    "score": 34.8,
-    "gap": 2.4
+    "date": "2026-08-07",
+    "score": 29.3,
+    "gap": -8.2
    }
   ],
-  "8551": [
+  "8377": [
    {
-    "date": "2026-07-15",
-    "score": 25.0,
-    "gap": 0.0
+    "date": "2026-07-16",
+    "score": 18.4,
+    "gap": 0.1
    },
    {
-    "date": "2026-07-19",
-    "score": 17.3,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-07-20",
-    "score": 22.3,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-07-26",
-    "score": 25.9,
-    "gap": -10.6
-   },
-   {
-    "date": "2026-07-27",
-    "score": 21.6,
-    "gap": -8.9
-   },
-   {
-    "date": "2026-07-29",
-    "score": 23.3,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-03",
-    "score": 48.8,
-    "gap": 7.0
-   },
-   {
-    "date": "2026-08-04",
-    "score": 46.5,
-    "gap": 3.6
-   },
-   {
-    "date": "2026-08-05",
-    "score": 38.2,
-    "gap": 1.3
-   }
-  ],
-  "8609": [
-   {
-    "date": "2026-07-15",
-    "score": 25.7,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-07-20",
-    "score": 16.0,
-    "gap": 0.0
+    "date": "2026-07-21",
+    "score": 27.6,
+    "gap": 4.2
    },
    {
     "date": "2026-07-22",
-    "score": 32.6,
-    "gap": 0.7
-   },
-   {
-    "date": "2026-07-26",
-    "score": 20.5,
-    "gap": -1.3
-   },
-   {
-    "date": "2026-07-28",
-    "score": 43.1,
-    "gap": 5.2
-   },
-   {
-    "date": "2026-07-30",
-    "score": 30.7,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-05",
-    "score": 38.8,
-    "gap": 3.0
-   }
-  ],
-  "8795": [
-   {
-    "date": "2026-07-27",
-    "score": 30.6,
-    "gap": -1.2
-   },
-   {
-    "date": "2026-07-28",
-    "score": 38.1,
+    "score": 36.4,
     "gap": 3.8
    },
    {
-    "date": "2026-08-05",
-    "score": 36.4,
-    "gap": 2.7
+    "date": "2026-07-23",
+    "score": 32.3,
+    "gap": 1.1
+   },
+   {
+    "date": "2026-07-26",
+    "score": 33.2,
+    "gap": -8.5
+   },
+   {
+    "date": "2026-07-27",
+    "score": 35.4,
+    "gap": -5.5
+   },
+   {
+    "date": "2026-07-28",
+    "score": 38.3,
+    "gap": 1.2
+   },
+   {
+    "date": "2026-08-02",
+    "score": 28.8,
+    "gap": 8.7
+   },
+   {
+    "date": "2026-08-04",
+    "score": 42.9,
+    "gap": 4.5
+   },
+   {
+    "date": "2026-08-07",
+    "score": 30.8,
+    "gap": -5.6
    }
   ],
   "9310": [
@@ -6292,181 +6627,240 @@
     "date": "2026-08-05",
     "score": 37.6,
     "gap": 3.4
-   }
-  ],
-  "9449": [
-   {
-    "date": "2026-07-30",
-    "score": 36.3,
-    "gap": -2.9
    },
    {
-    "date": "2026-08-02",
-    "score": 28.3,
-    "gap": 0.9
+    "date": "2026-08-07",
+    "score": 23.2,
+    "gap": 0.0
+   }
+  ],
+  "9962": [
+   {
+    "date": "2026-07-16",
+    "score": 17.9,
+    "gap": 6.6
    },
    {
     "date": "2026-08-03",
-    "score": 45.1,
-    "gap": 2.6
+    "score": 44.1,
+    "gap": 2.4
    },
    {
-    "date": "2026-08-05",
-    "score": 26.8,
-    "gap": 2.4
+    "date": "2026-08-04",
+    "score": 29.0,
+    "gap": -9.0
+   },
+   {
+    "date": "2026-08-07",
+    "score": 30.0,
+    "gap": 6.7
+   }
+  ],
+  "9984": [
+   {
+    "date": "2026-07-16",
+    "score": 17.5,
+    "gap": 8.0
+   },
+   {
+    "date": "2026-07-19",
+    "score": 17.9,
+    "gap": 16.7
+   },
+   {
+    "date": "2026-07-20",
+    "score": 23.5,
+    "gap": 16.4
+   },
+   {
+    "date": "2026-07-21",
+    "score": 24.4,
+    "gap": 17.0
+   },
+   {
+    "date": "2026-07-22",
+    "score": 29.1,
+    "gap": 14.1
+   },
+   {
+    "date": "2026-07-23",
+    "score": 31.8,
+    "gap": 5.6
+   },
+   {
+    "date": "2026-07-26",
+    "score": 29.1,
+    "gap": 3.5
+   },
+   {
+    "date": "2026-07-27",
+    "score": 21.9,
+    "gap": 11.3
+   },
+   {
+    "date": "2026-07-30",
+    "score": 36.5,
+    "gap": 24.0
+   },
+   {
+    "date": "2026-08-02",
+    "score": 36.5,
+    "gap": 11.5
+   },
+   {
+    "date": "2026-08-07",
+    "score": 31.4,
+    "gap": 4.0
    }
   ]
  },
  "prev_codes": [
-  "6702",
-  "8551",
-  "6501",
-  "8601",
   "6857",
+  "7729",
+  "4062",
+  "6954",
+  "6871",
+  "5801",
   "6323",
   "6508",
-  "8035",
-  "6098",
-  "4062",
-  "5802",
-  "6200",
-  "3923",
-  "8377",
-  "4980",
-  "5805",
-  "5975",
-  "4443",
-  "8002",
-  "7282",
-  "6954",
+  "6501",
   "5803",
-  "8306",
-  "6302",
-  "6301",
-  "6961",
-  "7735",
-  "6988",
-  "7012",
-  "4901",
-  "6758",
-  "8541",
-  "6871",
-  "5830",
-  "8370",
-  "9065",
-  "8078",
-  "6952",
-  "7327",
-  "7745",
-  "3697",
-  "6517",
-  "8388",
-  "4118",
-  "3994",
-  "2492",
-  "4689",
-  "6250",
-  "4733",
-  "6806",
-  "6103",
-  "6951",
-  "4220",
-  "6305",
-  "3993",
-  "8600",
-  "6326",
-  "8360",
-  "4755",
-  "8001",
-  "9682",
-  "6141",
-  "7011",
-  "8084",
-  "5801",
-  "6727",
-  "4478",
-  "5444",
-  "8031",
-  "4186",
-  "6841",
-  "6506",
-  "6266",
-  "3151",
-  "6463",
-  "7613",
-  "4970",
-  "7220",
-  "6473",
-  "6707",
-  "7609",
+  "6920",
   "6504",
-  "2146",
-  "6787",
-  "5440",
-  "6590",
-  "3110",
-  "8316",
-  "3984",
-  "6395",
-  "6728",
-  "6770",
-  "5401",
-  "8411",
-  "6387",
+  "5805",
+  "6146",
+  "8035",
+  "6200",
+  "5802",
+  "6315",
+  "4980",
+  "6702",
+  "6301",
+  "6305",
+  "6098",
+  "7735",
+  "7609",
+  "6506",
+  "8609",
+  "6326",
+  "7011",
+  "6324",
+  "5310",
+  "8551",
+  "7012",
+  "6503",
+  "5108",
+  "9310",
+  "6758",
+  "4189",
+  "4206",
+  "8012",
+  "7246",
+  "6349",
+  "8795",
+  "3697",
+  "3993",
+  "7282",
+  "4716",
+  "2737",
+  "6627",
+  "6454",
+  "8001",
   "5970",
-  "7780",
+  "6463",
+  "4733",
+  "9706",
+  "5195",
+  "4443",
+  "8541",
+  "7745",
+  "5444",
+  "3962",
+  "7309",
+  "5411",
+  "5480",
+  "6250",
+  "5406",
+  "5410",
+  "8084",
+  "3994",
+  "7888",
+  "7242",
+  "6302",
+  "8150",
+  "8159",
+  "8037",
+  "8088",
+  "6125",
+  "5946",
+  "5449",
+  "5949",
+  "9699",
+  "6103",
+  "9449",
+  "5401",
+  "5233",
+  "6861",
+  "6941",
+  "6701",
+  "5975",
   "6432",
-  "6526",
-  "9962"
+  "4290",
+  "5408",
+  "6361",
+  "7267",
+  "8031",
+  "6988",
+  "7201",
+  "7240",
+  "7752",
+  "6287"
  ],
  "deltas": {
-  "4062": 10.1,
-  "6200": 0.0,
-  "5803": 5.7,
-  "6432": -2.5,
-  "8031": -9.6,
-  "5970": 5.7,
-  "5444": -1.4,
-  "6508": 4.0,
-  "6103": -11.3,
-  "7012": -2.5,
-  "6301": -0.1,
-  "5975": -15.9,
-  "8541": -5.2,
-  "5801": 14.2,
-  "6988": -14.6,
-  "6323": 4.3,
-  "4733": -3.4,
-  "6098": -5.6,
-  "7011": 1.1,
-  "6506": 4.3,
-  "8551": -8.3,
-  "6857": 12.7,
-  "6326": 1.3,
-  "6250": -4.3,
-  "6871": 13.9,
-  "5401": -2.8,
-  "7735": -1.2,
-  "6504": 16.5,
-  "6463": 0.2,
-  "6758": -2.8,
-  "4443": -7.6,
-  "5805": 3.0,
-  "6302": -9.1,
-  "6501": 1.9,
-  "6305": 2.6,
-  "7745": -4.5,
-  "7609": 9.6,
-  "3697": -2.9,
-  "7282": -6.2,
-  "3994": -5.0,
-  "6702": -6.3,
-  "3993": -1.6,
-  "6954": 11.9,
-  "4980": -0.4,
-  "8035": -1.2,
-  "5802": -0.8,
-  "8084": -3.5,
-  "8001": -2.2
+  "3962": -9.9,
+  "8084": -15.2,
+  "5803": -11.3,
+  "6506": -11.1,
+  "6301": -13.7,
+  "6324": -14.7,
+  "6988": -7.4,
+  "5970": -7.3,
+  "6920": -8.2,
+  "6871": -13.4,
+  "6454": -6.7,
+  "5975": 1.1,
+  "7012": -12.8,
+  "6315": -3.9,
+  "6504": -9.5,
+  "5805": -11.5,
+  "5801": -12.3,
+  "6361": -7.0,
+  "6302": -13.0,
+  "6103": -7.4,
+  "6941": 6.9,
+  "5310": -5.1,
+  "6501": -11.4,
+  "6146": -3.1,
+  "9310": -14.4,
+  "6954": -19.5,
+  "6627": -10.1,
+  "5802": -10.9,
+  "7745": -2.1,
+  "7609": -8.2,
+  "7729": -17.3,
+  "6323": -15.0,
+  "4206": -18.4,
+  "6702": -11.7,
+  "4443": -15.6,
+  "4189": -7.7,
+  "6098": -13.0,
+  "8035": -5.4,
+  "7011": -9.8,
+  "6503": -10.4,
+  "4062": -19.6,
+  "6861": -1.8,
+  "4980": -3.3,
+  "6508": -15.0,
+  "6857": -5.3
  }
 }
