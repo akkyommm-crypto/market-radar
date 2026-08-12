@@ -1,6 +1,6 @@
 {
  "version": "v2",
- "generated_at": "2026-08-11T21:51:21",
+ "generated_at": "2026-08-12T21:50:08",
  "weights": {
   "linkage": 30,
   "theme": 20,
@@ -11,77 +11,77 @@
   "material": 10
  },
  "us_drivers": {
-  "NVIDIA": -0.68,
-  "AMD": -3.06,
-  "Intel": -2.1,
-  "Micron": -1.47,
-  "Texas Instruments": 1.02,
-  "Qualcomm": 1.43,
-  "Broadcom": -1.07,
-  "TSMC": 0.92,
-  "ASML": 5.57,
-  "Applied Materials": -0.35,
-  "Lam Research": 1.84,
-  "KLA": 3.75,
-  "Analog Devices": 2.12,
-  "Marvell": 0.84,
-  "onsemi": 3.55,
-  "Microchip": 8.96,
-  "Skyworks": 2.23,
-  "Qorvo": 1.42,
-  "SK hynix": -4.68,
-  "Microsoft": 0.79,
-  "Google": -3.9,
-  "Meta": 1.56,
-  "Amazon": 0.0,
-  "Oracle": 1.4,
-  "Supermicro": 7.56,
-  "Dell": 0.76,
-  "Vertiv": 2.41,
-  "Arista": 2.88,
-  "Cisco": -0.37,
-  "NetApp": 3.65,
-  "HPE": 3.72,
-  "IBM": 2.87,
-  "Ciena": -4.02,
-  "Coherent": -1.69,
-  "Lumentum": -2.08,
-  "Applied Optoelectronics": 8.14,
-  "Tesla": 4.16,
-  "GM": 2.77,
-  "Ford": 1.38,
-  "Albemarle": 3.14,
-  "Lockheed Martin": 2.56,
-  "RTX": 0.27,
-  "Northrop Grumman": 1.4,
-  "General Dynamics": 1.28,
-  "Boeing": 0.45,
-  "L3Harris": -1.21,
-  "Eaton": 2.73,
+  "NVIDIA": 0.06,
+  "AMD": -0.09,
+  "Intel": -0.69,
+  "Micron": 3.84,
+  "Texas Instruments": -3.32,
+  "Qualcomm": -2.85,
+  "Broadcom": -2.74,
+  "TSMC": 2.17,
+  "ASML": 3.97,
+  "Applied Materials": 1.67,
+  "Lam Research": 4.74,
+  "KLA": 5.12,
+  "Analog Devices": -1.41,
+  "Marvell": -0.75,
+  "onsemi": 2.65,
+  "Microchip": -6.2,
+  "Skyworks": -1.33,
+  "Qorvo": -0.85,
+  "SK hynix": 5.77,
+  "Microsoft": -1.51,
+  "Google": -3.04,
+  "Meta": -2.24,
+  "Amazon": -2.62,
+  "Oracle": 4.26,
+  "Supermicro": 20.82,
+  "Dell": 6.77,
+  "Vertiv": 5.86,
+  "Arista": 11.57,
+  "Cisco": 2.02,
+  "NetApp": 6.61,
+  "HPE": 10.47,
+  "IBM": 0.17,
+  "Ciena": 4.77,
+  "Coherent": -6.2,
+  "Lumentum": 4.75,
+  "Applied Optoelectronics": 1.81,
+  "Tesla": -0.33,
+  "GM": -0.94,
+  "Ford": -0.0,
+  "Albemarle": -2.11,
+  "Lockheed Martin": 3.19,
+  "RTX": -0.12,
+  "Northrop Grumman": 1.0,
+  "General Dynamics": 0.55,
+  "Boeing": -1.37,
+  "L3Harris": 1.42,
+  "Eaton": 2.51,
   "Honeywell": -4.41,
-  "Rockwell": 1.18,
-  "Emerson": 4.76,
-  "Quanta Services": 0.41,
-  "GE Vernova": 1.16,
-  "Linde": 0.09,
-  "Air Products": 3.13,
-  "DuPont": 0.31,
-  "SOX指数": 0.41,
-  "S&P500": 0.24,
-  "NASDAQ": 0.37,
+  "Rockwell": 2.35,
+  "Emerson": 3.5,
+  "Quanta Services": 0.92,
+  "GE Vernova": 5.01,
+  "Linde": -2.15,
+  "Air Products": 0.21,
+  "DuPont": 1.33,
+  "SOX指数": 0.34,
+  "S&P500": -0.12,
+  "NASDAQ": -0.38,
   "日経平均": 1.01
  },
  "theme_strength": {
-  "HBM・後工程": 7.79,
-  "半導体製造装置": 1.7,
-  "光通信・電線": 14.64,
-  "AIデータセンター・電力": 1.37,
-  "防衛": 1.48,
-  "ロボット": 5.31,
-  "生成AI・ソフト": 0.01,
-  "宇宙": 3.94,
-  "核融合": 8.63,
-  "量子": 6.14
+  "HBM・後工程": 6.35,
+  "半導体製造装置": -2.31,
+  "光通信・電線": 10.53,
+  "AIデータセンター・電力": 1.36,
+  "防衛": -0.46,
+  "ロボット": 2.81,
+  "生成AI・ソフト": 3.24,
+  "宇宙": 1.01,
+  "核融合": 4.3,
+  "量子": 6.23
  },
  "etf_flows": {
   "EWJ": 0.0,
@@ -96,11 +96,11 @@
   "watch_score": 55
  },
  "market_env": {
-  "regime": "yellow",
-  "label": "🟡 銘柄を選別。ロットを落として",
-  "mkt_r20": -2.32,
-  "breadth": 61.4,
-  "new_high": 127,
+  "regime": "green",
+  "label": "🟢 押し目買い・ブレイク買いに適した地合い",
+  "mkt_r20": -1.89,
+  "breadth": 65.1,
+  "new_high": 98,
   "lights": [
    {
     "name": "地合い(日経vs25MA)",
@@ -110,178 +110,315 @@
    },
    {
     "name": "市場の幅(25MA上%)",
-    "value": "61%",
+    "value": "65%",
     "color": "green",
-    "note": "新高値127銘柄 / 騰落 2136:1284"
+    "note": "新高値98銘柄 / 騰落 2224:1181"
    },
    {
     "name": "VIX(米リスク)",
-    "value": "15.3",
+    "value": "14.6",
     "color": "green",
     "note": "リスクオン"
    },
    {
     "name": "ドル円(5日)",
-    "value": "159.2 (+1.1%)",
+    "value": "159.4 (+1.1%)",
     "color": "green",
     "note": "安定"
    },
    {
     "name": "SOX指数(5日)",
-    "value": "-0.7%",
-    "color": "yellow",
-    "note": "半導体テーマ逆風"
+    "value": "+3.3%",
+    "color": "green",
+    "note": "半導体テーマの追い風"
    }
   ]
  },
  "radar": [
   {
-   "driver": "Microchip",
-   "impulse_pct": 9.0,
+   "driver": "Arista",
+   "impulse_pct": 11.6,
    "stocks": [
-    {
-     "code": "7729",
-     "name": "東京精密",
-     "score": 52.2,
-     "stars": "★★★☆☆",
-     "gap_pct": 3.2
-    },
     {
      "code": "6857",
      "name": "アドバンテスト",
-     "score": 50.4,
+     "score": 54.5,
      "stars": "★★★☆☆",
-     "gap_pct": -6.5
+     "gap_pct": 1.7
     },
     {
-     "code": "6315",
-     "name": "ＴＯＷＡ",
-     "score": 47.3,
-     "stars": "★★☆☆☆",
-     "gap_pct": 14.0
+     "code": "2760",
+     "name": "東京エレクトロン　デバイス",
+     "score": 39.5,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 7.7
     },
     {
-     "code": "5805",
-     "name": "ＳＷＣＣ",
-     "score": 46.199999999999996,
-     "stars": "★★☆☆☆",
-     "gap_pct": -12.2
+     "code": "6871",
+     "name": "日本マイクロニクス",
+     "score": 39.2,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 16.3
     },
     {
-     "code": "4980",
-     "name": "デクセリアルズ",
-     "score": 45.3,
-     "stars": "★★☆☆☆",
-     "gap_pct": 14.9
+     "code": "6951",
+     "name": "日本電子",
+     "score": 35.7,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 5.6
     },
     {
-     "code": "5802",
-     "name": "住友電気工業",
-     "score": 44.6,
-     "stars": "★★☆☆☆",
-     "gap_pct": 2.8
+     "code": "6861",
+     "name": "キーエンス",
+     "score": 32.4,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 2.5
     },
     {
-     "code": "4062",
-     "name": "イビデン",
-     "score": 44.1,
-     "stars": "★★☆☆☆",
-     "gap_pct": -17.4
-    },
-    {
-     "code": "6146",
-     "name": "ディスコ",
-     "score": 42.5,
-     "stars": "★★☆☆☆",
-     "gap_pct": 0.4
+     "code": "4970",
+     "name": "東洋合成工業",
+     "score": 24.5,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 24.0
     }
    ]
   },
   {
-   "driver": "ASML",
-   "impulse_pct": 5.6,
+   "driver": "HPE",
+   "impulse_pct": 10.5,
    "stocks": [
     {
-     "code": "2737",
-     "name": "トーメンデバイス",
-     "score": 33.7,
+     "code": "7729",
+     "name": "東京精密",
+     "score": 53.8,
+     "stars": "★★★☆☆",
+     "gap_pct": 5.1
+    },
+    {
+     "code": "4062",
+     "name": "イビデン",
+     "score": 51.4,
+     "stars": "★★★☆☆",
+     "gap_pct": 3.8
+    },
+    {
+     "code": "5802",
+     "name": "住友電気工業",
+     "score": 51.0,
+     "stars": "★★★☆☆",
+     "gap_pct": 7.7
+    },
+    {
+     "code": "6146",
+     "name": "ディスコ",
+     "score": 50.2,
+     "stars": "★★★☆☆",
+     "gap_pct": 4.8
+    },
+    {
+     "code": "4980",
+     "name": "デクセリアルズ",
+     "score": 46.8,
+     "stars": "★★☆☆☆",
+     "gap_pct": 9.1
+    },
+    {
+     "code": "6501",
+     "name": "日立製作所",
+     "score": 43.599999999999994,
+     "stars": "★★☆☆☆",
+     "gap_pct": -0.5
+    },
+    {
+     "code": "6504",
+     "name": "富士電機",
+     "score": 41.099999999999994,
+     "stars": "★★☆☆☆",
+     "gap_pct": 6.2
+    },
+    {
+     "code": "5803",
+     "name": "フジクラ",
+     "score": 41.0,
+     "stars": "★★☆☆☆",
+     "gap_pct": -9.8
+    }
+   ]
+  },
+  {
+   "driver": "SK hynix",
+   "impulse_pct": 5.8,
+   "stocks": [
+    {
+     "code": "6315",
+     "name": "ＴＯＷＡ",
+     "score": 44.599999999999994,
+     "stars": "★★☆☆☆",
+     "gap_pct": 18.7
+    },
+    {
+     "code": "5805",
+     "name": "ＳＷＣＣ",
+     "score": 41.1,
+     "stars": "★★☆☆☆",
+     "gap_pct": -4.7
+    },
+    {
+     "code": "6834",
+     "name": "精工技研",
+     "score": 38.3,
      "stars": "★☆☆☆☆",
-     "gap_pct": 7.2
+     "gap_pct": 3.8
+    },
+    {
+     "code": "3132",
+     "name": "マクニカホールディングス",
+     "score": 37.1,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 6.1
+    },
+    {
+     "code": "6324",
+     "name": "ハーモニック・ドライブ・システムズ",
+     "score": 36.4,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 15.7
+    },
+    {
+     "code": "6677",
+     "name": "エスケーエレクトロニクス",
+     "score": 36.2,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 10.4
+    },
+    {
+     "code": "4092",
+     "name": "日本化学工業",
+     "score": 36.2,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 16.7
+    },
+    {
+     "code": "6134",
+     "name": "ＦＵＪＩ",
+     "score": 36.0,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 6.1
+    }
+   ]
+  },
+  {
+   "driver": "GE Vernova",
+   "impulse_pct": 5.0,
+   "stocks": [
+    {
+     "code": "7011",
+     "name": "三菱重工業",
+     "score": 28.6,
+     "stars": "★☆☆☆☆",
+     "gap_pct": -0.8
     }
    ]
   },
   {
    "driver": "Emerson",
-   "impulse_pct": 4.8,
+   "impulse_pct": 3.5,
    "stocks": [
+    {
+     "code": "6517",
+     "name": "デンヨー",
+     "score": 37.2,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 8.0
+    },
+    {
+     "code": "6432",
+     "name": "竹内製作所",
+     "score": 36.4,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 4.5
+    },
+    {
+     "code": "6284",
+     "name": "日精エー・エス・ビー機械",
+     "score": 35.2,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 4.5
+    },
+    {
+     "code": "8012",
+     "name": "長瀬産業",
+     "score": 33.8,
+     "stars": "★☆☆☆☆",
+     "gap_pct": 3.6
+    },
     {
      "code": "7012",
      "name": "川崎重工業",
-     "score": 36.2,
+     "score": 33.599999999999994,
      "stars": "★☆☆☆☆",
-     "gap_pct": 7.3
-    },
-    {
-     "code": "5105",
-     "name": "ＴＯＹＯ　ＴＩＲＥ",
-     "score": 35.9,
-     "stars": "★☆☆☆☆",
-     "gap_pct": 9.9
-    },
-    {
-     "code": "9619",
-     "name": "イチネンホールディングス",
-     "score": 31.2,
-     "stars": "★☆☆☆☆",
-     "gap_pct": -11.9
-    },
-    {
-     "code": "6240",
-     "name": "ヤマシンフィルタ",
-     "score": 31.0,
-     "stars": "★☆☆☆☆",
-     "gap_pct": 4.2
+     "gap_pct": 6.9
     },
     {
      "code": "6459",
      "name": "だいわ",
-     "score": 30.9,
+     "score": 32.9,
      "stars": "★☆☆☆☆",
-     "gap_pct": 5.7
+     "gap_pct": 5.4
     },
     {
-     "code": "6282",
-     "name": "オイレス工業",
-     "score": 29.7,
+     "code": "5105",
+     "name": "ＴＯＹＯ　ＴＩＲＥ",
+     "score": 30.299999999999997,
      "stars": "★☆☆☆☆",
-     "gap_pct": 1.5
+     "gap_pct": 10.4
     },
     {
-     "code": "4246",
-     "name": "ダイキョーニシカワ",
-     "score": 27.799999999999997,
+     "code": "6505",
+     "name": "東洋電機製造",
+     "score": 30.2,
      "stars": "★☆☆☆☆",
-     "gap_pct": -7.4
-    },
-    {
-     "code": "5408",
-     "name": "中山製鋼所",
-     "score": 27.5,
-     "stars": "★☆☆☆☆",
-     "gap_pct": 4.0
+     "gap_pct": 3.4
     }
    ]
   }
  ],
  "stocks": [
   {
+   "code": "6857",
+   "name": "アドバンテスト",
+   "sector": "電気機器",
+   "score": 54.5,
+   "stars": "★★★☆☆",
+   "linkage": 15.7,
+   "theme": 18.7,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 12.0,
+   "fund": 7.0,
+   "material": 1.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Arista",
+   "gap_pct": 1.7,
+   "rs20": 21.8,
+   "atr_pct": 7.5,
+   "dev25": 15.0,
+   "stop": 29371,
+   "close": 34550.0,
+   "chg5d": 11.5,
+   "v_ratio": 0.7,
+   "turnover_m": 301980,
+   "reasons_str": "Arista+11.6%連動(β0.36) 未反応+1.7% / HBM・後工程(+6.4%) / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](9日前) / 増収+39% / ROE57%"
+  },
+  {
    "code": "7729",
    "name": "東京精密",
    "sector": "精密機器",
-   "score": 52.2,
+   "score": 53.8,
    "stars": "★★★☆☆",
-   "linkage": 18.0,
-   "theme": 20.0,
+   "linkage": 20.9,
+   "theme": 18.7,
    "supply": 2.0,
    "etf": 0.0,
    "tech": 4.7,
@@ -289,503 +426,395 @@
    "material": 0.0,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 3.2,
-   "rs20": -2.0,
-   "atr_pct": 6.6,
-   "dev25": 1.8,
-   "stop": 15717,
-   "close": 18095.0,
-   "chg5d": 5.0,
-   "v_ratio": 0.7,
-   "turnover_m": 9545,
-   "reasons_str": "Microchip+9.0%連動(β0.38) 未反応+3.2% / HBM・後工程(+7.8%) / 増収+19%"
+   "driver": "HPE",
+   "gap_pct": 5.1,
+   "rs20": -0.0,
+   "atr_pct": 6.3,
+   "dev25": 3.9,
+   "stop": 16125,
+   "close": 18460.0,
+   "chg5d": 2.2,
+   "v_ratio": 0.8,
+   "turnover_m": 9512,
+   "reasons_str": "HPE+10.5%連動(β0.34) 未反応+5.1% / HBM・後工程(+6.4%) / 増収+19%"
   },
   {
-   "code": "6857",
-   "name": "アドバンテスト",
+   "code": "4062",
+   "name": "イビデン",
    "sector": "電気機器",
-   "score": 50.4,
+   "score": 51.4,
    "stars": "★★★☆☆",
-   "linkage": 10.1,
-   "theme": 20.0,
+   "linkage": 22.8,
+   "theme": 18.7,
    "supply": 0.0,
    "etf": 0.0,
-   "tech": 12.0,
-   "fund": 7.0,
-   "material": 1.3,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -6.5,
-   "rs20": 17.2,
-   "atr_pct": 7.6,
-   "dev25": 14.8,
-   "stop": 29021,
-   "close": 34260.0,
-   "chg5d": 9.0,
-   "v_ratio": 0.7,
-   "turnover_m": 299147,
-   "reasons_str": "Microchip+9.0%連動(β0.45) / HBM・後工程(+7.8%) / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](8日前) / 増収+39% / ROE57%"
-  },
-  {
-   "code": "6315",
-   "name": "ＴＯＷＡ",
-   "sector": "機械",
-   "score": 47.3,
-   "stars": "★★☆☆☆",
-   "linkage": 20.3,
-   "theme": 20.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 0.0,
-   "fund": 5.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 14.0,
-   "rs20": -16.5,
-   "atr_pct": 8.7,
-   "dev25": -11.7,
-   "stop": 2098,
-   "close": 2541.0,
-   "chg5d": -7.1,
-   "v_ratio": 1.0,
-   "turnover_m": 13869,
-   "reasons_str": "Microchip+9.0%連動(β0.37) 未反応+14.0% / HBM・後工程(+7.8%) / 増収+100%"
-  },
-  {
-   "code": "5805",
-   "name": "ＳＷＣＣ",
-   "sector": "非鉄金属",
-   "score": 46.199999999999996,
-   "stars": "★★☆☆☆",
-   "linkage": 6.0,
-   "theme": 20.0,
-   "supply": 5.3,
-   "etf": 0.0,
-   "tech": 6.0,
-   "fund": 9.0,
-   "material": 2.9,
+   "tech": 5.0,
+   "fund": 6.0,
+   "material": 1.9,
    "penalty": -3.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -12.2,
-   "rs20": 19.0,
-   "atr_pct": 6.1,
-   "dev25": 18.2,
-   "stop": 11987,
-   "close": 13660.0,
-   "chg5d": 22.0,
-   "v_ratio": 2.3,
-   "turnover_m": 6095,
-   "reasons_str": "Microchip+9.0%連動(β0.27) / 光通信・電線(+14.6%) / 出来高増2.3倍 / 伸びすぎ注意(25MA+18%) / 開示[上方修正](4日前) / 増収+25% / ROE24% / PER21倍"
-  },
-  {
-   "code": "4980",
-   "name": "デクセリアルズ",
-   "sector": "化学",
-   "score": 45.3,
-   "stars": "★★☆☆☆",
-   "linkage": 20.3,
-   "theme": 20.0,
-   "supply": 0.0,
-   "etf": 0.0,
-   "tech": 0.0,
-   "fund": 5.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 14.9,
-   "rs20": -23.6,
-   "atr_pct": 6.6,
-   "dev25": -14.8,
-   "stop": 2662,
-   "close": 3065.0,
-   "chg5d": -7.1,
-   "v_ratio": 0.7,
-   "turnover_m": 6130,
-   "reasons_str": "Microchip+9.0%連動(β0.37) 未反応+14.9% / 光通信・電線(+14.6%) / PER19倍"
+   "driver": "HPE",
+   "gap_pct": 3.8,
+   "rs20": 11.5,
+   "atr_pct": 9.3,
+   "dev25": 15.0,
+   "stop": 16670,
+   "close": 20480.0,
+   "chg5d": 25.4,
+   "v_ratio": 0.9,
+   "turnover_m": 154640,
+   "reasons_str": "HPE+10.5%連動(β0.44) 未反応+3.8% / HBM・後工程(+6.4%) / 伸びすぎ注意(25MA+15%) / 開示[業績予想の修正](8日前) / 開示[株式分割](8日前) / 増収+26%"
   },
   {
    "code": "5802",
    "name": "住友電気工業",
    "sector": "非鉄金属",
-   "score": 44.6,
-   "stars": "★★☆☆☆",
-   "linkage": 15.1,
+   "score": 51.0,
+   "stars": "★★★☆☆",
+   "linkage": 20.5,
    "theme": 20.0,
-   "supply": 0.0,
+   "supply": 1.0,
    "etf": 0.0,
    "tech": 1.5,
    "fund": 8.0,
    "material": 0.0,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 2.8,
-   "rs20": -14.0,
-   "atr_pct": 8.2,
-   "dev25": -7.2,
-   "stop": 1805,
-   "close": 2161.0,
-   "chg5d": 4.8,
-   "v_ratio": 0.9,
-   "turnover_m": 57017,
-   "reasons_str": "Microchip+9.0%連動(β0.30) 未反応+2.8% / 光通信・電線(+14.6%) / 増収+16% / ROE16% / PER18倍"
-  },
-  {
-   "code": "4062",
-   "name": "イビデン",
-   "sector": "電気機器",
-   "score": 44.1,
-   "stars": "★★☆☆☆",
-   "linkage": 10.9,
-   "theme": 20.0,
-   "supply": 0.0,
-   "etf": 0.0,
-   "tech": 5.0,
-   "fund": 6.0,
-   "material": 2.2,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -17.4,
-   "rs20": 0.2,
-   "atr_pct": 10.1,
-   "dev25": 11.5,
-   "stop": 15875,
-   "close": 19880.0,
-   "chg5d": 28.0,
-   "v_ratio": 1.2,
-   "turnover_m": 153664,
-   "reasons_str": "Microchip+9.0%連動(β0.49) / HBM・後工程(+7.8%) / 開示[業績予想の修正](7日前) / 開示[株式分割](7日前) / 増収+26%"
+   "driver": "HPE",
+   "gap_pct": 7.7,
+   "rs20": -6.8,
+   "atr_pct": 7.7,
+   "dev25": -2.0,
+   "stop": 1920,
+   "close": 2270.0,
+   "chg5d": 5.0,
+   "v_ratio": 1.1,
+   "turnover_m": 58052,
+   "reasons_str": "HPE+10.5%連動(β0.33) 未反応+7.7% / 光通信・電線(+10.5%) / 増収+16% / ROE16% / PER18倍"
   },
   {
    "code": "6146",
    "name": "ディスコ",
    "sector": "機械",
-   "score": 42.5,
-   "stars": "★★☆☆☆",
-   "linkage": 10.8,
-   "theme": 20.0,
+   "score": 50.2,
+   "stars": "★★★☆☆",
+   "linkage": 21.0,
+   "theme": 18.7,
    "supply": 2.0,
    "etf": 0.0,
-   "tech": 2.7,
+   "tech": 1.5,
    "fund": 7.0,
    "material": 0.0,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 0.4,
-   "rs20": -10.9,
-   "atr_pct": 8.0,
-   "dev25": -3.2,
-   "stop": 52876,
-   "close": 62980.0,
-   "chg5d": 4.1,
-   "v_ratio": 0.8,
-   "turnover_m": 128256,
-   "reasons_str": "Microchip+9.0%連動(β0.43) / HBM・後工程(+7.8%) / 増収+27% / ROE27%"
+   "driver": "HPE",
+   "gap_pct": 4.8,
+   "rs20": -9.3,
+   "atr_pct": 7.7,
+   "dev25": -2.3,
+   "stop": 53316,
+   "close": 62960.0,
+   "chg5d": 3.4,
+   "v_ratio": 0.7,
+   "turnover_m": 128774,
+   "reasons_str": "HPE+10.5%連動(β0.34) 未反応+4.8% / HBM・後工程(+6.4%) / 増収+27% / ROE27%"
+  },
+  {
+   "code": "4980",
+   "name": "デクセリアルズ",
+   "sector": "化学",
+   "score": 46.8,
+   "stars": "★★☆☆☆",
+   "linkage": 21.8,
+   "theme": 20.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 0.0,
+   "fund": 5.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 9.1,
+   "rs20": -18.6,
+   "atr_pct": 6.3,
+   "dev25": -12.1,
+   "stop": 2724,
+   "close": 3120.0,
+   "chg5d": -10.0,
+   "v_ratio": 0.6,
+   "turnover_m": 6090,
+   "reasons_str": "HPE+10.5%連動(β0.37) 未反応+9.1% / 光通信・電線(+10.5%) / PER19倍"
+  },
+  {
+   "code": "6315",
+   "name": "ＴＯＷＡ",
+   "sector": "機械",
+   "score": 44.599999999999994,
+   "stars": "★★☆☆☆",
+   "linkage": 19.9,
+   "theme": 18.7,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 0.0,
+   "fund": 5.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 18.7,
+   "rs20": -17.6,
+   "atr_pct": 8.4,
+   "dev25": -10.8,
+   "stop": 2113,
+   "close": 2541.0,
+   "chg5d": -10.7,
+   "v_ratio": 0.9,
+   "turnover_m": 13554,
+   "reasons_str": "SK hynix+5.8%連動(β0.55) 未反応+18.7% / HBM・後工程(+6.4%) / 増収+100%"
   },
   {
    "code": "6501",
    "name": "日立製作所",
    "sector": "電気機器",
-   "score": 42.3,
+   "score": 43.599999999999994,
    "stars": "★★☆☆☆",
-   "linkage": 6.2,
-   "theme": 18.3,
+   "linkage": 7.5,
+   "theme": 18.5,
    "supply": 3.3,
    "etf": 0.0,
    "tech": 7.5,
    "fund": 5.5,
-   "material": 1.5,
+   "material": 1.3,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -1.4,
-   "rs20": 21.9,
-   "atr_pct": 2.9,
-   "dev25": 12.0,
-   "stop": 5292,
-   "close": 5620.0,
-   "chg5d": 6.0,
+   "driver": "HPE",
+   "gap_pct": -0.5,
+   "rs20": 22.1,
+   "atr_pct": 3.0,
+   "dev25": 12.2,
+   "stop": 5333,
+   "close": 5669.0,
+   "chg5d": 4.7,
    "v_ratio": 0.9,
-   "turnover_m": 65196,
-   "reasons_str": "Microchip+9.0%連動(β0.28) / 量子(+6.1%) / 買い出来高優勢 / MA上昇配列 / RSI過熱(88)⚠ / 開示[自己株式の取得](7日前) / 増収+20%"
+   "turnover_m": 66273,
+   "reasons_str": "HPE+10.5%連動(β0.29) / 量子(+6.2%) / 買い出来高優勢 / MA上昇配列 / RSI過熱(88)⚠ / 開示[自己株式の取得](8日前) / 増収+20%"
   },
   {
-   "code": "5801",
-   "name": "古河電気工業",
+   "code": "5805",
+   "name": "ＳＷＣＣ",
    "sector": "非鉄金属",
-   "score": 42.0,
+   "score": 41.1,
    "stars": "★★☆☆☆",
-   "linkage": 6.9,
+   "linkage": 4.5,
    "theme": 20.0,
    "supply": 2.0,
    "etf": 0.0,
-   "tech": 5.0,
-   "fund": 6.5,
-   "material": 1.6,
-   "penalty": 0.0,
+   "tech": 6.0,
+   "fund": 9.0,
+   "material": 2.6,
+   "penalty": -3.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -8.1,
-   "rs20": 8.4,
-   "atr_pct": 9.1,
-   "dev25": 13.3,
-   "stop": 3232,
-   "close": 3952.0,
-   "chg5d": 23.5,
-   "v_ratio": 1.9,
-   "turnover_m": 90771,
-   "reasons_str": "Microchip+9.0%連動(β0.31) / 光通信・電線(+14.6%) / 開示[業績予想の修正](5日前) / 増収+24% / ROE23%"
+   "driver": "SK hynix",
+   "gap_pct": -4.7,
+   "rs20": 21.1,
+   "atr_pct": 6.1,
+   "dev25": 17.0,
+   "stop": 11934,
+   "close": 13580.0,
+   "chg5d": 13.9,
+   "v_ratio": 1.1,
+   "turnover_m": 6262,
+   "reasons_str": "SK hynix+5.8%連動(β0.31) / 光通信・電線(+10.5%) / 伸びすぎ注意(25MA+17%) / 開示[上方修正](5日前) / 増収+25% / ROE24% / PER21倍"
   },
   {
-   "code": "6871",
-   "name": "日本マイクロニクス",
+   "code": "6504",
+   "name": "富士電機",
    "sector": "電気機器",
-   "score": 41.900000000000006,
+   "score": 41.099999999999994,
    "stars": "★★☆☆☆",
-   "linkage": 21.8,
-   "theme": 9.4,
-   "supply": 1.0,
+   "linkage": 18.9,
+   "theme": 8.7,
+   "supply": 0.0,
    "etf": 0.0,
-   "tech": 2.7,
-   "fund": 7.0,
+   "tech": 7.0,
+   "fund": 6.5,
    "material": 0.0,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 7.7,
-   "rs20": -14.5,
-   "atr_pct": 10.6,
-   "dev25": -6.5,
-   "stop": 10941,
-   "close": 13890.0,
-   "chg5d": 0.2,
-   "v_ratio": 0.9,
-   "turnover_m": 18700,
-   "reasons_str": "Microchip+9.0%連動(β0.44) 未反応+7.7% / 半導体製造装置(+1.7%) / 増収+26% / ROE24%"
-  },
-  {
-   "code": "6323",
-   "name": "ローツェ",
-   "sector": "機械",
-   "score": 40.7,
-   "stars": "★★☆☆☆",
-   "linkage": 22.1,
-   "theme": 9.4,
-   "supply": 1.0,
-   "etf": 0.0,
-   "tech": 1.2,
-   "fund": 7.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 9.9,
-   "rs20": -10.9,
-   "atr_pct": 9.2,
-   "dev25": -6.4,
-   "stop": 3292,
-   "close": 4039.0,
-   "chg5d": 1.6,
-   "v_ratio": 0.4,
-   "turnover_m": 14251,
-   "reasons_str": "Microchip+9.0%連動(β0.45) 未反応+9.9% / 半導体製造装置(+1.7%) / ROE15%"
+   "driver": "HPE",
+   "gap_pct": 6.2,
+   "rs20": 14.9,
+   "atr_pct": 5.6,
+   "dev25": 8.8,
+   "stop": 12868,
+   "close": 14490.0,
+   "chg5d": 2.8,
+   "v_ratio": 0.6,
+   "turnover_m": 15377,
+   "reasons_str": "HPE+10.5%連動(β0.26) 未反応+6.2% / AIデータセンター・電力(+1.4%) / PER22倍"
   },
   {
    "code": "5803",
    "name": "フジクラ",
    "sector": "非鉄金属",
-   "score": 40.599999999999994,
+   "score": 41.0,
    "stars": "★★☆☆☆",
-   "linkage": 8.5,
-   "theme": 20.0,
-   "supply": 4.3,
-   "etf": 0.0,
-   "tech": 5.0,
-   "fund": 4.0,
-   "material": 1.8,
-   "penalty": -3.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -17.2,
-   "rs20": 10.7,
-   "atr_pct": 7.8,
-   "dev25": 18.6,
-   "stop": 4714,
-   "close": 5580.0,
-   "chg5d": 30.1,
-   "v_ratio": 2.5,
-   "turnover_m": 242628,
-   "reasons_str": "Microchip+9.0%連動(β0.38) / 光通信・電線(+14.6%) / 出来高増2.5倍 / 伸びすぎ注意(25MA+19%) / 開示[業績予想の修正](4日前) / ROE39%"
-  },
-  {
-   "code": "6920",
-   "name": "レーザーテック",
-   "sector": "電気機器",
-   "score": 39.900000000000006,
-   "stars": "★☆☆☆☆",
-   "linkage": 21.8,
-   "theme": 9.4,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 2.7,
-   "fund": 4.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 14.2,
-   "rs20": -8.5,
-   "atr_pct": 9.5,
-   "dev25": -6.7,
-   "stop": 32067,
-   "close": 39590.0,
-   "chg5d": -3.2,
-   "v_ratio": 0.8,
-   "turnover_m": 168381,
-   "reasons_str": "Microchip+9.0%連動(β0.44) 未反応+14.2% / 半導体製造装置(+1.7%) / ROE34%"
-  },
-  {
-   "code": "8035",
-   "name": "東京エレクトロン",
-   "sector": "電気機器",
-   "score": 39.0,
-   "stars": "★☆☆☆☆",
-   "linkage": 21.3,
-   "theme": 9.4,
-   "supply": 0.0,
-   "etf": 0.0,
-   "tech": 0.0,
-   "fund": 7.0,
-   "material": 1.3,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 3.8,
-   "rs20": -19.9,
-   "atr_pct": 7.6,
-   "dev25": -10.2,
-   "stop": 48169,
-   "close": 56750.0,
-   "chg5d": 3.2,
-   "v_ratio": 0.5,
-   "turnover_m": 283041,
-   "reasons_str": "Microchip+9.0%連動(β0.44) 未反応+3.8% / 半導体製造装置(+1.7%) / 開示[自己株式の取得](8日前) / 増収+33% / ROE31%"
-  },
-  {
-   "code": "6490",
-   "name": "ＰＩＬＬＡＲ",
-   "sector": "機械",
-   "score": 38.5,
-   "stars": "★☆☆☆☆",
-   "linkage": 18.4,
-   "theme": 0.0,
-   "supply": 1.0,
-   "etf": 0.0,
-   "tech": 9.7,
-   "fund": 7.5,
-   "material": 1.9,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 7.5,
-   "rs20": 1.3,
-   "atr_pct": 8.6,
-   "dev25": 1.2,
-   "stop": 8313,
-   "close": 10030.0,
-   "chg5d": 0.7,
-   "v_ratio": 1.4,
-   "turnover_m": 1750,
-   "reasons_str": "Microchip+9.0%連動(β0.29) 未反応+7.5% / MA上昇配列 / パーフェクトオーダー / 開示[増配](5日前) / 増収+36%"
-  },
-  {
-   "code": "6668",
-   "name": "アドテック　プラズマ　テクノロジー",
-   "sector": "電気機器",
-   "score": 37.8,
-   "stars": "★☆☆☆☆",
-   "linkage": 19.8,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 10.0,
-   "fund": 6.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 11.5,
-   "rs20": -5.3,
-   "atr_pct": 9.1,
-   "dev25": 3.1,
-   "stop": 2827,
-   "close": 3455.0,
-   "chg5d": 6.3,
-   "v_ratio": 0.2,
-   "turnover_m": 786,
-   "reasons_str": "Microchip+9.0%連動(β0.35) 未反応+11.5% / 資金流入増 / MA上昇配列 / パーフェクトオーダー / PER18倍"
-  },
-  {
-   "code": "5310",
-   "name": "東洋炭素",
-   "sector": "ガラス・土石製品",
-   "score": 37.4,
-   "stars": "★☆☆☆☆",
-   "linkage": 5.9,
+   "linkage": 11.4,
    "theme": 20.0,
    "supply": 3.0,
    "etf": 0.0,
    "tech": 6.0,
-   "fund": 2.5,
+   "fund": 4.0,
+   "material": 1.6,
+   "penalty": -5.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": -9.8,
+   "rs20": 17.7,
+   "atr_pct": 7.6,
+   "dev25": 22.8,
+   "stop": 4914,
+   "close": 5800.0,
+   "chg5d": 25.3,
+   "v_ratio": 1.4,
+   "turnover_m": 253468,
+   "reasons_str": "HPE+10.5%連動(β0.43) / 光通信・電線(+10.5%) / 過熱⚠25MA+23% / 開示[業績予想の修正](5日前) / ROE39%"
+  },
+  {
+   "code": "2760",
+   "name": "東京エレクトロン　デバイス",
+   "sector": "卸売業",
+   "score": 39.5,
+   "stars": "★☆☆☆☆",
+   "linkage": 18.5,
+   "theme": 0.0,
+   "supply": 3.0,
+   "etf": 0.0,
+   "tech": 10.0,
+   "fund": 8.0,
    "material": 0.0,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -5.2,
-   "rs20": 7.1,
-   "atr_pct": 4.9,
-   "dev25": 7.8,
-   "stop": 6694,
-   "close": 7420.0,
-   "chg5d": 11.7,
-   "v_ratio": 1.5,
-   "turnover_m": 843,
-   "reasons_str": "Microchip+9.0%連動(β0.27) / 核融合(+8.6%)"
+   "driver": "Arista",
+   "gap_pct": 7.7,
+   "rs20": 15.0,
+   "atr_pct": 5.9,
+   "dev25": 8.9,
+   "stop": 3799,
+   "close": 4305.0,
+   "chg5d": 3.7,
+   "v_ratio": 0.6,
+   "turnover_m": 1016,
+   "reasons_str": "Arista+11.6%連動(β0.22) 未反応+7.7% / MA上昇配列 / パーフェクトオーダー / 増収+34% / ROE18% / PER16倍"
   },
   {
-   "code": "6954",
-   "name": "ファナック",
+   "code": "6871",
+   "name": "日本マイクロニクス",
    "sector": "電気機器",
-   "score": 37.3,
+   "score": 39.2,
    "stars": "★☆☆☆☆",
-   "linkage": 6.8,
-   "theme": 16.6,
-   "supply": 2.0,
+   "linkage": 21.7,
+   "theme": 6.0,
+   "supply": 3.0,
    "etf": 0.0,
-   "tech": 2.7,
-   "fund": 7.5,
-   "material": 1.7,
+   "tech": 1.5,
+   "fund": 7.0,
+   "material": 0.0,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -2.4,
-   "rs20": -6.8,
-   "atr_pct": 5.9,
-   "dev25": -3.5,
-   "stop": 5739,
-   "close": 6507.0,
-   "chg5d": 6.4,
-   "v_ratio": 0.7,
-   "turnover_m": 49514,
-   "reasons_str": "Microchip+9.0%連動(β0.30) / ロボット(+5.3%) / 開示[自己株式の取得](6日前) / 増収+18%"
+   "driver": "Arista",
+   "gap_pct": 16.3,
+   "rs20": -13.8,
+   "atr_pct": 9.9,
+   "dev25": -5.8,
+   "stop": 11179,
+   "close": 13950.0,
+   "chg5d": -3.3,
+   "v_ratio": 1.3,
+   "turnover_m": 18646,
+   "reasons_str": "Arista+11.6%連動(β0.34) 未反応+16.3% / 半導体製造装置(-2.3%) / 増収+26% / ROE24%"
+  },
+  {
+   "code": "6834",
+   "name": "精工技研",
+   "sector": "電気機器",
+   "score": 38.3,
+   "stars": "★☆☆☆☆",
+   "linkage": 16.5,
+   "theme": 0.0,
+   "supply": 5.7,
+   "etf": 0.0,
+   "tech": 5.0,
+   "fund": 8.5,
+   "material": 2.6,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 3.8,
+   "rs20": 9.4,
+   "atr_pct": 8.6,
+   "dev25": 13.5,
+   "stop": 19616,
+   "close": 23700.0,
+   "chg5d": 12.1,
+   "v_ratio": 4.3,
+   "turnover_m": 4427,
+   "reasons_str": "SK hynix+5.8%連動(β0.35) 未反応+3.8% / 出来高急増4.3倍 / 開示[増配](2日前) / 増収+56% / ROE23%"
+  },
+  {
+   "code": "4203",
+   "name": "住友ベークライト",
+   "sector": "化学",
+   "score": 37.8,
+   "stars": "★☆☆☆☆",
+   "linkage": 16.0,
+   "theme": 0.0,
+   "supply": 4.3,
+   "etf": 0.0,
+   "tech": 13.5,
+   "fund": 4.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 3.4,
+   "rs20": 12.5,
+   "atr_pct": 5.7,
+   "dev25": 9.7,
+   "stop": 6897,
+   "close": 7780.0,
+   "chg5d": 4.6,
+   "v_ratio": 0.9,
+   "turnover_m": 5614,
+   "reasons_str": "HPE+10.5%連動(β0.22) 未反応+3.4% / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / PER24倍"
+  },
+  {
+   "code": "6517",
+   "name": "デンヨー",
+   "sector": "電気機器",
+   "score": 37.2,
+   "stars": "★☆☆☆☆",
+   "linkage": 14.8,
+   "theme": 0.0,
+   "supply": 3.0,
+   "etf": 0.0,
+   "tech": 11.0,
+   "fund": 7.0,
+   "material": 1.4,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Emerson",
+   "gap_pct": 8.0,
+   "rs20": 20.1,
+   "atr_pct": 4.7,
+   "dev25": 9.3,
+   "stop": 3751,
+   "close": 4145.0,
+   "chg5d": -2.7,
+   "v_ratio": 0.9,
+   "turnover_m": 271,
+   "reasons_str": "Emerson+3.5%連動(β0.32) 未反応+8.0% / MA上昇配列 / パーフェクトオーダー / 開示[業績予想の修正](6日前) / 増収+19% / PER15倍"
   },
   {
    "code": "6702",
@@ -794,1167 +823,330 @@
    "score": 37.1,
    "stars": "★☆☆☆☆",
    "linkage": 0.0,
-   "theme": 18.3,
+   "theme": 18.5,
    "supply": 3.3,
    "etf": 0.0,
    "tech": 9.0,
    "fund": 5.0,
-   "material": 1.5,
+   "material": 1.3,
    "penalty": 0.0,
    "signal": "",
    "driver": "",
    "gap_pct": 0.0,
-   "rs20": 13.4,
-   "atr_pct": 4.3,
-   "dev25": 7.6,
-   "stop": 3399,
-   "close": 3719.0,
-   "chg5d": 6.3,
-   "v_ratio": 0.6,
-   "turnover_m": 33380,
-   "reasons_str": "量子(+6.1%) / 買い出来高優勢 / MA上昇配列 / 開示[自己株式の取得](7日前) / ROE16% / PER21倍"
+   "rs20": 13.8,
+   "atr_pct": 4.2,
+   "dev25": 6.6,
+   "stop": 3391,
+   "close": 3701.0,
+   "chg5d": 7.7,
+   "v_ratio": 0.7,
+   "turnover_m": 33753,
+   "reasons_str": "量子(+6.2%) / 買い出来高優勢 / MA上昇配列 / 開示[自己株式の取得](8日前) / ROE16% / PER21倍"
   },
   {
-   "code": "7012",
-   "name": "川崎重工業",
-   "sector": "輸送用機器",
-   "score": 36.2,
+   "code": "3132",
+   "name": "マクニカホールディングス",
+   "sector": "卸売業",
+   "score": 37.1,
    "stars": "★☆☆☆☆",
-   "linkage": 18.0,
-   "theme": 9.0,
-   "supply": 1.0,
+   "linkage": 16.1,
+   "theme": 0.0,
+   "supply": 2.0,
    "etf": 0.0,
-   "tech": 2.7,
-   "fund": 5.5,
+   "tech": 12.0,
+   "fund": 7.0,
    "material": 0.0,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Emerson",
-   "gap_pct": 7.3,
-   "rs20": -0.8,
-   "atr_pct": 4.4,
-   "dev25": -2.5,
-   "stop": 2457,
-   "close": 2694.0,
-   "chg5d": -0.5,
-   "v_ratio": 1.1,
-   "turnover_m": 37303,
-   "reasons_str": "Emerson+4.8%連動(β0.51) 未反応+7.3% / 防衛(+1.5%) / PER21倍"
+   "driver": "SK hynix",
+   "gap_pct": 6.1,
+   "rs20": 18.1,
+   "atr_pct": 6.2,
+   "dev25": 9.8,
+   "stop": 3219,
+   "close": 3676.0,
+   "chg5d": 6.6,
+   "v_ratio": 0.5,
+   "turnover_m": 4010,
+   "reasons_str": "SK hynix+5.8%連動(β0.28) 未反応+6.1% / MA上昇配列 / パーフェクトオーダー / 増収+40% / PER24倍"
   },
   {
-   "code": "5192",
-   "name": "三ツ星ベルト",
-   "sector": "ゴム製品",
-   "score": 36.0,
+   "code": "5801",
+   "name": "古河電気工業",
+   "sector": "非鉄金属",
+   "score": 36.699999999999996,
    "stars": "★☆☆☆☆",
-   "linkage": 2.9,
-   "theme": 0.0,
-   "supply": 9.0,
+   "linkage": 9.3,
+   "theme": 20.0,
+   "supply": 1.0,
    "etf": 0.0,
-   "tech": 13.7,
-   "fund": 6.5,
-   "material": 3.9,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -11.9,
-   "rs20": 18.4,
-   "atr_pct": 2.0,
-   "dev25": 12.7,
-   "stop": 4410,
-   "close": 4590.0,
-   "chg5d": 12.9,
-   "v_ratio": 6.3,
-   "turnover_m": 401,
-   "reasons_str": "Microchip+9.0%連動(β0.13) / 出来高急増6.3倍 / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[自己株式取得](4日前) / 開示[業績予想の修正](4日前) / PER17倍"
-  },
-  {
-   "code": "5105",
-   "name": "ＴＯＹＯ　ＴＩＲＥ",
-   "sector": "ゴム製品",
-   "score": 35.9,
-   "stars": "★☆☆☆☆",
-   "linkage": 16.0,
-   "theme": 0.0,
-   "supply": 5.7,
-   "etf": 0.0,
-   "tech": 0.0,
+   "tech": 5.0,
    "fund": 5.0,
-   "material": 9.2,
-   "penalty": 0.0,
+   "material": 1.4,
+   "penalty": -5.0,
    "signal": "",
-   "driver": "Emerson",
-   "gap_pct": 9.9,
-   "rs20": -0.9,
-   "atr_pct": 4.7,
-   "dev25": -6.3,
-   "stop": 3427,
-   "close": 3780.0,
-   "chg5d": -8.4,
-   "v_ratio": 4.6,
-   "turnover_m": 4846,
-   "reasons_str": "Emerson+4.8%連動(β0.34) 未反応+9.9% / 出来高急増4.6倍 / 開示[自己株式の取得](1日前) / 開示[自己株式の取得](4日前) / PER10倍"
+   "driver": "HPE",
+   "gap_pct": -4.0,
+   "rs20": 19.5,
+   "atr_pct": 8.8,
+   "dev25": 20.6,
+   "stop": 3479,
+   "close": 4222.0,
+   "chg5d": 18.4,
+   "v_ratio": 1.5,
+   "turnover_m": 95674,
+   "reasons_str": "HPE+10.5%連動(β0.36) / 光通信・電線(+10.5%) / 過熱⚠25MA+21% / 開示[業績予想の修正](6日前) / 増収+24% / ROE23%"
   },
   {
-   "code": "6723",
-   "name": "ルネサスエレクトロニクス",
-   "sector": "電気機器",
-   "score": 35.2,
+   "code": "6432",
+   "name": "竹内製作所",
+   "sector": "機械",
+   "score": 36.4,
    "stars": "★☆☆☆☆",
-   "linkage": 23.5,
+   "linkage": 15.9,
    "theme": 0.0,
    "supply": 0.0,
    "etf": 0.0,
-   "tech": 2.7,
-   "fund": 9.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 6.1,
-   "rs20": -17.4,
-   "atr_pct": 8.3,
-   "dev25": -5.6,
-   "stop": 3187,
-   "close": 3825.0,
-   "chg5d": -2.0,
-   "v_ratio": 0.5,
-   "turnover_m": 61726,
-   "reasons_str": "Microchip+9.0%連動(β0.51) 未反応+6.1% / 増収+28% / PER21倍"
-  },
-  {
-   "code": "4369",
-   "name": "トリケミカル研究所",
-   "sector": "化学",
-   "score": 34.8,
-   "stars": "★☆☆☆☆",
-   "linkage": 21.6,
-   "theme": 0.0,
-   "supply": 1.0,
-   "etf": 0.0,
-   "tech": 3.7,
+   "tech": 12.0,
    "fund": 8.5,
    "material": 0.0,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 5.0,
-   "rs20": 2.6,
-   "atr_pct": 7.0,
-   "dev25": 1.1,
-   "stop": 2870,
-   "close": 3335.0,
-   "chg5d": 2.5,
-   "v_ratio": 1.1,
-   "turnover_m": 1848,
-   "reasons_str": "Microchip+9.0%連動(β0.43) 未反応+5.0% / ROE18% / PER20倍"
+   "driver": "Emerson",
+   "gap_pct": 4.5,
+   "rs20": 6.9,
+   "atr_pct": 3.8,
+   "dev25": 3.6,
+   "stop": 7113,
+   "close": 7700.0,
+   "chg5d": 1.2,
+   "v_ratio": 0.4,
+   "turnover_m": 2126,
+   "reasons_str": "Emerson+3.5%連動(β0.44) 未反応+4.5% / MA上昇配列 / パーフェクトオーダー / ROE16% / PER13倍"
   },
   {
-   "code": "6141",
-   "name": "ＤＭＧ森精機",
+   "code": "6324",
+   "name": "ハーモニック・ドライブ・システムズ",
    "sector": "機械",
-   "score": 34.8,
+   "score": 36.4,
    "stars": "★☆☆☆☆",
-   "linkage": 18.6,
-   "theme": 0.0,
-   "supply": 1.0,
-   "etf": 0.0,
-   "tech": 11.0,
-   "fund": 3.0,
-   "material": 1.2,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 8.6,
-   "rs20": 0.2,
-   "atr_pct": 5.3,
-   "dev25": 1.3,
-   "stop": 3281,
-   "close": 3674.0,
-   "chg5d": -1.7,
-   "v_ratio": 0.8,
-   "turnover_m": 5086,
-   "reasons_str": "Microchip+9.0%連動(β0.29) 未反応+8.6% / MA上昇配列 / パーフェクトオーダー / 開示[業績予想の修正](7日前) / 増収+24%"
-  },
-  {
-   "code": "6787",
-   "name": "メイコー",
-   "sector": "電気機器",
-   "score": 34.6,
-   "stars": "★☆☆☆☆",
-   "linkage": 20.8,
-   "theme": 0.0,
-   "supply": 3.3,
+   "linkage": 17.7,
+   "theme": 11.6,
+   "supply": 0.0,
    "etf": 0.0,
    "tech": 1.5,
-   "fund": 9.0,
+   "fund": 4.0,
+   "material": 1.6,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 15.7,
+   "rs20": -9.7,
+   "atr_pct": 8.9,
+   "dev25": -6.3,
+   "stop": 5266,
+   "close": 6400.0,
+   "chg5d": -6.4,
+   "v_ratio": 0.8,
+   "turnover_m": 10984,
+   "reasons_str": "SK hynix+5.8%連動(β0.39) 未反応+15.7% / ロボット(+2.8%) / 開示[業績予想の修正](5日前) / 増収+24%"
+  },
+  {
+   "code": "4971",
+   "name": "メック",
+   "sector": "化学",
+   "score": 36.2,
+   "stars": "★☆☆☆☆",
+   "linkage": 20.4,
+   "theme": 0.0,
+   "supply": 4.7,
+   "etf": 0.0,
+   "tech": 1.5,
+   "fund": 7.5,
+   "material": 2.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 26.0,
+   "rs20": -12.8,
+   "atr_pct": 9.9,
+   "dev25": -10.9,
+   "stop": 6166,
+   "close": 7690.0,
+   "chg5d": -12.1,
+   "v_ratio": 4.3,
+   "turnover_m": 3267,
+   "reasons_str": "HPE+10.5%連動(β0.32) 未反応+26.0% / 出来高急増4.3倍 / 開示[業績予想の修正](2日前) / 増収+88%"
+  },
+  {
+   "code": "6677",
+   "name": "エスケーエレクトロニクス",
+   "sector": "電気機器",
+   "score": 36.2,
+   "stars": "★☆☆☆☆",
+   "linkage": 15.2,
+   "theme": 0.0,
+   "supply": 4.3,
+   "etf": 0.0,
+   "tech": 10.7,
+   "fund": 6.0,
    "material": 0.0,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 26.8,
-   "rs20": -33.0,
-   "atr_pct": 13.6,
-   "dev25": -27.3,
-   "stop": 12316,
-   "close": 16910.0,
-   "chg5d": -20.2,
-   "v_ratio": 3.0,
-   "turnover_m": 10597,
-   "reasons_str": "Microchip+9.0%連動(β0.39) 未反応+26.8% / 出来高増3.0倍 / 増収+38% / ROE15% / PER22倍"
+   "driver": "SK hynix",
+   "gap_pct": 10.4,
+   "rs20": 4.7,
+   "atr_pct": 4.4,
+   "dev25": 0.2,
+   "stop": 3175,
+   "close": 3480.0,
+   "chg5d": -5.4,
+   "v_ratio": 2.6,
+   "turnover_m": 290,
+   "reasons_str": "SK hynix+5.8%連動(β0.22) 未反応+10.4% / 出来高増2.6倍 / MA上昇配列 / パーフェクトオーダー / PER13倍"
   },
   {
-   "code": "4044",
-   "name": "セントラル硝子",
+   "code": "4092",
+   "name": "日本化学工業",
    "sector": "化学",
-   "score": 34.2,
+   "score": 36.2,
    "stars": "★☆☆☆☆",
-   "linkage": 3.7,
+   "linkage": 15.6,
    "theme": 0.0,
-   "supply": 7.7,
+   "supply": 5.3,
    "etf": 0.0,
-   "tech": 15.0,
-   "fund": 5.5,
-   "material": 2.3,
+   "tech": 7.2,
+   "fund": 6.0,
+   "material": 2.1,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -10.0,
-   "rs20": 13.2,
-   "atr_pct": 3.0,
-   "dev25": 10.1,
-   "stop": 4340,
-   "close": 4620.0,
-   "chg5d": 12.1,
-   "v_ratio": 7.8,
-   "turnover_m": 454,
-   "reasons_str": "Microchip+9.0%連動(β0.17) / 出来高急増7.8倍 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[業績予想の修正](1日前) / PER14倍"
+   "driver": "SK hynix",
+   "gap_pct": 16.7,
+   "rs20": 23.9,
+   "atr_pct": 8.6,
+   "dev25": 1.2,
+   "stop": 4287,
+   "close": 5180.0,
+   "chg5d": -10.4,
+   "v_ratio": 2.5,
+   "turnover_m": 2010,
+   "reasons_str": "SK hynix+5.8%連動(β0.25) 未反応+16.7% / 出来高増2.5倍 / MA上昇配列 / パーフェクトオーダー / 開示[業績予想の修正](2日前) / 増収+22% / PER16倍"
   },
   {
    "code": "6134",
    "name": "ＦＵＪＩ",
    "sector": "機械",
-   "score": 34.2,
+   "score": 36.0,
    "stars": "★☆☆☆☆",
-   "linkage": 15.1,
+   "linkage": 16.1,
    "theme": 0.0,
-   "supply": 1.0,
+   "supply": 2.0,
    "etf": 0.0,
    "tech": 12.0,
    "fund": 5.0,
-   "material": 1.1,
+   "material": 0.9,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 3.2,
-   "rs20": 0.0,
-   "atr_pct": 7.0,
-   "dev25": 5.4,
-   "stop": 6933,
-   "close": 8061.0,
-   "chg5d": 8.3,
-   "v_ratio": 0.8,
-   "turnover_m": 8460,
-   "reasons_str": "Microchip+9.0%連動(β0.24) 未反応+3.2% / MA上昇配列 / パーフェクトオーダー / 開示[業績予想の修正](8日前) / 増収+46%"
-  },
-  {
-   "code": "6517",
-   "name": "デンヨー",
-   "sector": "電気機器",
-   "score": 34.0,
-   "stars": "★☆☆☆☆",
-   "linkage": 10.1,
-   "theme": 0.0,
-   "supply": 3.0,
-   "etf": 0.0,
-   "tech": 11.0,
-   "fund": 7.0,
-   "material": 2.9,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 1.9,
-   "rs20": 22.0,
-   "atr_pct": 4.5,
-   "dev25": 12.7,
-   "stop": 3869,
-   "close": 4250.0,
-   "chg5d": -2.0,
+   "driver": "SK hynix",
+   "gap_pct": 6.1,
+   "rs20": 5.3,
+   "atr_pct": 6.9,
+   "dev25": 6.3,
+   "stop": 6985,
+   "close": 8107.0,
+   "chg5d": -0.4,
    "v_ratio": 0.7,
-   "turnover_m": 265,
-   "reasons_str": "Microchip+9.0%連動(β0.19) 未反応+1.9% / MA上昇配列 / パーフェクトオーダー / 開示[業績予想の修正](5日前) / 開示[自己株式の取得](8日前) / 増収+19% / PER15倍"
+   "turnover_m": 8438,
+   "reasons_str": "SK hynix+5.8%連動(β0.29) 未反応+6.1% / MA上昇配列 / パーフェクトオーダー / 開示[業績予想の修正](9日前) / 増収+46%"
   },
   {
-   "code": "2737",
-   "name": "トーメンデバイス",
-   "sector": "卸売業",
-   "score": 33.7,
-   "stars": "★☆☆☆☆",
-   "linkage": 15.7,
-   "theme": 0.0,
-   "supply": 4.0,
-   "etf": 0.0,
-   "tech": 11.0,
-   "fund": 8.0,
-   "material": 0.0,
-   "penalty": -5.0,
-   "signal": "",
-   "driver": "ASML",
-   "gap_pct": 7.2,
-   "rs20": 89.5,
-   "atr_pct": 8.9,
-   "dev25": 50.3,
-   "stop": 24121,
-   "close": 29370.0,
-   "chg5d": 12.3,
-   "v_ratio": 1.1,
-   "turnover_m": 3527,
-   "reasons_str": "ASML+5.6%連動(β0.27) 未反応+7.2% / 資金流入増 / MA上昇配列 / パーフェクトオーダー / 過熱⚠25MA+50% / 増収+286% / ROE39% / PER20倍"
-  },
-  {
-   "code": "6506",
-   "name": "安川電機",
+   "code": "9880",
+   "name": "イノテック",
    "sector": "電気機器",
-   "score": 33.3,
+   "score": 36.0,
    "stars": "★☆☆☆☆",
-   "linkage": 8.7,
-   "theme": 16.6,
-   "supply": 1.0,
+   "linkage": 15.3,
+   "theme": 0.0,
+   "supply": 3.3,
    "etf": 0.0,
-   "tech": 4.0,
-   "fund": 3.0,
-   "material": 0.0,
+   "tech": 5.0,
+   "fund": 9.0,
+   "material": 3.4,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -1.0,
-   "rs20": -20.7,
-   "atr_pct": 5.1,
-   "dev25": -3.1,
-   "stop": 4814,
-   "close": 5365.0,
-   "chg5d": 8.7,
-   "v_ratio": 0.4,
-   "turnover_m": 46258,
-   "reasons_str": "Microchip+9.0%連動(β0.39) / ロボット(+5.3%)"
-  },
-  {
-   "code": "6508",
-   "name": "明電舎",
-   "sector": "電気機器",
-   "score": 33.2,
-   "stars": "★☆☆☆☆",
-   "linkage": 9.5,
-   "theme": 8.7,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 8.0,
-   "fund": 8.0,
-   "material": 0.0,
-   "penalty": -3.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 1.3,
-   "rs20": 21.3,
+   "driver": "SK hynix",
+   "gap_pct": 6.3,
+   "rs20": 3.9,
    "atr_pct": 5.8,
-   "dev25": 15.2,
-   "stop": 9547,
-   "close": 10790.0,
-   "chg5d": 3.4,
-   "v_ratio": 0.8,
-   "turnover_m": 2902,
-   "reasons_str": "Microchip+9.0%連動(β0.25) 未反応+1.3% / AIデータセンター・電力(+1.4%) / 伸びすぎ注意(25MA+15%) / 増収+26% / ROE18% / PER21倍"
+   "dev25": 3.4,
+   "stop": 3145,
+   "close": 3560.0,
+   "chg5d": -1.1,
+   "v_ratio": 2.8,
+   "turnover_m": 600,
+   "reasons_str": "SK hynix+5.8%連動(β0.23) 未反応+6.3% / 出来高増2.8倍 / 開示[業績予想の修正](2日前) / 開示[自己株式の取得](8日前) / 増収+48% / ROE20% / PER11倍"
   },
   {
-   "code": "6866",
-   "name": "日置電機",
-   "sector": "電気機器",
-   "score": 33.2,
+   "code": "6490",
+   "name": "ＰＩＬＬＡＲ",
+   "sector": "機械",
+   "score": 35.8,
    "stars": "★☆☆☆☆",
    "linkage": 16.9,
    "theme": 0.0,
    "supply": 0.0,
    "etf": 0.0,
-   "tech": 7.0,
-   "fund": 8.0,
-   "material": 1.3,
+   "tech": 9.7,
+   "fund": 7.5,
+   "material": 1.7,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 5.0,
-   "rs20": 5.4,
-   "atr_pct": 5.9,
-   "dev25": 3.5,
-   "stop": 10447,
-   "close": 11850.0,
-   "chg5d": 4.2,
-   "v_ratio": 0.6,
-   "turnover_m": 902,
-   "reasons_str": "Microchip+9.0%連動(β0.22) 未反応+5.0% / 開示[自己株式の取得](8日前) / 増収+31% / PER22倍"
-  },
-  {
-   "code": "6264",
-   "name": "マルマエ",
-   "sector": "機械",
-   "score": 33.2,
-   "stars": "★☆☆☆☆",
-   "linkage": 21.0,
-   "theme": 0.0,
-   "supply": 1.0,
-   "etf": 0.0,
-   "tech": 2.7,
-   "fund": 8.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 4.6,
-   "rs20": -5.0,
-   "atr_pct": 7.0,
-   "dev25": -0.8,
-   "stop": 1766,
-   "close": 2053.0,
-   "chg5d": 2.9,
-   "v_ratio": 0.4,
-   "turnover_m": 1652,
-   "reasons_str": "Microchip+9.0%連動(β0.40) 未反応+4.6% / 増収+58% / ROE25%"
-  },
-  {
-   "code": "4631",
-   "name": "ＤＩＣ",
-   "sector": "化学",
-   "score": 33.199999999999996,
-   "stars": "★☆☆☆☆",
-   "linkage": 4.6,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 13.7,
-   "fund": 8.0,
-   "material": 7.9,
-   "penalty": -3.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -19.4,
-   "rs20": 17.7,
-   "atr_pct": 3.2,
-   "dev25": 17.1,
-   "stop": 5029,
-   "close": 5378.0,
-   "chg5d": 23.1,
-   "v_ratio": 1.6,
-   "turnover_m": 2508,
-   "reasons_str": "Microchip+9.0%連動(β0.20) / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 伸びすぎ注意(25MA+17%) / 開示[業績予想の修正](1日前) / 開示[増配](1日前) / 増収+19% / PER9倍"
-  },
-  {
-   "code": "6480",
-   "name": "日本トムソン",
-   "sector": "機械",
-   "score": 33.0,
-   "stars": "★☆☆☆☆",
-   "linkage": 17.4,
-   "theme": 0.0,
-   "supply": 4.3,
-   "etf": 0.0,
-   "tech": 2.7,
-   "fund": 5.5,
-   "material": 3.1,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 4.3,
-   "rs20": -7.2,
-   "atr_pct": 7.7,
-   "dev25": -0.2,
-   "stop": 1591,
-   "close": 1879.0,
-   "chg5d": 4.1,
-   "v_ratio": 2.2,
-   "turnover_m": 2106,
-   "reasons_str": "Microchip+9.0%連動(β0.24) 未反応+4.3% / 出来高増2.2倍 / 開示[業績予想の修正](4日前) / 開示[自己株式の取得](8日前) / 増収+33%"
-  },
-  {
-   "code": "8150",
-   "name": "三信電気",
-   "sector": "卸売業",
-   "score": 32.1,
-   "stars": "★☆☆☆☆",
-   "linkage": 12.3,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 10.0,
-   "fund": 5.5,
-   "material": 2.3,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 3.0,
-   "rs20": 8.1,
-   "atr_pct": 3.0,
-   "dev25": 4.3,
-   "stop": 2846,
-   "close": 3025.0,
-   "chg5d": 3.1,
-   "v_ratio": 0.9,
-   "turnover_m": 173,
-   "reasons_str": "Microchip+9.0%連動(β0.15) 未反応+3.0% / MA上昇配列 / 開示[上方修正](6日前) / PER7倍"
-  },
-  {
-   "code": "4970",
-   "name": "東洋合成工業",
-   "sector": "化学",
-   "score": 32.0,
-   "stars": "★☆☆☆☆",
-   "linkage": 21.5,
-   "theme": 0.0,
-   "supply": 5.7,
-   "etf": 0.0,
-   "tech": 0.0,
-   "fund": 3.0,
-   "material": 1.8,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 17.6,
-   "rs20": -21.2,
-   "atr_pct": 10.3,
-   "dev25": -17.9,
-   "stop": 9371,
-   "close": 11800.0,
-   "chg5d": -8.8,
-   "v_ratio": 4.2,
-   "turnover_m": 1253,
-   "reasons_str": "Microchip+9.0%連動(β0.43) 未反応+17.6% / 出来高急増4.2倍 / 開示[業績予想の修正](4日前)"
-  },
-  {
-   "code": "8050",
-   "name": "セイコーグループ",
-   "sector": "精密機器",
-   "score": 31.900000000000006,
-   "stars": "★☆☆☆☆",
-   "linkage": 5.0,
-   "theme": 0.0,
-   "supply": 6.3,
-   "etf": 0.0,
-   "tech": 15.0,
-   "fund": 8.5,
-   "material": 2.1,
-   "penalty": -5.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -17.9,
-   "rs20": 44.4,
-   "atr_pct": 5.5,
-   "dev25": 34.3,
-   "stop": 9497,
-   "close": 10670.0,
-   "chg5d": 25.2,
-   "v_ratio": 3.0,
-   "turnover_m": 3438,
-   "reasons_str": "Microchip+9.0%連動(β0.22) / 出来高増3.0倍 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 過熱⚠25MA+34% / 開示[増配](4日前) / 増収+28% / ROE15%"
-  },
-  {
-   "code": "7279",
-   "name": "ハイレックスコーポレーション",
-   "sector": "輸送用機器",
-   "score": 31.8,
-   "stars": "★☆☆☆☆",
-   "linkage": 15.5,
-   "theme": 0.0,
-   "supply": 1.0,
-   "etf": 0.0,
-   "tech": 6.0,
-   "fund": 8.0,
-   "material": 1.3,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 3.6,
-   "rs20": 19.0,
-   "atr_pct": 3.9,
-   "dev25": 10.3,
-   "stop": 2290,
-   "close": 2484.0,
+   "driver": "SK hynix",
+   "gap_pct": 10.4,
+   "rs20": 7.3,
+   "atr_pct": 8.1,
+   "dev25": 4.5,
+   "stop": 8679,
+   "close": 10350.0,
    "chg5d": -1.9,
-   "v_ratio": 0.8,
-   "turnover_m": 242,
-   "reasons_str": "Microchip+9.0%連動(β0.22) 未反応+3.6% / 開示[自己株式の取得](8日前) / 増収+38% / ROE20% / PER11倍"
+   "v_ratio": 0.9,
+   "turnover_m": 1760,
+   "reasons_str": "SK hynix+5.8%連動(β0.34) 未反応+10.4% / MA上昇配列 / パーフェクトオーダー / 開示[増配](6日前) / 増収+36%"
   },
   {
-   "code": "6250",
-   "name": "やまびこ",
+   "code": "6337",
+   "name": "テセック",
    "sector": "機械",
-   "score": 31.499999999999996,
+   "score": 35.7,
    "stars": "★☆☆☆☆",
-   "linkage": 4.6,
+   "linkage": 15.8,
    "theme": 0.0,
    "supply": 5.3,
-   "etf": 0.0,
-   "tech": 13.7,
-   "fund": 7.0,
-   "material": 0.9,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -7.7,
-   "rs20": 19.0,
-   "atr_pct": 3.2,
-   "dev25": 13.1,
-   "stop": 4132,
-   "close": 4410.0,
-   "chg5d": 11.6,
-   "v_ratio": 2.0,
-   "turnover_m": 411,
-   "reasons_str": "Microchip+9.0%連動(β0.21) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[子会社化](8日前) / 増収+61% / PER10倍"
-  },
-  {
-   "code": "7716",
-   "name": "ナカニシ",
-   "sector": "精密機器",
-   "score": 31.4,
-   "stars": "★☆☆☆☆",
-   "linkage": 0.0,
-   "theme": 0.0,
-   "supply": 6.7,
    "etf": 0.0,
    "tech": 12.0,
-   "fund": 5.0,
-   "material": 7.7,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "",
-   "gap_pct": 0.0,
-   "rs20": 10.4,
-   "atr_pct": 3.5,
-   "dev25": 6.7,
-   "stop": 3046,
-   "close": 3275.0,
-   "chg5d": 6.5,
-   "v_ratio": 2.0,
-   "turnover_m": 761,
-   "reasons_str": "出来高増2.0倍 / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 開示[上方修正](4日前) / 開示[自己株式の取得](4日前) / 増収+20%"
-  },
-  {
-   "code": "5108",
-   "name": "ブリヂストン",
-   "sector": "ゴム製品",
-   "score": 31.4,
-   "stars": "★☆☆☆☆",
-   "linkage": 3.1,
-   "theme": 0.0,
-   "supply": 5.3,
-   "etf": 0.0,
-   "tech": 15.0,
    "fund": 6.5,
-   "material": 1.5,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -10.1,
-   "rs20": 23.4,
-   "atr_pct": 2.9,
-   "dev25": 13.2,
-   "stop": 4072,
-   "close": 4320.0,
-   "chg5d": 10.4,
-   "v_ratio": 1.4,
-   "turnover_m": 19231,
-   "reasons_str": "Microchip+9.0%連動(β0.14) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[自己株式の取得](7日前) / PER22倍"
-  },
-  {
-   "code": "9619",
-   "name": "イチネンホールディングス",
-   "sector": "サービス業",
-   "score": 31.2,
-   "stars": "★☆☆☆☆",
-   "linkage": 3.0,
-   "theme": 0.0,
-   "supply": 4.3,
-   "etf": 0.0,
-   "tech": 15.0,
-   "fund": 7.5,
-   "material": 1.4,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Emerson",
-   "gap_pct": -11.9,
-   "rs20": 16.7,
-   "atr_pct": 2.6,
-   "dev25": 10.6,
-   "stop": 2478,
-   "close": 2613.0,
-   "chg5d": 11.9,
-   "v_ratio": 1.0,
-   "turnover_m": 110,
-   "reasons_str": "Emerson+4.8%連動(β0.25) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[業績予想の修正](6日前) / ROE17% / PER8倍"
-  },
-  {
-   "code": "6806",
-   "name": "ヒロセ電機",
-   "sector": "電気機器",
-   "score": 31.099999999999998,
-   "stars": "★☆☆☆☆",
-   "linkage": 13.9,
-   "theme": 0.0,
-   "supply": 3.3,
-   "etf": 0.0,
-   "tech": 2.2,
-   "fund": 7.5,
-   "material": 4.2,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 3.2,
-   "rs20": -0.2,
-   "atr_pct": 4.5,
-   "dev25": -1.5,
-   "stop": 24550,
-   "close": 26980.0,
-   "chg5d": -1.3,
-   "v_ratio": 0.7,
-   "turnover_m": 5914,
-   "reasons_str": "Microchip+9.0%連動(β0.19) 未反応+3.2% / 買い出来高優勢 / 開示[業績予想の修正](7日前) / 開示[自己株式の取得](7日前) / 増収+27%"
-  },
-  {
-   "code": "6240",
-   "name": "ヤマシンフィルタ",
-   "sector": "機械",
-   "score": 31.0,
-   "stars": "★☆☆☆☆",
-   "linkage": 17.5,
-   "theme": 0.0,
-   "supply": 3.3,
-   "etf": 0.0,
-   "tech": 4.7,
-   "fund": 5.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Emerson",
-   "gap_pct": 4.2,
-   "rs20": 7.2,
-   "atr_pct": 3.4,
-   "dev25": 0.5,
-   "stop": 497,
-   "close": 533.0,
-   "chg5d": -1.7,
-   "v_ratio": 2.5,
-   "turnover_m": 189,
-   "reasons_str": "Emerson+4.8%連動(β0.46) 未反応+4.2% / 出来高増2.5倍 / PER22倍"
-  },
-  {
-   "code": "6459",
-   "name": "だいわ",
-   "sector": "機械",
-   "score": 30.9,
-   "stars": "★☆☆☆☆",
-   "linkage": 15.6,
-   "theme": 0.0,
-   "supply": 4.3,
-   "etf": 0.0,
-   "tech": 6.0,
-   "fund": 5.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Emerson",
-   "gap_pct": 5.7,
-   "rs20": 4.1,
-   "atr_pct": 3.5,
-   "dev25": -0.1,
-   "stop": 1580,
-   "close": 1699.0,
-   "chg5d": -4.5,
-   "v_ratio": 2.8,
-   "turnover_m": 152,
-   "reasons_str": "Emerson+4.8%連動(β0.30) 未反応+5.7% / 出来高増2.8倍 / PER17倍"
-  },
-  {
-   "code": "7734",
-   "name": "理研計器",
-   "sector": "精密機器",
-   "score": 30.9,
-   "stars": "★☆☆☆☆",
-   "linkage": 17.4,
-   "theme": 0.0,
-   "supply": 3.3,
-   "etf": 0.0,
-   "tech": 3.7,
-   "fund": 6.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 7.2,
-   "rs20": -1.3,
-   "atr_pct": 4.3,
-   "dev25": -2.5,
-   "stop": 3090,
-   "close": 3380.0,
-   "chg5d": -4.4,
-   "v_ratio": 2.4,
-   "turnover_m": 337,
-   "reasons_str": "Microchip+9.0%連動(β0.24) 未反応+7.2% / 出来高増2.4倍 / PER16倍"
-  },
-  {
-   "code": "4047",
-   "name": "関東電化工業",
-   "sector": "化学",
-   "score": 30.8,
-   "stars": "★☆☆☆☆",
-   "linkage": 17.5,
-   "theme": 0.0,
-   "supply": 3.3,
-   "etf": 0.0,
-   "tech": 2.7,
-   "fund": 5.0,
-   "material": 2.3,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 4.0,
-   "rs20": -6.9,
-   "atr_pct": 7.2,
-   "dev25": -3.0,
-   "stop": 2383,
-   "close": 2786.0,
-   "chg5d": 0.3,
-   "v_ratio": 2.4,
-   "turnover_m": 1789,
-   "reasons_str": "Microchip+9.0%連動(β0.25) 未反応+4.0% / 出来高増2.4倍 / 開示[業績予想の修正](1日前) / 増収+19%"
-  },
-  {
-   "code": "5384",
-   "name": "フジミインコーポレーテッド",
-   "sector": "ガラス・土石製品",
-   "score": 30.7,
-   "stars": "★☆☆☆☆",
-   "linkage": 18.5,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 2.7,
-   "fund": 7.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 6.5,
-   "rs20": -3.1,
-   "atr_pct": 7.5,
-   "dev25": -2.3,
-   "stop": 3351,
-   "close": 3940.0,
-   "chg5d": 3.0,
-   "v_ratio": 0.7,
-   "turnover_m": 1931,
-   "reasons_str": "Microchip+9.0%連動(β0.29) 未反応+6.5% / 増収+19%"
-  },
-  {
-   "code": "6381",
-   "name": "アネスト岩田",
-   "sector": "機械",
-   "score": 30.7,
-   "stars": "★☆☆☆☆",
-   "linkage": 6.1,
-   "theme": 0.0,
-   "supply": 3.3,
-   "etf": 0.0,
-   "tech": 11.0,
-   "fund": 6.5,
-   "material": 3.8,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 0.7,
-   "rs20": 9.8,
-   "atr_pct": 1.8,
-   "dev25": 5.7,
-   "stop": 1821,
-   "close": 1891.0,
-   "chg5d": 1.0,
-   "v_ratio": 1.2,
-   "turnover_m": 186,
-   "reasons_str": "Microchip+9.0%連動(β0.17) 未反応+0.7% / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / RSI過熱(92)⚠ / 開示[業績予想の修正](1日前) / 開示[自己株式の取得](7日前) / PER14倍"
-  },
-  {
-   "code": "1899",
-   "name": "福田組",
-   "sector": "建設業",
-   "score": 30.6,
-   "stars": "★☆☆☆☆",
-   "linkage": 0.0,
-   "theme": 0.0,
-   "supply": 5.0,
-   "etf": 0.0,
-   "tech": 13.7,
-   "fund": 7.0,
-   "material": 7.9,
-   "penalty": -3.0,
-   "signal": "",
-   "driver": "",
-   "gap_pct": 0.0,
-   "rs20": 24.8,
-   "atr_pct": 3.5,
-   "dev25": 18.6,
-   "stop": 4283,
-   "close": 4605.0,
-   "chg5d": 19.5,
-   "v_ratio": 1.6,
-   "turnover_m": 282,
-   "reasons_str": "MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 伸びすぎ注意(25MA+19%) / 開示[自己株式の取得](4日前) / 開示[自己株式の取得](5日前) / 増収+19% / PER10倍"
-  },
-  {
-   "code": "7613",
-   "name": "シークス",
-   "sector": "卸売業",
-   "score": 30.5,
-   "stars": "★☆☆☆☆",
-   "linkage": 5.0,
-   "theme": 0.0,
-   "supply": 7.7,
-   "etf": 0.0,
-   "tech": 12.2,
-   "fund": 4.5,
    "material": 1.1,
-   "penalty": 0.0,
+   "penalty": -5.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -3.5,
-   "rs20": 22.7,
-   "atr_pct": 3.1,
-   "dev25": 14.4,
-   "stop": 1514,
-   "close": 1615.0,
-   "chg5d": 13.1,
-   "v_ratio": 2.2,
-   "turnover_m": 362,
-   "reasons_str": "Microchip+9.0%連動(β0.22) / 出来高増2.2倍 / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[業績予想の修正](8日前) / PER19倍"
-  },
-  {
-   "code": "6361",
-   "name": "荏原製作所",
-   "sector": "機械",
-   "score": 30.3,
-   "stars": "★☆☆☆☆",
-   "linkage": 19.8,
-   "theme": 0.0,
-   "supply": 0.0,
-   "etf": 0.0,
-   "tech": 3.7,
-   "fund": 5.5,
-   "material": 1.3,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 6.7,
-   "rs20": -6.6,
-   "atr_pct": 6.2,
-   "dev25": -2.1,
-   "stop": 4883,
-   "close": 5579.0,
-   "chg5d": 0.4,
-   "v_ratio": 0.8,
-   "turnover_m": 20719,
-   "reasons_str": "Microchip+9.0%連動(β0.35) 未反応+6.7% / 開示[自己株式の取得](8日前) / 増収+51%"
-  },
-  {
-   "code": "5975",
-   "name": "東プレ",
-   "sector": "金属製品",
-   "score": 30.200000000000003,
-   "stars": "★☆☆☆☆",
-   "linkage": 5.0,
-   "theme": 0.0,
-   "supply": 9.0,
-   "etf": 0.0,
-   "tech": 13.7,
-   "fund": 5.5,
-   "material": 0.0,
-   "penalty": -3.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -17.5,
-   "rs20": 26.6,
-   "atr_pct": 3.5,
-   "dev25": 18.0,
-   "stop": 3001,
-   "close": 3225.0,
-   "chg5d": 18.0,
-   "v_ratio": 6.3,
-   "turnover_m": 354,
-   "reasons_str": "Microchip+9.0%連動(β0.22) / 出来高急増6.3倍 / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 伸びすぎ注意(25MA+18%) / PER9倍"
-  },
-  {
-   "code": "7711",
-   "name": "助川電気工業",
-   "sector": "精密機器",
-   "score": 30.2,
-   "stars": "★☆☆☆☆",
-   "linkage": 0.0,
-   "theme": 20.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 3.7,
-   "fund": 4.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "",
-   "gap_pct": 0.0,
-   "rs20": 0.7,
-   "atr_pct": 5.7,
-   "dev25": 0.7,
-   "stop": 4126,
-   "close": 4655.0,
-   "chg5d": 8.8,
-   "v_ratio": 0.7,
-   "turnover_m": 382,
-   "reasons_str": "核融合(+8.6%) / 増収+26%"
-  },
-  {
-   "code": "6929",
-   "name": "日本セラミック",
-   "sector": "電気機器",
-   "score": 30.2,
-   "stars": "★☆☆☆☆",
-   "linkage": 15.1,
-   "theme": 0.0,
-   "supply": 1.0,
-   "etf": 0.0,
-   "tech": 4.7,
-   "fund": 6.0,
-   "material": 3.4,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 5.4,
-   "rs20": -0.6,
-   "atr_pct": 2.7,
-   "dev25": -1.8,
-   "stop": 3474,
-   "close": 3675.0,
-   "chg5d": -3.2,
-   "v_ratio": 1.4,
-   "turnover_m": 466,
-   "reasons_str": "Microchip+9.0%連動(β0.14) 未反応+5.4% / 開示[自己株式取得](4日前) / 開示[自己株式の取得](8日前) / PER14倍"
-  },
-  {
-   "code": "6652",
-   "name": "ＩＤＥＣ",
-   "sector": "電気機器",
-   "score": 30.099999999999998,
-   "stars": "★☆☆☆☆",
-   "linkage": 4.6,
-   "theme": 0.0,
-   "supply": 5.3,
-   "etf": 0.0,
-   "tech": 13.7,
-   "fund": 6.5,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -8.9,
-   "rs20": 17.4,
-   "atr_pct": 3.4,
-   "dev25": 13.1,
-   "stop": 3557,
-   "close": 3820.0,
-   "chg5d": 10.9,
-   "v_ratio": 1.3,
-   "turnover_m": 494,
-   "reasons_str": "Microchip+9.0%連動(β0.21) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 増収+36%"
-  },
-  {
-   "code": "8051",
-   "name": "山善",
-   "sector": "卸売業",
-   "score": 29.900000000000002,
-   "stars": "★☆☆☆☆",
-   "linkage": 0.0,
-   "theme": 0.0,
-   "supply": 5.3,
-   "etf": 0.0,
-   "tech": 15.0,
-   "fund": 6.0,
-   "material": 3.6,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "",
-   "gap_pct": 0.0,
-   "rs20": 12.6,
-   "atr_pct": 2.3,
-   "dev25": 7.5,
-   "stop": 1812,
-   "close": 1900.0,
-   "chg5d": 6.3,
-   "v_ratio": 3.0,
-   "turnover_m": 349,
-   "reasons_str": "出来高増3.0倍 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[業績予想の修正](1日前) / 開示[自己株式の取得](8日前) / 増収+16% / PER19倍"
-  },
-  {
-   "code": "5970",
-   "name": "ジーテクト",
-   "sector": "金属製品",
-   "score": 29.9,
-   "stars": "★☆☆☆☆",
-   "linkage": 3.6,
-   "theme": 0.0,
-   "supply": 5.3,
-   "etf": 0.0,
-   "tech": 15.0,
-   "fund": 6.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -7.7,
-   "rs20": 12.2,
-   "atr_pct": 2.1,
-   "dev25": 7.5,
-   "stop": 2190,
-   "close": 2286.0,
-   "chg5d": 8.3,
-   "v_ratio": 1.6,
-   "turnover_m": 240,
-   "reasons_str": "Microchip+9.0%連動(β0.16) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 増収+16% / PER7倍"
-  },
-  {
-   "code": "6282",
-   "name": "オイレス工業",
-   "sector": "機械",
-   "score": 29.7,
-   "stars": "★☆☆☆☆",
-   "linkage": 7.3,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 13.5,
-   "fund": 4.0,
-   "material": 2.9,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Emerson",
-   "gap_pct": 1.5,
-   "rs20": 4.1,
-   "atr_pct": 2.1,
-   "dev25": 2.4,
-   "stop": 2801,
-   "close": 2923.0,
-   "chg5d": 1.1,
-   "v_ratio": 1.2,
-   "turnover_m": 202,
-   "reasons_str": "Emerson+4.8%連動(β0.24) 未反応+1.5% / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[業績予想の修正](5日前) / 開示[自己株式の取得](8日前) / PER17倍"
+   "driver": "SK hynix",
+   "gap_pct": 4.7,
+   "rs20": 41.7,
+   "atr_pct": 7.5,
+   "dev25": 25.8,
+   "stop": 2849,
+   "close": 3355.0,
+   "chg5d": 5.3,
+   "v_ratio": 0.5,
+   "turnover_m": 465,
+   "reasons_str": "SK hynix+5.8%連動(β0.27) 未反応+4.7% / 買い出来高優勢 / 資金流入増 / MA上昇配列 / パーフェクトオーダー / 過熱⚠25MA+26% / 開示[自己株式の取得](9日前) / 増収+79%"
   },
   {
    "code": "6951",
    "name": "日本電子",
    "sector": "電気機器",
-   "score": 29.6,
+   "score": 35.7,
    "stars": "★☆☆☆☆",
-   "linkage": 13.4,
+   "linkage": 19.5,
    "theme": 0.0,
    "supply": 2.0,
    "etf": 0.0,
@@ -1963,781 +1155,1483 @@
    "material": 0.0,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 1.9,
-   "rs20": 9.0,
-   "atr_pct": 4.1,
-   "dev25": 4.4,
-   "stop": 7709,
-   "close": 8403.0,
-   "chg5d": 3.1,
-   "v_ratio": 0.6,
-   "turnover_m": 2793,
-   "reasons_str": "Microchip+9.0%連動(β0.34) 未反応+1.9% / MA上昇配列 / パーフェクトオーダー / ROE16% / PER19倍"
-  },
-  {
-   "code": "4189",
-   "name": "ＫＨネオケム",
-   "sector": "化学",
-   "score": 29.3,
-   "stars": "★☆☆☆☆",
-   "linkage": 4.0,
-   "theme": 0.0,
-   "supply": 4.3,
-   "etf": 0.0,
-   "tech": 13.5,
-   "fund": 6.0,
-   "material": 1.5,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -2.6,
-   "rs20": 20.8,
-   "atr_pct": 3.9,
-   "dev25": 11.8,
-   "stop": 3210,
-   "close": 3485.0,
-   "chg5d": 8.6,
-   "v_ratio": 1.0,
-   "turnover_m": 727,
-   "reasons_str": "Microchip+9.0%連動(β0.18) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[増配](7日前) / PER16倍"
-  },
-  {
-   "code": "6103",
-   "name": "オークマ",
-   "sector": "機械",
-   "score": 29.2,
-   "stars": "★☆☆☆☆",
-   "linkage": 5.4,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 13.5,
-   "fund": 5.5,
-   "material": 2.8,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -5.2,
-   "rs20": 11.0,
+   "driver": "Arista",
+   "gap_pct": 5.6,
+   "rs20": 10.6,
    "atr_pct": 4.0,
-   "dev25": 10.4,
-   "stop": 5081,
-   "close": 5520.0,
-   "chg5d": 12.9,
-   "v_ratio": 0.8,
-   "turnover_m": 2723,
-   "reasons_str": "Microchip+9.0%連動(β0.24) / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[自己株式の取得](1日前) / 増収+16%"
+   "dev25": 5.0,
+   "stop": 7820,
+   "close": 8495.0,
+   "chg5d": 2.3,
+   "v_ratio": 0.7,
+   "turnover_m": 2784,
+   "reasons_str": "Arista+11.6%連動(β0.26) 未反応+5.6% / MA上昇配列 / パーフェクトオーダー / ROE16% / PER20倍"
   },
   {
-   "code": "7011",
-   "name": "三菱重工業",
-   "sector": "機械",
-   "score": 29.0,
+   "code": "2737",
+   "name": "トーメンデバイス",
+   "sector": "卸売業",
+   "score": 35.6,
    "stars": "★☆☆☆☆",
-   "linkage": 0.0,
-   "theme": 20.0,
+   "linkage": 16.6,
+   "theme": 0.0,
+   "supply": 4.0,
+   "etf": 0.0,
+   "tech": 12.0,
+   "fund": 8.0,
+   "material": 0.0,
+   "penalty": -5.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 8.4,
+   "rs20": 102.5,
+   "atr_pct": 8.8,
+   "dev25": 55.0,
+   "stop": 25707,
+   "close": 31200.0,
+   "chg5d": 0.2,
+   "v_ratio": 1.0,
+   "turnover_m": 3709,
+   "reasons_str": "SK hynix+5.8%連動(β0.32) 未反応+8.4% / 資金流入増 / MA上昇配列 / パーフェクトオーダー / 過熱⚠25MA+55% / 増収+286% / ROE39% / PER21倍"
+  },
+  {
+   "code": "4631",
+   "name": "ＤＩＣ",
+   "sector": "化学",
+   "score": 35.6,
+   "stars": "★☆☆☆☆",
+   "linkage": 4.9,
+   "theme": 0.0,
+   "supply": 6.7,
+   "etf": 0.0,
+   "tech": 13.7,
+   "fund": 8.0,
+   "material": 7.3,
+   "penalty": -5.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": -18.4,
+   "rs20": 26.5,
+   "atr_pct": 3.4,
+   "dev25": 21.8,
+   "stop": 5245,
+   "close": 5631.0,
+   "chg5d": 26.9,
+   "v_ratio": 5.1,
+   "turnover_m": 3195,
+   "reasons_str": "HPE+10.5%連動(β0.19) / 出来高急増5.1倍 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 過熱⚠25MA+22% / 開示[業績予想の修正](2日前) / 開示[増配](2日前) / 増収+19% / PER9倍"
+  },
+  {
+   "code": "6284",
+   "name": "日精エー・エス・ビー機械",
+   "sector": "機械",
+   "score": 35.2,
+   "stars": "★☆☆☆☆",
+   "linkage": 14.9,
+   "theme": 0.0,
    "supply": 1.0,
    "etf": 0.0,
-   "tech": 6.0,
-   "fund": 2.0,
+   "tech": 10.7,
+   "fund": 7.5,
+   "material": 1.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Emerson",
+   "gap_pct": 4.5,
+   "rs20": -0.5,
+   "atr_pct": 3.9,
+   "dev25": 0.3,
+   "stop": 8706,
+   "close": 9450.0,
+   "chg5d": 0.6,
+   "v_ratio": 0.8,
+   "turnover_m": 330,
+   "reasons_str": "Emerson+3.5%連動(β0.33) 未反応+4.5% / MA上昇配列 / パーフェクトオーダー / 開示[設備投資](6日前) / PER17倍"
+  },
+  {
+   "code": "6668",
+   "name": "アドテック　プラズマ　テクノロジー",
+   "sector": "電気機器",
+   "score": 35.1,
+   "stars": "★☆☆☆☆",
+   "linkage": 17.1,
+   "theme": 0.0,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 11.0,
+   "fund": 6.0,
    "material": 0.0,
    "penalty": 0.0,
    "signal": "",
-   "driver": "",
-   "gap_pct": 0.0,
-   "rs20": 7.2,
-   "atr_pct": 3.8,
-   "dev25": 3.3,
-   "stop": 3698,
-   "close": 4004.0,
-   "chg5d": 5.4,
-   "v_ratio": 0.7,
-   "turnover_m": 75227,
-   "reasons_str": "核融合(+8.6%)"
+   "driver": "SK hynix",
+   "gap_pct": 7.1,
+   "rs20": 4.8,
+   "atr_pct": 8.5,
+   "dev25": 9.1,
+   "stop": 3040,
+   "close": 3660.0,
+   "chg5d": -2.9,
+   "v_ratio": 0.6,
+   "turnover_m": 720,
+   "reasons_str": "SK hynix+5.8%連動(β0.35) 未反応+7.1% / MA上昇配列 / パーフェクトオーダー / PER19倍"
   },
   {
-   "code": "7735",
-   "name": "ＳＣＲＥＥＮホールディングス",
+   "code": "8035",
+   "name": "東京エレクトロン",
    "sector": "電気機器",
-   "score": 29.0,
+   "score": 34.900000000000006,
    "stars": "★☆☆☆☆",
-   "linkage": 15.1,
-   "theme": 9.4,
+   "linkage": 20.8,
+   "theme": 6.0,
    "supply": 0.0,
    "etf": 0.0,
    "tech": 0.0,
-   "fund": 4.5,
+   "fund": 7.0,
+   "material": 1.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 4.1,
+   "rs20": -16.4,
+   "atr_pct": 7.1,
+   "dev25": -7.0,
+   "stop": 49913,
+   "close": 58230.0,
+   "chg5d": 2.7,
+   "v_ratio": 0.6,
+   "turnover_m": 278025,
+   "reasons_str": "HPE+10.5%連動(β0.34) 未反応+4.1% / 半導体製造装置(-2.3%) / 開示[自己株式の取得](9日前) / 増収+33% / ROE31%"
+  },
+  {
+   "code": "6508",
+   "name": "明電舎",
+   "sector": "電気機器",
+   "score": 34.8,
+   "stars": "★☆☆☆☆",
+   "linkage": 11.6,
+   "theme": 8.7,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 9.5,
+   "fund": 8.0,
+   "material": 0.0,
+   "penalty": -5.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 1.5,
+   "rs20": 29.5,
+   "atr_pct": 5.5,
+   "dev25": 20.7,
+   "stop": 10141,
+   "close": 11400.0,
+   "chg5d": 6.6,
+   "v_ratio": 1.0,
+   "turnover_m": 2985,
+   "reasons_str": "HPE+10.5%連動(β0.27) 未反応+1.5% / AIデータセンター・電力(+1.4%) / 52週高値目前 / 過熱⚠25MA+21% / 増収+26% / ROE18% / PER22倍"
+  },
+  {
+   "code": "5208",
+   "name": "有沢製作所",
+   "sector": "化学",
+   "score": 34.6,
+   "stars": "★☆☆☆☆",
+   "linkage": 14.5,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 12.0,
+   "fund": 7.0,
+   "material": 1.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 4.7,
+   "rs20": 9.9,
+   "atr_pct": 4.7,
+   "dev25": 5.2,
+   "stop": 2410,
+   "close": 2659.0,
+   "chg5d": 4.0,
+   "v_ratio": 0.9,
+   "turnover_m": 621,
+   "reasons_str": "SK hynix+5.8%連動(β0.17) 未反応+4.7% / MA上昇配列 / パーフェクトオーダー / 開示[設備投資](6日前) / 増収+25% / PER18倍"
+  },
+  {
+   "code": "4369",
+   "name": "トリケミカル研究所",
+   "sector": "化学",
+   "score": 34.599999999999994,
+   "stars": "★☆☆☆☆",
+   "linkage": 21.4,
+   "theme": 0.0,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 3.7,
+   "fund": 8.5,
    "material": 0.0,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 2.4,
-   "rs20": -25.1,
-   "atr_pct": 8.5,
-   "dev25": -15.4,
-   "stop": 10948,
-   "close": 13175.0,
-   "chg5d": 6.7,
+   "driver": "HPE",
+   "gap_pct": 12.1,
+   "rs20": 3.7,
+   "atr_pct": 6.7,
+   "dev25": 2.1,
+   "stop": 2916,
+   "close": 3365.0,
+   "chg5d": -0.3,
    "v_ratio": 0.5,
-   "turnover_m": 58376,
-   "reasons_str": "Microchip+9.0%連動(β0.36) 未反応+2.4% / 半導体製造装置(+1.7%) / ROE19%"
+   "turnover_m": 1839,
+   "reasons_str": "HPE+10.5%連動(β0.36) 未反応+12.1% / ROE18% / PER20倍"
   },
   {
-   "code": "5122",
-   "name": "オカモト",
-   "sector": "ゴム製品",
-   "score": 28.9,
+   "code": "6840",
+   "name": "ＡＫＩＢＡホールディングス",
+   "sector": "電気機器",
+   "score": 34.099999999999994,
    "stars": "★☆☆☆☆",
-   "linkage": 0.0,
+   "linkage": 16.7,
+   "theme": 0.0,
+   "supply": 5.7,
+   "etf": 0.0,
+   "tech": 3.7,
+   "fund": 8.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 7.8,
+   "rs20": 3.0,
+   "atr_pct": 9.5,
+   "dev25": 2.4,
+   "stop": 574,
+   "close": 709.0,
+   "chg5d": 2.5,
+   "v_ratio": 5.9,
+   "turnover_m": 444,
+   "reasons_str": "SK hynix+5.8%連動(β0.32) 未反応+7.8% / 出来高急増5.9倍 / 増収+64% / ROE22% / PER7倍"
+  },
+  {
+   "code": "6302",
+   "name": "住友重機械工業",
+   "sector": "機械",
+   "score": 33.9,
+   "stars": "★☆☆☆☆",
+   "linkage": 11.9,
+   "theme": 0.0,
+   "supply": 3.0,
+   "etf": 0.0,
+   "tech": 12.0,
+   "fund": 7.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 2.2,
+   "rs20": 19.1,
+   "atr_pct": 4.2,
+   "dev25": 11.4,
+   "stop": 5488,
+   "close": 5994.0,
+   "chg5d": 4.8,
+   "v_ratio": 0.8,
+   "turnover_m": 5608,
+   "reasons_str": "HPE+10.5%連動(β0.20) 未反応+2.2% / MA上昇配列 / パーフェクトオーダー / 増収+18% / PER18倍"
+  },
+  {
+   "code": "3040",
+   "name": "ソリトンシステムズ",
+   "sector": "情報・通信業",
+   "score": 33.8,
+   "stars": "★☆☆☆☆",
+   "linkage": 2.6,
    "theme": 0.0,
    "supply": 9.0,
    "etf": 0.0,
-   "tech": 12.0,
-   "fund": 4.5,
-   "material": 3.4,
-   "penalty": 0.0,
+   "tech": 13.7,
+   "fund": 8.5,
+   "material": 3.0,
+   "penalty": -3.0,
    "signal": "",
-   "driver": "",
-   "gap_pct": 0.0,
-   "rs20": 14.4,
-   "atr_pct": 3.9,
-   "dev25": 7.0,
-   "stop": 5651,
-   "close": 6130.0,
-   "chg5d": 0.2,
-   "v_ratio": 4.0,
-   "turnover_m": 210,
-   "reasons_str": "出来高急増4.0倍 / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 開示[増配](4日前) / 開示[自己株式取得](8日前) / PER22倍"
+   "driver": "SK hynix",
+   "gap_pct": -15.1,
+   "rs20": 18.8,
+   "atr_pct": 2.9,
+   "dev25": 15.1,
+   "stop": 2163,
+   "close": 2299.0,
+   "chg5d": 16.8,
+   "v_ratio": 12.5,
+   "turnover_m": 198,
+   "reasons_str": "SK hynix+5.8%連動(β0.18) / 出来高急増12.5倍 / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 伸びすぎ注意(25MA+15%) / 開示[増配](0日前) / ROE20% / PER17倍"
   },
   {
-   "code": "6209",
-   "name": "リケンＮＰＲ",
-   "sector": "機械",
-   "score": 28.599999999999998,
+   "code": "8012",
+   "name": "長瀬産業",
+   "sector": "卸売業",
+   "score": 33.8,
    "stars": "★☆☆☆☆",
-   "linkage": 14.7,
+   "linkage": 13.5,
    "theme": 0.0,
-   "supply": 7.7,
+   "supply": 0.0,
    "etf": 0.0,
-   "tech": 2.2,
-   "fund": 4.0,
+   "tech": 12.0,
+   "fund": 7.0,
+   "material": 1.3,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Emerson",
+   "gap_pct": 3.6,
+   "rs20": 11.0,
+   "atr_pct": 3.5,
+   "dev25": 4.9,
+   "stop": 1152,
+   "close": 1239.0,
+   "chg5d": 6.9,
+   "v_ratio": 1.2,
+   "turnover_m": 1131,
+   "reasons_str": "Emerson+3.5%連動(β0.29) 未反応+3.6% / MA上昇配列 / パーフェクトオーダー / 開示[自己株式取得](8日前) / 増収+18% / PER16倍"
+  },
+  {
+   "code": "6787",
+   "name": "メイコー",
+   "sector": "電気機器",
+   "score": 33.8,
+   "stars": "★☆☆☆☆",
+   "linkage": 22.8,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 0.0,
+   "fund": 9.0,
    "material": 0.0,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 4.5,
-   "rs20": 2.1,
-   "atr_pct": 2.8,
-   "dev25": -2.0,
-   "stop": 3679,
-   "close": 3895.0,
-   "chg5d": -4.3,
-   "v_ratio": 3.9,
-   "turnover_m": 451,
-   "reasons_str": "Microchip+9.0%連動(β0.12) 未反応+4.5% / 出来高急増3.9倍 / PER7倍"
+   "driver": "HPE",
+   "gap_pct": 31.9,
+   "rs20": -28.7,
+   "atr_pct": 12.7,
+   "dev25": -21.5,
+   "stop": 13391,
+   "close": 17970.0,
+   "chg5d": -18.5,
+   "v_ratio": 1.5,
+   "turnover_m": 10718,
+   "reasons_str": "HPE+10.5%連動(β0.41) 未反応+31.9% / 増収+38% / ROE15% / PER24倍"
   },
   {
-   "code": "6254",
-   "name": "野村マイクロ・サイエンス",
+   "code": "6323",
+   "name": "ローツェ",
    "sector": "機械",
-   "score": 28.4,
+   "score": 33.6,
+   "stars": "★☆☆☆☆",
+   "linkage": 19.6,
+   "theme": 6.0,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 0.0,
+   "fund": 7.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 11.9,
+   "rs20": -10.6,
+   "atr_pct": 8.6,
+   "dev25": -4.4,
+   "stop": 3398,
+   "close": 4100.0,
+   "chg5d": -4.5,
+   "v_ratio": 1.0,
+   "turnover_m": 13968,
+   "reasons_str": "SK hynix+5.8%連動(β0.52) 未反応+11.9% / 半導体製造装置(-2.3%) / ROE15%"
+  },
+  {
+   "code": "7012",
+   "name": "川崎重工業",
+   "sector": "輸送用機器",
+   "score": 33.599999999999994,
+   "stars": "★☆☆☆☆",
+   "linkage": 16.4,
+   "theme": 6.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 3.7,
+   "fund": 5.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Emerson",
+   "gap_pct": 6.9,
+   "rs20": 4.0,
+   "atr_pct": 4.2,
+   "dev25": 0.8,
+   "stop": 2540,
+   "close": 2775.0,
+   "chg5d": -2.0,
+   "v_ratio": 1.1,
+   "turnover_m": 37579,
+   "reasons_str": "Emerson+3.5%連動(β0.50) 未反応+6.9% / 防衛(-0.5%) / PER21倍"
+  },
+  {
+   "code": "7715",
+   "name": "長野計器",
+   "sector": "精密機器",
+   "score": 33.5,
+   "stars": "★☆☆☆☆",
+   "linkage": 15.8,
+   "theme": 0.0,
+   "supply": 3.0,
+   "etf": 0.0,
+   "tech": 9.7,
+   "fund": 5.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 7.6,
+   "rs20": 4.9,
+   "atr_pct": 5.1,
+   "dev25": 3.1,
+   "stop": 3560,
+   "close": 3965.0,
+   "chg5d": 0.8,
+   "v_ratio": 1.4,
+   "turnover_m": 383,
+   "reasons_str": "SK hynix+5.8%連動(β0.27) 未反応+7.6% / MA上昇配列 / パーフェクトオーダー / PER14倍"
+  },
+  {
+   "code": "6407",
+   "name": "ＣＫＤ",
+   "sector": "機械",
+   "score": 33.4,
    "stars": "★☆☆☆☆",
    "linkage": 19.9,
    "theme": 0.0,
    "supply": 3.3,
    "etf": 0.0,
    "tech": 2.7,
-   "fund": 2.5,
+   "fund": 7.5,
    "material": 0.0,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 12.4,
-   "rs20": -15.1,
-   "atr_pct": 8.8,
-   "dev25": -8.3,
-   "stop": 3148,
-   "close": 3820.0,
-   "chg5d": -3.8,
-   "v_ratio": 2.3,
-   "turnover_m": 3907,
-   "reasons_str": "Microchip+9.0%連動(β0.35) 未反応+12.4% / 出来高増2.3倍"
+   "driver": "HPE",
+   "gap_pct": 11.8,
+   "rs20": -8.0,
+   "atr_pct": 8.3,
+   "dev25": -3.6,
+   "stop": 5146,
+   "close": 6170.0,
+   "chg5d": -2.5,
+   "v_ratio": 2.4,
+   "turnover_m": 5460,
+   "reasons_str": "HPE+10.5%連動(β0.30) 未反応+11.8% / 出来高増2.4倍 / 増収+36%"
   },
   {
-   "code": "6266",
-   "name": "タツモ",
+   "code": "4099",
+   "name": "四国化成ホールディングス",
+   "sector": "化学",
+   "score": 33.3,
+   "stars": "★☆☆☆☆",
+   "linkage": 16.4,
+   "theme": 0.0,
+   "supply": 5.7,
+   "etf": 0.0,
+   "tech": 3.7,
+   "fund": 7.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 9.6,
+   "rs20": 2.8,
+   "atr_pct": 7.8,
+   "dev25": 3.2,
+   "stop": 2442,
+   "close": 2893.0,
+   "chg5d": 0.5,
+   "v_ratio": 6.1,
+   "turnover_m": 1891,
+   "reasons_str": "SK hynix+5.8%連動(β0.31) 未反応+9.6% / 出来高急増6.1倍 / 増収+18%"
+  },
+  {
+   "code": "6361",
+   "name": "荏原製作所",
    "sector": "機械",
-   "score": 28.1,
+   "score": 33.1,
    "stars": "★☆☆☆☆",
    "linkage": 20.8,
    "theme": 0.0,
    "supply": 1.0,
    "etf": 0.0,
-   "tech": 0.0,
-   "fund": 3.0,
-   "material": 3.3,
+   "tech": 4.7,
+   "fund": 5.5,
+   "material": 1.1,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 19.7,
-   "rs20": -30.7,
-   "atr_pct": 11.4,
-   "dev25": -21.3,
-   "stop": 2696,
-   "close": 3490.0,
-   "chg5d": -14.4,
-   "v_ratio": 1.0,
-   "turnover_m": 1721,
-   "reasons_str": "Microchip+9.0%連動(β0.39) 未反応+19.7% / 開示[子会社化](1日前) / 開示[業績予想の修正](6日前) / PER14倍"
+   "driver": "HPE",
+   "gap_pct": 8.4,
+   "rs20": -1.2,
+   "atr_pct": 6.0,
+   "dev25": 0.8,
+   "stop": 5036,
+   "close": 5723.0,
+   "chg5d": -1.1,
+   "v_ratio": 0.9,
+   "turnover_m": 21106,
+   "reasons_str": "HPE+10.5%連動(β0.34) 未反応+8.4% / 開示[自己株式の取得](9日前) / 増収+51%"
   },
   {
-   "code": "4246",
-   "name": "ダイキョーニシカワ",
-   "sector": "化学",
-   "score": 27.799999999999997,
+   "code": "5393",
+   "name": "ニチアス",
+   "sector": "ガラス・土石製品",
+   "score": 33.0,
    "stars": "★☆☆☆☆",
-   "linkage": 3.2,
+   "linkage": 14.6,
    "theme": 0.0,
-   "supply": 3.0,
+   "supply": 1.0,
    "etf": 0.0,
-   "tech": 12.2,
-   "fund": 4.0,
-   "material": 5.4,
+   "tech": 6.0,
+   "fund": 8.0,
+   "material": 3.4,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 4.3,
+   "rs20": 1.9,
+   "atr_pct": 4.3,
+   "dev25": 1.9,
+   "stop": 3227,
+   "close": 3529.0,
+   "chg5d": 1.6,
+   "v_ratio": 0.8,
+   "turnover_m": 2267,
+   "reasons_str": "SK hynix+5.8%連動(β0.18) 未反応+4.3% / 開示[業績予想の修正](8日前) / 開示[自己株式の取得](8日前) / 増収+16% / PER21倍"
+  },
+  {
+   "code": "6506",
+   "name": "安川電機",
+   "sector": "電気機器",
+   "score": 32.9,
+   "stars": "★☆☆☆☆",
+   "linkage": 13.8,
+   "theme": 11.6,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 4.0,
+   "fund": 1.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 1.9,
+   "rs20": -6.8,
+   "atr_pct": 5.0,
+   "dev25": -0.1,
+   "stop": 4913,
+   "close": 5454.0,
+   "chg5d": 6.3,
+   "v_ratio": 0.4,
+   "turnover_m": 44101,
+   "reasons_str": "HPE+10.5%連動(β0.31) 未反応+1.9% / ロボット(+2.8%)"
+  },
+  {
+   "code": "6954",
+   "name": "ファナック",
+   "sector": "電気機器",
+   "score": 32.9,
+   "stars": "★☆☆☆☆",
+   "linkage": 6.6,
+   "theme": 11.6,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 3.7,
+   "fund": 7.5,
+   "material": 1.5,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": -1.4,
+   "rs20": -1.5,
+   "atr_pct": 5.7,
+   "dev25": 0.1,
+   "stop": 5957,
+   "close": 6720.0,
+   "chg5d": 8.6,
+   "v_ratio": 1.0,
+   "turnover_m": 50173,
+   "reasons_str": "HPE+10.5%連動(β0.25) / ロボット(+2.8%) / 開示[自己株式の取得](7日前) / 増収+18%"
+  },
+  {
+   "code": "6459",
+   "name": "だいわ",
+   "sector": "機械",
+   "score": 32.9,
+   "stars": "★☆☆☆☆",
+   "linkage": 14.6,
+   "theme": 0.0,
+   "supply": 6.3,
+   "etf": 0.0,
+   "tech": 7.0,
+   "fund": 5.0,
+   "material": 0.0,
    "penalty": 0.0,
    "signal": "",
    "driver": "Emerson",
-   "gap_pct": -7.4,
-   "rs20": 12.9,
-   "atr_pct": 2.2,
-   "dev25": 7.8,
-   "stop": 1052,
-   "close": 1100.0,
-   "chg5d": 8.1,
-   "v_ratio": 1.4,
-   "turnover_m": 311,
-   "reasons_str": "Emerson+4.8%連動(β0.27) / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[増配](4日前) / 開示[増配](5日前) / PER9倍"
+   "gap_pct": 5.4,
+   "rs20": 5.7,
+   "atr_pct": 3.7,
+   "dev25": 0.8,
+   "stop": 1587,
+   "close": 1715.0,
+   "chg5d": -3.4,
+   "v_ratio": 2.2,
+   "turnover_m": 166,
+   "reasons_str": "Emerson+3.5%連動(β0.30) 未反応+5.4% / 出来高増2.2倍 / PER17倍"
+  },
+  {
+   "code": "6861",
+   "name": "キーエンス",
+   "sector": "電気機器",
+   "score": 32.4,
+   "stars": "★☆☆☆☆",
+   "linkage": 13.2,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 12.2,
+   "fund": 5.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Arista",
+   "gap_pct": 2.5,
+   "rs20": 15.6,
+   "atr_pct": 3.8,
+   "dev25": 12.2,
+   "stop": 80540,
+   "close": 87200.0,
+   "chg5d": 5.2,
+   "v_ratio": 0.9,
+   "turnover_m": 61775,
+   "reasons_str": "Arista+11.6%連動(β0.20) 未反応+2.5% / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 増収+33%"
+  },
+  {
+   "code": "4047",
+   "name": "関東電化工業",
+   "sector": "化学",
+   "score": 32.3,
+   "stars": "★☆☆☆☆",
+   "linkage": 16.5,
+   "theme": 0.0,
+   "supply": 4.7,
+   "etf": 0.0,
+   "tech": 1.5,
+   "fund": 7.5,
+   "material": 2.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 16.3,
+   "rs20": -8.4,
+   "atr_pct": 7.7,
+   "dev25": -7.4,
+   "stop": 2229,
+   "close": 2634.0,
+   "chg5d": -7.2,
+   "v_ratio": 3.2,
+   "turnover_m": 1980,
+   "reasons_str": "SK hynix+5.8%連動(β0.31) 未反応+16.3% / 出来高急増3.2倍 / 開示[業績予想の修正](2日前) / 増収+31%"
+  },
+  {
+   "code": "9984",
+   "name": "ソフトバンクグループ",
+   "sector": "情報・通信業",
+   "score": 32.2,
+   "stars": "★☆☆☆☆",
+   "linkage": 23.0,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 6.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 11.7,
+   "rs20": -11.4,
+   "atr_pct": 7.3,
+   "dev25": -2.2,
+   "stop": 4709,
+   "close": 5520.0,
+   "chg5d": 5.6,
+   "v_ratio": 0.5,
+   "turnover_m": 275974,
+   "reasons_str": "HPE+10.5%連動(β0.42) 未反応+11.7% / ROE32% / PER6倍"
+  },
+  {
+   "code": "5310",
+   "name": "東洋炭素",
+   "sector": "ガラス・土石製品",
+   "score": 32.2,
+   "stars": "★☆☆☆☆",
+   "linkage": 6.1,
+   "theme": 14.6,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 7.0,
+   "fund": 2.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 0.7,
+   "rs20": 6.3,
+   "atr_pct": 4.9,
+   "dev25": 6.7,
+   "stop": 6616,
+   "close": 7330.0,
+   "chg5d": 6.2,
+   "v_ratio": 0.9,
+   "turnover_m": 850,
+   "reasons_str": "SK hynix+5.8%連動(β0.28) 未反応+0.7% / 核融合(+4.3%)"
+  },
+  {
+   "code": "6971",
+   "name": "京セラ",
+   "sector": "電気機器",
+   "score": 32.099999999999994,
+   "stars": "★☆☆☆☆",
+   "linkage": 15.7,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 10.7,
+   "fund": 4.0,
+   "material": 1.7,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 3.7,
+   "rs20": 6.1,
+   "atr_pct": 3.9,
+   "dev25": 2.5,
+   "stop": 3492,
+   "close": 3790.0,
+   "chg5d": 1.3,
+   "v_ratio": 0.6,
+   "turnover_m": 21939,
+   "reasons_str": "HPE+10.5%連動(β0.17) 未反応+3.7% / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](6日前)"
+  },
+  {
+   "code": "6925",
+   "name": "ウシオ電機",
+   "sector": "電気機器",
+   "score": 32.099999999999994,
+   "stars": "★☆☆☆☆",
+   "linkage": 17.4,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 8.7,
+   "fund": 4.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 5.3,
+   "rs20": 2.5,
+   "atr_pct": 5.5,
+   "dev25": 3.8,
+   "stop": 3761,
+   "close": 4222.0,
+   "chg5d": 5.2,
+   "v_ratio": 0.7,
+   "turnover_m": 1898,
+   "reasons_str": "HPE+10.5%連動(β0.21) 未反応+5.3% / MA上昇配列 / パーフェクトオーダー / 増収+28%"
   },
   {
    "code": "6481",
    "name": "ＴＨＫ",
    "sector": "機械",
-   "score": 27.7,
+   "score": 32.0,
    "stars": "★☆☆☆☆",
-   "linkage": 17.1,
-   "theme": 0.0,
-   "supply": 1.0,
-   "etf": 0.0,
-   "tech": 3.7,
-   "fund": 4.5,
-   "material": 1.4,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 3.4,
-   "rs20": -6.4,
-   "atr_pct": 6.9,
-   "dev25": -0.3,
-   "stop": 6050,
-   "close": 7017.0,
-   "chg5d": 3.9,
-   "v_ratio": 1.2,
-   "turnover_m": 10401,
-   "reasons_str": "Microchip+9.0%連動(β0.31) 未反応+3.4% / 開示[業績予想の修正](6日前)"
-  },
-  {
-   "code": "5408",
-   "name": "中山製鋼所",
-   "sector": "鉄鋼",
-   "score": 27.5,
-   "stars": "★☆☆☆☆",
-   "linkage": 15.5,
-   "theme": 0.0,
-   "supply": 5.7,
-   "etf": 0.0,
-   "tech": 1.2,
-   "fund": 3.0,
-   "material": 2.1,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Emerson",
-   "gap_pct": 4.0,
-   "rs20": 1.8,
-   "atr_pct": 2.5,
-   "dev25": -2.0,
-   "stop": 595,
-   "close": 627.0,
-   "chg5d": -3.2,
-   "v_ratio": 3.6,
-   "turnover_m": 155,
-   "reasons_str": "Emerson+4.8%連動(β0.30) 未反応+4.0% / 出来高急増3.6倍 / 開示[資本業務提携](4日前) / PER14倍"
-  },
-  {
-   "code": "6324",
-   "name": "ハーモニック・ドライブ・システムズ",
-   "sector": "機械",
-   "score": 27.1,
-   "stars": "★☆☆☆☆",
-   "linkage": 0.0,
-   "theme": 16.6,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 2.7,
-   "fund": 4.0,
-   "material": 1.8,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "",
-   "gap_pct": 0.0,
-   "rs20": -16.7,
-   "atr_pct": 9.3,
-   "dev25": -7.9,
-   "stop": 5199,
-   "close": 6380.0,
-   "chg5d": 0.8,
-   "v_ratio": 1.3,
-   "turnover_m": 11263,
-   "reasons_str": "ロボット(+5.3%) / 開示[業績予想の修正](4日前) / 増収+24%"
-  },
-  {
-   "code": "6638",
-   "name": "ミマキエンジニアリング",
-   "sector": "電気機器",
-   "score": 27.1,
-   "stars": "★☆☆☆☆",
-   "linkage": 19.1,
-   "theme": 0.0,
-   "supply": 3.0,
-   "etf": 0.0,
-   "tech": 1.0,
-   "fund": 4.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 18.8,
-   "rs20": -8.8,
-   "atr_pct": 5.4,
-   "dev25": -11.1,
-   "stop": 1667,
-   "close": 1867.0,
-   "chg5d": -12.9,
-   "v_ratio": 1.9,
-   "turnover_m": 305,
-   "reasons_str": "Microchip+9.0%連動(β0.32) 未反応+18.8% / PER8倍"
-  },
-  {
-   "code": "8032",
-   "name": "日本紙パルプ商事",
-   "sector": "卸売業",
-   "score": 26.8,
-   "stars": "★☆☆☆☆",
-   "linkage": 0.0,
-   "theme": 0.0,
-   "supply": 8.0,
-   "etf": 0.0,
-   "tech": 13.7,
-   "fund": 3.0,
-   "material": 2.1,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "",
-   "gap_pct": 0.0,
-   "rs20": 18.8,
-   "atr_pct": 2.3,
-   "dev25": 13.0,
-   "stop": 1215,
-   "close": 1275.0,
-   "chg5d": 14.0,
-   "v_ratio": 3.1,
-   "turnover_m": 247,
-   "reasons_str": "出来高急増3.1倍 / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[自己株式取得](4日前)"
-  },
-  {
-   "code": "4118",
-   "name": "カネカ",
-   "sector": "化学",
-   "score": 26.2,
-   "stars": "★☆☆☆☆",
-   "linkage": 3.6,
-   "theme": 0.0,
-   "supply": 3.3,
-   "etf": 0.0,
-   "tech": 15.0,
-   "fund": 3.0,
-   "material": 1.3,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -4.8,
-   "rs20": 9.8,
-   "atr_pct": 2.0,
-   "dev25": 5.3,
-   "stop": 5804,
-   "close": 6048.0,
-   "chg5d": 5.6,
-   "v_ratio": 1.1,
-   "turnover_m": 1238,
-   "reasons_str": "Microchip+9.0%連動(β0.16) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[自己株式の取得](8日前) / PER12倍"
-  },
-  {
-   "code": "6724",
-   "name": "セイコーエプソン",
-   "sector": "電気機器",
-   "score": 25.9,
-   "stars": "★☆☆☆☆",
-   "linkage": 4.4,
-   "theme": 0.0,
-   "supply": 3.3,
-   "etf": 0.0,
-   "tech": 15.0,
-   "fund": 1.5,
-   "material": 1.7,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -8.1,
-   "rs20": 16.1,
-   "atr_pct": 3.1,
-   "dev25": 10.9,
-   "stop": 3060,
-   "close": 3265.0,
-   "chg5d": 10.5,
-   "v_ratio": 0.8,
-   "turnover_m": 5555,
-   "reasons_str": "Microchip+9.0%連動(β0.20) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[自己株式取得](6日前)"
-  },
-  {
-   "code": "6976",
-   "name": "太陽誘電",
-   "sector": "電気機器",
-   "score": 25.099999999999998,
-   "stars": "★☆☆☆☆",
-   "linkage": 20.7,
-   "theme": 0.0,
-   "supply": 0.0,
-   "etf": 0.0,
-   "tech": 1.5,
-   "fund": 1.5,
-   "material": 1.4,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 10.7,
-   "rs20": -32.9,
-   "atr_pct": 12.8,
-   "dev25": -19.7,
-   "stop": 7100,
-   "close": 9548.0,
-   "chg5d": -3.7,
-   "v_ratio": 1.0,
-   "turnover_m": 256553,
-   "reasons_str": "Microchip+9.0%連動(β0.39) 未反応+10.7% / 開示[業績予想の修正](6日前)"
-  },
-  {
-   "code": "7745",
-   "name": "Ａ＆Ｄホロンホールディングス",
-   "sector": "精密機器",
-   "score": 23.099999999999998,
-   "stars": "★☆☆☆☆",
-   "linkage": 18.9,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 2.2,
-   "fund": 0.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 15.3,
-   "rs20": -0.8,
-   "atr_pct": 5.1,
-   "dev25": -3.6,
-   "stop": 2540,
-   "close": 2831.0,
-   "chg5d": -7.2,
-   "v_ratio": 0.9,
-   "turnover_m": 404,
-   "reasons_str": "Microchip+9.0%連動(β0.31) 未反応+15.3%"
-  },
-  {
-   "code": "6098",
-   "name": "リクルートホールディングス",
-   "sector": "サービス業",
-   "score": 22.900000000000002,
-   "stars": "★☆☆☆☆",
-   "linkage": 6.3,
-   "theme": 0.0,
-   "supply": 5.3,
-   "etf": 0.0,
-   "tech": 15.0,
-   "fund": 0.0,
-   "material": 1.3,
-   "penalty": -5.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -27.7,
-   "rs20": 34.4,
-   "atr_pct": 4.1,
-   "dev25": 27.4,
-   "stop": 14832,
-   "close": 16165.0,
-   "chg5d": 30.5,
-   "v_ratio": 1.5,
-   "turnover_m": 52706,
-   "reasons_str": "Microchip+9.0%連動(β0.28) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 過熱⚠25MA+27% / 開示[自己株式の取得](8日前)"
-  },
-  {
-   "code": "4634",
-   "name": "ａｒｔｉｅｎｃｅ",
-   "sector": "化学",
-   "score": 22.9,
-   "stars": "★☆☆☆☆",
-   "linkage": 3.6,
-   "theme": 0.0,
-   "supply": 4.3,
-   "etf": 0.0,
-   "tech": 15.0,
-   "fund": 0.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -6.5,
-   "rs20": 13.4,
-   "atr_pct": 2.4,
-   "dev25": 7.4,
-   "stop": 4597,
-   "close": 4830.0,
-   "chg5d": 8.3,
-   "v_ratio": 1.3,
-   "turnover_m": 790,
-   "reasons_str": "Microchip+9.0%連動(β0.16) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク!"
-  },
-  {
-   "code": "6143",
-   "name": "ソディック",
-   "sector": "機械",
-   "score": 22.9,
-   "stars": "★☆☆☆☆",
-   "linkage": 14.4,
+   "linkage": 19.6,
    "theme": 0.0,
    "supply": 2.0,
    "etf": 0.0,
    "tech": 4.7,
-   "fund": 0.0,
-   "material": 1.8,
+   "fund": 4.5,
+   "material": 1.2,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 3.0,
-   "rs20": -4.2,
-   "atr_pct": 7.0,
-   "dev25": 0.3,
-   "stop": 1526,
-   "close": 1776.0,
-   "chg5d": 6.7,
-   "v_ratio": 1.6,
-   "turnover_m": 942,
-   "reasons_str": "Microchip+9.0%連動(β0.23) 未反応+3.0% / 開示[業績予想の修正](4日前)"
+   "driver": "HPE",
+   "gap_pct": 5.9,
+   "rs20": 1.3,
+   "atr_pct": 6.5,
+   "dev25": 3.3,
+   "stop": 6302,
+   "close": 7244.0,
+   "chg5d": 2.7,
+   "v_ratio": 0.8,
+   "turnover_m": 10474,
+   "reasons_str": "HPE+10.5%連動(β0.29) 未反応+5.9% / 開示[業績予想の修正](7日前)"
   },
   {
-   "code": "5976",
-   "name": "高周波熱錬",
-   "sector": "金属製品",
-   "score": 22.9,
+   "code": "3993",
+   "name": "ＰＫＳＨＡ　Ｔｅｃｈｎｏｌｏｇｙ",
+   "sector": "情報・通信業",
+   "score": 32.0,
    "stars": "★☆☆☆☆",
-   "linkage": 3.0,
-   "theme": 0.0,
-   "supply": 4.3,
+   "linkage": 4.0,
+   "theme": 12.5,
+   "supply": 3.0,
    "etf": 0.0,
-   "tech": 12.2,
-   "fund": 0.0,
-   "material": 3.4,
+   "tech": 6.0,
+   "fund": 6.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": -0.2,
+   "rs20": 9.5,
+   "atr_pct": 3.4,
+   "dev25": 5.9,
+   "stop": 2804,
+   "close": 3010.0,
+   "chg5d": 5.1,
+   "v_ratio": 1.3,
+   "turnover_m": 886,
+   "reasons_str": "SK hynix+5.8%連動(β0.28) / 生成AI・ソフト(+3.2%) / 増収+89%"
+  },
+  {
+   "code": "6779",
+   "name": "日本電波工業",
+   "sector": "電気機器",
+   "score": 31.7,
+   "stars": "★☆☆☆☆",
+   "linkage": 21.9,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 5.5,
+   "material": 1.6,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 7.7,
+   "rs20": -8.7,
+   "atr_pct": 8.7,
+   "dev25": -0.3,
+   "stop": 2363,
+   "close": 2860.0,
+   "chg5d": 6.1,
+   "v_ratio": 1.0,
+   "turnover_m": 2954,
+   "reasons_str": "HPE+10.5%連動(β0.38) 未反応+7.7% / 開示[業績予想の修正](5日前) / 増収+20%"
+  },
+  {
+   "code": "6627",
+   "name": "テラプローブ",
+   "sector": "電気機器",
+   "score": 31.7,
+   "stars": "★☆☆☆☆",
+   "linkage": 22.5,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 3.7,
+   "fund": 5.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 13.2,
+   "rs20": 5.4,
+   "atr_pct": 8.2,
+   "dev25": 4.6,
+   "stop": 9841,
+   "close": 11770.0,
+   "chg5d": 4.8,
+   "v_ratio": 0.8,
+   "turnover_m": 1667,
+   "reasons_str": "HPE+10.5%連動(β0.40) 未反応+13.2% / 増収+20%"
+  },
+  {
+   "code": "6859",
+   "name": "エスペック",
+   "sector": "電気機器",
+   "score": 31.0,
+   "stars": "★☆☆☆☆",
+   "linkage": 13.0,
+   "theme": 0.0,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 8.5,
+   "fund": 5.5,
+   "material": 3.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 2.7,
+   "rs20": 9.8,
+   "atr_pct": 4.7,
+   "dev25": 3.1,
+   "stop": 3766,
+   "close": 4160.0,
+   "chg5d": 3.2,
+   "v_ratio": 0.7,
+   "turnover_m": 541,
+   "reasons_str": "HPE+10.5%連動(β0.18) 未反応+2.7% / MA上昇配列 / パーフェクトオーダー / 開示[自己株式取得](6日前) / 開示[自己株式の取得](8日前) / PER15倍"
+  },
+  {
+   "code": "5367",
+   "name": "ニッカトー",
+   "sector": "ガラス・土石製品",
+   "score": 30.5,
+   "stars": "★☆☆☆☆",
+   "linkage": 15.5,
+   "theme": 0.0,
+   "supply": 3.3,
+   "etf": 0.0,
+   "tech": 7.7,
+   "fund": 4.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 6.8,
+   "rs20": 1.3,
+   "atr_pct": 8.3,
+   "dev25": 0.8,
+   "stop": 1013,
+   "close": 1213.0,
+   "chg5d": -6.7,
+   "v_ratio": 0.2,
+   "turnover_m": 656,
+   "reasons_str": "SK hynix+5.8%連動(β0.24) 未反応+6.8% / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / PER19倍"
+  },
+  {
+   "code": "5105",
+   "name": "ＴＯＹＯ　ＴＩＲＥ",
+   "sector": "ゴム製品",
+   "score": 30.299999999999997,
+   "stars": "★☆☆☆☆",
+   "linkage": 14.9,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 0.0,
+   "fund": 5.0,
+   "material": 8.4,
    "penalty": 0.0,
    "signal": "",
    "driver": "Emerson",
-   "gap_pct": -6.0,
-   "rs20": 14.4,
-   "atr_pct": 1.8,
-   "dev25": 8.0,
-   "stop": 1419,
-   "close": 1472.0,
-   "chg5d": 6.9,
+   "gap_pct": 10.4,
+   "rs20": -1.6,
+   "atr_pct": 4.7,
+   "dev25": -6.5,
+   "stop": 3412,
+   "close": 3764.0,
+   "chg5d": -8.7,
    "v_ratio": 1.4,
-   "turnover_m": 115,
-   "reasons_str": "Emerson+4.8%連動(β0.25) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[自己株式の取得](4日前) / 開示[設備投資](5日前)"
+   "turnover_m": 5066,
+   "reasons_str": "Emerson+3.5%連動(β0.33) 未反応+10.4% / 開示[自己株式の取得](2日前) / 開示[自己株式の取得](5日前) / PER10倍"
   },
   {
    "code": "6463",
    "name": "ＴＰＲ",
    "sector": "機械",
-   "score": 22.8,
+   "score": 30.2,
    "stars": "★☆☆☆☆",
-   "linkage": 6.5,
+   "linkage": 11.7,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 12.0,
+   "fund": 4.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 2.5,
+   "rs20": 10.7,
+   "atr_pct": 2.9,
+   "dev25": 4.3,
+   "stop": 1424,
+   "close": 1513.0,
+   "chg5d": 1.3,
+   "v_ratio": 0.8,
+   "turnover_m": 238,
+   "reasons_str": "HPE+10.5%連動(β0.16) 未反応+2.5% / MA上昇配列 / パーフェクトオーダー / PER11倍"
+  },
+  {
+   "code": "6505",
+   "name": "東洋電機製造",
+   "sector": "電気機器",
+   "score": 30.2,
+   "stars": "★☆☆☆☆",
+   "linkage": 13.0,
+   "theme": 0.0,
+   "supply": 4.0,
+   "etf": 0.0,
+   "tech": 8.2,
+   "fund": 5.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Emerson",
+   "gap_pct": 3.4,
+   "rs20": 21.1,
+   "atr_pct": 2.9,
+   "dev25": 5.2,
+   "stop": 2260,
+   "close": 2401.0,
+   "chg5d": 0.4,
+   "v_ratio": 0.6,
+   "turnover_m": 245,
+   "reasons_str": "Emerson+3.5%連動(β0.32) 未反応+3.4% / 資金流入増 / MA上昇配列 / パーフェクトオーダー / PER7倍"
+  },
+  {
+   "code": "4022",
+   "name": "ラサ工業",
+   "sector": "化学",
+   "score": 30.0,
+   "stars": "★☆☆☆☆",
+   "linkage": 20.0,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 6.0,
+   "fund": 5.0,
+   "material": 0.0,
+   "penalty": -3.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 8.6,
+   "rs20": 22.0,
+   "atr_pct": 7.0,
+   "dev25": 15.3,
+   "stop": 1922,
+   "close": 2235.0,
+   "chg5d": 9.8,
+   "v_ratio": 0.9,
+   "turnover_m": 2791,
+   "reasons_str": "HPE+10.5%連動(β0.31) 未反応+8.6% / 伸びすぎ注意(25MA+15%) / PER20倍"
+  },
+  {
+   "code": "7128",
+   "name": "ユニソルホールディングス",
+   "sector": "卸売業",
+   "score": 29.9,
+   "stars": "★☆☆☆☆",
+   "linkage": 10.7,
+   "theme": 0.0,
+   "supply": 7.7,
+   "etf": 0.0,
+   "tech": 8.5,
+   "fund": 3.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Emerson",
+   "gap_pct": 2.7,
+   "rs20": 15.0,
+   "atr_pct": 3.1,
+   "dev25": 7.4,
+   "stop": 2722,
+   "close": 2903.0,
+   "chg5d": -0.3,
+   "v_ratio": 3.5,
+   "turnover_m": 357,
+   "reasons_str": "Emerson+3.5%連動(β0.30) 未反応+2.7% / 出来高急増3.5倍 / MA上昇配列 / パーフェクトオーダー"
+  },
+  {
+   "code": "7721",
+   "name": "東京計器",
+   "sector": "精密機器",
+   "score": 29.8,
+   "stars": "★☆☆☆☆",
+   "linkage": 13.8,
+   "theme": 0.0,
+   "supply": 4.0,
+   "etf": 0.0,
+   "tech": 8.0,
+   "fund": 4.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 3.4,
+   "rs20": 18.5,
+   "atr_pct": 6.1,
+   "dev25": 8.0,
+   "stop": 6406,
+   "close": 7300.0,
+   "chg5d": 2.5,
+   "v_ratio": 1.5,
+   "turnover_m": 2439,
+   "reasons_str": "SK hynix+5.8%連動(β0.24) 未反応+3.4% / MA上昇配列"
+  },
+  {
+   "code": "6920",
+   "name": "レーザーテック",
+   "sector": "電気機器",
+   "score": 29.6,
+   "stars": "★☆☆☆☆",
+   "linkage": 18.6,
+   "theme": 6.0,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 0.0,
+   "fund": 4.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 19.1,
+   "rs20": -11.0,
+   "atr_pct": 9.5,
+   "dev25": -7.5,
+   "stop": 31594,
+   "close": 38980.0,
+   "chg5d": -11.6,
+   "v_ratio": 0.9,
+   "turnover_m": 165204,
+   "reasons_str": "SK hynix+5.8%連動(β0.45) 未反応+19.1% / 半導体製造装置(-2.3%) / ROE34%"
+  },
+  {
+   "code": "7220",
+   "name": "武蔵精密工業",
+   "sector": "輸送用機器",
+   "score": 29.1,
+   "stars": "★☆☆☆☆",
+   "linkage": 22.6,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 5.0,
+   "fund": 1.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 6.8,
+   "rs20": -1.2,
+   "atr_pct": 6.7,
+   "dev25": 5.2,
+   "stop": 3010,
+   "close": 3480.0,
+   "chg5d": 5.9,
+   "v_ratio": 0.6,
+   "turnover_m": 4362,
+   "reasons_str": "HPE+10.5%連動(β0.40) 未反応+6.8%"
+  },
+  {
+   "code": "6266",
+   "name": "タツモ",
+   "sector": "機械",
+   "score": 28.900000000000002,
+   "stars": "★☆☆☆☆",
+   "linkage": 18.6,
+   "theme": 0.0,
+   "supply": 4.3,
+   "etf": 0.0,
+   "tech": 0.0,
+   "fund": 3.0,
+   "material": 3.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 23.2,
+   "rs20": -26.6,
+   "atr_pct": 11.2,
+   "dev25": -17.2,
+   "stop": 2825,
+   "close": 3640.0,
+   "chg5d": -12.6,
+   "v_ratio": 2.9,
+   "turnover_m": 1777,
+   "reasons_str": "SK hynix+5.8%連動(β0.46) 未反応+23.2% / 出来高増2.9倍 / 開示[子会社化](2日前) / 開示[業績予想の修正](7日前) / PER15倍"
+  },
+  {
+   "code": "7011",
+   "name": "三菱重工業",
+   "sector": "機械",
+   "score": 28.6,
+   "stars": "★☆☆☆☆",
+   "linkage": 4.0,
+   "theme": 14.6,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 6.0,
+   "fund": 2.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "GE Vernova",
+   "gap_pct": -0.8,
+   "rs20": 10.8,
+   "atr_pct": 3.7,
+   "dev25": 5.7,
+   "stop": 3792,
+   "close": 4094.0,
+   "chg5d": 0.1,
+   "v_ratio": 0.8,
+   "turnover_m": 75831,
+   "reasons_str": "GE Vernova+5.0%連動(β0.32) / 核融合(+4.3%)"
+  },
+  {
+   "code": "6890",
+   "name": "フェローテック",
+   "sector": "電気機器",
+   "score": 27.9,
+   "stars": "★☆☆☆☆",
+   "linkage": 17.9,
+   "theme": 0.0,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 6.0,
+   "fund": 3.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 7.0,
+   "rs20": 7.9,
+   "atr_pct": 8.8,
+   "dev25": 8.0,
+   "stop": 7371,
+   "close": 8940.0,
+   "chg5d": 2.3,
+   "v_ratio": 0.6,
+   "turnover_m": 14648,
+   "reasons_str": "SK hynix+5.8%連動(β0.41) 未反応+7.0%"
+  },
+  {
+   "code": "5218",
+   "name": "オハラ",
+   "sector": "ガラス・土石製品",
+   "score": 27.7,
+   "stars": "★☆☆☆☆",
+   "linkage": 11.7,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 11.0,
+   "fund": 3.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 3.0,
+   "rs20": 11.7,
+   "atr_pct": 3.8,
+   "dev25": 5.8,
+   "stop": 1439,
+   "close": 1556.0,
+   "chg5d": 3.7,
+   "v_ratio": 0.5,
+   "turnover_m": 131,
+   "reasons_str": "SK hynix+5.8%連動(β0.20) 未反応+3.0% / MA上昇配列 / パーフェクトオーダー"
+  },
+  {
+   "code": "6141",
+   "name": "ＤＭＧ森精機",
+   "sector": "機械",
+   "score": 27.6,
+   "stars": "★☆☆☆☆",
+   "linkage": 14.0,
+   "theme": 0.0,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 8.5,
+   "fund": 3.0,
+   "material": 1.1,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 3.4,
+   "rs20": 2.5,
+   "atr_pct": 5.2,
+   "dev25": 1.1,
+   "stop": 3277,
+   "close": 3661.0,
+   "chg5d": -6.3,
+   "v_ratio": 0.8,
+   "turnover_m": 5096,
+   "reasons_str": "SK hynix+5.8%連動(β0.27) 未反応+3.4% / MA上昇配列 / パーフェクトオーダー / 開示[業績予想の修正](8日前) / 増収+24%"
+  },
+  {
+   "code": "6473",
+   "name": "ジェイテクト",
+   "sector": "機械",
+   "score": 27.3,
+   "stars": "★☆☆☆☆",
+   "linkage": 11.8,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 12.0,
+   "fund": 1.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Emerson",
+   "gap_pct": 2.9,
+   "rs20": 4.5,
+   "atr_pct": 3.6,
+   "dev25": 1.0,
+   "stop": 1970,
+   "close": 2122.0,
+   "chg5d": 1.0,
+   "v_ratio": 0.5,
+   "turnover_m": 2580,
+   "reasons_str": "Emerson+3.5%連動(β0.37) 未反応+2.9% / MA上昇配列 / パーフェクトオーダー"
+  },
+  {
+   "code": "6976",
+   "name": "太陽誘電",
+   "sector": "電気機器",
+   "score": 27.099999999999998,
+   "stars": "★☆☆☆☆",
+   "linkage": 21.9,
+   "theme": 0.0,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 1.5,
+   "fund": 1.5,
+   "material": 1.2,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 12.0,
+   "rs20": -11.9,
+   "atr_pct": 10.9,
+   "dev25": -11.2,
+   "stop": 8023,
+   "close": 10265.0,
+   "chg5d": -0.2,
+   "v_ratio": 1.3,
+   "turnover_m": 255754,
+   "reasons_str": "HPE+10.5%連動(β0.38) 未反応+12.0% / 開示[業績予想の修正](7日前)"
+  },
+  {
+   "code": "6966",
+   "name": "三井ハイテック",
+   "sector": "電気機器",
+   "score": 26.8,
+   "stars": "★☆☆☆☆",
+   "linkage": 16.3,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 9.0,
+   "fund": 1.5,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 4.3,
+   "rs20": 0.6,
+   "atr_pct": 4.8,
+   "dev25": 2.0,
+   "stop": 859,
+   "close": 949.0,
+   "chg5d": 3.7,
+   "v_ratio": 0.5,
+   "turnover_m": 1992,
+   "reasons_str": "SK hynix+5.8%連動(β0.30) 未反応+4.3% / MA上昇配列 / パーフェクトオーダー"
+  },
+  {
+   "code": "4970",
+   "name": "東洋合成工業",
+   "sector": "化学",
+   "score": 24.5,
+   "stars": "★☆☆☆☆",
+   "linkage": 20.9,
+   "theme": 0.0,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 0.0,
+   "fund": 0.0,
+   "material": 1.6,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "Arista",
+   "gap_pct": 24.0,
+   "rs20": -16.0,
+   "atr_pct": 9.7,
+   "dev25": -15.3,
+   "stop": 9699,
+   "close": 12020.0,
+   "chg5d": -12.2,
+   "v_ratio": 1.3,
+   "turnover_m": 1291,
+   "reasons_str": "Arista+11.6%連動(β0.31) 未反応+24.0% / 開示[業績予想の修正](5日前)"
+  },
+  {
+   "code": "8015",
+   "name": "豊田通商",
+   "sector": "卸売業",
+   "score": 24.5,
+   "stars": "★☆☆☆☆",
+   "linkage": 9.5,
    "theme": 0.0,
    "supply": 3.0,
    "etf": 0.0,
    "tech": 12.0,
    "fund": 0.0,
-   "material": 1.3,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Emerson",
-   "gap_pct": 0.9,
-   "rs20": 9.1,
-   "atr_pct": 2.9,
-   "dev25": 3.8,
-   "stop": 1413,
-   "close": 1501.0,
-   "chg5d": -0.5,
-   "v_ratio": 1.5,
-   "turnover_m": 236,
-   "reasons_str": "Emerson+4.8%連動(β0.31) 未反応+0.9% / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](8日前)"
-  },
-  {
-   "code": "4064",
-   "name": "日本カーバイド工業",
-   "sector": "化学",
-   "score": 22.8,
-   "stars": "★☆☆☆☆",
-   "linkage": 15.6,
-   "theme": 0.0,
-   "supply": 4.7,
-   "etf": 0.0,
-   "tech": 2.5,
-   "fund": 0.0,
    "material": 0.0,
    "penalty": 0.0,
    "signal": "",
    "driver": "Emerson",
-   "gap_pct": 6.5,
-   "rs20": -1.2,
-   "atr_pct": 4.7,
-   "dev25": -3.7,
-   "stop": 2897,
-   "close": 3200.0,
-   "chg5d": -2.0,
-   "v_ratio": 4.1,
-   "turnover_m": 278,
-   "reasons_str": "Emerson+4.8%連動(β0.30) 未反応+6.5% / 出来高急増4.1倍"
+   "gap_pct": 2.0,
+   "rs20": 20.9,
+   "atr_pct": 3.5,
+   "dev25": 9.6,
+   "stop": 6707,
+   "close": 7204.0,
+   "chg5d": 5.9,
+   "v_ratio": 1.0,
+   "turnover_m": 21832,
+   "reasons_str": "Emerson+3.5%連動(β0.41) 未反応+2.0% / MA上昇配列 / パーフェクトオーダー"
   },
   {
-   "code": "6351",
-   "name": "鶴見製作所",
-   "sector": "機械",
-   "score": 22.7,
-   "stars": "★☆☆☆☆",
-   "linkage": 0.0,
-   "theme": 0.0,
-   "supply": 5.3,
-   "etf": 0.0,
-   "tech": 13.5,
-   "fund": 0.0,
-   "material": 3.9,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "",
-   "gap_pct": 0.0,
-   "rs20": 13.1,
-   "atr_pct": 3.8,
-   "dev25": 9.8,
-   "stop": 2322,
-   "close": 2513.0,
-   "chg5d": 13.8,
-   "v_ratio": 2.6,
-   "turnover_m": 159,
-   "reasons_str": "出来高増2.6倍 / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[上方修正](5日前) / 開示[自己株式の取得](8日前)"
-  },
-  {
-   "code": "7715",
-   "name": "長野計器",
-   "sector": "精密機器",
-   "score": 22.7,
-   "stars": "★☆☆☆☆",
-   "linkage": 12.0,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 8.7,
-   "fund": 0.0,
-   "material": 0.0,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 2.1,
-   "rs20": 1.1,
-   "atr_pct": 5.1,
-   "dev25": 2.2,
-   "stop": 3540,
-   "close": 3940.0,
-   "chg5d": 2.7,
-   "v_ratio": 0.9,
-   "turnover_m": 371,
-   "reasons_str": "Microchip+9.0%連動(β0.25) 未反応+2.1% / MA上昇配列 / パーフェクトオーダー"
-  },
-  {
-   "code": "6742",
-   "name": "京三製作所",
-   "sector": "電気機器",
-   "score": 22.5,
-   "stars": "★☆☆☆☆",
-   "linkage": 4.7,
-   "theme": 0.0,
-   "supply": 4.0,
-   "etf": 0.0,
-   "tech": 12.0,
-   "fund": 0.0,
-   "material": 1.8,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -2.7,
-   "rs20": 13.1,
-   "atr_pct": 5.7,
-   "dev25": 10.2,
-   "stop": 881,
-   "close": 994.0,
-   "chg5d": 9.8,
-   "v_ratio": 1.9,
-   "turnover_m": 285,
-   "reasons_str": "Microchip+9.0%連動(β0.21) / MA上昇配列 / パーフェクトオーダー / 開示[業績予想の修正](4日前)"
-  },
-  {
-   "code": "7609",
-   "name": "ダイトロン",
+   "code": "3374",
+   "name": "内外テック",
    "sector": "卸売業",
-   "score": 22.5,
+   "score": 24.400000000000002,
    "stars": "★☆☆☆☆",
-   "linkage": 4.8,
+   "linkage": 3.8,
    "theme": 0.0,
-   "supply": 5.3,
+   "supply": 9.0,
    "etf": 0.0,
    "tech": 15.0,
    "fund": 0.0,
-   "material": 2.4,
+   "material": 1.6,
    "penalty": -5.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -6.1,
-   "rs20": 28.3,
+   "driver": "SK hynix",
+   "gap_pct": -18.6,
+   "rs20": 34.8,
    "atr_pct": 5.3,
-   "dev25": 24.8,
-   "stop": 4014,
-   "close": 4485.0,
-   "chg5d": 25.3,
-   "v_ratio": 1.2,
-   "turnover_m": 783,
-   "reasons_str": "Microchip+9.0%連動(β0.21) / 買い出来高優勢 / 資金流入増 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 過熱⚠25MA+25% / 開示[業績予想の修正](8日前) / 開示[自己株式取得](8日前)"
+   "dev25": 30.6,
+   "stop": 3954,
+   "close": 4420.0,
+   "chg5d": 23.1,
+   "v_ratio": 5.4,
+   "turnover_m": 202,
+   "reasons_str": "SK hynix+5.8%連動(β0.26) / 出来高急増5.4倍 / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 過熱⚠25MA+31% / 開示[業績予想の修正](5日前)"
   },
   {
-   "code": "5016",
-   "name": "ＪＸ金属",
-   "sector": "非鉄金属",
-   "score": 22.400000000000002,
+   "code": "6143",
+   "name": "ソディック",
+   "sector": "機械",
+   "score": 24.400000000000002,
    "stars": "★☆☆☆☆",
-   "linkage": 16.1,
+   "linkage": 18.1,
    "theme": 0.0,
    "supply": 1.0,
    "etf": 0.0,
@@ -2746,160 +2640,25 @@
    "material": 1.6,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 4.8,
-   "rs20": -0.6,
-   "atr_pct": 7.7,
-   "dev25": 0.6,
-   "stop": 3254,
-   "close": 3845.0,
-   "chg5d": 0.0,
-   "v_ratio": 0.9,
-   "turnover_m": 86131,
-   "reasons_str": "Microchip+9.0%連動(β0.18) 未反応+4.8% / 開示[業績予想の修正](5日前)"
+   "driver": "HPE",
+   "gap_pct": 12.0,
+   "rs20": -4.4,
+   "atr_pct": 7.1,
+   "dev25": -0.3,
+   "stop": 1511,
+   "close": 1760.0,
+   "chg5d": -1.8,
+   "v_ratio": 1.3,
+   "turnover_m": 959,
+   "reasons_str": "HPE+10.5%連動(β0.23) 未反応+12.0% / 開示[業績予想の修正](5日前)"
   },
   {
-   "code": "5195",
-   "name": "バンドー化学",
-   "sector": "ゴム製品",
-   "score": 22.400000000000002,
+   "code": "6855",
+   "name": "日本電子材料",
+   "sector": "電気機器",
+   "score": 24.3,
    "stars": "★☆☆☆☆",
-   "linkage": 3.3,
-   "theme": 0.0,
-   "supply": 5.3,
-   "etf": 0.0,
-   "tech": 12.5,
-   "fund": 0.0,
-   "material": 1.3,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -3.5,
-   "rs20": 15.0,
-   "atr_pct": 2.2,
-   "dev25": 8.2,
-   "stop": 2414,
-   "close": 2524.0,
-   "chg5d": 4.6,
-   "v_ratio": 1.7,
-   "turnover_m": 150,
-   "reasons_str": "Microchip+9.0%連動(β0.15) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / RSI過熱(95)⚠ / 開示[自己株式の取得](8日前)"
-  },
-  {
-   "code": "6339",
-   "name": "新東工業",
-   "sector": "機械",
-   "score": 22.400000000000002,
-   "stars": "★☆☆☆☆",
-   "linkage": 4.0,
-   "theme": 0.0,
-   "supply": 4.3,
-   "etf": 0.0,
-   "tech": 12.0,
-   "fund": 0.0,
-   "material": 2.1,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Emerson",
-   "gap_pct": -8.9,
-   "rs20": 6.1,
-   "atr_pct": 2.4,
-   "dev25": 7.9,
-   "stop": 1209,
-   "close": 1270.0,
-   "chg5d": 10.8,
-   "v_ratio": 2.4,
-   "turnover_m": 118,
-   "reasons_str": "Emerson+4.8%連動(β0.34) / 出来高増2.4倍 / MA上昇配列 / パーフェクトオーダー / 開示[自己株式取得](4日前)"
-  },
-  {
-   "code": "3176",
-   "name": "三洋貿易",
-   "sector": "卸売業",
-   "score": 22.4,
-   "stars": "★☆☆☆☆",
-   "linkage": 3.1,
-   "theme": 0.0,
-   "supply": 8.7,
-   "etf": 0.0,
-   "tech": 12.5,
-   "fund": 0.0,
-   "material": 3.1,
-   "penalty": -5.0,
-   "signal": "",
-   "driver": "Emerson",
-   "gap_pct": -10.8,
-   "rs20": 35.0,
-   "atr_pct": 3.5,
-   "dev25": 23.4,
-   "stop": 1006,
-   "close": 1081.0,
-   "chg5d": 9.7,
-   "v_ratio": 2.0,
-   "turnover_m": 275,
-   "reasons_str": "Emerson+4.8%連動(β0.26) / 出来高増2.0倍 / 買い出来高優勢 / 資金流入増 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / RSI過熱(88)⚠ / 過熱⚠25MA+23% / 開示[業績予想の修正](4日前) / 開示[自己株式取得](8日前)"
-  },
-  {
-   "code": "7246",
-   "name": "プレス工業",
-   "sector": "輸送用機器",
-   "score": 22.4,
-   "stars": "★☆☆☆☆",
-   "linkage": 3.8,
-   "theme": 0.0,
-   "supply": 3.3,
-   "etf": 0.0,
-   "tech": 12.2,
-   "fund": 0.0,
-   "material": 3.1,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": -10.2,
-   "rs20": 21.5,
-   "atr_pct": 2.7,
-   "dev25": 13.3,
-   "stop": 911,
-   "close": 963.0,
-   "chg5d": 10.9,
-   "v_ratio": 1.0,
-   "turnover_m": 354,
-   "reasons_str": "Microchip+9.0%連動(β0.17) / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[業績予想の修正](6日前) / 開示[増配](6日前)"
-  },
-  {
-   "code": "8151",
-   "name": "東陽テクニカ",
-   "sector": "卸売業",
-   "score": 22.4,
-   "stars": "★☆☆☆☆",
-   "linkage": 7.7,
-   "theme": 0.0,
-   "supply": 2.0,
-   "etf": 0.0,
-   "tech": 11.0,
-   "fund": 0.0,
-   "material": 1.7,
-   "penalty": 0.0,
-   "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 1.5,
-   "rs20": 4.1,
-   "atr_pct": 3.0,
-   "dev25": 1.9,
-   "stop": 1878,
-   "close": 2000.0,
-   "chg5d": 1.6,
-   "v_ratio": 1.6,
-   "turnover_m": 276,
-   "reasons_str": "Microchip+9.0%連動(β0.14) 未反応+1.5% / MA上昇配列 / パーフェクトオーダー / 開示[自己株式取得](6日前)"
-  },
-  {
-   "code": "3433",
-   "name": "トーカロ",
-   "sector": "金属製品",
-   "score": 22.4,
-   "stars": "★☆☆☆☆",
-   "linkage": 17.7,
+   "linkage": 19.6,
    "theme": 0.0,
    "supply": 1.0,
    "etf": 0.0,
@@ -2908,86 +2667,425 @@
    "material": 0.0,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 5.1,
-   "rs20": -2.9,
-   "atr_pct": 5.1,
-   "dev25": -2.4,
-   "stop": 2619,
-   "close": 2916.0,
-   "chg5d": -0.6,
-   "v_ratio": 0.7,
-   "turnover_m": 1197,
-   "reasons_str": "Microchip+9.0%連動(β0.26) 未反応+5.1%"
+   "driver": "SK hynix",
+   "gap_pct": 11.1,
+   "rs20": -5.2,
+   "atr_pct": 8.7,
+   "dev25": 3.3,
+   "stop": 5529,
+   "close": 6690.0,
+   "chg5d": 3.1,
+   "v_ratio": 1.1,
+   "turnover_m": 5647,
+   "reasons_str": "SK hynix+5.8%連動(β0.53) 未反応+11.1%"
   },
   {
-   "code": "6125",
-   "name": "岡本工作機械製作所",
-   "sector": "機械",
-   "score": 22.3,
+   "code": "5344",
+   "name": "ＭＡＲＵＷＡ",
+   "sector": "ガラス・土石製品",
+   "score": 24.3,
    "stars": "★☆☆☆☆",
    "linkage": 18.6,
    "theme": 0.0,
-   "supply": 1.0,
+   "supply": 2.0,
    "etf": 0.0,
-   "tech": 2.7,
+   "tech": 3.7,
    "fund": 0.0,
    "material": 0.0,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 12.5,
-   "rs20": -7.2,
-   "atr_pct": 7.4,
-   "dev25": -6.0,
-   "stop": 4202,
-   "close": 4930.0,
-   "chg5d": -3.9,
-   "v_ratio": 0.9,
-   "turnover_m": 391,
-   "reasons_str": "Microchip+9.0%連動(β0.30) 未反応+12.5%"
+   "driver": "HPE",
+   "gap_pct": 3.1,
+   "rs20": 2.6,
+   "atr_pct": 6.6,
+   "dev25": 5.3,
+   "stop": 52709,
+   "close": 60670.0,
+   "chg5d": 6.1,
+   "v_ratio": 1.2,
+   "turnover_m": 8523,
+   "reasons_str": "HPE+10.5%連動(β0.36) 未反応+3.1%"
   },
   {
-   "code": "6407",
-   "name": "ＣＫＤ",
-   "sector": "機械",
-   "score": 22.3,
+   "code": "3097",
+   "name": "物語コーポレーション",
+   "sector": "小売業",
+   "score": 24.3,
    "stars": "★☆☆☆☆",
-   "linkage": 19.8,
+   "linkage": 0.0,
+   "theme": 0.0,
+   "supply": 8.0,
+   "etf": 0.0,
+   "tech": 13.7,
+   "fund": 0.0,
+   "material": 2.6,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": 17.8,
+   "atr_pct": 3.3,
+   "dev25": 11.0,
+   "stop": 5402,
+   "close": 5790.0,
+   "chg5d": 8.2,
+   "v_ratio": 3.5,
+   "turnover_m": 1196,
+   "reasons_str": "出来高急増3.5倍 / 買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値ブレイク! / 開示[増配](2日前)"
+  },
+  {
+   "code": "6794",
+   "name": "フォスター電機",
+   "sector": "電気機器",
+   "score": 24.0,
+   "stars": "★☆☆☆☆",
+   "linkage": 15.0,
+   "theme": 0.0,
+   "supply": 3.3,
+   "etf": 0.0,
+   "tech": 5.7,
+   "fund": 0.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 6.2,
+   "rs20": 3.3,
+   "atr_pct": 4.1,
+   "dev25": 0.4,
+   "stop": 2642,
+   "close": 2878.0,
+   "chg5d": -1.2,
+   "v_ratio": 2.7,
+   "turnover_m": 479,
+   "reasons_str": "SK hynix+5.8%連動(β0.21) 未反応+6.2% / 出来高増2.7倍"
+  },
+  {
+   "code": "4968",
+   "name": "荒川化学工業",
+   "sector": "化学",
+   "score": 23.8,
+   "stars": "★☆☆☆☆",
+   "linkage": 11.8,
    "theme": 0.0,
    "supply": 1.0,
+   "etf": 0.0,
+   "tech": 11.0,
+   "fund": 0.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 3.0,
+   "rs20": 7.2,
+   "atr_pct": 7.0,
+   "dev25": 9.0,
+   "stop": 1971,
+   "close": 2292.0,
+   "chg5d": 18.3,
+   "v_ratio": 0.6,
+   "turnover_m": 765,
+   "reasons_str": "SK hynix+5.8%連動(β0.19) 未反応+3.0% / MA上昇配列 / パーフェクトオーダー"
+  },
+  {
+   "code": "6723",
+   "name": "ルネサスエレクトロニクス",
+   "sector": "電気機器",
+   "score": 23.6,
+   "stars": "★☆☆☆☆",
+   "linkage": 22.1,
+   "theme": 0.0,
+   "supply": 0.0,
    "etf": 0.0,
    "tech": 1.5,
    "fund": 0.0,
    "material": 0.0,
    "penalty": 0.0,
    "signal": "",
-   "driver": "Microchip",
-   "gap_pct": 7.9,
-   "rs20": -14.3,
-   "atr_pct": 8.4,
-   "dev25": -6.6,
-   "stop": 5021,
-   "close": 6030.0,
-   "chg5d": 2.7,
-   "v_ratio": 1.4,
-   "turnover_m": 4990,
-   "reasons_str": "Microchip+9.0%連動(β0.35) 未反応+7.9%"
+   "driver": "HPE",
+   "gap_pct": 4.2,
+   "rs20": -13.0,
+   "atr_pct": 7.8,
+   "dev25": -5.2,
+   "stop": 3215,
+   "close": 3806.0,
+   "chg5d": -2.0,
+   "v_ratio": 0.6,
+   "turnover_m": 60656,
+   "reasons_str": "HPE+10.5%連動(β0.38) 未反応+4.2%"
+  },
+  {
+   "code": "6480",
+   "name": "日本トムソン",
+   "sector": "機械",
+   "score": 23.6,
+   "stars": "★☆☆☆☆",
+   "linkage": 16.0,
+   "theme": 0.0,
+   "supply": 3.3,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 0.0,
+   "material": 1.6,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 14.6,
+   "rs20": -7.4,
+   "atr_pct": 8.1,
+   "dev25": -2.2,
+   "stop": 1531,
+   "close": 1826.0,
+   "chg5d": -4.9,
+   "v_ratio": 2.3,
+   "turnover_m": 2261,
+   "reasons_str": "SK hynix+5.8%連動(β0.28) 未反応+14.6% / 出来高増2.3倍 / 開示[業績予想の修正](5日前)"
+  },
+  {
+   "code": "285A",
+   "name": "キオクシアホールディングス",
+   "sector": "電気機器",
+   "score": 23.6,
+   "stars": "★☆☆☆☆",
+   "linkage": 19.5,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 1.5,
+   "fund": 0.0,
+   "material": 2.6,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 11.2,
+   "rs20": -23.8,
+   "atr_pct": 13.7,
+   "dev25": -13.4,
+   "stop": 36243,
+   "close": 49870.0,
+   "chg5d": -4.3,
+   "v_ratio": 0.8,
+   "turnover_m": 2537425,
+   "reasons_str": "SK hynix+5.8%連動(β0.52) 未反応+11.2% / 開示[自己株式の取得](2日前)"
+  },
+  {
+   "code": "3436",
+   "name": "ＳＵＭＣＯ",
+   "sector": "金属製品",
+   "score": 23.599999999999998,
+   "stars": "★☆☆☆☆",
+   "linkage": 20.9,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 2.7,
+   "fund": 0.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 6.5,
+   "rs20": -27.1,
+   "atr_pct": 9.7,
+   "dev25": -7.8,
+   "stop": 2938,
+   "close": 3647.0,
+   "chg5d": 2.9,
+   "v_ratio": 0.6,
+   "turnover_m": 74852,
+   "reasons_str": "HPE+10.5%連動(β0.34) 未反応+6.5%"
+  },
+  {
+   "code": "6264",
+   "name": "マルマエ",
+   "sector": "機械",
+   "score": 23.4,
+   "stars": "★☆☆☆☆",
+   "linkage": 18.7,
+   "theme": 0.0,
+   "supply": 1.0,
+   "etf": 0.0,
+   "tech": 3.7,
+   "fund": 0.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 7.1,
+   "rs20": -0.7,
+   "atr_pct": 6.9,
+   "dev25": 1.9,
+   "stop": 1798,
+   "close": 2086.0,
+   "chg5d": 0.6,
+   "v_ratio": 0.6,
+   "turnover_m": 1568,
+   "reasons_str": "SK hynix+5.8%連動(β0.46) 未反応+7.1%"
+  },
+  {
+   "code": "6981",
+   "name": "村田製作所",
+   "sector": "電気機器",
+   "score": 23.4,
+   "stars": "★☆☆☆☆",
+   "linkage": 20.0,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 1.5,
+   "fund": 0.0,
+   "material": 1.9,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 6.9,
+   "rs20": -15.0,
+   "atr_pct": 9.5,
+   "dev25": -6.2,
+   "stop": 6112,
+   "close": 7538.0,
+   "chg5d": 5.7,
+   "v_ratio": 0.8,
+   "turnover_m": 233370,
+   "reasons_str": "HPE+10.5%連動(β0.31) 未反応+6.9% / 開示[自己株式の取得](5日前)"
+  },
+  {
+   "code": "4258",
+   "name": "網屋",
+   "sector": "情報・通信業",
+   "score": 23.3,
+   "stars": "★☆☆☆☆",
+   "linkage": 0.0,
+   "theme": 0.0,
+   "supply": 5.3,
+   "etf": 0.0,
+   "tech": 12.0,
+   "fund": 0.0,
+   "material": 6.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": 13.0,
+   "atr_pct": 5.1,
+   "dev25": 8.5,
+   "stop": 4343,
+   "close": 4840.0,
+   "chg5d": 11.3,
+   "v_ratio": 2.4,
+   "turnover_m": 174,
+   "reasons_str": "出来高増2.4倍 / MA上昇配列 / パーフェクトオーダー / 開示[自己株式の取得](0日前) / 開示[自己株式の取得](0日前)"
+  },
+  {
+   "code": "5192",
+   "name": "三ツ星ベルト",
+   "sector": "ゴム製品",
+   "score": 23.3,
+   "stars": "★☆☆☆☆",
+   "linkage": 0.0,
+   "theme": 0.0,
+   "supply": 6.3,
+   "etf": 0.0,
+   "tech": 13.5,
+   "fund": 0.0,
+   "material": 3.5,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": 15.7,
+   "atr_pct": 2.1,
+   "dev25": 10.3,
+   "stop": 4329,
+   "close": 4520.0,
+   "chg5d": 11.3,
+   "v_ratio": 1.6,
+   "turnover_m": 428,
+   "reasons_str": "買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 52週高値目前 / 開示[自己株式取得](5日前) / 開示[業績予想の修正](5日前)"
+  },
+  {
+   "code": "7716",
+   "name": "ナカニシ",
+   "sector": "精密機器",
+   "score": 23.1,
+   "stars": "★☆☆☆☆",
+   "linkage": 0.0,
+   "theme": 0.0,
+   "supply": 5.3,
+   "etf": 0.0,
+   "tech": 12.0,
+   "fund": 0.0,
+   "material": 5.8,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "",
+   "gap_pct": 0.0,
+   "rs20": 11.9,
+   "atr_pct": 3.6,
+   "dev25": 7.4,
+   "stop": 3069,
+   "close": 3310.0,
+   "chg5d": 6.9,
+   "v_ratio": 1.6,
+   "turnover_m": 810,
+   "reasons_str": "買い出来高優勢 / MA上昇配列 / パーフェクトオーダー / 開示[上方修正](5日前) / 開示[自己株式の取得](5日前)"
+  },
+  {
+   "code": "6503",
+   "name": "三菱電機",
+   "sector": "電気機器",
+   "score": 23.1,
+   "stars": "★☆☆☆☆",
+   "linkage": 5.4,
+   "theme": 8.7,
+   "supply": 2.0,
+   "etf": 0.0,
+   "tech": 7.0,
+   "fund": 0.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "SK hynix",
+   "gap_pct": 0.6,
+   "rs20": 6.2,
+   "atr_pct": 4.5,
+   "dev25": 3.9,
+   "stop": 5367,
+   "close": 5892.0,
+   "chg5d": 4.3,
+   "v_ratio": 0.8,
+   "turnover_m": 36484,
+   "reasons_str": "SK hynix+5.8%連動(β0.24) 未反応+0.6% / AIデータセンター・電力(+1.4%)"
+  },
+  {
+   "code": "6707",
+   "name": "サンケン電気",
+   "sector": "電気機器",
+   "score": 23.1,
+   "stars": "★☆☆☆☆",
+   "linkage": 21.6,
+   "theme": 0.0,
+   "supply": 0.0,
+   "etf": 0.0,
+   "tech": 1.5,
+   "fund": 0.0,
+   "material": 0.0,
+   "penalty": 0.0,
+   "signal": "",
+   "driver": "HPE",
+   "gap_pct": 9.7,
+   "rs20": -14.1,
+   "atr_pct": 5.4,
+   "dev25": -7.4,
+   "stop": 7609,
+   "close": 8536.0,
+   "chg5d": -1.3,
+   "v_ratio": 0.8,
+   "turnover_m": 1243,
+   "reasons_str": "HPE+10.5%連動(β0.37) 未反応+9.7%"
   }
  ],
  "history": {
-  "1899": [
-   {
-    "date": "2026-08-10",
-    "score": 24.5,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-11",
-    "score": 30.6,
-    "gap": 0.0
-   }
-  ],
   "2737": [
    {
     "date": "2026-08-05",
@@ -2998,47 +3096,267 @@
     "date": "2026-08-11",
     "score": 33.7,
     "gap": 7.2
+   },
+   {
+    "date": "2026-08-12",
+    "score": 35.6,
+    "gap": 8.4
    }
   ],
-  "3176": [
+  "2760": [
+   {
+    "date": "2026-07-19",
+    "score": 17.2,
+    "gap": 5.1
+   },
+   {
+    "date": "2026-07-20",
+    "score": 23.1,
+    "gap": 4.9
+   },
+   {
+    "date": "2026-08-03",
+    "score": 47.0,
+    "gap": 4.9
+   },
+   {
+    "date": "2026-08-12",
+    "score": 39.5,
+    "gap": 7.7
+   }
+  ],
+  "285A": [
+   {
+    "date": "2026-07-21",
+    "score": 22.8,
+    "gap": 15.1
+   },
+   {
+    "date": "2026-07-22",
+    "score": 21.4,
+    "gap": 15.4
+   },
+   {
+    "date": "2026-07-23",
+    "score": 30.8,
+    "gap": 4.7
+   },
+   {
+    "date": "2026-08-02",
+    "score": 37.3,
+    "gap": 20.4
+   },
+   {
+    "date": "2026-08-07",
+    "score": 29.3,
+    "gap": 6.3
+   },
+   {
+    "date": "2026-08-12",
+    "score": 23.6,
+    "gap": 11.2
+   }
+  ],
+  "3040": [
+   {
+    "date": "2026-07-23",
+    "score": 22.4,
+    "gap": 2.4
+   },
+   {
+    "date": "2026-08-12",
+    "score": 33.8,
+    "gap": -15.1
+   }
+  ],
+  "3097": [
+   {
+    "date": "2026-07-29",
+    "score": 26.5,
+    "gap": 0.0
+   },
+   {
+    "date": "2026-08-10",
+    "score": 28.0,
+    "gap": 0.0
+   },
+   {
+    "date": "2026-08-12",
+    "score": 24.3,
+    "gap": 0.0
+   }
+  ],
+  "3132": [
+   {
+    "date": "2026-07-22",
+    "score": 35.7,
+    "gap": 3.5
+   },
+   {
+    "date": "2026-07-27",
+    "score": 21.7,
+    "gap": 0.0
+   },
+   {
+    "date": "2026-08-02",
+    "score": 37.8,
+    "gap": 11.0
+   },
+   {
+    "date": "2026-08-03",
+    "score": 48.2,
+    "gap": 15.4
+   },
+   {
+    "date": "2026-08-07",
+    "score": 26.5,
+    "gap": -9.8
+   },
+   {
+    "date": "2026-08-12",
+    "score": 37.1,
+    "gap": 6.1
+   }
+  ],
+  "3374": [
+   {
+    "date": "2026-07-19",
+    "score": 18.7,
+    "gap": 5.7
+   },
+   {
+    "date": "2026-07-20",
+    "score": 22.5,
+    "gap": 5.5
+   },
+   {
+    "date": "2026-07-21",
+    "score": 20.6,
+    "gap": 3.3
+   },
+   {
+    "date": "2026-07-22",
+    "score": 32.8,
+    "gap": 5.2
+   },
+   {
+    "date": "2026-08-07",
+    "score": 24.1,
+    "gap": -9.4
+   },
    {
     "date": "2026-08-09",
-    "score": 20.1,
-    "gap": 0.0
+    "score": 20.6,
+    "gap": -9.1
    },
    {
-    "date": "2026-08-10",
-    "score": 19.7,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-11",
-    "score": 22.4,
-    "gap": -10.8
+    "date": "2026-08-12",
+    "score": 24.4,
+    "gap": -18.6
    }
   ],
-  "3433": [
+  "3436": [
    {
-    "date": "2026-08-10",
-    "score": 29.3,
-    "gap": 4.4
+    "date": "2026-07-16",
+    "score": 27.2,
+    "gap": 13.3
    },
    {
-    "date": "2026-08-11",
+    "date": "2026-07-19",
+    "score": 18.4,
+    "gap": 25.4
+   },
+   {
+    "date": "2026-07-20",
+    "score": 17.6,
+    "gap": 25.1
+   },
+   {
+    "date": "2026-07-21",
+    "score": 25.3,
+    "gap": 30.5
+   },
+   {
+    "date": "2026-07-22",
     "score": 22.4,
+    "gap": 29.2
+   },
+   {
+    "date": "2026-07-23",
+    "score": 23.4,
+    "gap": 23.0
+   },
+   {
+    "date": "2026-07-26",
+    "score": 23.4,
+    "gap": 11.6
+   },
+   {
+    "date": "2026-08-10",
+    "score": 19.5,
+    "gap": 4.2
+   },
+   {
+    "date": "2026-08-12",
+    "score": 23.6,
+    "gap": 6.5
+   }
+  ],
+  "3993": [
+   {
+    "date": "2026-07-15",
+    "score": 30.5,
+    "gap": 0.0
+   },
+   {
+    "date": "2026-07-16",
+    "score": 26.1,
+    "gap": -4.5
+   },
+   {
+    "date": "2026-07-19",
+    "score": 17.3,
+    "gap": -1.8
+   },
+   {
+    "date": "2026-07-23",
+    "score": 38.2,
+    "gap": 8.5
+   },
+   {
+    "date": "2026-07-29",
+    "score": 26.1,
+    "gap": 2.2
+   },
+   {
+    "date": "2026-07-30",
+    "score": 49.1,
+    "gap": 5.0
+   },
+   {
+    "date": "2026-08-02",
+    "score": 42.5,
+    "gap": 3.5
+   },
+   {
+    "date": "2026-08-03",
+    "score": 47.6,
     "gap": 5.1
-   }
-  ],
-  "4044": [
-   {
-    "date": "2026-08-10",
-    "score": 25.2,
-    "gap": 0.0
    },
    {
-    "date": "2026-08-11",
-    "score": 34.2,
-    "gap": -10.0
+    "date": "2026-08-04",
+    "score": 37.8,
+    "gap": 1.4
+   },
+   {
+    "date": "2026-08-05",
+    "score": 36.2,
+    "gap": -2.4
+   },
+   {
+    "date": "2026-08-12",
+    "score": 32.0,
+    "gap": -0.2
    }
   ],
   "4047": [
@@ -3051,6 +3369,11 @@
     "date": "2026-08-11",
     "score": 30.8,
     "gap": 4.0
+   },
+   {
+    "date": "2026-08-12",
+    "score": 32.3,
+    "gap": 16.3
    }
   ],
   "4062": [
@@ -3143,102 +3466,23 @@
     "date": "2026-08-11",
     "score": 44.1,
     "gap": -17.4
+   },
+   {
+    "date": "2026-08-12",
+    "score": 51.4,
+    "gap": 3.8
    }
   ],
-  "4118": [
-   {
-    "date": "2026-07-28",
-    "score": 25.7,
-    "gap": 2.3
-   },
-   {
-    "date": "2026-08-03",
-    "score": 39.6,
-    "gap": 7.3
-   },
-   {
-    "date": "2026-08-04",
-    "score": 38.9,
-    "gap": 3.3
-   },
+  "4203": [
    {
     "date": "2026-08-07",
-    "score": 19.1,
-    "gap": 0.0
+    "score": 24.6,
+    "gap": -2.5
    },
    {
-    "date": "2026-08-10",
-    "score": 22.7,
-    "gap": -5.0
-   },
-   {
-    "date": "2026-08-11",
-    "score": 26.2,
-    "gap": -4.8
-   }
-  ],
-  "4189": [
-   {
-    "date": "2026-07-16",
-    "score": 16.8,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-07-22",
-    "score": 21.6,
-    "gap": 0.6
-   },
-   {
-    "date": "2026-07-23",
-    "score": 28.9,
-    "gap": 1.2
-   },
-   {
-    "date": "2026-07-26",
-    "score": 20.2,
-    "gap": -0.8
-   },
-   {
-    "date": "2026-07-28",
-    "score": 35.1,
-    "gap": 4.1
-   },
-   {
-    "date": "2026-08-05",
-    "score": 36.9,
-    "gap": -10.9
-   },
-   {
-    "date": "2026-08-07",
-    "score": 29.2,
-    "gap": -9.2
-   },
-   {
-    "date": "2026-08-10",
-    "score": 19.5,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-11",
-    "score": 29.3,
-    "gap": -2.6
-   }
-  ],
-  "4246": [
-   {
-    "date": "2026-08-09",
-    "score": 22.6,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-10",
-    "score": 25.2,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-11",
-    "score": 27.8,
-    "gap": -7.4
+    "date": "2026-08-12",
+    "score": 37.8,
+    "gap": 3.4
    }
   ],
   "4369": [
@@ -3286,6 +3530,11 @@
     "date": "2026-08-11",
     "score": 34.8,
     "gap": 5.0
+   },
+   {
+    "date": "2026-08-12",
+    "score": 34.6,
+    "gap": 12.1
    }
   ],
   "4631": [
@@ -3298,23 +3547,11 @@
     "date": "2026-08-11",
     "score": 33.2,
     "gap": -19.4
-   }
-  ],
-  "4634": [
-   {
-    "date": "2026-07-15",
-    "score": 22.0,
-    "gap": 0.0
    },
    {
-    "date": "2026-08-10",
-    "score": 19.3,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-11",
-    "score": 22.9,
-    "gap": -6.5
+    "date": "2026-08-12",
+    "score": 35.6,
+    "gap": -18.4
    }
   ],
   "4970": [
@@ -3357,6 +3594,48 @@
     "date": "2026-08-11",
     "score": 32.0,
     "gap": 17.6
+   },
+   {
+    "date": "2026-08-12",
+    "score": 24.5,
+    "gap": 24.0
+   }
+  ],
+  "4971": [
+   {
+    "date": "2026-07-19",
+    "score": 17.2,
+    "gap": 10.8
+   },
+   {
+    "date": "2026-07-20",
+    "score": 23.9,
+    "gap": 10.5
+   },
+   {
+    "date": "2026-07-21",
+    "score": 22.4,
+    "gap": 10.6
+   },
+   {
+    "date": "2026-07-22",
+    "score": 29.6,
+    "gap": 9.5
+   },
+   {
+    "date": "2026-07-30",
+    "score": 27.6,
+    "gap": 14.6
+   },
+   {
+    "date": "2026-08-02",
+    "score": 39.5,
+    "gap": 6.9
+   },
+   {
+    "date": "2026-08-12",
+    "score": 36.2,
+    "gap": 26.0
    }
   ],
   "4980": [
@@ -3444,18 +3723,11 @@
     "date": "2026-08-11",
     "score": 45.3,
     "gap": 14.9
-   }
-  ],
-  "5016": [
-   {
-    "date": "2026-08-10",
-    "score": 30.1,
-    "gap": 4.4
    },
    {
-    "date": "2026-08-11",
-    "score": 22.4,
-    "gap": 4.8
+    "date": "2026-08-12",
+    "score": 46.8,
+    "gap": 9.1
    }
   ],
   "5105": [
@@ -3468,50 +3740,11 @@
     "date": "2026-08-11",
     "score": 35.9,
     "gap": 9.9
-   }
-  ],
-  "5108": [
-   {
-    "date": "2026-07-26",
-    "score": 27.6,
-    "gap": 1.8
    },
    {
-    "date": "2026-07-29",
-    "score": 28.9,
-    "gap": -8.6
-   },
-   {
-    "date": "2026-08-05",
-    "score": 37.9,
-    "gap": 5.3
-   },
-   {
-    "date": "2026-08-09",
-    "score": 23.2,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-10",
-    "score": 22.0,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-11",
-    "score": 31.4,
-    "gap": -10.1
-   }
-  ],
-  "5122": [
-   {
-    "date": "2026-08-10",
-    "score": 24.9,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-11",
-    "score": 28.9,
-    "gap": 0.0
+    "date": "2026-08-12",
+    "score": 30.3,
+    "gap": 10.4
    }
   ],
   "5192": [
@@ -3534,38 +3767,11 @@
     "date": "2026-08-11",
     "score": 36.0,
     "gap": -11.9
-   }
-  ],
-  "5195": [
-   {
-    "date": "2026-07-22",
-    "score": 21.5,
-    "gap": 1.0
    },
    {
-    "date": "2026-07-29",
-    "score": 23.5,
+    "date": "2026-08-12",
+    "score": 23.3,
     "gap": 0.0
-   },
-   {
-    "date": "2026-08-03",
-    "score": 35.5,
-    "gap": 1.7
-   },
-   {
-    "date": "2026-08-05",
-    "score": 34.9,
-    "gap": 1.3
-   },
-   {
-    "date": "2026-08-10",
-    "score": 19.3,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-11",
-    "score": 22.4,
-    "gap": -3.5
    }
   ],
   "5310": [
@@ -3633,50 +3839,58 @@
     "date": "2026-08-11",
     "score": 37.4,
     "gap": -5.2
+   },
+   {
+    "date": "2026-08-12",
+    "score": 32.2,
+    "gap": 0.7
    }
   ],
-  "5384": [
-   {
-    "date": "2026-07-19",
-    "score": 17.7,
-    "gap": 3.7
-   },
-   {
-    "date": "2026-07-20",
-    "score": 22.4,
-    "gap": 3.5
-   },
+  "5344": [
    {
     "date": "2026-07-21",
-    "score": 20.8,
-    "gap": 6.0
+    "score": 23.7,
+    "gap": 9.9
    },
    {
     "date": "2026-07-22",
-    "score": 21.5,
-    "gap": 7.1
+    "score": 21.7,
+    "gap": 11.8
    },
    {
-    "date": "2026-08-10",
-    "score": 27.6,
-    "gap": 5.2
+    "date": "2026-07-23",
+    "score": 22.7,
+    "gap": 4.2
    },
    {
-    "date": "2026-08-11",
-    "score": 30.7,
-    "gap": 6.5
-   }
-  ],
-  "5408": [
-   {
-    "date": "2026-08-05",
-    "score": 26.4,
-    "gap": 2.4
+    "date": "2026-07-29",
+    "score": 28.1,
+    "gap": 15.1
    },
    {
-    "date": "2026-08-11",
-    "score": 27.5,
-    "gap": 4.0
+    "date": "2026-07-30",
+    "score": 28.5,
+    "gap": 10.4
+   },
+   {
+    "date": "2026-08-02",
+    "score": 36.7,
+    "gap": 8.8
+   },
+   {
+    "date": "2026-08-07",
+    "score": 29.9,
+    "gap": 3.7
+   },
+   {
+    "date": "2026-08-09",
+    "score": 25.4,
+    "gap": 4.3
+   },
+   {
+    "date": "2026-08-12",
+    "score": 24.3,
+    "gap": 3.1
    }
   ],
   "5801": [
@@ -3749,6 +3963,11 @@
     "date": "2026-08-11",
     "score": 42.0,
     "gap": -8.1
+   },
+   {
+    "date": "2026-08-12",
+    "score": 36.7,
+    "gap": -4.0
    }
   ],
   "5802": [
@@ -3831,6 +4050,11 @@
     "date": "2026-08-11",
     "score": 44.6,
     "gap": 2.8
+   },
+   {
+    "date": "2026-08-12",
+    "score": 51.0,
+    "gap": 7.7
    }
   ],
   "5803": [
@@ -3918,6 +4142,11 @@
     "date": "2026-08-11",
     "score": 40.6,
     "gap": -17.2
+   },
+   {
+    "date": "2026-08-12",
+    "score": 41.0,
+    "gap": -9.8
    }
   ],
   "5805": [
@@ -4000,323 +4229,11 @@
     "date": "2026-08-11",
     "score": 46.2,
     "gap": -12.2
-   }
-  ],
-  "5970": [
-   {
-    "date": "2026-07-27",
-    "score": 29.5,
-    "gap": 1.6
    },
    {
-    "date": "2026-07-28",
-    "score": 33.8,
-    "gap": 2.3
-   },
-   {
-    "date": "2026-08-03",
-    "score": 43.8,
-    "gap": 3.7
-   },
-   {
-    "date": "2026-08-04",
-    "score": 29.5,
-    "gap": 3.5
-   },
-   {
-    "date": "2026-08-05",
-    "score": 35.2,
-    "gap": 5.0
-   },
-   {
-    "date": "2026-08-07",
-    "score": 27.9,
-    "gap": -5.8
-   },
-   {
-    "date": "2026-08-10",
-    "score": 26.3,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-11",
-    "score": 29.9,
-    "gap": -7.7
-   }
-  ],
-  "5975": [
-   {
-    "date": "2026-07-28",
-    "score": 34.9,
-    "gap": 3.0
-   },
-   {
-    "date": "2026-07-29",
-    "score": 25.6,
-    "gap": 0.2
-   },
-   {
-    "date": "2026-08-03",
-    "score": 46.9,
-    "gap": 3.2
-   },
-   {
-    "date": "2026-08-04",
-    "score": 42.6,
-    "gap": 4.0
-   },
-   {
-    "date": "2026-08-05",
-    "score": 26.7,
-    "gap": 1.5
-   },
-   {
-    "date": "2026-08-07",
-    "score": 27.8,
-    "gap": -9.0
-   },
-   {
-    "date": "2026-08-09",
-    "score": 24.3,
-    "gap": -8.8
-   },
-   {
-    "date": "2026-08-10",
-    "score": 22.3,
-    "gap": -18.5
-   },
-   {
-    "date": "2026-08-11",
-    "score": 30.2,
-    "gap": -17.5
-   }
-  ],
-  "5976": [
-   {
-    "date": "2026-08-07",
-    "score": 19.4,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-09",
-    "score": 24.3,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-10",
-    "score": 24.8,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-11",
-    "score": 22.9,
-    "gap": -6.0
-   }
-  ],
-  "6098": [
-   {
-    "date": "2026-07-16",
-    "score": 18.5,
-    "gap": -1.9
-   },
-   {
-    "date": "2026-07-19",
-    "score": 19.0,
-    "gap": -2.4
-   },
-   {
-    "date": "2026-07-20",
-    "score": 25.3,
-    "gap": -2.7
-   },
-   {
-    "date": "2026-07-21",
-    "score": 26.1,
-    "gap": 0.5
-   },
-   {
-    "date": "2026-07-22",
-    "score": 37.9,
-    "gap": 4.2
-   },
-   {
-    "date": "2026-07-23",
-    "score": 37.8,
-    "gap": 4.5
-   },
-   {
-    "date": "2026-07-26",
-    "score": 35.2,
-    "gap": 8.3
-   },
-   {
-    "date": "2026-07-27",
-    "score": 38.6,
-    "gap": 5.9
-   },
-   {
-    "date": "2026-07-29",
-    "score": 28.4,
-    "gap": -4.2
-   },
-   {
-    "date": "2026-07-30",
-    "score": 37.4,
-    "gap": -0.2
-   },
-   {
-    "date": "2026-08-02",
-    "score": 47.2,
-    "gap": 7.4
-   },
-   {
-    "date": "2026-08-03",
-    "score": 50.2,
-    "gap": 10.2
-   },
-   {
-    "date": "2026-08-04",
-    "score": 45.7,
-    "gap": 7.6
-   },
-   {
-    "date": "2026-08-05",
-    "score": 40.1,
-    "gap": 4.8
-   },
-   {
-    "date": "2026-08-07",
-    "score": 27.1,
-    "gap": -2.8
-   },
-   {
-    "date": "2026-08-10",
-    "score": 27.8,
-    "gap": -28.6
-   },
-   {
-    "date": "2026-08-11",
-    "score": 22.9,
-    "gap": -27.7
-   }
-  ],
-  "6103": [
-   {
-    "date": "2026-07-15",
-    "score": 15.9,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-07-16",
-    "score": 29.8,
-    "gap": 3.7
-   },
-   {
-    "date": "2026-07-19",
-    "score": 27.3,
-    "gap": 5.9
-   },
-   {
-    "date": "2026-07-21",
-    "score": 28.9,
-    "gap": 3.8
-   },
-   {
-    "date": "2026-07-22",
-    "score": 33.6,
-    "gap": 4.8
-   },
-   {
-    "date": "2026-07-23",
-    "score": 31.2,
-    "gap": 2.8
-   },
-   {
-    "date": "2026-07-28",
-    "score": 36.3,
-    "gap": 5.1
-   },
-   {
-    "date": "2026-08-03",
-    "score": 43.0,
-    "gap": 8.9
-   },
-   {
-    "date": "2026-08-04",
-    "score": 38.2,
-    "gap": 3.7
-   },
-   {
-    "date": "2026-08-05",
-    "score": 26.9,
-    "gap": -6.0
-   },
-   {
-    "date": "2026-08-07",
-    "score": 19.5,
-    "gap": -11.1
-   },
-   {
-    "date": "2026-08-10",
-    "score": 26.8,
-    "gap": -6.3
-   },
-   {
-    "date": "2026-08-11",
-    "score": 29.2,
-    "gap": -5.2
-   }
-  ],
-  "6125": [
-   {
-    "date": "2026-07-15",
-    "score": 17.5,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-07-19",
-    "score": 19.2,
-    "gap": 7.8
-   },
-   {
-    "date": "2026-07-20",
-    "score": 20.1,
-    "gap": 7.6
-   },
-   {
-    "date": "2026-07-21",
-    "score": 22.7,
-    "gap": 8.3
-   },
-   {
-    "date": "2026-07-22",
-    "score": 23.7,
-    "gap": 15.2
-   },
-   {
-    "date": "2026-07-23",
-    "score": 24.7,
-    "gap": 8.3
-   },
-   {
-    "date": "2026-07-26",
-    "score": 23.5,
-    "gap": 5.1
-   },
-   {
-    "date": "2026-08-05",
-    "score": 29.3,
-    "gap": -24.6
-   },
-   {
-    "date": "2026-08-09",
-    "score": 22.8,
-    "gap": 2.2
-   },
-   {
-    "date": "2026-08-11",
-    "score": 22.3,
-    "gap": 12.5
+    "date": "2026-08-12",
+    "score": 41.1,
+    "gap": -4.7
    }
   ],
   "6134": [
@@ -4329,6 +4246,11 @@
     "date": "2026-08-11",
     "score": 34.2,
     "gap": 3.2
+   },
+   {
+    "date": "2026-08-12",
+    "score": 36.0,
+    "gap": 6.1
    }
   ],
   "6141": [
@@ -4386,6 +4308,23 @@
     "date": "2026-08-11",
     "score": 34.8,
     "gap": 8.6
+   },
+   {
+    "date": "2026-08-12",
+    "score": 27.6,
+    "gap": 3.4
+   }
+  ],
+  "6143": [
+   {
+    "date": "2026-08-11",
+    "score": 22.9,
+    "gap": 3.0
+   },
+   {
+    "date": "2026-08-12",
+    "score": 24.4,
+    "gap": 12.0
    }
   ],
   "6146": [
@@ -4483,72 +4422,11 @@
     "date": "2026-08-11",
     "score": 42.5,
     "gap": 0.4
-   }
-  ],
-  "6240": [
-   {
-    "date": "2026-07-28",
-    "score": 34.0,
-    "gap": 4.6
    },
    {
-    "date": "2026-08-11",
-    "score": 31.0,
-    "gap": 4.2
-   }
-  ],
-  "6250": [
-   {
-    "date": "2026-07-28",
-    "score": 34.8,
-    "gap": 2.0
-   },
-   {
-    "date": "2026-08-02",
-    "score": 28.4,
-    "gap": 3.3
-   },
-   {
-    "date": "2026-08-03",
-    "score": 49.3,
-    "gap": 7.3
-   },
-   {
-    "date": "2026-08-04",
-    "score": 38.5,
-    "gap": 1.2
-   },
-   {
-    "date": "2026-08-05",
-    "score": 34.2,
-    "gap": -6.5
-   },
-   {
-    "date": "2026-08-09",
-    "score": 22.7,
-    "gap": -9.1
-   },
-   {
-    "date": "2026-08-10",
-    "score": 20.0,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-11",
-    "score": 31.5,
-    "gap": -7.7
-   }
-  ],
-  "6254": [
-   {
-    "date": "2026-08-10",
-    "score": 22.1,
-    "gap": 10.9
-   },
-   {
-    "date": "2026-08-11",
-    "score": 28.4,
-    "gap": 12.4
+    "date": "2026-08-12",
+    "score": 50.2,
+    "gap": 4.8
    }
   ],
   "6264": [
@@ -4586,6 +4464,11 @@
     "date": "2026-08-11",
     "score": 33.2,
     "gap": 4.6
+   },
+   {
+    "date": "2026-08-12",
+    "score": 23.4,
+    "gap": 7.1
    }
   ],
   "6266": [
@@ -4638,23 +4521,43 @@
     "date": "2026-08-11",
     "score": 28.1,
     "gap": 19.7
+   },
+   {
+    "date": "2026-08-12",
+    "score": 28.9,
+    "gap": 23.2
    }
   ],
-  "6282": [
+  "6302": [
+   {
+    "date": "2026-07-28",
+    "score": 32.7,
+    "gap": 2.7
+   },
+   {
+    "date": "2026-08-03",
+    "score": 43.2,
+    "gap": 9.6
+   },
+   {
+    "date": "2026-08-04",
+    "score": 41.5,
+    "gap": 3.7
+   },
+   {
+    "date": "2026-08-05",
+    "score": 32.4,
+    "gap": -13.9
+   },
    {
     "date": "2026-08-07",
-    "score": 26.0,
-    "gap": 0.0
+    "score": 19.4,
+    "gap": -9.8
    },
    {
-    "date": "2026-08-09",
-    "score": 25.2,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-11",
-    "score": 29.7,
-    "gap": 1.5
+    "date": "2026-08-12",
+    "score": 33.9,
+    "gap": 2.2
    }
   ],
   "6315": [
@@ -4717,6 +4620,11 @@
     "date": "2026-08-11",
     "score": 47.3,
     "gap": 14.0
+   },
+   {
+    "date": "2026-08-12",
+    "score": 44.6,
+    "gap": 18.7
    }
   ],
   "6323": [
@@ -4814,6 +4722,11 @@
     "date": "2026-08-11",
     "score": 40.7,
     "gap": 9.9
+   },
+   {
+    "date": "2026-08-12",
+    "score": 33.6,
+    "gap": 11.9
    }
   ],
   "6324": [
@@ -4851,23 +4764,28 @@
     "date": "2026-08-11",
     "score": 27.1,
     "gap": 0.0
+   },
+   {
+    "date": "2026-08-12",
+    "score": 36.4,
+    "gap": 15.7
    }
   ],
-  "6351": [
+  "6337": [
    {
-    "date": "2026-08-09",
-    "score": 26.7,
-    "gap": 0.0
+    "date": "2026-07-19",
+    "score": 18.9,
+    "gap": 9.9
    },
    {
-    "date": "2026-08-10",
-    "score": 23.2,
-    "gap": 0.0
+    "date": "2026-07-20",
+    "score": 19.7,
+    "gap": 9.6
    },
    {
-    "date": "2026-08-11",
-    "score": 22.7,
-    "gap": 0.0
+    "date": "2026-08-12",
+    "score": 35.7,
+    "gap": 4.7
    }
   ],
   "6361": [
@@ -4925,6 +4843,11 @@
     "date": "2026-08-11",
     "score": 30.3,
     "gap": 6.7
+   },
+   {
+    "date": "2026-08-12",
+    "score": 33.1,
+    "gap": 8.4
    }
   ],
   "6407": [
@@ -4957,6 +4880,70 @@
     "date": "2026-08-11",
     "score": 22.3,
     "gap": 7.9
+   },
+   {
+    "date": "2026-08-12",
+    "score": 33.4,
+    "gap": 11.8
+   }
+  ],
+  "6432": [
+   {
+    "date": "2026-07-19",
+    "score": 19.0,
+    "gap": 3.3
+   },
+   {
+    "date": "2026-07-26",
+    "score": 29.3,
+    "gap": -3.1
+   },
+   {
+    "date": "2026-07-27",
+    "score": 31.7,
+    "gap": -5.3
+   },
+   {
+    "date": "2026-07-28",
+    "score": 36.3,
+    "gap": 1.8
+   },
+   {
+    "date": "2026-08-02",
+    "score": 42.0,
+    "gap": 6.7
+   },
+   {
+    "date": "2026-08-03",
+    "score": 53.5,
+    "gap": 11.5
+   },
+   {
+    "date": "2026-08-04",
+    "score": 29.0,
+    "gap": 7.1
+   },
+   {
+    "date": "2026-08-05",
+    "score": 26.5,
+    "gap": -3.8
+   },
+   {
+    "date": "2026-08-12",
+    "score": 36.4,
+    "gap": 4.5
+   }
+  ],
+  "6459": [
+   {
+    "date": "2026-08-11",
+    "score": 30.9,
+    "gap": 5.7
+   },
+   {
+    "date": "2026-08-12",
+    "score": 32.9,
+    "gap": 5.4
    }
   ],
   "6463": [
@@ -5009,6 +4996,48 @@
     "date": "2026-08-11",
     "score": 22.8,
     "gap": 0.9
+   },
+   {
+    "date": "2026-08-12",
+    "score": 30.2,
+    "gap": 2.5
+   }
+  ],
+  "6473": [
+   {
+    "date": "2026-07-16",
+    "score": 17.7,
+    "gap": 0.4
+   },
+   {
+    "date": "2026-07-22",
+    "score": 21.8,
+    "gap": 4.5
+   },
+   {
+    "date": "2026-07-23",
+    "score": 28.0,
+    "gap": 4.5
+   },
+   {
+    "date": "2026-07-29",
+    "score": 21.2,
+    "gap": 1.7
+   },
+   {
+    "date": "2026-08-03",
+    "score": 41.5,
+    "gap": 1.2
+   },
+   {
+    "date": "2026-08-04",
+    "score": 32.3,
+    "gap": 1.7
+   },
+   {
+    "date": "2026-08-12",
+    "score": 27.3,
+    "gap": 2.9
    }
   ],
   "6480": [
@@ -5026,6 +5055,11 @@
     "date": "2026-08-11",
     "score": 33.0,
     "gap": 4.3
+   },
+   {
+    "date": "2026-08-12",
+    "score": 23.6,
+    "gap": 14.6
    }
   ],
   "6481": [
@@ -5073,6 +5107,11 @@
     "date": "2026-08-11",
     "score": 27.7,
     "gap": 3.4
+   },
+   {
+    "date": "2026-08-12",
+    "score": 32.0,
+    "gap": 5.9
    }
   ],
   "6490": [
@@ -5100,6 +5139,11 @@
     "date": "2026-08-11",
     "score": 38.5,
     "gap": 7.5
+   },
+   {
+    "date": "2026-08-12",
+    "score": 35.8,
+    "gap": 10.4
    }
   ],
   "6501": [
@@ -5192,6 +5236,135 @@
     "date": "2026-08-11",
     "score": 42.3,
     "gap": -1.4
+   },
+   {
+    "date": "2026-08-12",
+    "score": 43.6,
+    "gap": -0.5
+   }
+  ],
+  "6503": [
+   {
+    "date": "2026-07-22",
+    "score": 23.9,
+    "gap": 4.0
+   },
+   {
+    "date": "2026-07-27",
+    "score": 31.0,
+    "gap": 1.0
+   },
+   {
+    "date": "2026-07-28",
+    "score": 28.8,
+    "gap": 8.4
+   },
+   {
+    "date": "2026-07-30",
+    "score": 26.0,
+    "gap": 7.3
+   },
+   {
+    "date": "2026-08-03",
+    "score": 46.8,
+    "gap": 2.7
+   },
+   {
+    "date": "2026-08-05",
+    "score": 37.9,
+    "gap": -7.1
+   },
+   {
+    "date": "2026-08-07",
+    "score": 27.5,
+    "gap": -3.7
+   },
+   {
+    "date": "2026-08-09",
+    "score": 20.7,
+    "gap": -4.2
+   },
+   {
+    "date": "2026-08-12",
+    "score": 23.1,
+    "gap": 0.6
+   }
+  ],
+  "6504": [
+   {
+    "date": "2026-07-16",
+    "score": 20.3,
+    "gap": 3.8
+   },
+   {
+    "date": "2026-07-19",
+    "score": 22.2,
+    "gap": 6.8
+   },
+   {
+    "date": "2026-07-20",
+    "score": 29.1,
+    "gap": 6.6
+   },
+   {
+    "date": "2026-07-21",
+    "score": 25.6,
+    "gap": 4.5
+   },
+   {
+    "date": "2026-07-27",
+    "score": 34.2,
+    "gap": -0.3
+   },
+   {
+    "date": "2026-07-28",
+    "score": 38.4,
+    "gap": 7.7
+   },
+   {
+    "date": "2026-07-30",
+    "score": 47.4,
+    "gap": 7.7
+   },
+   {
+    "date": "2026-08-02",
+    "score": 46.5,
+    "gap": -2.4
+   },
+   {
+    "date": "2026-08-03",
+    "score": 47.6,
+    "gap": 0.4
+   },
+   {
+    "date": "2026-08-04",
+    "score": 30.0,
+    "gap": -7.6
+   },
+   {
+    "date": "2026-08-05",
+    "score": 46.5,
+    "gap": -13.5
+   },
+   {
+    "date": "2026-08-07",
+    "score": 37.0,
+    "gap": 1.0
+   },
+   {
+    "date": "2026-08-09",
+    "score": 26.0,
+    "gap": -0.4
+   },
+   {
+    "date": "2026-08-10",
+    "score": 27.3,
+    "gap": -1.7
+   },
+   {
+    "date": "2026-08-12",
+    "score": 41.1,
+    "gap": 6.2
    }
   ],
   "6506": [
@@ -5289,6 +5462,11 @@
     "date": "2026-08-11",
     "score": 33.3,
     "gap": -1.0
+   },
+   {
+    "date": "2026-08-12",
+    "score": 32.9,
+    "gap": 1.9
    }
   ],
   "6508": [
@@ -5361,6 +5539,11 @@
     "date": "2026-08-11",
     "score": 33.2,
     "gap": 1.3
+   },
+   {
+    "date": "2026-08-12",
+    "score": 34.8,
+    "gap": 1.5
    }
   ],
   "6517": [
@@ -5383,75 +5566,83 @@
     "date": "2026-08-11",
     "score": 34.0,
     "gap": 1.9
+   },
+   {
+    "date": "2026-08-12",
+    "score": 37.2,
+    "gap": 8.0
    }
   ],
-  "6638": [
+  "6627": [
    {
     "date": "2026-07-16",
-    "score": 18.8,
-    "gap": -2.9
+    "score": 16.9,
+    "gap": 3.7
    },
    {
     "date": "2026-07-19",
-    "score": 27.2,
-    "gap": 3.1
+    "score": 18.4,
+    "gap": 9.1
+   },
+   {
+    "date": "2026-07-20",
+    "score": 22.9,
+    "gap": 8.7
+   },
+   {
+    "date": "2026-07-21",
+    "score": 24.7,
+    "gap": 10.4
    },
    {
     "date": "2026-07-22",
-    "score": 31.9,
-    "gap": 0.5
+    "score": 29.3,
+    "gap": 13.9
    },
    {
     "date": "2026-07-23",
-    "score": 36.6,
-    "gap": 1.9
-   },
-   {
-    "date": "2026-07-26",
-    "score": 28.8,
-    "gap": -6.3
+    "score": 30.6,
+    "gap": 9.2
    },
    {
     "date": "2026-07-27",
-    "score": 28.2,
-    "gap": -0.2
+    "score": 27.8,
+    "gap": 5.2
    },
    {
-    "date": "2026-07-28",
-    "score": 43.3,
-    "gap": 8.6
+    "date": "2026-07-29",
+    "score": 17.7,
+    "gap": 25.0
+   },
+   {
+    "date": "2026-07-30",
+    "score": 28.1,
+    "gap": 25.6
+   },
+   {
+    "date": "2026-08-02",
+    "score": 35.5,
+    "gap": 13.5
+   },
+   {
+    "date": "2026-08-05",
+    "score": 35.5,
+    "gap": -41.0
    },
    {
     "date": "2026-08-07",
-    "score": 18.5,
-    "gap": -1.9
+    "score": 25.4,
+    "gap": -6.5
    },
    {
     "date": "2026-08-09",
-    "score": 25.0,
-    "gap": 13.0
+    "score": 20.6,
+    "gap": -5.3
    },
    {
-    "date": "2026-08-10",
-    "score": 19.7,
-    "gap": 17.4
-   },
-   {
-    "date": "2026-08-11",
-    "score": 27.1,
-    "gap": 18.8
-   }
-  ],
-  "6652": [
-   {
-    "date": "2026-08-09",
-    "score": 28.0,
-    "gap": -6.4
-   },
-   {
-    "date": "2026-08-11",
-    "score": 30.1,
-    "gap": -8.9
+    "date": "2026-08-12",
+    "score": 31.7,
+    "gap": 13.2
    }
   ],
   "6668": [
@@ -5479,6 +5670,23 @@
     "date": "2026-08-11",
     "score": 37.8,
     "gap": 11.5
+   },
+   {
+    "date": "2026-08-12",
+    "score": 35.1,
+    "gap": 7.1
+   }
+  ],
+  "6677": [
+   {
+    "date": "2026-08-02",
+    "score": 28.3,
+    "gap": 4.0
+   },
+   {
+    "date": "2026-08-12",
+    "score": 36.2,
+    "gap": 10.4
    }
   ],
   "6702": [
@@ -5541,6 +5749,68 @@
     "date": "2026-08-11",
     "score": 37.1,
     "gap": 0.0
+   },
+   {
+    "date": "2026-08-12",
+    "score": 37.1,
+    "gap": 0.0
+   }
+  ],
+  "6707": [
+   {
+    "date": "2026-07-16",
+    "score": 18.0,
+    "gap": 12.9
+   },
+   {
+    "date": "2026-07-19",
+    "score": 18.4,
+    "gap": 13.2
+   },
+   {
+    "date": "2026-07-20",
+    "score": 17.4,
+    "gap": 12.8
+   },
+   {
+    "date": "2026-07-21",
+    "score": 23.2,
+    "gap": 10.1
+   },
+   {
+    "date": "2026-07-22",
+    "score": 22.7,
+    "gap": 9.0
+   },
+   {
+    "date": "2026-07-27",
+    "score": 22.1,
+    "gap": 9.5
+   },
+   {
+    "date": "2026-07-28",
+    "score": 25.6,
+    "gap": 19.2
+   },
+   {
+    "date": "2026-08-04",
+    "score": 31.0,
+    "gap": 5.8
+   },
+   {
+    "date": "2026-08-07",
+    "score": 21.9,
+    "gap": 5.4
+   },
+   {
+    "date": "2026-08-09",
+    "score": 21.7,
+    "gap": 5.3
+   },
+   {
+    "date": "2026-08-12",
+    "score": 23.1,
+    "gap": 9.7
    }
   ],
   "6723": [
@@ -5613,33 +5883,11 @@
     "date": "2026-08-11",
     "score": 35.2,
     "gap": 6.1
-   }
-  ],
-  "6724": [
-   {
-    "date": "2026-08-02",
-    "score": 30.4,
-    "gap": 6.4
    },
    {
-    "date": "2026-08-07",
-    "score": 25.5,
-    "gap": -6.0
-   },
-   {
-    "date": "2026-08-09",
-    "score": 22.4,
-    "gap": -6.3
-   },
-   {
-    "date": "2026-08-10",
-    "score": 21.7,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-11",
-    "score": 25.9,
-    "gap": -8.1
+    "date": "2026-08-12",
+    "score": 23.6,
+    "gap": 4.2
    }
   ],
   "6787": [
@@ -5707,33 +5955,50 @@
     "date": "2026-08-11",
     "score": 34.6,
     "gap": 26.8
+   },
+   {
+    "date": "2026-08-12",
+    "score": 33.8,
+    "gap": 31.9
    }
   ],
-  "6806": [
+  "6834": [
    {
-    "date": "2026-08-04",
+    "date": "2026-07-21",
+    "score": 25.0,
+    "gap": 12.5
+   },
+   {
+    "date": "2026-07-22",
+    "score": 21.7,
+    "gap": 7.5
+   },
+   {
+    "date": "2026-08-12",
     "score": 38.3,
-    "gap": 3.0
+    "gap": 3.8
+   }
+  ],
+  "6855": [
+   {
+    "date": "2026-07-21",
+    "score": 24.3,
+    "gap": 15.1
    },
    {
-    "date": "2026-08-07",
-    "score": 33.7,
-    "gap": 0.7
+    "date": "2026-07-22",
+    "score": 28.4,
+    "gap": 13.0
    },
    {
-    "date": "2026-08-09",
-    "score": 28.7,
-    "gap": 2.4
+    "date": "2026-07-23",
+    "score": 29.6,
+    "gap": 4.9
    },
    {
-    "date": "2026-08-10",
-    "score": 23.1,
-    "gap": 3.0
-   },
-   {
-    "date": "2026-08-11",
-    "score": 31.1,
-    "gap": 3.2
+    "date": "2026-08-12",
+    "score": 24.3,
+    "gap": 11.1
    }
   ],
   "6857": [
@@ -5836,18 +6101,70 @@
     "date": "2026-08-11",
     "score": 50.4,
     "gap": -6.5
-   }
-  ],
-  "6866": [
-   {
-    "date": "2026-08-10",
-    "score": 23.0,
-    "gap": 4.0
    },
    {
-    "date": "2026-08-11",
-    "score": 33.2,
-    "gap": 5.0
+    "date": "2026-08-12",
+    "score": 54.5,
+    "gap": 1.7
+   }
+  ],
+  "6859": [
+   {
+    "date": "2026-08-07",
+    "score": 18.6,
+    "gap": -2.2
+   },
+   {
+    "date": "2026-08-09",
+    "score": 26.9,
+    "gap": -4.4
+   },
+   {
+    "date": "2026-08-12",
+    "score": 31.0,
+    "gap": 2.7
+   }
+  ],
+  "6861": [
+   {
+    "date": "2026-07-19",
+    "score": 18.2,
+    "gap": 8.9
+   },
+   {
+    "date": "2026-07-20",
+    "score": 25.1,
+    "gap": 8.6
+   },
+   {
+    "date": "2026-07-22",
+    "score": 21.2,
+    "gap": 8.4
+   },
+   {
+    "date": "2026-07-30",
+    "score": 33.7,
+    "gap": -4.5
+   },
+   {
+    "date": "2026-08-02",
+    "score": 37.1,
+    "gap": -3.0
+   },
+   {
+    "date": "2026-08-05",
+    "score": 26.8,
+    "gap": -7.6
+   },
+   {
+    "date": "2026-08-07",
+    "score": 25.0,
+    "gap": -1.6
+   },
+   {
+    "date": "2026-08-12",
+    "score": 32.4,
+    "gap": 2.5
    }
   ],
   "6871": [
@@ -5930,6 +6247,48 @@
     "date": "2026-08-11",
     "score": 41.9,
     "gap": 7.7
+   },
+   {
+    "date": "2026-08-12",
+    "score": 39.2,
+    "gap": 16.3
+   }
+  ],
+  "6890": [
+   {
+    "date": "2026-07-19",
+    "score": 19.2,
+    "gap": 18.4
+   },
+   {
+    "date": "2026-07-20",
+    "score": 21.5,
+    "gap": 18.1
+   },
+   {
+    "date": "2026-07-21",
+    "score": 21.1,
+    "gap": 14.8
+   },
+   {
+    "date": "2026-07-22",
+    "score": 28.7,
+    "gap": 13.4
+   },
+   {
+    "date": "2026-07-30",
+    "score": 23.6,
+    "gap": 21.9
+   },
+   {
+    "date": "2026-08-02",
+    "score": 28.7,
+    "gap": 9.2
+   },
+   {
+    "date": "2026-08-12",
+    "score": 27.9,
+    "gap": 7.0
    }
   ],
   "6920": [
@@ -6012,6 +6371,11 @@
     "date": "2026-08-11",
     "score": 39.9,
     "gap": 14.2
+   },
+   {
+    "date": "2026-08-12",
+    "score": 29.6,
+    "gap": 19.1
    }
   ],
   "6951": [
@@ -6099,6 +6463,11 @@
     "date": "2026-08-11",
     "score": 29.6,
     "gap": 1.9
+   },
+   {
+    "date": "2026-08-12",
+    "score": 35.7,
+    "gap": 5.6
    }
   ],
   "6954": [
@@ -6186,6 +6555,33 @@
     "date": "2026-08-11",
     "score": 37.3,
     "gap": -2.4
+   },
+   {
+    "date": "2026-08-12",
+    "score": 32.9,
+    "gap": -1.4
+   }
+  ],
+  "6971": [
+   {
+    "date": "2026-08-02",
+    "score": 39.1,
+    "gap": 7.1
+   },
+   {
+    "date": "2026-08-03",
+    "score": 43.0,
+    "gap": 8.7
+   },
+   {
+    "date": "2026-08-07",
+    "score": 24.5,
+    "gap": -5.8
+   },
+   {
+    "date": "2026-08-12",
+    "score": 32.1,
+    "gap": 3.7
    }
   ],
   "6976": [
@@ -6243,6 +6639,33 @@
     "date": "2026-08-11",
     "score": 25.1,
     "gap": 10.7
+   },
+   {
+    "date": "2026-08-12",
+    "score": 27.1,
+    "gap": 12.0
+   }
+  ],
+  "6981": [
+   {
+    "date": "2026-07-19",
+    "score": 18.4,
+    "gap": 17.4
+   },
+   {
+    "date": "2026-07-20",
+    "score": 21.9,
+    "gap": 17.1
+   },
+   {
+    "date": "2026-08-02",
+    "score": 36.0,
+    "gap": 16.0
+   },
+   {
+    "date": "2026-08-12",
+    "score": 23.4,
+    "gap": 6.9
    }
   ],
   "7011": [
@@ -6310,6 +6733,11 @@
     "date": "2026-08-11",
     "score": 29.0,
     "gap": 0.0
+   },
+   {
+    "date": "2026-08-12",
+    "score": 28.6,
+    "gap": -0.8
    }
   ],
   "7012": [
@@ -6377,131 +6805,40 @@
     "date": "2026-08-11",
     "score": 36.2,
     "gap": 7.3
-   }
-  ],
-  "7246": [
-   {
-    "date": "2026-07-28",
-    "score": 25.4,
-    "gap": 2.0
    },
    {
-    "date": "2026-08-05",
-    "score": 36.6,
-    "gap": -6.5
-   },
-   {
-    "date": "2026-08-11",
-    "score": 22.4,
-    "gap": -10.2
+    "date": "2026-08-12",
+    "score": 33.6,
+    "gap": 6.9
    }
   ],
-  "7279": [
+  "7220": [
    {
-    "date": "2026-08-07",
-    "score": 28.3,
-    "gap": 2.7
-   },
-   {
-    "date": "2026-08-11",
-    "score": 31.8,
-    "gap": 3.6
-   }
-  ],
-  "7609": [
-   {
-    "date": "2026-08-03",
-    "score": 35.3,
-    "gap": 10.0
+    "date": "2026-07-16",
+    "score": 17.2,
+    "gap": 8.9
    },
    {
     "date": "2026-08-04",
-    "score": 30.1,
-    "gap": -4.6
+    "score": 32.5,
+    "gap": 4.3
    },
    {
-    "date": "2026-08-05",
-    "score": 39.7,
-    "gap": -34.0
-   },
-   {
-    "date": "2026-08-07",
-    "score": 31.5,
-    "gap": -13.2
-   },
-   {
-    "date": "2026-08-09",
-    "score": 23.1,
-    "gap": -15.9
-   },
-   {
-    "date": "2026-08-11",
-    "score": 22.5,
-    "gap": -6.1
+    "date": "2026-08-12",
+    "score": 29.1,
+    "gap": 6.8
    }
   ],
-  "7613": [
-   {
-    "date": "2026-07-28",
-    "score": 29.7,
-    "gap": 3.2
-   },
-   {
-    "date": "2026-08-02",
-    "score": 28.3,
-    "gap": 4.8
-   },
-   {
-    "date": "2026-08-03",
-    "score": 42.1,
-    "gap": 8.7
-   },
-   {
-    "date": "2026-08-04",
-    "score": 33.8,
-    "gap": 2.4
-   },
-   {
-    "date": "2026-08-09",
-    "score": 20.1,
-    "gap": -10.7
-   },
-   {
-    "date": "2026-08-10",
-    "score": 25.1,
-    "gap": -3.9
-   },
+  "7715": [
    {
     "date": "2026-08-11",
-    "score": 30.5,
-    "gap": -3.5
-   }
-  ],
-  "7711": [
-   {
-    "date": "2026-07-15",
-    "score": 22.5,
-    "gap": 0.0
+    "score": 22.7,
+    "gap": 2.1
    },
    {
-    "date": "2026-08-07",
-    "score": 27.9,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-09",
-    "score": 24.7,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-10",
-    "score": 25.7,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-11",
-    "score": 30.2,
-    "gap": 0.0
+    "date": "2026-08-12",
+    "score": 33.5,
+    "gap": 7.6
    }
   ],
   "7716": [
@@ -6518,6 +6855,11 @@
    {
     "date": "2026-08-11",
     "score": 31.4,
+    "gap": 0.0
+   },
+   {
+    "date": "2026-08-12",
+    "score": 23.1,
     "gap": 0.0
    }
   ],
@@ -6616,184 +6958,50 @@
     "date": "2026-08-11",
     "score": 52.2,
     "gap": 3.2
+   },
+   {
+    "date": "2026-08-12",
+    "score": 53.8,
+    "gap": 5.1
    }
   ],
-  "7734": [
+  "8012": [
+   {
+    "date": "2026-08-05",
+    "score": 36.8,
+    "gap": -10.7
+   },
+   {
+    "date": "2026-08-12",
+    "score": 33.8,
+    "gap": 3.6
+   }
+  ],
+  "8015": [
+   {
+    "date": "2026-07-28",
+    "score": 34.1,
+    "gap": 3.4
+   },
+   {
+    "date": "2026-07-29",
+    "score": 27.1,
+    "gap": 2.3
+   },
    {
     "date": "2026-08-03",
-    "score": 34.5,
+    "score": 52.2,
     "gap": 4.7
    },
    {
     "date": "2026-08-10",
-    "score": 21.8,
-    "gap": 6.2
+    "score": 19.6,
+    "gap": -6.6
    },
    {
-    "date": "2026-08-11",
-    "score": 30.9,
-    "gap": 7.2
-   }
-  ],
-  "7735": [
-   {
-    "date": "2026-07-15",
-    "score": 40.5,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-07-16",
-    "score": 27.4,
-    "gap": -1.9
-   },
-   {
-    "date": "2026-07-19",
-    "score": 26.3,
-    "gap": 8.6
-   },
-   {
-    "date": "2026-07-20",
-    "score": 25.5,
-    "gap": 8.3
-   },
-   {
-    "date": "2026-07-21",
-    "score": 32.6,
-    "gap": 10.7
-   },
-   {
-    "date": "2026-07-22",
-    "score": 36.8,
-    "gap": 16.7
-   },
-   {
-    "date": "2026-07-23",
-    "score": 37.8,
-    "gap": 15.6
-   },
-   {
-    "date": "2026-07-26",
-    "score": 37.8,
-    "gap": 8.3
-   },
-   {
-    "date": "2026-07-29",
-    "score": 29.6,
-    "gap": 30.6
-   },
-   {
-    "date": "2026-08-02",
-    "score": 38.6,
-    "gap": 25.5
-   },
-   {
-    "date": "2026-08-03",
-    "score": 44.8,
-    "gap": 28.8
-   },
-   {
-    "date": "2026-08-04",
-    "score": 41.0,
-    "gap": 19.9
-   },
-   {
-    "date": "2026-08-05",
-    "score": 39.8,
-    "gap": -8.9
-   },
-   {
-    "date": "2026-08-11",
-    "score": 29.0,
-    "gap": 2.4
-   }
-  ],
-  "7745": [
-   {
-    "date": "2026-07-15",
-    "score": 24.0,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-07-16",
-    "score": 16.8,
-    "gap": 1.2
-   },
-   {
-    "date": "2026-07-21",
-    "score": 22.4,
-    "gap": 6.2
-   },
-   {
-    "date": "2026-07-22",
-    "score": 30.5,
-    "gap": 9.7
-   },
-   {
-    "date": "2026-07-23",
-    "score": 34.8,
-    "gap": 3.8
-   },
-   {
-    "date": "2026-07-30",
-    "score": 19.9,
+    "date": "2026-08-12",
+    "score": 24.5,
     "gap": 2.0
-   },
-   {
-    "date": "2026-08-02",
-    "score": 39.0,
-    "gap": 3.0
-   },
-   {
-    "date": "2026-08-03",
-    "score": 49.2,
-    "gap": 7.7
-   },
-   {
-    "date": "2026-08-04",
-    "score": 39.2,
-    "gap": 0.2
-   },
-   {
-    "date": "2026-08-05",
-    "score": 34.7,
-    "gap": -9.0
-   },
-   {
-    "date": "2026-08-07",
-    "score": 32.6,
-    "gap": 6.4
-   },
-   {
-    "date": "2026-08-09",
-    "score": 24.9,
-    "gap": 6.4
-   },
-   {
-    "date": "2026-08-10",
-    "score": 19.8,
-    "gap": 13.9
-   },
-   {
-    "date": "2026-08-11",
-    "score": 23.1,
-    "gap": 15.3
-   }
-  ],
-  "8032": [
-   {
-    "date": "2026-08-09",
-    "score": 22.8,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-10",
-    "score": 24.1,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-11",
-    "score": 26.8,
-    "gap": 0.0
    }
   ],
   "8035": [
@@ -6896,242 +7104,228 @@
     "date": "2026-08-11",
     "score": 39.0,
     "gap": 3.8
-   }
-  ],
-  "8050": [
-   {
-    "date": "2026-08-10",
-    "score": 29.8,
-    "gap": -18.8
    },
    {
-    "date": "2026-08-11",
-    "score": 31.9,
-    "gap": -17.9
+    "date": "2026-08-12",
+    "score": 34.9,
+    "gap": 4.1
    }
   ],
-  "8051": [
+  "9984": [
    {
-    "date": "2026-08-10",
-    "score": 24.3,
-    "gap": 0.0
+    "date": "2026-07-16",
+    "score": 17.5,
+    "gap": 8.0
    },
    {
-    "date": "2026-08-11",
-    "score": 29.9,
-    "gap": 0.0
-   }
-  ],
-  "8150": [
-   {
-    "date": "2026-08-05",
-    "score": 32.0,
-    "gap": -7.0
+    "date": "2026-07-19",
+    "score": 17.9,
+    "gap": 16.7
    },
    {
-    "date": "2026-08-11",
-    "score": 32.1,
-    "gap": 3.0
-   }
-  ],
-  "9619": [
+    "date": "2026-07-20",
+    "score": 23.5,
+    "gap": 16.4
+   },
+   {
+    "date": "2026-07-21",
+    "score": 24.4,
+    "gap": 17.0
+   },
+   {
+    "date": "2026-07-22",
+    "score": 29.1,
+    "gap": 14.1
+   },
+   {
+    "date": "2026-07-23",
+    "score": 31.8,
+    "gap": 5.6
+   },
+   {
+    "date": "2026-07-26",
+    "score": 29.1,
+    "gap": 3.5
+   },
+   {
+    "date": "2026-07-27",
+    "score": 21.9,
+    "gap": 11.3
+   },
+   {
+    "date": "2026-07-30",
+    "score": 36.5,
+    "gap": 24.0
+   },
+   {
+    "date": "2026-08-02",
+    "score": 36.5,
+    "gap": 11.5
+   },
    {
     "date": "2026-08-07",
-    "score": 18.6,
-    "gap": 0.0
+    "score": 31.4,
+    "gap": 4.0
    },
    {
-    "date": "2026-08-09",
-    "score": 23.1,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-10",
-    "score": 28.4,
-    "gap": 0.0
-   },
-   {
-    "date": "2026-08-11",
-    "score": 31.2,
-    "gap": -11.9
+    "date": "2026-08-12",
+    "score": 32.2,
+    "gap": 11.7
    }
   ]
  },
  "prev_codes": [
-  "6857",
-  "4980",
-  "6315",
   "7729",
-  "6501",
+  "6857",
+  "6315",
   "5805",
-  "4062",
-  "5803",
-  "5801",
-  "6702",
-  "5310",
-  "6920",
-  "6787",
-  "6723",
-  "5016",
-  "6871",
-  "8050",
-  "6146",
-  "4401",
+  "4980",
   "5802",
-  "3433",
-  "4966",
-  "9962",
+  "4062",
+  "6146",
+  "6501",
+  "5801",
+  "6871",
   "6323",
-  "6141",
-  "6954",
-  "9619",
-  "6490",
-  "6506",
-  "6668",
-  "3097",
-  "6098",
-  "4631",
-  "5384",
-  "7716",
-  "6504",
-  "5192",
-  "7011",
-  "6103",
-  "4970",
-  "6407",
-  "5970",
-  "4208",
-  "6379",
-  "4919",
-  "7711",
-  "4246",
-  "4044",
-  "6266",
-  "4047",
-  "7613",
-  "6481",
-  "5122",
-  "5976",
-  "2108",
+  "5803",
+  "6920",
   "8035",
-  "1899",
-  "8051",
-  "8032",
-  "6134",
-  "3708",
-  "6324",
-  "6351",
-  "6361",
-  "6806",
-  "6866",
-  "6480",
+  "6490",
+  "6668",
+  "5310",
+  "6954",
+  "6702",
+  "7012",
+  "5192",
+  "5105",
+  "6723",
   "4369",
-  "4118",
-  "3167",
-  "5975",
-  "4206",
-  "6254",
+  "6141",
+  "6787",
+  "4044",
+  "6134",
+  "6517",
+  "2737",
+  "6506",
+  "6508",
+  "6866",
   "6264",
-  "5108",
-  "8410",
-  "6976",
-  "7734",
-  "2607",
-  "6724",
-  "5901",
+  "4631",
+  "6480",
+  "8150",
+  "4970",
+  "8050",
+  "7279",
   "6250",
-  "6273",
-  "7606",
-  "7745",
-  "6674",
-  "2146",
-  "6638",
-  "3176",
-  "6370",
-  "4722",
-  "8015",
+  "7716",
+  "5108",
+  "9619",
+  "6806",
+  "6240",
+  "6459",
+  "7734",
+  "4047",
+  "5384",
+  "6381",
+  "1899",
+  "7613",
+  "6361",
+  "5975",
+  "7711",
+  "6929",
+  "6652",
+  "8051",
+  "5970",
+  "6282",
+  "6951",
   "4189",
-  "3436",
-  "6301",
-  "6844",
-  "4912",
-  "7537",
+  "6103",
+  "7011",
+  "7735",
+  "5122",
+  "6209",
+  "6254",
+  "6266",
+  "4246",
+  "6481",
+  "5408",
+  "6324",
+  "6638",
+  "8032",
+  "4118",
+  "6724",
+  "6976",
+  "7745",
+  "6098",
+  "4634",
+  "6143",
+  "5976",
+  "6463",
+  "4064",
+  "6351",
+  "7715",
+  "6742",
+  "7609",
+  "5016",
   "5195",
-  "4634"
+  "6339",
+  "3176",
+  "7246",
+  "8151",
+  "3433",
+  "6125",
+  "6407"
  ],
  "deltas": {
-  "6103": 2.4,
-  "4189": 9.8,
-  "6723": 4.8,
-  "6866": 10.2,
-  "6638": 7.4,
-  "3433": -6.9,
-  "5192": 9.0,
-  "6266": 3.0,
-  "6668": 9.8,
-  "4634": 3.6,
-  "5108": 9.4,
-  "6146": 12.8,
-  "6134": 10.8,
-  "6098": -4.9,
-  "6787": 4.2,
-  "6264": 11.1,
-  "6702": 4.8,
-  "4631": 5.5,
-  "6976": 3.2,
-  "3176": 2.7,
-  "4246": 2.6,
-  "5310": 5.3,
-  "8035": 14.5,
-  "5016": -7.7,
-  "4970": 5.3,
-  "6954": 8.6,
-  "6141": 6.0,
-  "7729": 16.5,
-  "5976": -1.9,
-  "4369": 12.0,
-  "9619": 2.8,
-  "6254": 6.3,
-  "6806": 8.0,
-  "4044": 9.0,
-  "6871": 11.8,
-  "7613": 5.4,
-  "5802": 15.3,
-  "6724": 4.2,
-  "6351": -0.5,
-  "6480": 10.0,
-  "6490": 10.4,
-  "6481": 2.7,
-  "6920": 8.7,
-  "5384": 3.1,
-  "5975": 7.9,
-  "6407": -4.1,
-  "5803": 7.9,
-  "7011": 2.0,
-  "5801": 9.6,
-  "8050": 2.1,
-  "6323": 11.9,
-  "7745": 3.3,
-  "5195": 3.1,
-  "6361": 7.1,
-  "8051": 5.6,
-  "5805": 11.7,
-  "5970": 3.6,
-  "6315": 9.0,
-  "6324": 3.8,
-  "4062": 10.8,
-  "1899": 6.1,
-  "7711": 4.5,
-  "4047": 5.7,
-  "4118": 3.5,
-  "7734": 9.1,
-  "6857": 10.0,
-  "6250": 11.5,
-  "6501": 6.9,
-  "8032": 2.7,
-  "4980": 6.9,
-  "6506": 5.3,
-  "7716": 4.1,
-  "5122": 4.0
+  "8035": -4.1,
+  "6143": 1.5,
+  "6361": 2.8,
+  "4047": 1.5,
+  "4369": -0.2,
+  "6490": -2.7,
+  "6264": -9.8,
+  "6506": -0.4,
+  "5803": 0.4,
+  "6702": 0.0,
+  "6508": 1.6,
+  "5802": 6.4,
+  "6266": 0.8,
+  "6146": 7.7,
+  "6480": -9.4,
+  "6517": 3.2,
+  "4062": 7.3,
+  "6857": 4.1,
+  "4970": -7.5,
+  "6723": -11.6,
+  "5801": -5.3,
+  "6459": 2.0,
+  "5192": -12.7,
+  "7012": -2.6,
+  "7715": 10.8,
+  "6407": 11.1,
+  "5310": -5.2,
+  "6315": -2.7,
+  "6951": 6.1,
+  "5105": -5.6,
+  "6954": -4.4,
+  "7716": -8.3,
+  "6668": -2.7,
+  "6134": 1.8,
+  "6920": -10.3,
+  "5805": -5.1,
+  "6324": 9.3,
+  "7011": -0.4,
+  "4980": 1.5,
+  "6871": -2.7,
+  "6976": 2.0,
+  "6787": -0.8,
+  "4631": 2.4,
+  "6501": 1.3,
+  "6481": 4.3,
+  "6463": 7.4,
+  "6141": -7.2,
+  "7729": 1.6,
+  "6323": -7.1,
+  "2737": 1.9
  }
 }
