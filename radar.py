@@ -52,19 +52,35 @@ CONFIG = {
     "fundamental_top_n": 80,
     # --- シグナル判定（🔥新規買い候補の条件。全部明文化＝検証・調整可能）---
     "signal": {
-        "min_score": 65,      # 総合スコア下限
-        "min_gap": 1.0,       # 未反応ギャップ下限(%)
-        "min_v_ratio": 1.5,   # 出来高倍率下限
-        "max_dev25": 15,      # 25MA乖離の上限(%) 超えたら「押し目待ち」
-        "watch_score": 55,    # 「監視」の下限
+        # 旧設定(min_score=65)は31日間で1回しか成立せず、🔥がほぼ出ない
+        # 状態だった。実データの分布（1位の平均45.5点）に合わせて再調整。
+        "min_score": 45,       # 平滑化後スコアの下限
+        "max_rank": 15,        # 上位何位までを候補とみなすか
+        "min_ignition": 9.0,   # モメンタム点火18点中の最低点
+        "min_v_ratio": 1.3,    # 出来高倍率下限
+        "max_dev25": 15,       # 25MA乖離の上限(%) 超えたら「押し目待ち」
+        "watch_score": 38,     # 「監視」の下限
+        "min_days_in_top": 2,  # 上位100に残っている日数（一発屋を除外）
     },
     # --- 出力 ---
     "top_n": 30,
     # --- 重み（100点満点への倍率。合計が変わったら自動で正規化されます）---
     # --- ETFフロー ---
     "etf_flow_scale": 1.0,     # 銘柄別流入$1Mあたりの加点
-    "weights": {"linkage": 30, "theme": 20, "supply": 10, "etf": 5,
-                "tech": 15, "fund": 10, "material": 10},
+    # --- モメンタム点火（新設。立ち上がりを捉える中核）---
+    "ignition": {
+        "fresh_days": 10,   # 転換を「新しい」とみなす営業日数
+        "slope_days": 5,    # 傾きを測る営業日数
+        "near_high": 0.85,  # 52週高値のこの比率以上なら高値圏
+        "max_dev25": 15,    # これ以上伸びていたら点火帯を外れたと判定
+    },
+    # --- スコア平滑化: 直近N営業日の平均を表示スコアにする ---
+    #     生スコアは前日比で平均5.7点動く一方、1位と30位の差は13.8点しか
+    #     なかった。平滑化しないとランキングがノイズで毎日入れ替わる。
+    #     実履歴で検証: 3日平均で重複15.7→18.6、5日平均で20.8まで改善。
+    "smooth_days": 5,
+    "weights": {"linkage": 12, "ignition": 18, "theme": 20, "supply": 10,
+                "etf": 5, "tech": 15, "fund": 10, "material": 10},
 }
 
 # --- 監視する米国ドライバー（自動発見の探索母集団。広く取るほど発見の網が広がる）---
@@ -149,7 +165,10 @@ HOLDINGS_SOURCES = {
             "?fileType=csv&fileName=SCJ_holdings&dataType=fund"),
 }
 
-TODAY = dt.date.today()
+# GitHub ActionsはUTCで動くため、そのままだと日本時間の朝6時実行が
+# 前日の日付で記録される（=履歴に日曜が並ぶ）。JSTで固定する。
+JST = dt.timezone(dt.timedelta(hours=9))
+TODAY = dt.datetime.now(JST).date()
 UA = {"User-Agent": "Mozilla/5.0 (ai-market-radar; personal use)"}
 
 
@@ -358,6 +377,8 @@ vix    = fetch_series("^VIX")
 # --- 市場全体の20日リターン（個別銘柄のRS計算に使う）---
 base = n225 if n225 is not None else topixp
 MKT_R20 = float(base.iloc[-1] / base.iloc[-21] - 1) if base is not None and len(base) > 21 else 0.0
+# --- 市場の20日リターン「系列」: 個別銘柄のRS20の推移を出すのに使う ---
+MKT_R20_SER = base.pct_change(20) if base is not None else None
 
 # --- 市場の幅（ブレッドス）: 全銘柄データから直接計算 ---
 ma25_all = close_df.rolling(25).mean().iloc[-1]
@@ -454,11 +475,11 @@ def build_linkage_scores():
             exp_r = float(expected[code])
             act_r = float(jp_recent.get(code, 0.0))
             gap = exp_r - act_r
-            # 連動の強さ: 期待反応そのもの（最大18点相当）
-            p_link = min(exp_r * 250, W * 0.6)
-            # 未反応ボーナス: ギャップがプラス＝まだ織り込まれていない（最大12点相当）
-            p_gap = min(max(0.0, gap) * 300, W * 0.4)
-            pts = p_link + p_gap
+            # 連動の強さ = 期待反応の大きさ。W(12点)を上限に配点。
+            # ※旧版の「未反応ボーナス」は廃止。まだ動いていない銘柄ほど
+            #   高得点になる設計はモメンタム狙いと逆を向くため。
+            #   連動はエントリー理由の裏付けとして使い、点火はignitionで測る。
+            pts = min(exp_r * 400, float(W))
             cur = out.get(code)
             if cur is None or pts > cur["pts"]:
                 out[code] = {
@@ -466,7 +487,7 @@ def build_linkage_scores():
                     "expected": exp_r, "actual": act_r, "gap": gap,
                     "reason": (f"{US_NAMES.get(sym,sym)}{imp*100:+.1f}%連動"
                                f"(β{float(beta[code]):.2f})"
-                               + (f" 未反応+{gap*100:.1f}%" if gap > 0.005 else "")),
+                               + (f" 実反応{act_r*100:+.1f}%" if abs(act_r) > 0.005 else "")),
                 }
     return out
 
@@ -642,6 +663,90 @@ def score_supply(df):
 
     return min(pts, W), reasons, {"v_ratio": v_ratio, "turnover_m": to20 / 1e6}
 
+def rs20_series(df):
+    """対市場の20日相対リターン(%)の系列"""
+    r20 = df["Close"].pct_change(20)
+    if MKT_R20_SER is None:
+        return r20 * 100
+    m = MKT_R20_SER.reindex(r20.index).ffill()
+    return (r20 - m) * 100
+
+
+def _days_since_cross_up(ser, level=0.0):
+    """最後にlevel以下だったのが何営業日前か。
+    今がlevel以下なら-1（まだ転換していない）。ずっと上ならデータ長。"""
+    s = ser.dropna()
+    if len(s) == 0 or float(s.iloc[-1]) <= level:
+        return -1
+    below = np.where(s.values <= level)[0]
+    if len(below) == 0:
+        return len(s)
+    # 転換した当日を0日目とする
+    return int(len(s) - 2 - below[-1])
+
+
+def score_ignition(df, t_info):
+    """モメンタム点火18点: RS転換6 / RS傾き4 / 25MA転換4 / 高値圏かつ未過熱4
+
+    「まだ動いていない」ではなく「動き始めた」ものに配点する。
+    水準ではなく変化を見るので、日々のブレも小さい。
+    """
+    W = CONFIG["weights"]["ignition"]
+    u = W / 18.0
+    ig = CONFIG["ignition"]
+    pts, reasons = 0.0, []
+    c = df["Close"]
+
+    # (1) RS20がマイナスからプラスに転換した直後か。浅いほど高評価
+    rs = rs20_series(df)
+    rs_val = rs.dropna()
+    rs_now = float(rs_val.iloc[-1]) if len(rs_val) else 0.0
+    d_rs = _days_since_cross_up(rs)
+    if d_rs >= 0:
+        if d_rs <= ig["fresh_days"]:
+            pts += 6 * u; reasons.append(f"RS転換{d_rs}日目")
+        elif d_rs <= ig["fresh_days"] * 3:
+            pts += 3 * u
+        else:
+            pts += 1.5 * u
+
+    # (2) RSの傾き。強さの水準ではなく、強くなっている最中かを見る
+    k = int(ig["slope_days"])
+    rs_prev = rs_now
+    if len(rs_val) > k:
+        rs_prev = float(rs_val.iloc[-1 - k])
+    rs_slope = rs_now - rs_prev
+    if rs_slope > 3:
+        pts += 4 * u; reasons.append(f"RS加速{rs_slope:+.1f}")
+    elif rs_slope > 0:
+        pts += 2 * u
+
+    # (3) 25MAを上抜けた直後で、かつ25MA自体が上向きに転じているか
+    ma25 = c.rolling(25).mean()
+    d_ma = _days_since_cross_up(c - ma25)
+    ma_val = ma25.dropna()
+    ma_up = len(ma_val) > k and float(ma_val.iloc[-1]) > float(ma_val.iloc[-1 - k])
+    if d_ma >= 0 and ma_up and d_ma <= ig["fresh_days"]:
+        pts += 4 * u; reasons.append(f"25MA上抜け{d_ma}日目")
+    elif d_ma >= 0 and ma_up:
+        pts += 2 * u
+
+    # (4) 高値圏だが伸びきっていない帯。一番おいしいところ
+    rhi = float(t_info.get("rhi", 0.0))
+    dev25 = 0.0
+    if len(ma_val) and float(ma_val.iloc[-1]) > 0:
+        dev25 = (float(c.iloc[-1]) / float(ma_val.iloc[-1]) - 1) * 100
+    # ※市場に勝っていること(rs_now>0)を条件に入れないと、ただ高値圏で
+    #   動いていないだけの銘柄に点が入ってしまう
+    if rhi >= ig["near_high"] and dev25 < ig["max_dev25"] and rs_now > 0:
+        pts += 4 * u; reasons.append("高値圏かつ未過熱")
+    elif rhi >= ig["near_high"] and rs_now > 0:
+        pts += 1 * u
+
+    return min(pts, W), reasons, {"rs_now": rs_now, "rs_slope": rs_slope,
+                                  "rs_days": d_rs, "ma_days": d_ma}
+
+
 print("採点関数 定義OK")
 
 
@@ -785,6 +890,7 @@ def screen_stage1():
                 continue
             t_pts, t_rs, t_info = score_technical(df)
             s_pts, s_rs, s_info = score_supply(df)
+            i_pts, i_rs, i_info = score_ignition(df, t_info)
             c_ser = df["Close"]
             # RS: 市場(日経)に対する20日相対リターン。モメンタムの本丸
             r20 = float(c_ser.iloc[-1] / c_ser.iloc[-21] - 1) if len(c_ser) > 21 else 0.0
@@ -815,7 +921,9 @@ def screen_stage1():
             rows.append({
                 "code": code, "name": NAME_MAP.get(code, ""),
                 "sector": SECTOR_MAP.get(code, ""),
-                "linkage": round(lk_pts, 1), "theme": round(th_pts, 1),
+                "linkage": round(lk_pts, 1), "ignition": round(i_pts, 1),
+                "rs_days": i_info["rs_days"], "rs_slope": round(i_info["rs_slope"], 1),
+                "theme": round(th_pts, 1),
                 "supply": round(s_pts, 1), "etf": round(e_pts, 1),
                 "tech": round(t_pts, 1), "penalty": round(penalty, 1),
                 "rs20": round(rs20, 1), "atr_pct": round(atr / close * 100, 1),
@@ -828,14 +936,14 @@ def screen_stage1():
                          if len(df) > 6 else 0.0,
                 "v_ratio": round(s_info["v_ratio"], 1),
                 "turnover_m": round(s_info["turnover_m"]),
-                "reasons": lk_rs + th_rs + e_rs + s_rs + t_rs + mat_rs,
+                "reasons": i_rs + lk_rs + th_rs + e_rs + s_rs + t_rs + mat_rs,
             })
         except Exception:
             continue
     df_out = pd.DataFrame(rows)
-    df_out["score"] = (df_out["linkage"] + df_out["theme"] + df_out["supply"]
-                       + df_out["etf"] + df_out["tech"] + df_out["material"]
-                       + df_out["penalty"])
+    df_out["score"] = (df_out["linkage"] + df_out["ignition"] + df_out["theme"]
+                       + df_out["supply"] + df_out["etf"] + df_out["tech"]
+                       + df_out["material"] + df_out["penalty"])
     df_out = df_out.sort_values("score", ascending=False).reset_index(drop=True)
     print(f"\n第1段階 完了: {len(df_out)}銘柄")
     return df_out
@@ -890,10 +998,49 @@ def add_fundamentals(df_out):
 
     with open(cache_file, "wb") as f:
         pickle.dump(fund_cache, f)
-    df_out["score"] = (df_out["linkage"] + df_out["theme"] + df_out["supply"]
-                       + df_out["etf"] + df_out["tech"] + df_out["material"]
-                       + df_out["fund"] + df_out["penalty"])
+    df_out["score"] = (df_out["linkage"] + df_out["ignition"] + df_out["theme"]
+                       + df_out["supply"] + df_out["etf"] + df_out["tech"]
+                       + df_out["material"] + df_out["fund"] + df_out["penalty"])
     return df_out.sort_values("score", ascending=False).reset_index(drop=True)
+
+def apply_smoothing(df_out):
+    """直近N営業日の生スコアの平均を『表示スコア』にする。
+
+    生スコアは同じ銘柄でも前日比で平均5.7点動くため、平滑化しないと
+    上位30の半分が毎朝入れ替わる。数日〜2か月保有する使い方と噛み合わない。
+    履歴の無い銘柄は当日値をそのまま使う（新顔を不利にしない）。
+    """
+    n = int(CONFIG.get("smooth_days", 1))
+    df_out["score_raw"] = df_out["score"]
+    df_out["days_in_top"] = 1
+    if n <= 1 or not os.path.exists(HISTORY_PATH):
+        df_out["rank"] = range(1, len(df_out) + 1)
+        return df_out
+    try:
+        h = pd.read_csv(HISTORY_PATH, dtype={"code": str})
+    except Exception:
+        df_out["rank"] = range(1, len(df_out) + 1)
+        return df_out
+    h = h[h["date"] != str(TODAY)]
+    if "score_raw" in h.columns:
+        h["score_raw"] = h["score_raw"].fillna(h["score"])
+    else:
+        h["score_raw"] = h["score"]
+    keep = sorted(h["date"].unique())[-(n - 1):]
+    h = h[h["date"].isin(keep)]
+    prev = h.groupby("code")["score_raw"].apply(list).to_dict()
+    sm, dit = [], []
+    for r in df_out.itertuples():
+        past = [float(x) for x in prev.get(str(r.code), []) if pd.notna(x)]
+        vals = [float(r.score_raw)] + past
+        sm.append(round(sum(vals) / len(vals), 1))
+        dit.append(1 + len(past))
+    df_out["score"] = sm
+    df_out["days_in_top"] = dit
+    df_out = df_out.sort_values("score", ascending=False).reset_index(drop=True)
+    df_out["rank"] = range(1, len(df_out) + 1)
+    return df_out
+
 
 def judge_signal(row):
     """ルールベースの売買候補判定。条件はCONFIG['signal']で全て明文化。
@@ -901,12 +1048,14 @@ def judge_signal(row):
     sg = CONFIG["signal"]
     if REGIME == "red":
         return "見送り(地合い🔴)"
-    strong = (row["score"] >= sg["min_score"]) and (row["rs20"] > 0)
+    strong = ((row["score"] >= sg["min_score"]) and (row["rs20"] > 0)
+              and (row["rank"] <= sg["max_rank"]))
     hot = row["dev25"] > sg["max_dev25"]
     if strong and hot:
         return "押し目待ち"
-    if (strong and row["gap_pct"] >= sg["min_gap"]
-            and row["v_ratio"] >= sg["min_v_ratio"]):
+    if (strong and row["ignition"] >= sg["min_ignition"]
+            and row["v_ratio"] >= sg["min_v_ratio"]
+            and row["days_in_top"] >= sg["min_days_in_top"]):
         return "🔥新規買い候補"
     if strong:
         return "監視(強)"
@@ -915,14 +1064,17 @@ def judge_signal(row):
     return ""
 
 def stars(score):
-    if score >= 70: return "★★★★★"
-    if score >= 60: return "★★★★☆"
-    if score >= 50: return "★★★☆☆"
-    if score >= 40: return "★★☆☆☆"
+    # 実データの分布（最高66.5点・平均29.3点）に合わせて再調整。
+    # 旧設定では★3以上がほぼ出ず、星の意味が無くなっていた。
+    if score >= 55: return "★★★★★"
+    if score >= 48: return "★★★★☆"
+    if score >= 42: return "★★★☆☆"
+    if score >= 35: return "★★☆☆☆"
     return "★☆☆☆☆"
 
 result = screen_stage1()
 result = add_fundamentals(result)
+result = apply_smoothing(result)
 result["stars"] = result["score"].apply(stars)
 result["signal"] = result.apply(judge_signal, axis=1)
 result["reasons_str"] = result["reasons"].apply(lambda r: " / ".join(r) if r else "-")
@@ -936,7 +1088,9 @@ print(f"採点完了 ／ 🔥新規買い候補: {n_fire}銘柄 ／ 押し目待
 #    「スコア○点以上はN日後に平均何%動いたか」を実データで確認
 # ============================================================
 # --- 本日の上位100件を履歴に追記（同日重複は上書き）---
-hist_new = result.head(100)[["code", "score", "gap_pct"]].copy()
+# 平滑化前の生スコアも残す（次回の平滑化と、後からの検証に使う）
+hist_new = result.head(100)[["code", "score", "score_raw", "gap_pct",
+                             "ignition", "rs20", "rs_days"]].copy()
 hist_new.insert(0, "date", str(TODAY))
 if os.path.exists(HISTORY_PATH):
     hist = pd.read_csv(HISTORY_PATH, dtype={"code": str})
@@ -973,8 +1127,8 @@ def validate_history():
         print("\n（検証可能なデータがまだありません）")
         return
     v = pd.DataFrame(recs)
-    v["帯"] = pd.cut(v["score"], [0, 50, 60, 70, 101],
-                     labels=["〜50", "50-60", "60-70", "70+"])
+    v["帯"] = pd.cut(v["score"], [0, 30, 38, 45, 101],
+                     labels=["〜30", "30-38", "38-45", "45+"])
     print("\n=== スコア帯別の平均リターン（%）===")
     print(v.groupby("帯")[[c for c in ["1日後", "5日後", "20日後"] if c in v]]
            .agg(["mean", "count"]).round(2).to_string())
@@ -1000,7 +1154,8 @@ for sym, imp in sorted(us_impulse.items(), key=lambda x: -x[1]):
                     "stars": r.stars, "gap_pct": r.gap_pct} for r in kids.itertuples()],
     })
 
-export_cols = ["code", "name", "sector", "score", "stars", "linkage", "theme",
+export_cols = ["code", "name", "sector", "score", "score_raw", "days_in_top",
+               "rank", "stars", "linkage", "ignition", "rs_days", "rs_slope", "theme",
                "supply", "etf", "tech", "fund", "material", "penalty", "signal", "driver",
                "gap_pct", "rs20", "atr_pct", "dev25", "stop",
                "close", "chg5d", "v_ratio", "turnover_m", "reasons_str"]
