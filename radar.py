@@ -3,7 +3,7 @@
 ノートブック ai_market_radar_v2.ipynb と同一ロジック。
 表示系を除き、履歴(score_history.csv / etf_history.csv)はリポジトリ直下に保存。
 """
-import os, json, time, pickle, warnings, datetime as dt
+import os, json, math, time, pickle, warnings, datetime as dt
 from io import BytesIO
 import requests
 import numpy as np
@@ -44,7 +44,19 @@ CONFIG = {
     "min_price": 100,
     # --- 海外連動 ---
     "impulse_days": 3,         # 米国インパルスを測る営業日数
-    "beta_min_corr": 0.25,     # βを採用する最低相関（ノイズ除去、5年運用のためやや厳しめ）
+    "beta_min_corr": 0.25,     # 素の相関で判定する場合の閾値（残差方式OFF時のみ使用）
+    # --- 関連銘柄の発見方式 ---
+    # 素のリターン同士で相関を取ると、拾えるのは大半が「市場全体の連動」。
+    # 米国側からS&P500、日本側からTOPIX相当(全銘柄平均)を引いた残差同士で
+    # 測ることで、「たまたま両方とも地合いで動いた」分を除去する。
+    "use_residual_beta": True,
+    "us_market_factor": "^GSPC",
+    "jp_market_factor": "^N225",   # 無ければ全銘柄平均で代用
+    # 60ドライバー×4000銘柄=24万通りを総当たりするため、通常の有意水準では
+    # 偶然の一致が数千件通ってしまう。検定回数で補正した閾値を自動計算する。
+    "resid_alpha": 0.05,
+    "beta_min_corr_floor": 0.12,   # 自動計算した閾値の下限
+    "radar_top_n": 8,              # レーダータブでドライバーごとに出す銘柄数
     # --- 材料（TDnet）---
     "tdnet_days": 14,
     "tdnet_limit": 5000,
@@ -305,27 +317,124 @@ for sym, imp in sorted(us_impulse.items(), key=lambda x: -x[1]):
 #      約60銘柄の米国ドライバー × 全日本株の組み合わせを機械的に総当たりし、
 #      相関が閾値を超えたペアだけを「発見された連動」として採用する。
 # ============================================================
+def _residualize(Y, f):
+    """YからファクターfのOLS成分を除いた残差を返す（YはSeriesでもDataFrameでも可）"""
+    common = Y.index.intersection(f.index)
+    Y = Y.loc[common]
+    fc = f.loc[common].astype(float)
+    fc = fc - fc.mean()
+    d = float((fc ** 2).sum())
+    Yc = Y.sub(Y.mean())
+    if d <= 0:
+        return Yc
+    if isinstance(Y, pd.Series):
+        return Yc - fc * (float((Yc * fc).sum()) / d)
+    b = Yc.mul(fc, axis=0).sum() / d
+    return Yc - pd.DataFrame(np.outer(fc.values, b.values),
+                             index=Yc.index, columns=Yc.columns)
+
+
+def _inv_norm(p):
+    """標準正規分布の逆累積分布（Acklamの近似）。scipyを使わずに済ませる"""
+    a = [-3.969683028665376e+01, 2.209460984245205e+02, -2.759285104469687e+02,
+         1.383577518672690e+02, -3.066479806614716e+01, 2.506628277459239e+00]
+    b = [-5.447609879822406e+01, 1.615858368580409e+02, -1.556989798598866e+02,
+         6.680131188771972e+01, -1.328068155288572e+01]
+    c = [-7.784894002430293e-03, -3.223964580411365e-01, -2.400758277161838e+00,
+         -2.549732539343734e+00, 4.374664141464968e+00, 2.938163982698783e+00]
+    d = [7.784695709041462e-03, 3.224671290700398e-01, 2.445134137142996e+00,
+         3.754408661907416e+00]
+    pl = 0.02425
+    if p <= 0 or p >= 1:
+        return 0.0
+    if p < pl:
+        q = math.sqrt(-2 * math.log(p))
+        return (((((c[0]*q+c[1])*q+c[2])*q+c[3])*q+c[4])*q+c[5]) / \
+               ((((d[0]*q+d[1])*q+d[2])*q+d[3])*q+1)
+    if p > 1 - pl:
+        q = math.sqrt(-2 * math.log(1 - p))
+        return -(((((c[0]*q+c[1])*q+c[2])*q+c[3])*q+c[4])*q+c[5]) / \
+                ((((d[0]*q+d[1])*q+d[2])*q+d[3])*q+1)
+    q = p - 0.5
+    r = q * q
+    return (((((a[0]*r+a[1])*r+a[2])*r+a[3])*r+a[4])*r+a[5])*q / \
+           (((((b[0]*r+b[1])*r+b[2])*r+b[3])*r+b[4])*r+1)
+
+
+def corr_threshold(n_obs, n_tests):
+    """多重検定を補正した相関の採用下限。
+
+    24万ペアを総当たりするので、素朴に「相関0.25以上」とすると
+    偶然そう見えるだけのペアが大量に混ざる。検定回数で割った
+    有意水準から必要な相関を逆算する。
+    """
+    if n_obs < 30:
+        return 1.0
+    alpha = CONFIG.get("resid_alpha", 0.05) / max(int(n_tests), 1)
+    z = abs(_inv_norm(alpha / 2))
+    thr = z / math.sqrt(max(n_obs - 3, 1))
+    return float(min(0.95, max(CONFIG.get("beta_min_corr_floor", 0.12), thr)))
+
+
 def compute_betas():
     betas, corrs = {}, {}
     jp_next = jp_ret.shift(-1)   # 日本株の「翌営業日リターン」
+    use_res = bool(CONFIG.get("use_residual_beta", True))
+    mkt_sym = CONFIG.get("us_market_factor", "^GSPC")
+    jp_sym = CONFIG.get("jp_market_factor", "^N225")
+    us_mkt = us_close.get(mkt_sym)
+    us_mkt_ret = us_mkt.pct_change().dropna() if us_mkt is not None else None
+    # 日本側の市場要因。日経平均が取れていればそれを使い、
+    # 取れなければ全銘柄の等ウェイト平均で代用する。
+    jp_mkt = us_close.get(jp_sym)
+    if jp_mkt is not None and len(jp_mkt) > 250:
+        jp_mkt_ret = jp_mkt.pct_change().dropna()
+        jp_src = jp_sym
+    else:
+        jp_mkt_ret = jp_ret.mean(axis=1)
+        jp_src = "全銘柄平均"
+    n_tests = max(1, len(us_close) * max(1, jp_ret.shape[1]))
+    thr_used = []
+
     for sym, c in us_close.items():
+        if use_res and sym in (mkt_sym, jp_sym):
+            continue   # 市場要因そのものはドライバーにしない（残差がゼロになる）
         r = c.pct_change().dropna()
-        target = jp_ret if sym in SAME_DAY_DRIVERS else jp_next
+        same_day = sym in SAME_DAY_DRIVERS
+        target = jp_ret if same_day else jp_next
         common = r.index.intersection(target.index)
         if len(common) < 250:   # 5年運用なので十分なサンプル数を要求
             continue
         x = r.loc[common]
         Y = target.loc[common]
+        if use_res:
+            if us_mkt_ret is not None:
+                x = _residualize(x, us_mkt_ret.reindex(common).fillna(0.0))
+            # 翌日リターンを見ている場合、除去すべき市場要因も翌日のもの
+            jm = jp_mkt_ret if same_day else jp_mkt_ret.shift(-1)
+            Y = _residualize(Y, jm.reindex(common).fillna(0.0))
+            thr = corr_threshold(len(common), n_tests)
+        else:
+            thr = CONFIG["beta_min_corr"]
+        thr_used.append(thr)
         xc = x - x.mean()
         denom = float((xc ** 2).sum())
         if denom <= 0:
             continue
         beta = Y.sub(Y.mean()).mul(xc, axis=0).sum() / denom
         corr = Y.corrwith(x)
-        # 相関が閾値未満のペアはノイズとして0扱い（これが唯一のフィルタ）
-        beta = beta.where(corr.abs() >= CONFIG["beta_min_corr"], 0.0)
+        # 閾値未満のペアはノイズとして0扱い
+        beta = beta.where(corr.abs() >= thr, 0.0)
         betas[sym] = beta.clip(-0.3, 2.0).fillna(0.0)
         corrs[sym] = corr.fillna(0.0)
+
+    if thr_used:
+        mode = "残差(市場要因を除去)" if use_res else "素のリターン"
+        n_pair = int(sum((b != 0).sum() for b in betas.values()))
+        print(f"  連動判定: {mode} / 相関閾値 {min(thr_used):.3f} "
+              f"/ 採用ペア {n_pair:,}件 (総当たり {n_tests:,}通り)")
+        if use_res:
+            print(f"  除去した市場要因: 米国={mkt_sym} 日本={jp_src}")
     return betas, corrs
 
 betas, corrs = compute_betas()
@@ -1139,19 +1248,42 @@ validate_history()
 # ============================================================
 # ⑱ 結果の保存（スマホWEBアプリ用JSON + CSV）
 # ============================================================
+# 関連銘柄は「スコア上位に入ったか」ではなく「過去のチャートで連動が
+# 確認できたか」で選ぶ。相関の強い順に並べ、現在のスコアを併記する。
 radar_json = []
-top100 = result.head(100)
+_by = {c: r for c, r in zip(result["code"], result.to_dict("records"))}
 for sym, imp in sorted(us_impulse.items(), key=lambda x: -x[1]):
     if imp < 0.01:
         continue
     dname = US_NAMES.get(sym, sym)
-    kids = top100[top100["driver"] == dname].head(8)
-    if kids.empty:
+    cr, bt = corrs.get(sym), betas.get(sym)
+    if cr is None or bt is None:
+        continue
+    # β採用済み（＝相関が閾値を超えた）銘柄のうち、スクリーニングを
+    # 通過しているものだけを対象にする
+    cand = cr[(bt != 0)]
+    cand = cand[[c in _by for c in cand.index]]
+    if cand.empty:
+        continue
+    cand = cand.reindex(cand.abs().sort_values(ascending=False).index)
+    kids = []
+    for code, cv in cand.head(CONFIG["radar_top_n"]).items():
+        rec = _by[code]
+        kids.append({"code": code, "name": rec.get("name", ""),
+                     "score": rec.get("score", 0.0),
+                     "stars": rec.get("stars", ""),
+                     "signal": rec.get("signal", ""),
+                     "ignition": rec.get("ignition", 0.0),
+                     "rs20": rec.get("rs20", 0.0),
+                     "corr": round(float(cv), 2),
+                     "beta": round(float(bt.get(code, 0.0)), 2),
+                     "gap_pct": rec.get("gap_pct", 0.0)})
+    if not kids:
         continue
     radar_json.append({
         "driver": dname, "impulse_pct": round(imp * 100, 1),
-        "stocks": [{"code": r.code, "name": r.name, "score": r.score,
-                    "stars": r.stars, "gap_pct": r.gap_pct} for r in kids.itertuples()],
+        "n_linked": int((bt != 0).sum()),
+        "stocks": kids,
     })
 
 export_cols = ["code", "name", "sector", "score", "score_raw", "days_in_top",
