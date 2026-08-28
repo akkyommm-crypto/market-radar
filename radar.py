@@ -4,7 +4,8 @@
 表示系を除き、履歴(score_history.csv / etf_history.csv)はリポジトリ直下に保存。
 """
 import os, json, math, time, pickle, warnings, datetime as dt
-from io import BytesIO
+import csv as _csv
+from io import BytesIO, StringIO
 import requests
 import numpy as np
 import pandas as pd
@@ -171,16 +172,27 @@ TDNET_KEYWORDS = {
 ETF_LIST = ["EWJ", "BBJP", "FLJP", "JPXN", "EWJV",
             "DXJ", "HEWJ", "DBJP", "DFJ", "SCJ", "OPPJ", "FJP"]
 ETF_HEDGED = {"DXJ", "HEWJ", "DBJP"}   # 為替ヘッジ型
-# 保有銘柄CSVの直リンク（iSharesは公式配布。URLが切れたら商品ページの
-# 「Download Holdings」リンクを貼り替えてください）
-HOLDINGS_SOURCES = {
-    "EWJ": ("https://www.ishares.com/us/products/239665/"
-            "ishares-msci-japan-etf/1467271812596.ajax"
-            "?fileType=csv&fileName=EWJ_holdings&dataType=fund"),
-    "SCJ": ("https://www.ishares.com/us/products/239627/"
-            "ishares-msci-japan-smallcap-etf/1467271812596.ajax"
-            "?fileType=csv&fileName=SCJ_holdings&dataType=fund"),
+# iSharesの商品ID。保有銘柄CSVは先頭に発行口数・純資産・基準日が
+# 入っているので、口数の取得元としてもこのCSVを使う。
+# yfinanceのsharesOutstandingはETFでは更新されない（毎日同じ値を返す）ため、
+# 差分が常にゼロになりフローが出なかった。
+# ※IDが変わったら商品ページの「Download Holdings」のリンクから取り直す。
+#   確証が無いIDは候補を並べておけば、順に試して通ったものを使う。
+ISHARES_PRODUCTS = {
+    "EWJ":  ["239665"],
+    "SCJ":  ["239666", "239627"],
+    "JPXN": ["239831"],
+    "EWJV": ["307263"],
+    "HEWJ": ["259624"],
 }
+
+def ishares_url(product_id, ticker):
+    return ("https://www.ishares.com/us/products/" + product_id +
+            "/x/1467271812596.ajax?fileType=csv"
+            "&fileName=" + ticker + "_holdings&dataType=fund")
+
+# 保有銘柄の配分に使うETF（上のIDから自動生成）
+HOLDINGS_SOURCES = {t: ishares_url(p[0], t) for t, p in ISHARES_PRODUCTS.items()}
 
 # GitHub ActionsはUTCで動くため、そのままだと日本時間の朝6時実行が
 # 前日の日付で記録される（=履歴に日曜が並ぶ）。JSTで固定する。
@@ -869,33 +881,129 @@ print("採点関数 定義OK")
 #    ※AUM変化と違い株価変動が混ざらない純粋な資金の出入り
 #    ※口数を毎回スナップショット保存 → 2回目以降の実行でフローが出ます
 # ============================================================
+def _num(v):
+    if v is None:
+        return None
+    v = str(v).replace(",", "").replace("$", "").replace('"', "").strip()
+    if v in ("", "-", "nan"):
+        return None
+    try:
+        return float(v)
+    except ValueError:
+        return None
+
+
+def parse_ishares_header(text):
+    """保有銘柄CSVの先頭メタ行から発行口数・純資産・基準日を取り出す"""
+    out = {"shares": None, "tna": None, "as_of": None, "header_line": None}
+    lines = text.splitlines()
+    for i, line in enumerate(lines):
+        if line.lstrip().lower().startswith("ticker,"):
+            out["header_line"] = i
+            break
+        try:
+            row = next(_csv.reader([line]))
+        except Exception:
+            continue
+        if len(row) < 2:
+            continue
+        key, val = row[0].strip().lower(), row[1].strip()
+        if key == "shares outstanding":
+            out["shares"] = _num(val)
+        elif key == "total net assets":
+            out["tna"] = _num(val)
+        elif key.startswith("fund holdings as of"):
+            out["as_of"] = val
+    return out
+
+
+def ishares_fund_stats(ticker):
+    """iShares公式CSVから発行口数を取る。取れなければNone"""
+    for pid in ISHARES_PRODUCTS.get(ticker, []):
+        url = ishares_url(pid, ticker)
+        try:
+            r = requests.get(url, headers=UA, timeout=45)
+        except Exception as e:
+            print(f"  {ticker}: 接続エラー {type(e).__name__}")
+            continue
+        if r.status_code != 200 or len(r.content) < 1000:
+            print(f"  {ticker}: HTTP {r.status_code} / {len(r.content)}バイト "
+                  f"(商品ID {pid} が古い可能性)")
+            continue
+        h = parse_ishares_header(r.content.decode("utf-8-sig", errors="replace"))
+        if h["shares"]:
+            HOLDINGS_SOURCES[ticker] = url   # 通ったURLを保有銘柄取得にも使う
+            return h
+        print(f"  {ticker}: CSVは取れたが口数の行が見つからない（書式変更の疑い）")
+    return None
+
+
+def etf_prices():
+    """終値だけをまとめて取得（.infoは不安定なので使わない）"""
+    try:
+        px = yf.download(ETF_LIST, period="5d", progress=False,
+                         auto_adjust=False, threads=True)["Close"]
+        if isinstance(px, pd.Series):
+            px = px.to_frame()
+        return {t: float(px[t].dropna().iloc[-1])
+                for t in px.columns if px[t].dropna().size}
+    except Exception as e:
+        print(f"  ⚠ ETF価格の取得に失敗: {e}")
+        return {}
+
+
 def snapshot_etfs():
+    print("ETF口数の取得:")
+    px = etf_prices()
     rows = []
     for t in ETF_LIST:
-        try:
-            info = yf.Ticker(t).info or {}
-            sh = info.get("sharesOutstanding")
-            price = info.get("regularMarketPrice") or info.get("previousClose")
-            aum = info.get("totalAssets")
-            if sh and price:
-                rows.append({"date": str(TODAY), "ticker": t,
-                             "shares": float(sh), "price": float(price),
-                             "aum": float(aum or sh * price)})
-            time.sleep(0.1)
-        except Exception:
-            pass
+        price = px.get(t)
+        sh = aum = None
+        as_of = str(TODAY)
+        src = ""
+        st = ishares_fund_stats(t) if t in ISHARES_PRODUCTS else None
+        if st:
+            sh, aum, src = st["shares"], st["tna"], "ishares"
+            if st["as_of"]:
+                as_of = st["as_of"]
+        else:
+            # iShares以外（DXJ/BBJPなど）はyfinanceに頼るしかない。
+            # 値が動かないことが多いので参考程度。
+            try:
+                info = yf.Ticker(t).info or {}
+                sh = info.get("sharesOutstanding")
+                aum = info.get("totalAssets")
+                price = price or info.get("previousClose")
+                src = "yfinance"
+                time.sleep(0.1)
+            except Exception:
+                pass
+        if sh and price:
+            rows.append({"date": str(TODAY), "as_of": as_of, "ticker": t,
+                         "shares": float(sh), "price": float(price),
+                         "aum": float(aum or sh * price), "src": src})
     if not rows:
         print("⚠ ETFデータ取得失敗（ETFフローは0点で続行）")
         return None
+    n_is = sum(1 for r in rows if r["src"] == "ishares")
+    print(f"  取得できたのは {len(rows)}/{len(ETF_LIST)}本 "
+          f"(iShares公式 {n_is}本 / yfinance {len(rows)-n_is}本)")
     new = pd.DataFrame(rows)
     if os.path.exists(ETF_HISTORY_PATH):
         h = pd.read_csv(ETF_HISTORY_PATH)
-        h = h[h["date"] != str(TODAY)]
+        if "as_of" not in h.columns:
+            h["as_of"] = h["date"]
+        if "src" not in h.columns:
+            h["src"] = "yfinance"
+        # 同じ基準日のデータは上書き。基準日が変わって初めて新しい行になるので、
+        # 「同じ数字が何日も並んで差分ゼロ」という状態を防げる。
+        key = set(zip(new["ticker"], new["as_of"]))
+        h = h[[(t, a) not in key for t, a in zip(h["ticker"], h["as_of"])]]
         h = pd.concat([h, new], ignore_index=True)
     else:
         h = new
     h.to_csv(ETF_HISTORY_PATH, index=False)
-    print(f"ETF口数スナップショット保存: {len(new)}本 → {ETF_HISTORY_PATH}")
+    print(f"ETF口数スナップショット保存: 累計{len(h)}行 → {ETF_HISTORY_PATH}")
     return h
 
 def calc_etf_flows(h):
@@ -903,20 +1011,29 @@ def calc_etf_flows(h):
     flows = {}
     if h is None:
         return flows
+    col = "as_of" if "as_of" in h.columns else "date"
+    stale = []
     for t, g in h.groupby("ticker"):
-        g = g.sort_values("date")
+        g = g.drop_duplicates(subset=[col], keep="last").copy()
+        g["_d"] = pd.to_datetime(g[col], errors="coerce")
+        g = g.sort_values("_d")
         if len(g) < 2:
             continue
         prev, now = g.iloc[-2], g.iloc[-1]
         if not prev["shares"]:
             continue
         d_sh = now["shares"] - prev["shares"]
+        if d_sh == 0:
+            stale.append(t)
+        days = (now["_d"] - prev["_d"]).days if pd.notna(now["_d"]) and pd.notna(prev["_d"]) else 1
         flows[t] = {
             "flow_musd": d_sh * now["price"] / 1e6,
             "d_sh_pct": d_sh / prev["shares"] * 100,
-            "days": (pd.Timestamp(now["date"]) - pd.Timestamp(prev["date"])).days,
+            "days": max(int(days), 1),
             "aum_musd": now["aum"] / 1e6,
         }
+    if stale:
+        print(f"  ※口数が前回から変化していないETF: {', '.join(stale)}")
     return flows
 
 etf_hist = snapshot_etfs()
@@ -1187,12 +1304,12 @@ def judge_signal(row):
     return ""
 
 def stars(score):
-    # 実データの分布（最高66.5点・平均29.3点）に合わせて再調整。
-    # 旧設定では★3以上がほぼ出ず、星の意味が無くなっていた。
-    if score >= 55: return "★★★★★"
-    if score >= 48: return "★★★★☆"
-    if score >= 42: return "★★★☆☆"
-    if score >= 35: return "★★☆☆☆"
+    # 新配点での実測分布（1位40.8点・15位34.5点）に合わせて再調整。
+    # ETFフローが0点のままなので、修理後にもう一度見直すこと。
+    if score >= 40: return "★★★★★"
+    if score >= 36: return "★★★★☆"
+    if score >= 32: return "★★★☆☆"
+    if score >= 28: return "★★☆☆☆"
     return "★☆☆☆☆"
 
 result = screen_stage1()
