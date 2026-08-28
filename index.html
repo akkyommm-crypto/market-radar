@@ -92,6 +92,9 @@ header{
 .bar i{height:100%}
 .bar .b-link{background:var(--radar)} .bar .b-theme{background:#a98bff} .bar .b-sup{background:var(--green)}
 .bar .b-etf{background:#ff9f4a} .bar .b-tech{background:var(--gold)} .bar .b-fund{background:#4a9fff} .bar .b-mat{background:#ff6fae}
+.bar .b-ign{background:#ff5e7a}
+.ign{display:inline-block;background:rgba(255,94,122,.14);color:#ff8fa3;border:1px solid rgba(255,94,122,.32);
+  border-radius:6px;padding:2px 7px;font-size:11px;font-weight:800;margin-top:6px}
 .legend{display:flex;flex-wrap:wrap;gap:9px;margin:2px 2px 14px;font-size:10px;color:var(--dim)}
 .legend span{display:flex;align-items:center;gap:4px}
 .legend i{width:8px;height:8px;border-radius:2px;display:inline-block}
@@ -111,6 +114,8 @@ header{
 .leaf .lcode{font-size:11px;color:var(--dim);margin-left:2px}
 .leaf .lstars{font-size:11px;margin-left:6px}
 .leaf .lsc{margin-left:auto;font-weight:800;font-size:14px}
+.leaf .lcorr{font-size:10px;color:var(--radar);font-weight:800;background:rgba(79,211,255,.12);
+  border-radius:5px;padding:2px 6px;font-variant-numeric:tabular-nums}
 .leaf .lgap{font-size:10px;color:var(--gold);font-weight:800;background:rgba(255,210,74,.12);
   padding:1px 6px;border-radius:6px}
 
@@ -283,11 +288,12 @@ input[type=file]{display:none}
     <div class="filterow filterow-js" id="filters" style="display:none">
       <div class="chip on" data-f="all">全銘柄</div>
       <div class="chip" data-f="fire">🔥候補のみ</div>
-      <div class="chip" data-f="gap">未反応のみ</div>
+      <div class="chip" data-f="ign">点火中のみ</div>
       <div class="chip" data-f="rs">RS＞0のみ</div>
     </div>
     <div class="legend" id="legend" style="display:none">
       <span><i style="background:var(--radar)"></i>海外連動</span>
+      <span><i style="background:#ff5e7a"></i>点火</span>
       <span><i style="background:#a98bff"></i>テーマ</span>
       <span><i style="background:var(--green)"></i>出来高</span>
       <span><i style="background:#ff9f4a"></i>ETF</span>
@@ -449,9 +455,18 @@ function renderWatch(){
   el.innerHTML=html;
 }
 
+// 何日前に動き始めたか。浅いほど「今まさに立ち上がったところ」
+function ignBadge(s){
+  const d=s.rs_days;
+  if(d==null||d<0) return "";
+  if(d<=10) return `<div class="ign">🚀 RS転換 ${d}日目</div>`;
+  if(d<=30) return `<div class="ign" style="opacity:.6">上昇継続 ${d}日目</div>`;
+  return "";
+}
+
 function passFilter(s){
   if(filter==="fire") return (s.signal||"").indexOf("新規買い")>=0;
-  if(filter==="gap")  return (s.gap_pct||0)>0.5;
+  if(filter==="ign")  return (s.rs_days!=null && s.rs_days>=0 && s.rs_days<=10);
   if(filter==="rs")   return (s.rs20||0)>0;
   return true;
 }
@@ -459,11 +474,11 @@ function passFilter(s){
 function renderRank(){
   const list=(DATA.stocks||[]).filter(passFilter).slice(0,30);
   $("#rankList").innerHTML=list.map((s,i)=>{
-    const parts=[["b-link",s.linkage],["b-theme",s.theme],["b-sup",s.supply],
+    const parts=[["b-ign",s.ignition],["b-link",s.linkage],["b-theme",s.theme],["b-sup",s.supply],
       ["b-etf",s.etf],["b-tech",s.tech],["b-fund",s.fund],["b-mat",s.material]];
     const tot=parts.reduce((a,[,v])=>a+(v||0),0)||1;
     const bar=parts.map(([c,v])=>`<i class="${c}" style="width:${(v||0)/tot*100}%"></i>`).join("");
-    const gap=(s.gap_pct||0)>0.5?`<div class="gap">未反応ギャップ +${s.gap_pct.toFixed(1)}%</div>`:"";
+    const gap=ignBadge(s);
     const rsCol=(s.rs20||0)>0?"var(--green)":"var(--dim)";
     const badges=changeBadges(s);
     const wOn=isWatched(s.code)?"on":"";
@@ -490,7 +505,9 @@ function renderRank(){
   }).join("") || `<div class="empty" style="padding:40px 20px">条件に合う銘柄がありません</div>`;
 }
 
-function scoreColor(s){return s>=70?"var(--gold)":s>=60?"var(--green)":s>=50?"var(--cyan)":"var(--dim)";}
+// 実データの分布（最高66.5点・平均29.3点）に合わせた閾値。
+// 旧設定(70/60/50)では色がほぼ付かなかった。
+function scoreColor(s){return s>=55?"var(--gold)":s>=48?"var(--green)":s>=42?"var(--cyan)":"var(--dim)";}
 
 function sigMeta(sig){
   if(!sig) return null;
@@ -507,30 +524,36 @@ function sigBadge(sig){
 }
 
 function checklistHTML(s){
-  const c=(DATA.signal_conditions)||{min_score:65,min_gap:1.0,min_v_ratio:1.5,max_dev25:15};
+  const c=Object.assign({min_score:45,max_rank:15,min_ignition:9,min_v_ratio:1.3,
+    max_dev25:15,min_days_in_top:2},DATA.signal_conditions||{});
   const regime=(DATA.market_env||{}).regime;
+  const ignMax=((DATA.weights||{}).ignition)||18;
   // 各条件: [ラベル, 満たすか, 現在値]
   const rows=[
     ["地合いが🔴でない", regime!=="red", regime==="green"?"🟢良好":regime==="yellow"?"🟡選別":"🔴悪化"],
     [`総合スコア ${c.min_score}点以上`, s.score>=c.min_score, `${Math.round(s.score)}点`],
+    [`ランキング ${c.max_rank}位以内`, (s.rank||999)<=c.max_rank, `${s.rank||"—"}位`],
     ["日経より強い（RS20>0）", (s.rs20||0)>0, sign(s.rs20||0)],
-    [`未反応ギャップ +${c.min_gap}%以上`, (s.gap_pct||0)>=c.min_gap, `+${(s.gap_pct||0).toFixed(1)}%`],
+    [`モメンタム点火 ${c.min_ignition}点以上`, (s.ignition||0)>=c.min_ignition,
+     `${(s.ignition||0).toFixed(0)} / ${ignMax}`],
     [`出来高 ${c.min_v_ratio}倍以上`, (s.v_ratio||0)>=c.min_v_ratio, `${(s.v_ratio||0).toFixed(1)}x`],
     [`過熱でない（25MA乖離 ${c.max_dev25}%以下）`, (s.dev25||0)<=c.max_dev25, `+${(s.dev25||0).toFixed(1)}%`],
+    [`${c.min_days_in_top}日以上ランクイン継続`, (s.days_in_top||1)>=c.min_days_in_top,
+     `${s.days_in_top||1}日`],
   ];
   const items=rows.map(([txt,ok,cur])=>`
     <div class="chk ${ok?'pass':'fail'}">
       <span class="ic">${ok?'✓':'−'}</span>
       <span class="txt">${txt}</span><span class="cur">${cur}</span>
     </div>`).join("");
-  const passed=rows.filter(r=>r[1]).length;
+  const passed=rows.filter(r=>r[1]).length, total=rows.length;
   const m=sigMeta(s.signal);
   let verdict;
   if(m&&m.cls==="fire") verdict="全条件クリア。エントリーを検討できる状態ですが、必ずチャートと開示を自分の目で確認してください。";
   else if(m&&m.cls==="dip") verdict="強い銘柄ですが25MAから離れすぎ。今は追わず、押し目（25MA接近）を待つのが安全です。";
   else if(regime==="red") verdict="地合いが悪いため、どんな高スコアでも新規は見送り推奨です。";
-  else verdict=`条件を ${passed}/6 クリア。あと ${6-passed} 個揃うと新規買い候補になります。監視を継続。`;
-  return `<div class="checks"><div class="clab">新規買いチェックリスト（${passed}/6 クリア）</div>
+  else verdict=`条件を ${passed}/${total} クリア。あと ${total-passed} 個揃うと新規買い候補になります。監視を継続。`;
+  return `<div class="checks"><div class="clab">新規買いチェックリスト（${passed}/${total} クリア）</div>
     ${items}<div class="verdict-line">${verdict}</div></div>`;
 }
 
@@ -550,7 +573,10 @@ function renderRadar(){
   $("#radarList").innerHTML = rd.length? rd.map(d=>{
     const up=(d.impulse_pct||0)>=0;
     const leaves=(d.stocks||[]).map(s=>{
-      const gap=(s.gap_pct||0)>0.5?`<span class="lgap">未反応+${s.gap_pct.toFixed(1)}%</span>`:"";
+      // 過去のチャートで測った連動の強さ。相関とβを併記する
+      const gap=(s.corr!=null)
+        ? `<span class="lcorr">r=${Number(s.corr).toFixed(2)} β${Number(s.beta||0).toFixed(2)}</span>`
+        : "";
       return `<div class="leaf" onclick="openDetail('${s.code}')">
         <span class="lnm">${s.name}<span class="lcode">${s.code}</span>
         <span class="lstars ${starClass(s.stars||"")}">${s.stars||""}</span></span>
@@ -558,6 +584,7 @@ function renderRadar(){
     }).join("");
     return `<div class="driver">
       <div class="dh"><span class="flag">🇺🇸</span><span class="dname">${d.driver}</span>
+        ${d.n_linked!=null?`<span class="lcode">連動${d.n_linked}銘柄</span>`:""}
         <span class="dimp ${up?'up':'dn'}">${sign(d.impulse_pct||0)}%</span></div>
       ${leaves}</div>`;
   }).join("") : `<div class="empty" style="padding:40px 20px">直近に大きく動いた米国ドライバーがありません</div>`;
@@ -585,10 +612,14 @@ function renderFlow(){
 }
 
 // ---- 詳細モーダル ----
-const B_LABELS={linkage:["海外連動","var(--radar)"],theme:["テーマ","#a98bff"],
+const B_LABELS={ignition:["モメンタム点火","#ff5e7a"],linkage:["海外連動","var(--radar)"],
+  theme:["テーマ","#a98bff"],
   supply:["出来高","var(--green)"],etf:["ETFフロー","#ff9f4a"],
   tech:["テクニカル","var(--gold)"],fund:["業績","#4a9fff"],material:["材料","#ff6fae"]};
-const B_MAX={linkage:30,theme:20,supply:10,etf:5,tech:15,fund:10,material:10};
+// 満点はresults.jsonのweightsから取る。radar.py側で配点を変えても追従する
+const B_DEFAULT={ignition:18,linkage:12,theme:20,supply:10,etf:5,tech:15,fund:10,material:10};
+// DATAはfetch後に入るので、参照するたびに評価する（読み込み時に固定しない）
+function bMax(){return Object.assign({},B_DEFAULT,(DATA&&DATA.weights)||{});}
 
 function findStock(code){return (DATA.stocks||[]).find(s=>s.code===code);}
 
@@ -642,13 +673,14 @@ function recalc(){
 function openDetail(code){
   const s=findStock(code); if(!s) return;
   const brk=Object.keys(B_LABELS).map(k=>{
-    const v=s[k]||0, [lab,col]=B_LABELS[k], pct=Math.min(100,v/B_MAX[k]*100);
+    const BM=bMax();
+    const v=s[k]||0, [lab,col]=B_LABELS[k], pct=Math.min(100,v/(BM[k]||1)*100);
     return `<div class="brk-row"><span class="bn">${lab}</span>
       <span class="brk-bar"><i style="width:${pct}%;background:${col}"></i></span>
-      <span class="bv">${v.toFixed(0)} / ${B_MAX[k]}</span></div>`;
+      <span class="bv">${v.toFixed(0)} / ${BM[k]}</span></div>`;
   }).join("");
-  const gapBox=(s.gap_pct||0)>0.5
-    ? `<div class="d-gapbox"><div class="lab">未反応ギャップ</div><div class="v">+${s.gap_pct.toFixed(1)}%</div></div>`
+  const gapBox=(s.rs_days!=null&&s.rs_days>=0&&s.rs_days<=30)
+    ? `<div class="d-gapbox"><div class="lab">RS転換から</div><div class="v">${s.rs_days}日目</div></div>`
     : (s.driver?`<div class="d-gapbox"><div class="lab">連動元</div><div class="v" style="color:var(--radar);font-size:14px">${s.driver}</div></div>`:"");
   const reasons=(s.reasons_str||"").split(" / ").filter(Boolean).map(r=>`<li>${r}</li>`).join("")||"<li>—</li>";
   const cells=[
@@ -656,6 +688,9 @@ function openDetail(code){
     ["RS20（対日経）",sign(s.rs20||0)],["出来高倍率",`${(s.v_ratio||0).toFixed(1)}x`],
     ["25MA乖離",`${sign(s.dev25||0)}%`],["ATR（変動幅）",`${(s.atr_pct||0).toFixed(1)}%`],
     ["損切り目安",`${fmtNum(s.stop)}円`],["売買代金",`${fmtNum(s.turnover_m)}百万`],
+    ["RSの傾き（5日）",sign(s.rs_slope||0)],["連続ランクイン",`${s.days_in_top||1}日`],
+    ["平滑化前スコア",`${Math.round(s.score_raw!=null?s.score_raw:s.score)}点`],
+    ["順位",`${s.rank||"—"}位`],
   ].map(([k,v])=>`<div class="d-cell"><div class="k">${k}</div><div class="v">${v}</div></div>`).join("");
   // 外部リンク: 株探・Yahoo・TDnet
   const kab=`https://kabutan.jp/stock/?code=${s.code}`;
