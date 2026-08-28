@@ -505,9 +505,8 @@ function renderRank(){
   }).join("") || `<div class="empty" style="padding:40px 20px">条件に合う銘柄がありません</div>`;
 }
 
-// 実データの分布（最高66.5点・平均29.3点）に合わせた閾値。
-// 旧設定(70/60/50)では色がほぼ付かなかった。
-function scoreColor(s){return s>=55?"var(--gold)":s>=48?"var(--green)":s>=42?"var(--cyan)":"var(--dim)";}
+// 新配点での実測分布（1位40.8点・15位34.5点）に合わせた閾値。
+function scoreColor(s){return s>=40?"var(--gold)":s>=36?"var(--green)":s>=32?"var(--cyan)":"var(--dim)";}
 
 function sigMeta(sig){
   if(!sig) return null;
