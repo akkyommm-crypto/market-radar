@@ -66,12 +66,14 @@ CONFIG = {
     "signal": {
         # 旧設定(min_score=65)は31日間で1回しか成立せず、🔥がほぼ出ない
         # 状態だった。実データの分布（1位の平均45.5点）に合わせて再調整。
-        "min_score": 45,       # 平滑化後スコアの下限
+        # 絶対点数はあくまで足切り。実質の選別は順位・点火・出来高で行う。
+        # 45点では1銘柄も通らなかったため引き下げ済み。
+        "min_score": 36,       # 平滑化後スコアの下限
         "max_rank": 15,        # 上位何位までを候補とみなすか
-        "min_ignition": 9.0,   # モメンタム点火18点中の最低点
+        "min_ignition": 7.0,   # モメンタム点火18点中の最低点
         "min_v_ratio": 1.3,    # 出来高倍率下限
         "max_dev25": 15,       # 25MA乖離の上限(%) 超えたら「押し目待ち」
-        "watch_score": 38,     # 「監視」の下限
+        "watch_score": 30,     # 「監視」の下限
         "min_days_in_top": 2,  # 上位100に残っている日数（一発屋を除外）
     },
     # --- 出力 ---
@@ -91,6 +93,9 @@ CONFIG = {
     #     なかった。平滑化しないとランキングがノイズで毎日入れ替わる。
     #     実履歴で検証: 3日平均で重複15.7→18.6、5日平均で20.8まで改善。
     "smooth_days": 5,
+    # 配点を変えたら必ずこの版数も変える。版数の違う履歴は平滑化に混ぜない
+    # （旧スコアと新スコアを平均すると意味の無い数字になるため）
+    "scoring_version": "v3-ignition",
     "weights": {"linkage": 12, "ignition": 18, "theme": 20, "supply": 10,
                 "etf": 5, "tech": 15, "fund": 10, "material": 10},
 }
@@ -438,8 +443,7 @@ def compute_betas():
     return betas, corrs
 
 betas, corrs = compute_betas()
-print(f"β自動発見 完了: {len(betas)}本の米国ドライバーで計算 "
-      f"(サンプル{CONFIG['period']}分・相関閾値{CONFIG['beta_min_corr']})")
+print(f"β自動発見 完了: {len(betas)}本の米国ドライバーで計算 (サンプル{CONFIG['period']}分)")
 
 # --- 発見結果: ドライバーごとに最も連動が強い日本株TOP5を一覧表示 ---
 print("\n[自動発見] 各ドライバーの連動が強い日本株 TOP5（相関降順）:")
@@ -1131,6 +1135,16 @@ def apply_smoothing(df_out):
         df_out["rank"] = range(1, len(df_out) + 1)
         return df_out
     h = h[h["date"] != str(TODAY)]
+    # 配点が違う時期の履歴を平均に混ぜると数字の意味が壊れる
+    ver = CONFIG.get("scoring_version", "")
+    if "sv" in h.columns:
+        h = h[h["sv"].astype(str) == ver]
+    else:
+        h = h.iloc[0:0]
+    if h.empty:
+        print("  平滑化: 同じ配点の履歴がまだ無いので当日値をそのまま使用")
+        df_out["rank"] = range(1, len(df_out) + 1)
+        return df_out
     if "score_raw" in h.columns:
         h["score_raw"] = h["score_raw"].fillna(h["score"])
     else:
@@ -1192,6 +1206,43 @@ n_dip = int((result["signal"] == "押し目待ち").sum())
 print(f"採点完了 ／ 🔥新規買い候補: {n_fire}銘柄 ／ 押し目待ち: {n_dip}銘柄")
 
 
+def signal_funnel(df, sg):
+    """シグナルが0件のときに、どの条件で落ちているかを特定するための内訳。
+    次回以降の閾値調整はこの出力を見て決める。"""
+    print("\n--- シグナル条件の通過状況 ---")
+    if df.empty:
+        print("  銘柄がありません")
+        return
+    q = df["score"]
+    print(f"  スコア: 1位 {q.iloc[0]:.1f} / 5位 {q.iloc[min(4,len(q)-1)]:.1f} "
+          f"/ 15位 {q.iloc[min(14,len(q)-1)]:.1f} / 30位 {q.iloc[min(29,len(q)-1)]:.1f}")
+    ign = df["ignition"]
+    print(f"  点火点: 最高 {ign.max():.1f} / 中央 {ign.median():.1f} "
+          f"(満点 {CONFIG['weights']['ignition']})")
+    top = df.head(50)
+    conds = [
+        (f"スコア>={sg['min_score']}",      top["score"] >= sg["min_score"]),
+        (f"順位<={sg['max_rank']}",         top["rank"] <= sg["max_rank"]),
+        ("RS20>0",                          top["rs20"] > 0),
+        (f"点火>={sg['min_ignition']}",     top["ignition"] >= sg["min_ignition"]),
+        (f"出来高>={sg['min_v_ratio']}倍",  top["v_ratio"] >= sg["min_v_ratio"]),
+        (f"乖離<={sg['max_dev25']}%",       top["dev25"] <= sg["max_dev25"]),
+        (f"継続>={sg['min_days_in_top']}日", top["days_in_top"] >= sg["min_days_in_top"]),
+    ]
+    for lab, m in conds:
+        print(f"    {lab:<18} 上位50中 {int(m.sum()):>2}銘柄が通過")
+    both = conds[0][1]
+    for _, m in conds[1:]:
+        both = both & m
+    print(f"    → 全条件クリア    {int(both.sum())}銘柄")
+    if int(both.sum()) == 0:
+        worst = min(conds, key=lambda cm: int(cm[1].sum()))
+        print(f"    ボトルネック: 「{worst[0]}」が最も厳しい")
+
+
+signal_funnel(result, CONFIG["signal"])
+
+
 # ============================================================
 # ⑰ スコア履歴の蓄積 と 予測力の検証
 #    「スコア○点以上はN日後に平均何%動いたか」を実データで確認
@@ -1200,6 +1251,7 @@ print(f"採点完了 ／ 🔥新規買い候補: {n_fire}銘柄 ／ 押し目待
 # 平滑化前の生スコアも残す（次回の平滑化と、後からの検証に使う）
 hist_new = result.head(100)[["code", "score", "score_raw", "gap_pct",
                              "ignition", "rs20", "rs_days"]].copy()
+hist_new["sv"] = CONFIG.get("scoring_version", "")
 hist_new.insert(0, "date", str(TODAY))
 if os.path.exists(HISTORY_PATH):
     hist = pd.read_csv(HISTORY_PATH, dtype={"code": str})
